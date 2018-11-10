@@ -1,9 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Finantarea publica a activitatilor nonprofit
 
-Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md).
+This project was created using React in a Node.js environment.
 
-## Table of Contents
+## Current bugs
+
+- `barChart.js`:
+    Bar Chart feature is not working
+- `dropdown.js`:
+    `onClickOutside` event is not being triggered
+- `romaniaMapRSM.js`:
+    Map is not being centered properly on dynamic resize. It works when reloading the page, but not on window resize via dragging corners.
+
+## To do
+
+- Add diacritics to text.
+- `submenu*.js`:
+    - Resize submenu box in order to prevent gap between menu item and submenu so as not to rerender animation on mouse drag.
+- `menu.js`:
+    - Change text color on hover
+    - Modularize submenu components using a single component which takes props to generate content dynamically.
+- `graphmenu.js`:
+    - Change icon color on hover.
+    - Change current canvas mode icon to download icon.
+
+## To implement
+
+- Excel table view in `canvas.js`.
+- Submenu items individual pages
+- Calendar
+- News
+
+## Data related
+
+Data must be updated in `romania-counties.json` in order to include county data; or it can be added externally and then linked.
+
+Data must be added for:
+- Public funding
+- Resources:
+    - Domains of interest
+    - Authorities
+    - Money data
+    - Calendaristic data
+- Events
+- News
 
 - [Updating to New Releases](#updating-to-new-releases)
 - [Sending Feedback](#sending-feedback)
