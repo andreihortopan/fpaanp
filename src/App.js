@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import { RomaniaMap } from './romaniaMapRSM';
-import { Canvas } from './canvas';
-import { Menu } from './menu';
-import { GraphMenu } from './graphmenu';
+import { Canvas } from './components/canvas';
+import { Menu } from './components/menu';
+import { GraphMenu } from './components/graphmenu';
 
 //Main page ----- Incorporates main menu, canvas ('map' as default display option), graph menu (for interacting with the canvas)
 

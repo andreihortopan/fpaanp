@@ -5,6 +5,8 @@ import { MENU_WIDTH } from './menu'
 import { MENU_PADDING } from './menu';
 import { changeCanvas } from './canvas';
 import { Dropdown } from './dropdown';
+import PDF from '../media/dummy.pdf';
+import CSV from '../media/sample.csv';
 
 const graphStyle = {
     maxWidth: 30,
@@ -292,14 +294,19 @@ export class GraphMenu extends Component {
                                 }}/></a>
                         </td>
                         <td align="center">
+                            <a
+                                href={PDF}
+                                target="_blank">
                             <img src="pdf.png" style={{
                                     ...graphStyle,
-                                }}/>
+                                }}/></a>
                         </td>
                         <td align="center">
+                            <a
+                                href={CSV}>
                             <img src="csv.png" style={{
                                     ...graphStyle,
-                                }}/>
+                                }}/></a>
                         </td>
                     </tr>
                 </tbody>
