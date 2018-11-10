@@ -3,6 +3,14 @@
 This project was created using React in a Node.js environment. React and ReactDOM must be installed to render the page.
 Additional node packages that have been used are listed [below](#additional-packages).
 
+## Short structure overview
+
+- `index` connects to the ReactDOM, rendering `App`.
+- `App` renders the following:
+    - `Menu` is the top-right menu, which contains the logo and four of the menu options.
+    - `GraphMenu` is the bottom-right menu, which contains the last of the five available menu options: "Date si resurse". This option includes customization options (data fields (dropdown menus) and a display field (the five icons)) and it directly changes the `Canvas`.
+    - `Canvas` represents the main part of the page, displaying the chosen data in a certain format (default is: all data on a `RomaniaMap`). Other display options are: `BarChart` and `TableView`.
+
 ## Current bugs
 
 - `barChart.js`:
