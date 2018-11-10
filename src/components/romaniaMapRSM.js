@@ -60,8 +60,8 @@ export class RomaniaMap extends Component {
       return(
         <div>
           <ComposableMap
-                width = {window.innerWidth}
-                height = {window.innerHeight}
+                width = {this.state.windowWidth}
+                height = {this.state.windowHeight}
                 projection={(width, height, projectionConfig) => {
                     return geoMercator()
                         .center([12.5, 25.05])

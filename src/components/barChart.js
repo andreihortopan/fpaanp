@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-var CanvasJSReact = require('../canvasjs.react.js');
+var CanvasJSReact = require('../canvasjs.react');
 var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
@@ -25,12 +25,13 @@ export class BarChart extends Component {
             <div style={{
                 position: 'absolute',
                 margin: 0,
-                width: 1000,
+                width: 100,
                 height: 500,
                 padding: 0,
             }}> 
-                <p style={{fontSize: 200}}>AICI VINE BAR CHARTU</p>
-                
+                <CanvasJSChart options = {options}
+                    /* onRef = {ref => this.chart = ref} */
+                />
             </div>
         )
     }

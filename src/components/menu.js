@@ -22,7 +22,7 @@ const menuLook = {
 
 //Menu styling with regards to exterior styling (eg. margin)
 const menuStyle = {
-  position: "absolute",
+  position: "fixed",
   zIndex: 100,
   width: MENU_WIDTH,
   minHeight: "auto",
@@ -33,7 +33,8 @@ const menuStyle = {
 
 //Submenu style, for popups on hover
 const submenuStyle = {
-  position: "absolute",
+  position: "fixed",
+  zIndex: 100,
   width: MENU_WIDTH,
   marginLeft: MENU_WIDTH + 2*MENU_MARGIN + 2*MENU_PADDING,
 }
@@ -223,6 +224,7 @@ export class Menu extends Component {
   }
 }
 
+export { MENU_MARGIN };
 export { MENU_PADDING };
 export { MENU_WIDTH };
 export { menuStyle };
