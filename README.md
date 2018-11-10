@@ -55,17 +55,20 @@ Data must be added for:
 - Events
 - News
 
-## Additional Packages
+## Additional packages
 
 - `react` and `react-dom` for rendering everything.
 
 - `react-simple-maps` for rendering the interactive map.
 - `d3-geo` for mapping projections for the map. It works in conjuction with the previous package.
 - `topojson-client` for manipulating the `romania-counties.json` TopoJSON file.
-- `react-onclickoutside` for detecting clicks outside the Dropdown components.
+- `react-onclickoutside` for detecting clicks outside the `Dropdown` components.
 - `react-fontawesome` for arrow icons used across the menus.
 - `react-tooltip` for generating county info on hovering over the map.
 - `react-transition-group` for generating menu animations.
 - `webfontloader` for rendering text using Google Fonts.
-
+<br />
+Run the following command in the project directory to install neccesary modules:
+`npm install react react-dom react-onclickoutside react-fontawesome react-bar-chart react-simple-maps d3-geo --save`
+<br />
 - NOTE: `canvasjs.min.js` and `canvasjs.react.js` have been added manually, not installed as modules.
