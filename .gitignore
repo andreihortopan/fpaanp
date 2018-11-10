@@ -12,6 +12,9 @@
 # deprecated
 /src/deprecated
 
+# external media
+/media
+
 # misc
 .DS_Store
 .env.local

@@ -29,9 +29,8 @@ export class BarChart extends Component {
                 height: 500,
                 padding: 0,
             }}> 
-                <CanvasJSChart options = {options}
-                    /* onRef = {ref => this.chart = ref} */
-                />
+                <p style={{fontSize: 200}}>AICI VINE BAR CHARTU</p>
+                
             </div>
         )
     }

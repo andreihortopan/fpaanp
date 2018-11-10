@@ -23,7 +23,7 @@ const menuLook = {
 //Menu styling with regards to exterior styling (eg. margin)
 const menuStyle = {
   position: "absolute",
-  zIndex: 0,
+  zIndex: 100,
   width: MENU_WIDTH,
   minHeight: "auto",
   marginTop: MENU_MARGIN,
