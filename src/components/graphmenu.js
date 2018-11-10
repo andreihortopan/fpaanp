@@ -275,21 +275,21 @@ export class GraphMenu extends Component {
                         <td align="center">
                             <a 
                                 onClick={(e) => changeCanvas("RomaniaMap")}
-                            ><img src="map.png" alt="Hart&#259;" style={{
+                            ><img src="media/map.png" alt="Hart&#259;" style={{
                                     ...graphStyle,
                                 }}/></a>
                         </td>
                         <td align="center">
                             <a
                                 onClick={(e) => changeCanvas("BarChart")}
-                            ><img src="barchart.png" style={{
+                            ><img src="media/barchart.png" style={{
                                     ...graphStyle,
                                 }}/></a>
                         </td>
                         <td align="center">
                             <a
                                 onClick={(e) => changeCanvas("Table")}
-                            ><img src="excel.png" style={{
+                            ><img src="media/excel.png" style={{
                                     ...graphStyle,
                                 }}/></a>
                         </td>
@@ -297,14 +297,14 @@ export class GraphMenu extends Component {
                             <a
                                 href={PDF}
                                 target="_blank">
-                            <img src="pdf.png" style={{
+                            <img src="media/pdf.png" style={{
                                     ...graphStyle,
                                 }}/></a>
                         </td>
                         <td align="center">
                             <a
                                 href={CSV}>
-                            <img src="csv.png" style={{
+                            <img src="media/csv.png" style={{
                                     ...graphStyle,
                                 }}/></a>
                         </td>

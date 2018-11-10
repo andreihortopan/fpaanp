@@ -102,7 +102,7 @@ export class Menu extends Component {
             ...menuLook,
             ...textStyle,
           }}>
-            <img src="website_logo4.png" style={{
+            <img src="media/website_logo.png" style={{
               paddingTop: MENU_PADDING/2,
               maxWidth: MENU_WIDTH,
               marginBottom: -10,
