@@ -48,7 +48,6 @@ Data must be added for:
 - News
 
 ## Additional Packages
-(#additional-packages)
 
 - `react` and `react-dom` for rendering everything.
 
