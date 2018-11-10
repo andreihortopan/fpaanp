@@ -69,6 +69,8 @@ Data must be added for:
 - `webfontloader` for rendering text using Google Fonts.
 <br />
 Run the following command in the project directory to install neccesary modules:
+
 `npm install react react-dom react-onclickoutside react-fontawesome react-bar-chart react-simple-maps d3-geo --save`
+<br />
 <br />
 - NOTE: `canvasjs.min.js` and `canvasjs.react.js` have been added manually, not installed as modules.
