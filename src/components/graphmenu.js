@@ -275,21 +275,30 @@ export class GraphMenu extends Component {
                         <td align="center">
                             <a 
                                 onClick={(e) => changeCanvas("RomaniaMap")}
-                            ><img src="media/map.png" alt="Hart&#259;" style={{
+                            ><img
+                                src="media/map.png"
+                                alt="Hart&#259;"
+                                style={{
                                     ...graphStyle,
                                 }}/></a>
                         </td>
                         <td align="center">
                             <a
                                 onClick={(e) => changeCanvas("BarChart")}
-                            ><img src="media/barchart.png" style={{
+                            ><img
+                                alt="Grafic bar&#259;"
+                                src="media/barchart.png"
+                                style={{
                                     ...graphStyle,
                                 }}/></a>
                         </td>
                         <td align="center">
                             <a
                                 onClick={(e) => changeCanvas("Table")}
-                            ><img src="media/excel.png" style={{
+                            ><img
+                                alt="Tabel"
+                                src="media/excel.png"
+                                style={{
                                     ...graphStyle,
                                 }}/></a>
                         </td>
@@ -297,14 +306,20 @@ export class GraphMenu extends Component {
                             <a
                                 href={PDF}
                                 target="_blank">
-                            <img src="media/pdf.png" style={{
+                            <img 
+                                alt="Descarc&#259; PDF"
+                                src="media/pdf.png"
+                                style={{
                                     ...graphStyle,
                                 }}/></a>
                         </td>
                         <td align="center">
                             <a
                                 href={CSV}>
-                            <img src="media/csv.png" style={{
+                            <img 
+                                alt="Descarc&#259; CSV"
+                                src="media/csv.png"
+                                style={{
                                     ...graphStyle,
                                 }}/></a>
                         </td>

@@ -23,6 +23,7 @@ Additional node packages that have been used are listed [below](#additional-pack
 ## To do
 
 - Add diacritics to text.
+- Check compilation warnings.
 - `submenu*.js`:
     - Resize submenu box in order to prevent gap between menu item and submenu so as not to rerender animation on mouse drag.
 - `menu.js`:
@@ -31,6 +32,7 @@ Additional node packages that have been used are listed [below](#additional-pack
 - `graphmenu.js`:
     - Change icon color on hover.
     - Change current canvas mode icon to download icon.
+    - Check if imported menu size constants have been properly implemented in all styling options (for proper resizing when changing them).
 - `css.css`:
     - Clean css, eventually integrate via constants in `dropdown.js`.
 
@@ -54,6 +56,7 @@ Data must be added for:
     - Calendaristic data
 - Events
 - News
+- Metadata in `index.html`
 
 ## Additional packages
 
@@ -68,7 +71,7 @@ Data must be added for:
 - `react-transition-group` for generating menu animations.
 - `webfontloader` for rendering text using Google Fonts.
 <br />
-Run the following command in the project directory to install neccesary modules:
+Run the following command in the project directory to install the neccesary packages:
 
 `npm install react react-dom react-onclickoutside react-fontawesome react-bar-chart react-simple-maps d3-geo --save`
 <br />
