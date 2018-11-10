@@ -30,7 +30,7 @@ export class RomaniaMap extends Component {
 
     calculateOffset() {
         var ww = this.state.windowWidth;
-        if(ww < 1350) {
+        if(ww < 1400) {
             return 50;
         }
         return 0;

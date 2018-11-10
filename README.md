@@ -62,7 +62,11 @@ Data must be added for:
 
 ## Build Guide
 
-**TO BE WRITTEN**
+1) Install `npm` (or, alternatively, `yarn`).
+2) Clone repository (or download the zip file).
+3) Open a terminal in the source folder and run
+`npm install react react-dom react-onclickoutside react-fontawesome react-bar-chart react-simple-maps d3-geo --save`
+4) Run `npm start` in the terminal and connect (if not done automatically) to `localhost:3000` in the browser.
 
 ## Additional packages
 
