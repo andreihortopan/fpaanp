@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { RomaniaMap } from './romaniaMapRSM';
 import { BarChart } from './barChart';
+import { Membri } from './membri';
 
 const canvasStyle = {
     position: "absolute",
@@ -29,6 +30,7 @@ export class Canvas extends Component {
         <div style={{canvasStyle}}>
             { this.state.canvasType == "RomaniaMap" && <RomaniaMap />}
             { this.state.canvasType == "BarChart" && <BarChart />}
+            { this.state.canvasType == "Membri" && <Membri />}
         </div> 
     );
   }

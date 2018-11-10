@@ -35,6 +35,8 @@ Additional node packages that have been used are listed [below](#additional-pack
     - Check if imported menu size constants have been properly implemented in all styling options (for proper resizing when changing them).
 - `css.css`:
     - Clean css, eventually integrate via constants in `dropdown.js`.
+- `membri.js`:
+    - Add styling to the page, but only once the data to-be-added is known (so a design can be created around the data).
 
 ## To implement
 
@@ -58,6 +60,10 @@ Data must be added for:
 - News
 - Metadata in `index.html`
 
+## Build Guide
+
+**TO BE WRITTEN**
+
 ## Additional packages
 
 - `react` and `react-dom` for rendering everything.
@@ -70,6 +76,7 @@ Data must be added for:
 - `react-tooltip` for generating county info on hovering over the map.
 - `react-transition-group` for generating menu animations.
 - `webfontloader` for rendering text using Google Fonts.
+- `react-event-calendar` for displaying the events in a `Calendar`.
 <br />
 Run the following command in the project directory to install the neccesary packages:
 
@@ -77,3 +84,4 @@ Run the following command in the project directory to install the neccesary pack
 <br />
 <br />
 - NOTE: `canvasjs.min.js` and `canvasjs.react.js` have been added manually, not installed as modules.
+- NOTE: `package.json` & `package-lock.json` are NOT updated; additional redundant packages are still present.

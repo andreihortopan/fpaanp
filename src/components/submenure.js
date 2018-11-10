@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { menuLook } from './menu';
 import { listStyle } from './menu';
 import { itemStyle } from './menu';
+import { changeCanvas } from './canvas';
 
 export class SubmenuRE extends Component {
   render() {
@@ -15,7 +16,7 @@ export class SubmenuRE extends Component {
             <li style={{
                 ...itemStyle
             }}>
-                <a>Membri</a>
+                <a onClick={(e) => changeCanvas("Membri")}>Membri</a>
             </li>
             <li style={{
                 ...itemStyle
