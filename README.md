@@ -81,10 +81,11 @@ Data must be added for:
 - `react-transition-group` for generating menu animations.
 - `webfontloader` for rendering text using Google Fonts.
 - `react-event-calendar` for displaying the events in a `Calendar`.
+- `react-table` for displaying the `TableView`.
 <br />
 Run the following command in the project directory to install the neccesary packages:
 
-`npm install react react-dom react-onclickoutside react-fontawesome react-bar-chart react-simple-maps d3-geo --save`
+`npm install react react-dom react-onclickoutside react-fontawesome react-bar-chart react-simple-maps d3-geo react-table --save`
 <br />
 <br />
 - NOTE: `canvasjs.min.js` and `canvasjs.react.js` have been added manually, not installed as modules.
