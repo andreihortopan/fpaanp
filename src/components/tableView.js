@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactTable from 'react-table';
+import 'react-table/react-table.css';
 import { menuLook } from './menu';
 import { MENU_PADDING } from './menu';
 import { MENU_WIDTH } from './menu';
@@ -32,7 +33,7 @@ const sampleData = [{
     }
   }]
 
-  const columns = [{
+  const sampleColumns = [{
     Header: 'Name',
     accessor: 'name' // String-based value accessors!
   }, {
@@ -56,7 +57,12 @@ export class TableView extends Component {
         this.state = {
             width: window.innerWidth - diffWidth,
             height: window.innerHeight - diffHeight,
+            nrOfLines: this.calculateNrOfLines(),
         }
+    }
+
+    calculateNrOfLines() {
+        return Math.floor((window.innerHeight - 2*MENU_MARGIN - 2*MENU_PADDING)/40);
     }
 
     handleResize = e => {
@@ -64,6 +70,7 @@ export class TableView extends Component {
             return {
                 width: window.innerWidth - diffWidth,
                 height: window.innerHeight - diffHeight,
+                nrOfLines: this.calculateNrOfLines(),
             };
         });
     }
@@ -76,17 +83,25 @@ export class TableView extends Component {
         window.removeEventListener("resize", this.handleResize);
     }
 
+    componentWillUpdate() {
+        console.log(this.state.nrOfLines);
+    }
+
     render() {
         return(
             <div style={{
                 width: this.state.width,
                  height: this.state.height,
                  ...pageStyle,
-                 ...menuLook, 
+                 ...menuLook,
+                 overflow: "hidden",
              }}>
                 <ReactTable
                     data={sampleData}
-                    columns={columns}
+                    columns={sampleColumns}
+                    pageSize={this.state.nrOfLines}
+                    showPageSizeOptions={false}
+                    className="-striped -highlight"
                 />
             </div>
         )

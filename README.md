@@ -17,6 +17,8 @@ Additional node packages that have been used are listed [below](#additional-pack
     Bar Chart feature is not working.
 - `romaniaMapRSM.js`:
     Map is not being centered properly on dynamic resize. It works when reloading the page, but not on window resize via dragging corners.
+- `tableView.js`:
+    Table does not resize when window resizing via dragging corners. It does work when reloading the page, however.
 
 ## To do
 

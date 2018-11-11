@@ -26,6 +26,7 @@ export class GraphMenu extends Component {
         super(props);
 
         this.state = {
+            selected: 1,
             domeniiDeInteres: [
               {
                   id: 0,
@@ -210,6 +211,23 @@ export class GraphMenu extends Component {
         })
     }
 
+    setIcon(id) {
+        switch(id) {
+            case 1:
+                if(this.state.selected == 1)
+                    return "media/map-selected.png";
+                return "media/map.png";
+            case 2:
+                if(this.state.selected == 2)
+                    return "media/barchart-selected.png";
+                return "media/barchart.png";
+            case 3:
+                if(this.state.selected == 3)
+                    return "media/excel-selected.png";
+                return "media/excel.png";
+        }
+    }
+
     render() {
         return (
         <div style={{
@@ -274,30 +292,39 @@ export class GraphMenu extends Component {
                     <tr bordertop="0">
                         <td align="center">
                             <a 
-                                onClick={(e) => changeCanvas("RomaniaMap")}
+                                onClick={(e) => {
+                                    changeCanvas("RomaniaMap");
+                                    this.setState({selected: 1});
+                                }}
                             ><img
-                                src="media/map.png"
                                 alt="Hart&#259;"
+                                src={this.setIcon(1)}
                                 style={{
                                     ...graphStyle,
                                 }}/></a>
                         </td>
                         <td align="center">
                             <a
-                                onClick={(e) => changeCanvas("BarChart")}
+                                onClick={(e) => {
+                                    changeCanvas("BarChart");
+                                    this.setState({selected: 2});
+                                }}
                             ><img
                                 alt="Grafic bar&#259;"
-                                src="media/barchart.png"
+                                src={this.setIcon(2)}
                                 style={{
                                     ...graphStyle,
                                 }}/></a>
                         </td>
                         <td align="center">
                             <a
-                                onClick={(e) => changeCanvas("TableView")}
+                                onClick={(e) => {
+                                    changeCanvas("TableView");
+                                    this.setState({selected: 3});
+                                }}
                             ><img
                                 alt="Tabel"
-                                src="media/excel.png"
+                                src={this.setIcon(3)}
                                 style={{
                                     ...graphStyle,
                                 }}/></a>
