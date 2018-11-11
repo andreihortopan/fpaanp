@@ -251,6 +251,7 @@ export class GraphMenu extends Component {
                             style={{
                                 ...graphStyle,
                                 marginTop: MENU_MARGIN/2,
+                                marginRight: 10,
                         }}/>
                     </a>
                 </div>
