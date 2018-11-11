@@ -4,7 +4,7 @@ import { menuStyle } from './menu';
 import { MENU_WIDTH } from './menu'
 import { MENU_PADDING } from './menu';
 import { changeCanvas } from './canvas';
-import { Dropdown } from './dropdown';
+import Dropdown from './dropdown';
 import PDF from '../media/dummy.pdf';
 import CSV from '../media/sample.csv';
 
