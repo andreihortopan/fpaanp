@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { RomaniaMap } from './romaniaMapRSM';
-import { BarChart } from './barChart';
+import { BarChartView } from './barChartView';
 import { TableView } from './tableView';
 import { Membri } from './membri';
 
@@ -30,7 +30,7 @@ export class Canvas extends Component {
     return (
         <div style={{canvasStyle}}>
             { this.state.canvasType == "RomaniaMap" && <RomaniaMap />}
-            { this.state.canvasType == "BarChart" && <BarChart />}
+            { this.state.canvasType == "BarChart" && <BarChartView />}
             { this.state.canvasType == "TableView" && <TableView />}
             { this.state.canvasType == "Membri" && <Membri />}
         </div> 

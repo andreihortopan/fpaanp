@@ -9,12 +9,10 @@ Additional node packages that have been used are listed [below](#additional-pack
 - `App` renders the following:
     - `Menu` is the top-right menu, which contains the logo and four of the menu options.
     - `GraphMenu` is the bottom-right menu, which contains the last of the five available menu options: "Date si resurse". This option includes customization options (data fields (dropdown menus) and a display field (the five icons)) and it directly changes the `Canvas`.
-    - `Canvas` represents the main part of the page, displaying the chosen data in a certain format (default is: all data on a `RomaniaMap`). Other display options are: `BarChart` and `TableView`.
+    - `Canvas` represents the main part of the page, displaying the chosen data in a certain format (default is: all data on a `RomaniaMap`). Other display options are: `BarChartView` and `TableView`.
 
 ## Current bugs
 
-- `barChart.js`:
-    Bar Chart feature is not working.
 - `romaniaMapRSM.js`:
     Map is not being centered properly on dynamic resize. It works when reloading the page, but not on window resize via dragging corners.
 - `tableView.js`:
@@ -23,16 +21,12 @@ Additional node packages that have been used are listed [below](#additional-pack
 ## To do
 
 - Add diacritics to text.
-- Move constants and styles to a separate file then import them all at once to each file which requires them.
+- Move constants and styles to a separate file then import them all at once to each file which requires them (especially with regards to the components which display a white div to the right of the menus, like `Membri`).
 - Check compilation warnings.
-- `tableView.js`:
-    - Refine the table view. Fit table to page size, no overscroll.
 - `menu.js`:
     - Change text color on hover.
     - Modularize submenu components using a single component which takes props to generate content dynamically.
 - `graphmenu.js`:
-    - Change icon color on hover.
-    - Change current canvas mode icon to download icon.
     - Check if imported menu size constants have been properly implemented in all styling options (for proper resizing when changing them).
 - `css.css`:
     - Clean css, eventually integrate via constants in `dropdown.js`.
@@ -82,10 +76,11 @@ Data must be added for:
 - `webfontloader` for rendering text using Google Fonts.
 - `react-event-calendar` for displaying the events in a `Calendar`.
 - `react-table` for displaying the `TableView`.
+- `recharts` for displaying the `BarChartView`.
 <br />
 Run the following command in the project directory to install the neccesary packages:
 
-`npm install react react-dom react-onclickoutside react-fontawesome react-bar-chart react-simple-maps d3-geo react-table --save`
+`npm install react react-dom react-onclickoutside react-fontawesome react-bar-chart react-simple-maps d3-geo react-table recharts --save`
 <br />
 <br />
 - NOTE: `canvasjs.min.js` and `canvasjs.react.js` have been added manually, not installed as modules.
