@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { menuLook } from './menu';
+import { menuLook, MENU_MARGIN } from './menu';
 import { menuStyle } from './menu';
 import { MENU_WIDTH } from './menu'
 import { MENU_PADDING } from './menu';
@@ -237,9 +237,26 @@ export class GraphMenu extends Component {
             left: 0,
         }}>
             <div style={{paddingLeft: 10}}>
-                <p>Date si resurse</p>
+                <div style={{float:"left"}}><p>Date si resurse</p></div>
+                <div style={{
+                    float:"right",
+                }}>
+                    <a 
+                        onClick={(e) => {
+                            
+                    }}>
+                        <img
+                            alt="Descarc&#259;"
+                            src="media/download.png"
+                            style={{
+                                ...graphStyle,
+                                marginTop: MENU_MARGIN/2,
+                        }}/>
+                    </a>
+                </div>
             </div>
 
+            <div style={{clear:"both"}}>
             <Dropdown 
                 title="Domenii de interes"
                 list={this.state.domeniiDeInteres}
@@ -353,6 +370,7 @@ export class GraphMenu extends Component {
                     </tr>
                 </tbody>
             </table>
+            </div>
         </div>
         );
     }

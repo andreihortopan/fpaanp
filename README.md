@@ -44,6 +44,7 @@ Additional node packages that have been used are listed [below](#additional-pack
 - Submenu items individual pages
 - Calendar
 - News
+- JPG downloader
 
 ## Data related
 
