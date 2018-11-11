@@ -7,22 +7,27 @@ export class SubmenuE extends Component {
   render() {
     return (
         <div style={{
-            ...menuLook,
+            marginLeft: -20,
         }}>
-        <ul style={{
-            ...listStyle,
-        }}>
-            <li style={{
-                ...itemStyle
+            <div style={{
+                ...menuLook,
+                marginLeft: 20,
             }}>
-                <a>Calendar</a>
-            </li>
-            <li style={{
-                ...itemStyle
+            <ul style={{
+                ...listStyle,
             }}>
-                <a>Lista evenimente</a>
-            </li>
-        </ul>
+                <li style={{
+                    ...itemStyle
+                }}>
+                    <a>Calendar</a>
+                </li>
+                <li style={{
+                    ...itemStyle
+                }}>
+                    <a>Lista evenimente</a>
+                </li>
+            </ul>
+            </div>
         </div>
     );
   }

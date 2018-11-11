@@ -13,6 +13,7 @@
     "react-redux": "^5.0.7",
     "react-scripts": "2.0.4",
     "react-simple-maps": "^0.12.1",
+    "react-table": "^6.8.6",
     "react-tooltip": "^3.9.0",
     "react-transition-group": "^1.2.1",
     "redux": "^4.0.1",

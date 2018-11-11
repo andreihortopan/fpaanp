@@ -294,7 +294,7 @@ export class GraphMenu extends Component {
                         </td>
                         <td align="center">
                             <a
-                                onClick={(e) => changeCanvas("Table")}
+                                onClick={(e) => changeCanvas("TableView")}
                             ><img
                                 alt="Tabel"
                                 src="media/excel.png"

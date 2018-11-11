@@ -107,4 +107,4 @@ export class Membri extends Component {
     }
 }
 
-export default Component;
+export default Membri;

@@ -8,32 +8,37 @@ export class SubmenuRE extends Component {
   render() {
     return (
         <div style={{
-            ...menuLook,
+            marginLeft: -20,
         }}>
-        <ul style={{
-            ...listStyle,
-        }}>
-            <li style={{
-                ...itemStyle
+            <div style={{
+                ...menuLook,
+                marginLeft: 20,
             }}>
-                <a onClick={(e) => changeCanvas("Membri")}>Membri</a>
-            </li>
-            <li style={{
-                ...itemStyle
-            }}>
-                <a>Calendar</a>
-            </li>
-            <li style={{
-                ...itemStyle
-            }}>
-                <a>Activitati Retea</a>
-            </li>
-            <li style={{
-                ...itemStyle
-            }}>
-                <a>Noutati</a>
-            </li>
-        </ul>
+                <ul style={{
+                    ...listStyle,
+                }}>
+                    <li style={{
+                        ...itemStyle
+                    }}>
+                        <a onClick={(e) => changeCanvas("Membri")}>Membri</a>
+                    </li>
+                    <li style={{
+                        ...itemStyle
+                    }}>
+                        <a>Calendar</a>
+                    </li>
+                    <li style={{
+                        ...itemStyle
+                    }}>
+                        <a>Activitati Retea</a>
+                    </li>
+                    <li style={{
+                        ...itemStyle
+                    }}>
+                        <a>Noutati</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     );
   }

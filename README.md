@@ -21,6 +21,7 @@ Additional node packages that have been used are listed [below](#additional-pack
 ## To do
 
 - Add diacritics to text.
+- Move constants and styles to a separate file then import them all at once to each file which requires them.
 - Check compilation warnings.
 - `submenu*.js`:
     - Resize submenu box in order to prevent gap between menu item and submenu so as not to rerender animation on mouse drag.
@@ -62,8 +63,7 @@ Data must be added for:
 
 1) Install `npm` (or, alternatively, `yarn`).
 2) Clone repository (or download the zip file).
-3) Open a terminal in the source folder and run:<br/>
-`npm install react react-dom react-onclickoutside react-fontawesome react-bar-chart react-simple-maps d3-geo --save`
+3) Open a terminal in the source folder and run `npm install`.
 4) Run `npm start` in the terminal and connect (if not done automatically) to `localhost:3000` in the browser.
 
 ## Additional packages
