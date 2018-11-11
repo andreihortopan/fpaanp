@@ -15,8 +15,6 @@ Additional node packages that have been used are listed [below](#additional-pack
 
 - `barChart.js`:
     Bar Chart feature is not working.
-- `dropdown.js`:
-    `onClickOutside` event is not being triggered.
 - `romaniaMapRSM.js`:
     Map is not being centered properly on dynamic resize. It works when reloading the page, but not on window resize via dragging corners.
 
