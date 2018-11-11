@@ -23,8 +23,8 @@ Additional node packages that have been used are listed [below](#additional-pack
 - Add diacritics to text.
 - Move constants and styles to a separate file then import them all at once to each file which requires them.
 - Check compilation warnings.
-- `submenu*.js`:
-    - Resize submenu box in order to prevent gap between menu item and submenu so as not to rerender animation on mouse drag.
+- `tableView.js`:
+    - Refine the table view. Fit table to page size, no overscroll.
 - `menu.js`:
     - Change text color on hover.
     - Modularize submenu components using a single component which takes props to generate content dynamically.
@@ -39,7 +39,6 @@ Additional node packages that have been used are listed [below](#additional-pack
 
 ## To implement
 
-- Excel table view in `canvas.js`.
 - Submenu items individual pages
 - Calendar
 - News
