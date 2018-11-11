@@ -20,11 +20,17 @@ const selectStyle = {
     marginBottom: 10,
 }
 
+
+function resetGraphMenuState() {
+    this.setState({selected: 0});
+}
+
 //Graph menu -- bottom left menu, for interacting with the canvas
 export class GraphMenu extends Component {
     constructor(props) {
         super(props);
 
+        resetGraphMenuState = resetGraphMenuState.bind(this);
         this.state = {
             selected: 1,
             domeniiDeInteres: [
@@ -238,7 +244,7 @@ export class GraphMenu extends Component {
         }}>
             <div style={{paddingLeft: 10}}>
                 <div style={{float:"left"}}><p>Date si resurse</p></div>
-                <div style={{
+                { this.state.selected!=0 && <div style={{
                     float:"right",
                 }}>
                     <a 
@@ -254,7 +260,7 @@ export class GraphMenu extends Component {
                                 marginRight: 10,
                         }}/>
                     </a>
-                </div>
+                </div>}
             </div>
 
             <div style={{clear:"both"}}>
@@ -377,4 +383,5 @@ export class GraphMenu extends Component {
     }
 }
 
+export { resetGraphMenuState };
 export default GraphMenu;
