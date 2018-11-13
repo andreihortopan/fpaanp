@@ -36,7 +36,6 @@ Additional node packages that have been used are listed [below](#additional-pack
 ## To implement
 
 - Submenu items individual pages
-- Calendar
 - News
 - JPG downloader
 
@@ -74,13 +73,14 @@ Data must be added for:
 - `react-tooltip` for generating county info on hovering over the map.
 - `react-transition-group` for generating menu animations.
 - `webfontloader` for rendering text using Google Fonts.
-- `react-event-calendar` for displaying the events in a `Calendar`.
+- `react-big-calendar` for displaying the events in a `Calendar`.
+- `moment` for localization and data formatting used by `Calendar`.
 - `react-table` for displaying the `TableView`.
 - `recharts` for displaying the `BarChartView`.
 <br />
 Run the following command in the project directory to install the neccesary packages:
 
-`npm install react react-dom react-onclickoutside react-fontawesome react-bar-chart react-simple-maps d3-geo react-table recharts --save`
+`npm install react react-dom react-simple-maps d3-geo topojson-client react-onclickoutside react-fontawesome react-tooltip react-transition-group webfontloader react-big-calendar moment react-table recharts --save`
 <br />
 <br />
 - NOTE: `canvasjs.min.js` and `canvasjs.react.js` have been added manually, not installed as modules.

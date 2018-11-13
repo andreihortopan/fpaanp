@@ -83,10 +83,6 @@ export class TableView extends Component {
         window.removeEventListener("resize", this.handleResize);
     }
 
-    componentWillUpdate() {
-        console.log(this.state.nrOfLines);
-    }
-
     render() {
         return(
             <div style={{

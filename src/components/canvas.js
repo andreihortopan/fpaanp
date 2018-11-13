@@ -3,6 +3,7 @@ import { RomaniaMap } from './romaniaMapRSM';
 import { BarChartView } from './barChartView';
 import { TableView } from './tableView';
 import { Membri } from './membri';
+import { Calendar } from './calendar';
 
 const canvasStyle = {
     position: "absolute",
@@ -33,6 +34,7 @@ export class Canvas extends Component {
             { this.state.canvasType == "BarChart" && <BarChartView />}
             { this.state.canvasType == "TableView" && <TableView />}
             { this.state.canvasType == "Membri" && <Membri />}
+            { this.state.canvasType == "Calendar" && <Calendar />}
         </div> 
     );
   }
