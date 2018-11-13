@@ -14,7 +14,7 @@ const pageStyle = {
 }
 
 const diffWidth = MENU_WIDTH + 3*MENU_MARGIN + 4*MENU_PADDING;
-const diffHeight = 2*MENU_MARGIN + MENU_PADDING;
+const diffHeight = 2*MENU_MARGIN + 2*MENU_PADDING;
 
 const data = [
       {name: 'Page A', uv: 4000, pv: 2400, amt: 2400},
@@ -61,6 +61,8 @@ export class BarChartView extends Component {
                 ...pageStyle,
                 ...menuLook,
                 overflow: "hidden",
+                paddingTop: MENU_PADDING,
+                paddingBottom: MENU_PADDING,
             }}>
                 <BarChart width={this.state.width} height={this.state.height} data={data}
                     margin={{top: 5, right: 30, left: 20, bottom: 5}}>

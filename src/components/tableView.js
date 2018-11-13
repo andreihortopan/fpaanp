@@ -15,7 +15,7 @@ const pageStyle = {
 }
 
 const diffWidth = MENU_WIDTH + 3*MENU_MARGIN + 4*MENU_PADDING;
-const diffHeight = 2*MENU_MARGIN + MENU_PADDING;
+const diffHeight = 2*MENU_MARGIN + 2*MENU_PADDING;
 
 const sampleData = [{
     name: 'Tanner Linsley',
@@ -91,6 +91,8 @@ export class TableView extends Component {
                  ...pageStyle,
                  ...menuLook,
                  overflow: "hidden",
+                 paddingTop: MENU_PADDING,
+                 paddingBottom: MENU_PADDING,
              }}>
                 <ReactTable
                     data={sampleData}
