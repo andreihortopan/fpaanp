@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { SubmenuRE } from './submenure';
 import { SubmenuFP } from './submenufp';
-import { SubmenuE } from './submenue';
 import { CSSTransitionGroup } from 'react-transition-group';
 import FontAwesome from 'react-fontawesome';
+import { changeCanvas } from './canvas';
+import { resetGraphMenuState } from './graphmenu';
 
 //Size constants
 const MENU_MARGIN = 20;
@@ -153,21 +154,9 @@ export class Menu extends Component {
               </li>
               <li 
                 key="menu-3"
-                onMouseEnter = {this.handleHoverE}
-                onMouseLeave = {this.handleLeaveE}
+                onClick = {() => {changeCanvas("Calendar"); resetGraphMenuState();}}
               >
-                <div style={{
-                  display: 'inline-block',
-                  width: 210,
-                  height: 35
-                }}>
-                  <p>Evenimente</p>
-                </div>
-                <div style={{
-                  display: 'inline-block',
-                }}>
-                  <FontAwesome name="angle-right"/>
-                </div>
+                <p>Evenimente</p>
               </li>
               <li key="menu-4">
                 <p>Stiri</p>
@@ -202,21 +191,6 @@ export class Menu extends Component {
               transitionLeaveTimeout={300}
             >
               { this.state.showFinantariPubliceMenu && <SubmenuFP key="2"/> }
-            </CSSTransitionGroup>
-          </div>
-          <div 
-            onMouseEnter = {this.handleHoverE}
-            onMouseLeave = {this.handleLeaveE}
-            style={{
-              ...submenuStyle,
-              marginTop: MENU_MARGIN + MENU_PADDING + 130,
-          }}>
-            <CSSTransitionGroup
-              transitionName="slide"
-              transitionEnterTimeout={300}
-              transitionLeaveTimeout={300}
-            >
-              { this.state.showEvenimenteMenu && <SubmenuE key="3"/> }
             </CSSTransitionGroup>
           </div>
       </div>
