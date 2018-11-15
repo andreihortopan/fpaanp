@@ -21,6 +21,7 @@ Additional node packages that have been used are listed [below](#additional-pack
 ## To do
 
 - Add diacritics to text.
+- Translate `Table` and `Calendar` into Romanian
 - Move constants and styles to a separate file then import them all at once to each file which requires them (especially with regards to the components which display a white div to the right of the menus, like `Membri`).
 - Check compilation warnings.
 - `menu.js`:
@@ -32,6 +33,11 @@ Additional node packages that have been used are listed [below](#additional-pack
     - Clean css, eventually integrate via constants in `dropdown.js`.
 - `membri.js`:
     - Add styling to the page, but only once the data to-be-added is known (so a design can be created around the data).
+- `calendar.js` & `event.js`:
+    - Calculate and import `GraphMenu` height instead of hardcoding it (to allow for flexibility upon margin and/or padding change).
+    - Fix the paddings and margins and sizes - they might not be perfectly set.
+    - Bind mouse wheel scrolling to the horizontal event scrollbar.
+- Modularize the blank white page used to display most of the pages (implement it as a component).
 
 ## To implement
 
