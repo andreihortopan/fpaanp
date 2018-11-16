@@ -7,34 +7,56 @@ import {
 } from "react-simple-maps"
 import { geoMercator } from "d3-geo";
 import ReactTooltip from "react-tooltip";
+import { MENU_PADDING } from './menu';
+import { MENU_WIDTH } from './menu';
+import { MENU_MARGIN } from './menu';
+
+const pageStyle = {
+    position: 'absolute',
+    right: 0,
+    overflowY: "scroll",
+    overflowX: "hidden",
+}
+
+const diffWidth = MENU_WIDTH + MENU_MARGIN + 2*MENU_PADDING;
+const diffHeight = 0;
 
 export class RomaniaMap extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            windowWidth: window.innerWidth,
-            windowHeight: window.innerHeight
+            windowWidth: window.innerWidth - diffWidth,
+            windowHeight: window.innerHeight - diffHeight,
         }        
+    }
+
+    handleResize = e => {
+        this.setState(prevState => {
+            return {
+                width: window.innerWidth - diffWidth,
+                height: window.innerHeight - diffHeight,
+            };
+        });
     }
 
     calculateScaleFactor() {
         var wh = this.state.windowHeight;
         var ww = this.state.windowWidth;
-        if(ww >= 2* wh) {
+        if(ww >= 1.5* wh) {
             return wh*7.4;
         }
         else {
-            return ww*4.15;
+            return ww*5.5;
         }
     }
 
-    calculateOffset() {
+    /*calculateOffset() {
         var ww = this.state.windowWidth;
         if(ww < 1400) {
             return 50;
         }
         return 0;
-    }
+    }*/
 
     handleResize = e => {
         this.setState(prevState => {
@@ -58,15 +80,19 @@ export class RomaniaMap extends Component {
 
     render() {
       return(
-        <div>
+        <div style={{
+            width: this.state.width,
+            height: this.state.height,
+            ...pageStyle,
+        }}>
           <ComposableMap
-                width = {window.innerWidth}
-                height = {window.innerHeight}
+                width = {this.state.windowWidth}
+                height = {this.state.windowHeight}
                 projection={(width, height, projectionConfig) => {
                     return geoMercator()
                         .center([12.5, 25.05])
                         .scale(this.calculateScaleFactor())
-                        .translate([ width/2 + this.calculateOffset(), height/2 ])
+                        .translate([ width/2 /*+ this.calculateOffset()*/, height/2 ])
                 }}
             >
             <ZoomableGroup

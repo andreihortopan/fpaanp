@@ -21,7 +21,7 @@ export class Dropdown extends Component {
 
     selectItem = (title, id, stateKey) => {
         this.setState({
-          headerTitle: title,
+          headerTitle: <p>{title}</p>,
           listOpen: false
         }, this.props.resetThenSet(id, stateKey))
       }

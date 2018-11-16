@@ -20,6 +20,11 @@ const selectStyle = {
     marginBottom: 10,
 }
 
+const selectionOne = <p style={{}}><span className="number">1&#65372;</span>Domenii de interes</p>
+const selectionTwo = <p style={{}}><span className="number">2&#65372;</span>Aut. finan&#355;atoare</p>
+const selectionThree = <p style={{}}><span className="number">3&#65372;</span>Sum&#259;</p>
+const selectionFour = <p style={{}}><span className="number">4&#65372;</span>An</p>
+const selectionFive = <p style={{}}><span className="number">5&#65372;</span>Num&#259;r</p>
 
 function resetGraphMenuState() {
     this.setState({selected: 0});
@@ -243,21 +248,24 @@ export class GraphMenu extends Component {
             left: 0,
         }}>
             <div style={{paddingLeft: 10}}>
-                <div style={{float:"left"}}><p>Date si resurse</p></div>
+                <div style={{float:"left"}}><p>Date &#351;i resurse</p></div>
                 { this.state.selected!=0 && <div style={{
                     float:"right",
                 }}>
-                    <a 
+                    <a
+                        href="#"
                         onClick={(e) => {
                             
                     }}>
                         <img
+                            onMouseOver={e => (e.currentTarget.src = "media/download-selected.png")}
+                            onMouseLeave={(e) => (e.currentTarget.src = "media/download.png")}
                             alt="Descarc&#259;"
                             src="media/download.png"
                             style={{
                                 ...graphStyle,
                                 marginTop: MENU_MARGIN/2,
-                                marginRight: 10,
+                                marginRight: 5,
                         }}/>
                     </a>
                 </div>}
@@ -265,13 +273,13 @@ export class GraphMenu extends Component {
 
             <div style={{clear:"both"}}>
             <Dropdown 
-                title="Domenii de interes"
+                title={selectionOne}
                 list={this.state.domeniiDeInteres}
                 resetThenSet={this.resetThenSet}
             />
 
             <Dropdown 
-                title="Aut. finantatoare"
+                title={selectionTwo}
                 list={this.state.autoritati}
                 resetThenSet={this.resetThenSet}
             />
@@ -282,7 +290,7 @@ export class GraphMenu extends Component {
                 marginRight: 5,
             }}>
                 <Dropdown 
-                    title="Suma"
+                    title={selectionThree}
                     list={this.state.sume}
                     resetThenSet={this.resetThenSet}
                 />
@@ -294,14 +302,14 @@ export class GraphMenu extends Component {
                 marginLeft: 5,
             }}>
                 <Dropdown
-                    title="An"
+                    title={selectionFour}
                     list={this.state.ani}
                     resetThenSet={this.resetThenSet}
                 />
             </div>
 
             <Dropdown 
-                title="Numar organizatii"
+                title={selectionFive}
                 list={this.state.numarOrg}
                 resetThenSet={this.resetThenSet}
             />
@@ -316,11 +324,14 @@ export class GraphMenu extends Component {
                     <tr bordertop="0">
                         <td align="center">
                             <a 
+                                href="#"
                                 onClick={(e) => {
                                     changeCanvas("RomaniaMap");
                                     this.setState({selected: 1});
                                 }}
                             ><img
+                                onMouseOver={e => (e.currentTarget.src = "media/map-selected.png")}
+                                onMouseLeave={(e) => {this.state.selected == 1 ? e.currentTarget.src = "media/map-selected.png" : e.currentTarget.src = "media/map.png";}}
                                 alt="Hart&#259;"
                                 src={this.setIcon(1)}
                                 style={{
@@ -329,11 +340,14 @@ export class GraphMenu extends Component {
                         </td>
                         <td align="center">
                             <a
+                                href="#"
                                 onClick={(e) => {
                                     changeCanvas("BarChart");
                                     this.setState({selected: 2});
                                 }}
                             ><img
+                                onMouseOver={e => (e.currentTarget.src = "media/barchart-selected.png")}
+                                onMouseLeave={(e) => {this.state.selected == 2 ? e.currentTarget.src = "media/barchart-selected.png" : e.currentTarget.src = "media/barchart.png";}}
                                 alt="Grafic bar&#259;"
                                 src={this.setIcon(2)}
                                 style={{
@@ -342,11 +356,14 @@ export class GraphMenu extends Component {
                         </td>
                         <td align="center">
                             <a
+                                href="#"
                                 onClick={(e) => {
                                     changeCanvas("TableView");
                                     this.setState({selected: 3});
                                 }}
                             ><img
+                                onMouseOver={e => (e.currentTarget.src = "media/excel-selected.png")}
+                                onMouseLeave={(e) => {this.state.selected == 3 ? e.currentTarget.src = "media/excel-selected.png" : e.currentTarget.src = "media/excel.png";}}
                                 alt="Tabel"
                                 src={this.setIcon(3)}
                                 style={{
@@ -358,6 +375,8 @@ export class GraphMenu extends Component {
                                 href={PDF}
                                 target="_blank">
                             <img 
+                                onMouseOver={e => (e.currentTarget.src = "media/pdf-selected.png")}
+                                onMouseLeave={e => (e.currentTarget.src = "media/pdf.png")}
                                 alt="Descarc&#259; PDF"
                                 src="media/pdf.png"
                                 style={{
@@ -368,6 +387,8 @@ export class GraphMenu extends Component {
                             <a
                                 href={CSV}>
                             <img 
+                                onMouseOver={e => (e.currentTarget.src = "media/csv-selected.png")}
+                                onMouseLeave={e => (e.currentTarget.src = "media/csv.png")}
                                 alt="Descarc&#259; CSV"
                                 src="media/csv.png"
                                 style={{

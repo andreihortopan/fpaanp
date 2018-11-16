@@ -15,6 +15,7 @@
 # external media
 /media
 /public/media/large
+/public/media/selected
 
 # misc
 .DS_Store

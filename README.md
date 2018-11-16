@@ -20,7 +20,6 @@ Additional node packages that have been used are listed [below](#additional-pack
 
 ## To do
 
-- Add diacritics to text.
 - Translate `Table` and `Calendar` into Romanian
 - Move constants and styles to a separate file then import them all at once to each file which requires them (especially with regards to the components which display a white div to the right of the menus, like `Membri`).
 - Check compilation warnings.

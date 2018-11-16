@@ -5,6 +5,7 @@ import { CSSTransitionGroup } from 'react-transition-group';
 import FontAwesome from 'react-fontawesome';
 import { changeCanvas } from './canvas';
 import { resetGraphMenuState } from './graphmenu';
+import '../transition.css';
 
 //Size constants
 const MENU_MARGIN = 20;
@@ -34,8 +35,9 @@ const menuStyle = {
 
 //Submenu style, for popups on hover
 const submenuStyle = {
-  position: "fixed",
-  zIndex: 100,
+  width: 100,
+  position: "absolute",
+  zIndex: 99,
   width: MENU_WIDTH,
   marginLeft: MENU_WIDTH + 2*MENU_MARGIN + 2*MENU_PADDING,
 }
@@ -68,7 +70,6 @@ export class Menu extends Component {
     this.state = {
       showReteaExpertiMenu: false,
       showFinantariPubliceMenu: false,
-      showEvenimenteMenu: false,
     }
   }
 
@@ -86,14 +87,6 @@ export class Menu extends Component {
 
   handleLeaveFP = (event) => {
     this.setState({ showFinantariPubliceMenu: false });
-  }
-
-  handleHoverE = (event) => {
-    this.setState({ showEvenimenteMenu: true });
-  }
-
-  handleLeaveE = (event) => {
-    this.setState({ showEvenimenteMenu: false });
   }
 
   render() {
@@ -120,46 +113,52 @@ export class Menu extends Component {
                 key="menu-1"
                 onMouseEnter = {this.handleHoverRE} 
                 onMouseLeave = {this.handleLeaveRE}
-              >
+              ><a href="#">
                 <div style={{
                   display: 'inline-block',
                   width: 210,
-                  height: 35
+                  height: 35,
                 }}>
-                  <p>Retea Experti</p>
+                  <p>Re&#355;ea Exper&#355;i</p>
                 </div>
                 <div style={{
                   display: 'inline-block',
                 }}>
                   <FontAwesome name="angle-right"/>
                 </div>
+                </a>
               </li>
               <li 
                 key="menu-2"
                 onMouseEnter = {this.handleHoverFP}
                 onMouseLeave = {this.handleLeaveFP}
-              >
+              ><a href="#">
                 <div style={{
                   display: 'inline-block',
                   width: 210,
                   height: 35
                 }}>
-                  <p>Finantari Publice</p>
+                  <p>Finan&#355;&#259;ri Publice</p>
                 </div>
                 <div style={{
                   display: 'inline-block',
                 }}>
                   <FontAwesome name="angle-right"/>
                 </div>
+                </a>
               </li>
               <li 
                 key="menu-3"
                 onClick = {() => {changeCanvas("Calendar"); resetGraphMenuState();}}
-              >
+              ><a href="#">
                 <p>Evenimente</p>
+                </a>
               </li>
-              <li key="menu-4">
-                <p>Stiri</p>
+              <li key="menu-4"
+                
+              ><a href="#">
+                <p>&#350;tiri</p>
+                </a>
               </li>
             </ul>
           </div>
@@ -168,7 +167,7 @@ export class Menu extends Component {
             onMouseLeave = {this.handleLeaveRE}
             style={{
               ...submenuStyle,
-              marginTop: MENU_MARGIN + MENU_PADDING + 50,
+              marginTop: MENU_MARGIN + MENU_PADDING + 90,
           }}>
             <CSSTransitionGroup
               transitionName="slide"
@@ -183,7 +182,7 @@ export class Menu extends Component {
             onMouseLeave = {this.handleLeaveFP}
             style={{
               ...submenuStyle,
-              marginTop: MENU_MARGIN + MENU_PADDING + 90,
+              marginTop: MENU_MARGIN + MENU_PADDING + 125,
           }}>
             <CSSTransitionGroup
               transitionName="slide"

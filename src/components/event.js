@@ -7,7 +7,7 @@ import '../calendar.css';
 
 const eventStyle = {
     width: MENU_WIDTH,
-    height: 375 - 2*MENU_MARGIN - 2*MENU_PADDING - 5,
+    height: 383 - 2*MENU_MARGIN - 2*MENU_PADDING - 5,
     ...menuLook,
     marginRight: MENU_MARGIN,
     marginTop: MENU_MARGIN,

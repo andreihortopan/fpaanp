@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { menuLook } from './menu';
+import { menuLook, MENU_MARGIN } from './menu';
 import { listStyle } from './menu';
 import { itemStyle } from './menu';
 import { changeCanvas } from './canvas';
@@ -8,12 +8,11 @@ import { resetGraphMenuState } from './graphmenu';
 export class SubmenuRE extends Component {
   render() {
     return (
-        <div style={{
-            marginLeft: -20,
-        }}>
             <div style={{
                 ...menuLook,
-                marginLeft: 20,
+                marginLeft: -MENU_MARGIN,
+                backgroundColor: "#008ece",
+                color: "#ffffff"
             }}>
                 <ul style={{
                     ...listStyle,
@@ -21,7 +20,7 @@ export class SubmenuRE extends Component {
                     <li style={{
                         ...itemStyle
                     }}>
-                        <a onClick={(e) => {
+                        <a href="#" onClick={(e) => {
                             changeCanvas("Membri");
                             resetGraphMenuState();
                         }}>Membri</a>
@@ -29,7 +28,7 @@ export class SubmenuRE extends Component {
                     <li style={{
                         ...itemStyle
                     }}>
-                        <a onClick={(e) => {
+                        <a href="#" onClick={(e) => {
                             changeCanvas("Membri");
                             resetGraphMenuState();
                         }}>Calendar</a>
@@ -37,22 +36,21 @@ export class SubmenuRE extends Component {
                     <li style={{
                         ...itemStyle
                     }}>
-                        <a onClick={(e) => {
+                        <a href="#" onClick={(e) => {
                             changeCanvas("Membri");
                             resetGraphMenuState();
-                        }}>Activitati Retea</a>
+                        }}>Activit&#259;&#355;i Re&#355;ea</a>
                     </li>
                     <li style={{
                         ...itemStyle
                     }}>
-                        <a onClick={(e) => {
+                        <a href="#" onClick={(e) => {
                             changeCanvas("Membri");
                             resetGraphMenuState();
-                        }}>Noutati</a>
+                        }}>Nout&#259;&#355;i</a>
                     </li>
                 </ul>
             </div>
-        </div>
     );
   }
 }

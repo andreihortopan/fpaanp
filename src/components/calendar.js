@@ -11,7 +11,7 @@ import '../calendar.css';
 
 const localizer = BigCalendar.momentLocalizer(moment);
 
-const graphMenuHeight = 375;
+const graphMenuHeight = 383;
 
 const pageStyle = {
     position: 'absolute',
