@@ -31,23 +31,7 @@ export class SubmenuRE extends Component {
                         <a href="#" onClick={(e) => {
                             changeCanvas("Membri");
                             resetGraphMenuState();
-                        }}>Calendar</a>
-                    </li>
-                    <li style={{
-                        ...itemStyle
-                    }}>
-                        <a href="#" onClick={(e) => {
-                            changeCanvas("Membri");
-                            resetGraphMenuState();
                         }}>Activit&#259;&#355;i Re&#355;ea</a>
-                    </li>
-                    <li style={{
-                        ...itemStyle
-                    }}>
-                        <a href="#" onClick={(e) => {
-                            changeCanvas("Membri");
-                            resetGraphMenuState();
-                        }}>Nout&#259;&#355;i</a>
                     </li>
                 </ul>
             </div>
