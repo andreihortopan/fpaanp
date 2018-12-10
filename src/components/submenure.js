@@ -22,7 +22,7 @@ export class SubmenuRE extends Component {
                         ...itemStyle
                     }}>
                         <a href="#" onClick={(e) => {
-                            changeCanvas("Membri");
+                            changeCanvas("Members");
                             resetGraphMenuState();
                         }}>Membri</a>
                     </li>
@@ -30,7 +30,7 @@ export class SubmenuRE extends Component {
                         ...itemStyle
                     }}>
                         <a href="#" onClick={(e) => {
-                            changeCanvas("Membri");
+                            changeCanvas("Members");
                             resetGraphMenuState();
                         }}>Activit&#259;&#355;i Re&#355;ea</a>
                     </li>

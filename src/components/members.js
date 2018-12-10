@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Membru } from './membru';
+import { Member } from './member';
 import { MENU_PADDING, MENU_MARGIN, MENU_WIDTH, menuLook } from './graphmenu';
 
 const pageStyle = {
@@ -13,14 +13,14 @@ const pageStyle = {
 const diffWidth = 2*MENU_MARGIN +2*MENU_PADDING;
 const diffHeight = 2*MENU_MARGIN + MENU_PADDING;
 
-export class Membri extends Component {
+export class Members extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
             width: window.innerWidth - diffWidth,
             height: window.innerHeight - diffHeight,
-            membri: [
+            members: [
                 {
                     id: 0,
                     name: 'POPESCU POP',
@@ -96,12 +96,12 @@ export class Membri extends Component {
                 ...menuLook,
             }}>
                 <h1 style = {{marginLeft: 40, marginTop: 0}}>MEMBRI</h1>
-                <Membru
-                    list={this.state.membri}
+                <Member
+                    list={this.state.members}
                 />
             </div>
         )
     }
 }
 
-export default Membri;
+export default Members;

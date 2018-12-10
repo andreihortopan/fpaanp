@@ -47,7 +47,7 @@ Additional node packages that have been used are listed [below](#additional-pack
 - News
 - Data downloader
 
-## Data related
+## Data-related
 
 Data must be added for:
 - Events

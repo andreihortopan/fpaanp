@@ -4,7 +4,7 @@ const membruStyle = {
     marginBottom: 40,
 }
 
-export class Membru extends Component {
+export class Member extends Component {
     render() {
         const{list} = this.props;
 
@@ -26,4 +26,4 @@ export class Membru extends Component {
 
 }
 
-export default Membru;
+export default Member;
