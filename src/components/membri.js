@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import { Membru } from './membru';
-import { menuLook } from './menu';
-import { MENU_PADDING } from './menu';
-import { MENU_WIDTH } from './menu';
-import { MENU_MARGIN } from './menu';
+import { MENU_PADDING, MENU_MARGIN, MENU_WIDTH, menuLook } from './graphmenu';
 
 const pageStyle = {
     position: 'absolute',
@@ -13,7 +10,7 @@ const pageStyle = {
     overflowX: "hidden",
 }
 
-const diffWidth = MENU_WIDTH + 3*MENU_MARGIN + 4*MENU_PADDING;
+const diffWidth = 2*MENU_MARGIN +2*MENU_PADDING;
 const diffHeight = 2*MENU_MARGIN + MENU_PADDING;
 
 export class Membri extends Component {
@@ -98,7 +95,7 @@ export class Membri extends Component {
                 ...pageStyle,
                 ...menuLook,
             }}>
-                <h1>MEMBRI</h1>
+                <h1 style = {{marginLeft: 40, marginTop: 0}}>MEMBRI</h1>
                 <Membru
                     list={this.state.membri}
                 />

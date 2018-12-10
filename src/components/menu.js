@@ -5,6 +5,7 @@ import { CSSTransitionGroup } from 'react-transition-group';
 import FontAwesome from 'react-fontawesome';
 import { changeCanvas } from './canvas';
 import { resetGraphMenuState } from './graphmenu';
+import { setGraphMenuState } from './graphmenu';
 import '../transition.css';
 
 //Size constants
@@ -15,8 +16,8 @@ const MENU_PADDING = 20;
 //Menu styling with regards to look and interior styling (eg. padding)
 const menuLook = {
   backgroundColor: "#FFFFFF",
-  borderRadius: "2px",
-  boxShadow: "1px 1px 4px 1px #bababa",
+  //borderRadius: "2px",
+  //boxShadow: "1px 1px 4px 1px #bababa",
   padding: MENU_PADDING,
   paddingBottom: MENU_PADDING/2,
   paddingTop: MENU_PADDING/2,
@@ -26,11 +27,12 @@ const menuLook = {
 const menuStyle = {
   position: "fixed",
   zIndex: 100,
-  width: MENU_WIDTH,
-  minHeight: "auto",
-  marginTop: MENU_MARGIN,
-  marginLeft: MENU_MARGIN,
-  marginBottom: MENU_MARGIN,
+  width: MENU_WIDTH + 20,
+  height: window.innerHeight,
+  //height: window.innerHeight - 2*MENU_MARGIN - 2*MENU_PADDING,
+  //marginTop: MENU_MARGIN,
+  //marginLeft: MENU_MARGIN,
+  //marginBottom: MENU_MARGIN,
 };
 
 //Submenu style, for popups on hover
@@ -59,6 +61,18 @@ const itemStyle = {
 //Text styling -- not yet implemented
 const textStyle = {
   //TODO add text styling
+}
+
+const lineStyle = {
+  display: "block",
+  height: 1,
+  border: 0,
+  margin: 0,
+  marginRight: MENU_MARGIN + MENU_PADDING,
+  marginTop: MENU_PADDING,
+  borderTop: "1px solid #bcbcbc",
+  padding: 0,
+  clear: "both",
 }
 
 //Menu -- top left menu
@@ -154,10 +168,28 @@ export class Menu extends Component {
                 <p>Evenimente</p>
                 </a>
               </li>
-              <li key="menu-4"
-                
-              ><a href="#">
+              <li key="menu-4"><a href="#">
                 <p>&#350;tiri</p>
+                </a>
+              </li>
+              <li 
+                key="menu-0"
+                onClick = {() => {changeCanvas("RomaniaMap"); setGraphMenuState();}}
+              ><a href="#">
+                <p>Date &#351;i resurse</p>
+                </a>
+              </li>
+              <hr style={{...lineStyle}}/>
+              <li 
+                key="menu-4"
+              ><a href="#">
+                <p>Cum se citeaz&#259;</p>
+                </a>
+              </li>
+              <li 
+                key="menu-4"
+              ><a href="#">
+                <p>Despre proiect</p>
                 </a>
               </li>
             </ul>
@@ -167,7 +199,7 @@ export class Menu extends Component {
             onMouseLeave = {this.handleLeaveRE}
             style={{
               ...submenuStyle,
-              marginTop: MENU_MARGIN + MENU_PADDING + 90,
+              marginTop: MENU_MARGIN + MENU_PADDING + 70,
           }}>
             <CSSTransitionGroup
               transitionName="slide"
@@ -182,7 +214,7 @@ export class Menu extends Component {
             onMouseLeave = {this.handleLeaveFP}
             style={{
               ...submenuStyle,
-              marginTop: MENU_MARGIN + MENU_PADDING + 125,
+              marginTop: MENU_MARGIN + MENU_PADDING + 105,
           }}>
             <CSSTransitionGroup
               transitionName="slide"
@@ -197,11 +229,7 @@ export class Menu extends Component {
   }
 }
 
-export { MENU_MARGIN };
-export { MENU_PADDING };
-export { MENU_WIDTH };
-export { menuStyle };
+
 export { itemStyle };
 export { listStyle };
-export { menuLook }; 
 export default Menu;

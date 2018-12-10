@@ -2,16 +2,13 @@ import React, { Component } from 'react';
 import BigCalendar from 'react-big-calendar';
 import moment from 'moment';
 import "react-big-calendar/lib/css/react-big-calendar.css";
-import { menuLook } from './menu';
-import { MENU_PADDING } from './menu';
-import { MENU_WIDTH } from './menu';
-import { MENU_MARGIN } from './menu';
+import { MENU_PADDING, MENU_MARGIN, MENU_WIDTH, menuLook } from './graphmenu';
 import { Event } from './event'; 
 import '../calendar.css';
 
 const localizer = BigCalendar.momentLocalizer(moment);
 
-const graphMenuHeight = 383;
+const graphMenuHeight = 250;
 
 const pageStyle = {
     position: 'absolute',
@@ -21,7 +18,8 @@ const pageStyle = {
     overflowX: "hidden",
 }
 
-const diffWidth = MENU_WIDTH + MENU_MARGIN + 2*MENU_PADDING;
+const diffWidth = 0;
+//const diffWidth = MENU_WIDTH + MENU_MARGIN + 2*MENU_PADDING;
 const diffHeight = 0;
 
 export class Calendar extends Component {
@@ -114,7 +112,7 @@ export class Calendar extends Component {
                 overflow: "hidden",
             }}> 
                 <div style={{
-                    width: this.state.width/2 - MENU_MARGIN,
+                    width: this.state.width/2 - 2*MENU_MARGIN - 4*MENU_PADDING,
                     height: this.state.height - graphMenuHeight - MENU_MARGIN - MENU_PADDING,
                     ...menuLook,
                     paddingBottom: MENU_PADDING,
@@ -125,6 +123,23 @@ export class Calendar extends Component {
                     display: "inline-block",
                     float: "left",
                 }}>
+                    <h1 style={{marginLeft: 40, marginTop: -5}}>{this.state.events[this.state.selectedEvent].name}</h1>
+                    <p>{this.state.events[this.state.selectedEvent].description}</p>
+                </div>
+
+
+                <div style={{
+                    width: this.state.width/2 - MENU_MARGIN,
+                    height: this.state.height - graphMenuHeight - MENU_MARGIN - MENU_PADDING,
+                    ...menuLook,
+                    paddingBottom: MENU_PADDING,
+                    paddingTop: MENU_PADDING,
+                    marginRight: MENU_MARGIN,
+                    marginTop: MENU_MARGIN,
+                    overflow: "hidden",
+                    display: "inline-block",
+                    float: "right",
+                }}>
                     <BigCalendar
                         localizer={localizer}
                         defaultDate={new Date()}
@@ -134,22 +149,6 @@ export class Calendar extends Component {
                     />
                 </div>
                 
-                <div style={{
-                    width: this.state.width/2 - 2*MENU_MARGIN - 4*MENU_PADDING,
-                    height: this.state.height - graphMenuHeight - MENU_MARGIN - MENU_PADDING,
-                    ...menuLook,
-                    paddingBottom: MENU_PADDING,
-                    paddingTop: MENU_PADDING,
-                    marginLeft: MENU_MARGIN,
-                    marginTop: MENU_MARGIN,
-                    overflow: "hidden",
-                    display: "inline-block",
-                    float: "rigth",
-                }}>
-                    <h1>{this.state.events[this.state.selectedEvent].name}</h1>
-                    <p>{this.state.events[this.state.selectedEvent].description}</p>
-                </div>
-
                 <div style={{
                     minWidth: this.state.width,
                     height: graphMenuHeight - MENU_MARGIN - MENU_PADDING,

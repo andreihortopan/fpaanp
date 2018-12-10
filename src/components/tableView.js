@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import ReactTable from 'react-table';
 import 'react-table/react-table.css';
-import { menuLook } from './menu';
-import { MENU_PADDING } from './menu';
-import { MENU_WIDTH } from './menu';
-import { MENU_MARGIN } from './menu';
+import { MENU_PADDING, MENU_MARGIN, MENU_WIDTH, menuLook } from './graphmenu';
+import { dataArray } from './graphmenu.js';
 
 const pageStyle = {
     position: 'absolute',
@@ -17,48 +15,56 @@ const pageStyle = {
 const diffWidth = MENU_WIDTH + 3*MENU_MARGIN + 4*MENU_PADDING;
 const diffHeight = 2*MENU_MARGIN + 2*MENU_PADDING;
 
-const sampleData = [{
-    name: 'Tanner Linsley',
-    age: 26,
-    friend: {
-      name: 'Jason Maurer',
-      age: 23,
-    }
+const dataColumns = [
+   {
+    Header: 'Regiune',
+    accessor: 'region'
+  }, {
+    Header: 'Județ',
+    accessor: 'county' // String-based value accessors!
+  }, {
+    Header: 'Sumă fonduri',
+    accessor: 'sum',
+  }, {
+    Header: 'Finanțator',
+    accessor: 'funder'
   },{
-    name: 'Tanner Linsley',
-    age: 26,
-    friend: {
-      name: 'Jason Maurer',
-      age: 23,
-    }
-  }]
+    Header: 'Nivel',
+    accessor: 'level'
+  }, {
+    Header: 'Domeniu',
+    accessor: 'domain',
+  }, {
+    Header: 'An',
+    accessor: 'year'
+  }, {
+    Header: 'ONG',
+    accessor: 'ong'
+  }, {
+    Header: 'Contact',
+    accessor: 'contact'
+}]
 
-  const sampleColumns = [{
-    Header: 'Name',
-    accessor: 'name' // String-based value accessors!
-  }, {
-    Header: 'Age',
-    accessor: 'age',
-    Cell: props => <span className='number'>{props.value}</span> // Custom cell components!
-  }, {
-    id: 'friendName', // Required because our accessor is not a string
-    Header: 'Friend Name',
-    accessor: d => d.friend.name // Custom value accessors!
-  }, {
-    Header: props => <span>Friend Age</span>, // Custom header components!
-    accessor: 'friend.age'
-  }]
- 
+export function refreshTable(newData) {
+    this.setState({
+        displayData: newData,
+        //width: window.innerWidth - diffWidth,
+        //height: window.innerHeight - diffHeight
+    });
+}
 
 export class TableView extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
+            displayData: dataArray,
             width: window.innerWidth - diffWidth,
             height: window.innerHeight - diffHeight,
             nrOfLines: this.calculateNrOfLines(),
         }
+
+        refreshTable = refreshTable.bind(this);
     }
 
     calculateNrOfLines() {
@@ -95,8 +101,8 @@ export class TableView extends Component {
                  paddingBottom: MENU_PADDING,
              }}>
                 <ReactTable
-                    data={sampleData}
-                    columns={sampleColumns}
+                    data={this.state.displayData}
+                    columns={dataColumns}
                     pageSize={this.state.nrOfLines}
                     showPageSizeOptions={false}
                     className="-striped -highlight"

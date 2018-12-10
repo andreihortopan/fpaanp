@@ -4,6 +4,7 @@ import { BarChartView } from './barChartView';
 import { TableView } from './tableView';
 import { Membri } from './membri';
 import { Calendar } from './calendar';
+import { GraphMenu } from './graphmenu';
 
 const canvasStyle = {
     position: "absolute",
@@ -30,6 +31,7 @@ export class Canvas extends Component {
   render() {
     return (
         <div style={{canvasStyle}}>
+            { (this.state.canvasType == "RomaniaMap" ||  this.state.canvasType == "BarChart" ||  this.state.canvasType == "TableView") && <GraphMenu />}
             { this.state.canvasType == "RomaniaMap" && <RomaniaMap />}
             { this.state.canvasType == "BarChart" && <BarChartView />}
             { this.state.canvasType == "TableView" && <TableView />}

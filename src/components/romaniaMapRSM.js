@@ -7,9 +7,10 @@ import {
 } from "react-simple-maps"
 import { geoMercator } from "d3-geo";
 import ReactTooltip from "react-tooltip";
-import { MENU_PADDING } from './menu';
-import { MENU_WIDTH } from './menu';
-import { MENU_MARGIN } from './menu';
+import { MENU_PADDING, MENU_MARGIN, MENU_WIDTH } from './graphmenu';
+import { scaleLinear } from "d3-scale";
+import { dataArray } from './graphmenu.js';
+import { countyDataArray } from '../docs/data';
 
 const pageStyle = {
     position: 'absolute',
@@ -18,16 +19,29 @@ const pageStyle = {
     overflowX: "hidden",
 }
 
+const popScale = scaleLinear()
+  .domain([0,10000000,40000000])
+  .range(["#FFFFFF","#8c8c8c","#4d4d4d"])
+
+
 const diffWidth = MENU_WIDTH + MENU_MARGIN + 2*MENU_PADDING;
 const diffHeight = 0;
+
+export function refreshMap(newData) {
+    this.setState({ displayData: newData });
+}
 
 export class RomaniaMap extends Component {
     constructor(props) {
         super(props);
+
         this.state = {
+            displayData: countyDataArray,
             windowWidth: window.innerWidth - diffWidth,
             windowHeight: window.innerHeight - diffHeight,
-        }        
+        }    
+
+        refreshMap = refreshMap.bind(this);
     }
 
     handleResize = e => {
@@ -84,6 +98,7 @@ export class RomaniaMap extends Component {
             width: this.state.width,
             height: this.state.height,
             ...pageStyle,
+            overflow: "hidden"
         }}>
           <ComposableMap
                 width = {this.state.windowWidth}
@@ -98,22 +113,26 @@ export class RomaniaMap extends Component {
             <ZoomableGroup
                 disablePanning = "true">
             <Geographies geography="/romania-counties.json" disableOptimization>
-              {(geographies, projection) => geographies.map((geography, i) => geography.id !== "ATA" && (
+              {(geographies, projection) => geographies.map((geography, i) => {
+                  //console.log(this.state.displayData);
+                  var countyData =this.state.displayData.find(function(county) {if(county!=null) return county.name == geography.properties.NAME_1});
+                return (
                 <Geography
                   key={ i }
-                  data-tip={ geography.properties.NAME_1 }
+                  data-tip={ geography.properties.NAME_1 + "<br/>" + "Suma totală: " + countyData.sum + " RON" + "<br/>" + "Nr. ONG-uri: " + countyData.ngoNum }
                   geography={ geography }
                   projection={ projection }
                   style={{
                     default: {
-                      fill: "#FFFCEF",
-                      stroke: "#888888",
+                      fill: popScale(countyData.sum),
+                      //fill: "#FFFCEF",
+                      stroke: "#bcbcbc",
                       strokeWidth: 0.5,
                       outline: "none",
                     },
                     hover: {
                         fill: "#008ece",
-                        stroke: "#888888",
+                        stroke: "#ffffff",
                         strokeWidth: 0.5,
                         outline: "none",
                     },
@@ -125,11 +144,11 @@ export class RomaniaMap extends Component {
                     },
                   }}
                 />
-              ))}
+              )})}
             </Geographies>
             </ZoomableGroup>
           </ComposableMap>
-          <ReactTooltip />
+          <ReactTooltip multiline={true}/>
         </div>
       )
     }

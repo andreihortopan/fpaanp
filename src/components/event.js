@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import { menuLook } from './menu';
-import { MENU_PADDING } from './menu';
-import { MENU_WIDTH } from './menu';
-import { MENU_MARGIN } from './menu';
+import { MENU_PADDING, MENU_MARGIN, MENU_WIDTH, menuLook } from './graphmenu';
 import '../calendar.css';
 
 const eventStyle = {
     width: MENU_WIDTH,
-    height: 383 - 2*MENU_MARGIN - 2*MENU_PADDING - 5,
+    height: 250 - 2*MENU_MARGIN - 2*MENU_PADDING - 5,
     ...menuLook,
     marginRight: MENU_MARGIN,
     marginTop: MENU_MARGIN,

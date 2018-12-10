@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { menuLook, MENU_MARGIN } from './menu';
+import { MENU_PADDING, MENU_MARGIN, MENU_WIDTH, menuLook } from './graphmenu';
 import { listStyle } from './menu';
 import { itemStyle } from './menu';
 import { changeCanvas } from './canvas';
@@ -12,7 +12,8 @@ export class SubmenuRE extends Component {
                 ...menuLook,
                 marginLeft: -MENU_MARGIN,
                 backgroundColor: "#008ece",
-                color: "#ffffff"
+                color: "#ffffff",
+                boxShadow: "1px 1px 4px 1px #848484",
             }}>
                 <ul style={{
                     ...listStyle,
