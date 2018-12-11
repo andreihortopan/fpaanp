@@ -6,6 +6,7 @@
     "d3-geo": "^1.11.1",
     "moment": "^2.22.2",
     "next-redux-wrapper": "^2.0.0",
+    "pkg": "^4.3.5",
     "react": "^16.5.2",
     "react-bar-chart": "^0.1.2",
     "react-big-calendar": "^0.20.2",
@@ -43,5 +44,24 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "pkg": {
+    "scripts": [
+      "canvasjs.min.js",
+      "canvasjs.react.js",
+      "serviceWorker"
+    ],
+    "assets": [
+      "App.css",
+      "App.js",
+      "calendar.css",
+      "css.css",
+      "index.css",
+      "legend.js",
+      "index.js",
+      "popup.css",
+      "transition.css",
+      "docs/*"
+    ]
+  }
 }

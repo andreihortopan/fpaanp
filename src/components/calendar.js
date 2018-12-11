@@ -5,6 +5,7 @@ import "react-big-calendar/lib/css/react-big-calendar.css";
 import { MENU_PADDING, MENU_MARGIN, MENU_WIDTH, menuLook } from './graphmenu';
 import { Event } from './event'; 
 import '../calendar.css';
+import { events } from '../docs/events';
 
 const localizer = BigCalendar.momentLocalizer(moment);
 
@@ -32,50 +33,7 @@ export class Calendar extends Component {
             width: window.innerWidth - diffWidth,
             height: window.innerHeight - diffHeight,
             selectedEvent: 0,
-            events: [
-                {
-                    id: 0,
-                    start: new Date(),
-                    end: new Date(moment().add(1, "days")),
-                    name: "Some event",
-                    description: "Some description",
-                },
-                {
-                    id: 1,
-                    start: new Date(),
-                    end: new Date(moment().add(3, "days")),
-                    name: "Some event2",
-                    description: "Some description2",
-                },
-                {
-                    id: 2,
-                    start: new Date(),
-                    end: new Date(moment().add(5, "days")),
-                    name: "Some event3",
-                    description: "Some description3",
-                },
-                {
-                    id: 3,
-                    start: new Date(),
-                    end: new Date(moment().add(4, "days")),
-                    name: "Some event4",
-                    description: "Some description4",
-                },
-                {
-                    id: 4,
-                    start: new Date(),
-                    end: new Date(moment().add(6, "days")),
-                    name: "Some event5",
-                    description: "Some description5",
-                },
-                {
-                    id: 5,
-                    start: new Date(),
-                    end: new Date(moment().add(1, "days")),
-                    name: "Some event6",
-                    description: "Some description6",
-                },
-            ]
+            events: events,
         }
     }
 

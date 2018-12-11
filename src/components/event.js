@@ -33,7 +33,7 @@ export class Event extends Component {
                         }}
                         key={item.id}>
                     <h2>{item.name}</h2>
-                    <p>{item.description}</p>
+                    
                     </div>
                 ))}
             </div>

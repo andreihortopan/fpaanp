@@ -7,6 +7,7 @@ import { changeCanvas } from './canvas';
 import { resetGraphMenuState } from './graphmenu';
 import { setGraphMenuState } from './graphmenu';
 import '../transition.css';
+import Popup from 'react-popup';
 
 //Size constants
 const MENU_MARGIN = 20;
@@ -87,6 +88,28 @@ export class Menu extends Component {
     }
   }
 
+  handlePopupClick = () => {
+    Popup.create({
+        title: "Cum se citează",
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut lacinia mi, ut eleifend purus. Suspendisse odio risus, mollis eu est et, efficitur dapibus dolor. Suspendisse a dignissim nunc, sit amet hendrerit lacus. Curabitur semper nunc nec dictum dictum. In eleifend interdum posuere. Lorem ipsum dolor sit amet, consectetur adipiscing.',
+        buttons: {
+            left: [{
+                text: 'Închide',
+                className: 'danger',
+                action: function () {
+                    Popup.close();
+                }
+            }],
+            right: [{
+                text: 'Copiază',
+                action: function () {
+                    //TODO             
+                }
+            }]
+        }
+    });
+}
+
   handleHoverRE = (event) => {
     this.setState({ showReteaExpertiMenu: true });
   }
@@ -113,7 +136,7 @@ export class Menu extends Component {
           }}>
             <img 
                 alt="Logo"
-                src="media/website_logo.png"
+                src="media/fpaan.png"
                 style={{
                   paddingTop: MENU_PADDING/2,
                   maxWidth: MENU_WIDTH,
@@ -182,6 +205,7 @@ export class Menu extends Component {
               <hr style={{...lineStyle}}/>
               <li 
                 key="menu-4"
+                onClick = {this.handlePopupClick}
               ><a href="#">
                 <p>Cum se citeaz&#259;</p>
                 </a>
