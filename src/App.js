@@ -5,6 +5,8 @@ import { Canvas } from './components/canvas';
 import { SideMenu } from './components/sidemenu';
 import { GraphMenu } from './components/graphmenu';
 import ReactTooltip from 'react-tooltip';
+import Popup from 'react-popup';
+import './popup.css';
 
 //Main page ----- Incorporates main menu, canvas ('map' as default display option), graph menu (for interacting with the canvas)
 
@@ -17,6 +19,7 @@ class App extends Component {
          
           <Canvas />
           <ReactTooltip multiline={true}/>
+          <Popup />
         </div>
       </div>
     );

@@ -23,6 +23,7 @@ Additional node packages that have been used are listed [below](#additional-pack
 ## To do
 
 - Modify `Select` in order to properly accomodate the `Select all` option.
+- Implement 'Copy' function in the pop-up.
 - Translate `Table` and `Calendar` into Romanian
 - Move constants and styles to a separate file then import them all at once to each file which requires them (especially with regards to the components which display a white div to the right of the menus, like `Membri`).
 - Check compilation warnings.
@@ -80,10 +81,11 @@ Data must be added for:
 - `react-select` for rendering the `Select` menus.
 - `react-tooltip` for displaying pop-ups.
 - `react-burger-menu` for displaying the `Sidemenu`.
+- `react-popup` for displaying the `Popup`.
 <br />
 Run the following command in the project directory to install the neccesary packages:
 
-`npm install react react-dom react-simple-maps d3-geo topojson-client react-onclickoutside react-fontawesome react-tooltip react-transition-group webfontloader react-big-calendar moment react-table recharts react-select react-tooltip react-burger-menu --save`
+`npm install react react-dom react-simple-maps d3-geo topojson-client react-onclickoutside react-fontawesome react-tooltip react-transition-group webfontloader react-big-calendar moment react-table recharts react-select react-tooltip react-burger-menu react-popup --save`
 <br />
 <br />
 - NOTE: `canvasjs.min.js` and `canvasjs.react.js` have been added manually, not installed as modules.
