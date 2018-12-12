@@ -7,7 +7,7 @@ import { dataArray } from './graphmenu.js';
 const pageStyle = {
     position: 'absolute',
     right: 0,
-    margin: MENU_MARGIN,
+    margin: 20,
     overflowY: "scroll",
     overflowX: "hidden",
 }
@@ -48,9 +48,9 @@ const dataColumns = [
 export function refreshTable(newData) {
     this.setState({
         displayData: newData,
-        //width: window.innerWidth - diffWidth,
-        //height: window.innerHeight - diffHeight
+
     });
+    this.handleResize()
 }
 
 export class TableView extends Component {
@@ -59,11 +59,11 @@ export class TableView extends Component {
 
         this.state = {
             displayData: dataArray,
-            width: window.innerWidth - diffWidth,
-            height: window.innerHeight - diffHeight,
+            width: window.innerWidth - 380,
+            height: window.innerHeight - 80,
             nrOfLines: this.calculateNrOfLines(),
         }
-
+        setTimeout(() => console.log(this.state), 1000)
         refreshTable = refreshTable.bind(this);
     }
 
@@ -72,12 +72,10 @@ export class TableView extends Component {
     }
 
     handleResize = e => {
-        this.setState(prevState => {
-            return {
-                width: window.innerWidth - diffWidth,
-                height: window.innerHeight - diffHeight,
-                nrOfLines: this.calculateNrOfLines(),
-            };
+        this.setState({
+            width: window.innerWidth - 380,
+            height: window.innerHeight - 80,
+            nrOfLines: this.calculateNrOfLines(),
         });
     }
 
@@ -97,8 +95,8 @@ export class TableView extends Component {
                  ...pageStyle,
                  ...menuLook,
                  overflow: "hidden",
-                 paddingTop: MENU_PADDING,
-                 paddingBottom: MENU_PADDING,
+                 paddingTop: 20,
+                 paddingBottom: 20,
              }}>
                 <ReactTable
                     data={this.state.displayData}

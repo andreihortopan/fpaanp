@@ -6,7 +6,7 @@ import { countyDataArray } from '../docs/data';
 const pageStyle = {
     position: 'absolute',
     right: 0,
-    margin: MENU_MARGIN,
+    margin: 20,
     overflowY: "scroll",
     overflowX: "hidden",
 }
@@ -24,8 +24,8 @@ export class BarChartView extends Component {
 
         this.state = {
             displayData: countyDataArray,
-            width: window.innerWidth - diffWidth,
-            height: window.innerHeight - diffHeight,
+            width: window.innerWidth - 380,
+            height: window.innerHeight - 80,
         }
 
         refreshBarChart = refreshBarChart.bind(this);
@@ -34,8 +34,8 @@ export class BarChartView extends Component {
     handleResize = e => {
         this.setState(prevState => {
             return {
-                width: window.innerWidth - diffWidth,
-                height: window.innerHeight - diffHeight,
+                width: window.innerWidth - 380,
+                height: window.innerHeight - 80,
             };
         });
     }
@@ -51,17 +51,17 @@ export class BarChartView extends Component {
     render() {
         return(
             <div style={{
-                width: 1000,
-                height: 1000,
+                width: window.innerWidth - 380,
+                height: window.innerHeight - 80,
                 //width: this.state.width,
                 //height: this.state.height,
                 ...pageStyle,
                 ...menuLook,
                 overflow: "hidden",
-                paddingTop: MENU_PADDING,
-                paddingBottom: MENU_PADDING,
+                paddingTop: 20,
+                paddingBottom: 20,
             }}>
-                <BarChart /*width={this.state.width} height={this.state.height}*/ width={1000} height={600} data={this.state.displayData}
+                <BarChart width={this.state.width} height={this.state.height} data={this.state.displayData}
                     margin={{top: 5, right: 30, left: 20, bottom: 5}}>
                     <CartesianGrid strokeDasharray="3 3"/>
                     <XAxis dataKey="name"/>

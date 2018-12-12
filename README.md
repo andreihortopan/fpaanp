@@ -17,8 +17,6 @@ Additional node packages that have been used are listed [below](#additional-pack
     Map is not being centered properly on dynamic resize. It works when reloading the page, but not on window resize via dragging corners.
 - `tableView.js`:
     Table does not resize when window resizing via dragging corners. It does work when reloading the page, however.
-- `barChartView.js`, `tableView.js`:
-    Since including an external function in order to update the data, any settings like `this.state.width = window.innerWidth` do not work and width and height must be manually set. It worked properly before linking the data.
 
 ## To do
 

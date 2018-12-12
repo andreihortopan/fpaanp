@@ -7,11 +7,10 @@ import { Calendar } from './calendar';
 import { GraphMenu } from './graphmenu';
 
 const canvasStyle = {
-    position: "absolute",
     padding: 0,
     margin: 0,
-    width: "100%",
-    height: "100%",
+    // width: "100%",
+    // height: "100%",
 }
 
 function changeCanvas(canvasType) {
@@ -27,6 +26,7 @@ export class Canvas extends Component {
 
     changeCanvas = changeCanvas.bind(this);
   }
+  
 
   render() {
     return (

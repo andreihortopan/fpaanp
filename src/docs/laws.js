@@ -1,0 +1,8 @@
+export const laws = [
+    {
+        id: 0,
+        article: "Art.2.- În înțelesul prezentei legi, termenii și expresiile de mai jos au următoarea semnificație: a)activitate generatoare de profit - activitate care produce un profit în mod direct pentru o persoană fizică sau juridică",
+        amendment: "Art. 2 lit. a) se completează după cum urmează: a)activitate generatoare de profit - activitate care produce un profit în mod direct pentru o persoană fizică sau juridică. În sensul prezentei legi, prin profit se înțelege excedentul de venit obținut în perioada de implementare a proiectului, din realizarea unei activități, peste nivelul cheltuielilor efectuate pentru generarea sa; La art. 2, după lit. j) se introduce o nouă lit., j1), având următorul cuprins: j1) proiecte multianuale - proiecte a căror perioadă de implementare depăşeşte un an bugetar;",
+        motivation: "Definirea termenului de profit în cuprinsul acestei legi este necesară având în vedere deficiențele constatate de Curtea de Conturi în implementarea Legii nr. 350/2005 de către anumite autorități publice locale, precum și interpretarea divergentă a acestui termen de către anumite autorități finanțatoare, în detalierea acestei prevederi în cuprinsul hotărârilor/ regulamentelor proprii de acordare a finanțărilor. A se vedea: Raportul Curții de Conturi, pg. 31 http://www.curteadeconturi.ro/Publicatii/Rapoarte_Locale_2015/CLUJ/Raport.pdf HCL Cluj-Napoca, pg. 2 https://storage.primariaclujnapoca.ro/userfiles/files/63(9).pdf De asemenea, întrucât se propune reglementarea expresă a posibilității de a finanța proiecte multianuale, este necesară definirea acestora. ",
+    }
+]

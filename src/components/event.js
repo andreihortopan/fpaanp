@@ -11,6 +11,16 @@ const eventStyle = {
     overflow: "hidden",
 }
 
+const lineStyle = {
+    display: "block",
+    height: 1,
+    border: 0,
+    margin: 0,
+    borderTop: "1px solid #bcbcbc",
+    padding: 0,
+    clear: "both",
+}
+
 export class Event extends Component {
     constructor(props) {
         super(props);
@@ -32,8 +42,9 @@ export class Event extends Component {
                             ...eventStyle,
                         }}
                         key={item.id}>
-                    <h2>{item.name}</h2>
-                    
+                    <p>{item.displayDate}</p>
+                    <hr style={{...lineStyle}}/>
+                    <h3>{item.name}</h3>
                     </div>
                 ))}
             </div>

@@ -43,7 +43,21 @@ export class MapLegend extends Component {
                 right: [{
                     text: 'Copiază',
                     action: function () {
-                        //TODO             
+                        var textArea = document.createElement("textarea");
+                        textArea.value = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut lacinia mi, ut eleifend purus. Suspendisse odio risus, mollis eu est et, efficitur dapibus dolor. Suspendisse a dignissim nunc, sit amet hendrerit lacus. Curabitur semper nunc nec dictum dictum. In eleifend interdum posuere. Lorem ipsum dolor sit amet, consectetur adipiscing.";
+                        document.body.appendChild(textArea);
+                        textArea.focus();
+                        textArea.select();
+                    
+                        try {
+                        var successful = document.execCommand('copy');
+                        var msg = successful ? 'successful' : 'unsuccessful';
+                        console.log('Fallback: Copying text command was ' + msg);
+                        } catch (err) {
+                        console.error('Fallback: Oops, unable to copy', err);
+                        }
+                    
+                        document.body.removeChild(textArea);         
                     }
                 }]
             }

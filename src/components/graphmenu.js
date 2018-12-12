@@ -98,13 +98,13 @@ export class GraphMenu extends Component {
         
         this.state = {
             height: window.innerHeight - 2*MENU_MARGIN - MENU_PADDING,
-            selectedCounty: null,
-            selectedLegislation: null, 
-            selectedFunder: null,
-            selectedLevel: null,
-            selectedDomain: null,
-            selectedYear: null,
-            selectedSum: null,
+            selectedCounty: [],
+            selectedLegislation: [], 
+            selectedFunder: [],
+            selectedLevel: [],
+            selectedDomain: [],
+            selectedYear: [],
+            selectedSum: [],
             selected: 1,
         };
 
@@ -147,7 +147,7 @@ export class GraphMenu extends Component {
     }
 
     isCounty(ngo) {
-        if(this.state.selectedCounty == null) {
+        if(this.state.selectedCounty.length === 0) {
             return ngo;
         }
         else {
@@ -156,7 +156,7 @@ export class GraphMenu extends Component {
     }
 
     isLegislation(ngo) {
-        if(this.state.selectedLegislation == null) {
+        if(this.state.selectedLegislation.length === 0) {
             return ngo;
         }
         else {
@@ -165,7 +165,7 @@ export class GraphMenu extends Component {
     }
 
     isFunder(ngo) {
-        if(this.state.selectedFunder == null) {
+        if(this.state.selectedFunder.length === 0) {
             return ngo;
         }
         else {
@@ -174,7 +174,7 @@ export class GraphMenu extends Component {
     }
 
     isLevel(ngo) {
-        if(this.state.selectedLevel == null) {
+        if(this.state.selectedLevel.length === 0) {
             return ngo;
         }
         else {
@@ -183,7 +183,7 @@ export class GraphMenu extends Component {
     }
 
     isDomain(ngo) {
-        if(this.state.selectedDomain == null) {
+        if(this.state.selectedDomain.length === 0) {
             return ngo;
         }
         else {
@@ -192,7 +192,7 @@ export class GraphMenu extends Component {
     }
 
     isYear(ngo) {
-        if(this.state.selectedYear == null) {
+        if(this.state.selectedYear.length === 0) {
             return ngo;
         }
         else {
