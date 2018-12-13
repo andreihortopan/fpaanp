@@ -25,8 +25,11 @@ const dataColumns = [
     accessor: 'county' // String-based value accessors!
   },
   {
-    Header: 'Sumă fonduri',
-    accessor: 'sum'
+    Header: 'Sumă fonduri (RON)',
+    accessor: 'sum',
+    sortMethod: (a, b) => {
+        return parseInt(a,10) > parseInt(b,10) ? 1 : -1;
+      }
   },
   {
     Header: 'Finanțator',
@@ -120,6 +123,13 @@ export class TableView extends Component {
           pageSize={this.state.nrOfLines}
           showPageSizeOptions={false}
           className='-striped -highlight'
+          previousText='Înapoi'
+          nextText='Înainte'
+          loadingText='Încărcare...'
+          noDataText='Nu există date conform selecției'
+          pageText='Pagina'
+          ofText='din'
+          rowsText='rânduri'
         />
       </div>
     )

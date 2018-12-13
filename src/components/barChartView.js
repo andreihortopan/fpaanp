@@ -64,16 +64,18 @@ export class BarChartView extends Component {
                 <BarChart width={this.state.width} height={this.state.height} data={this.state.displayData}
                     margin={{top: 5, right: 30, left: 20, bottom: 5}}>
                     <CartesianGrid strokeDasharray="3 3"/>
-                    <XAxis dataKey="name"/>
+                    <XAxis dataKey="short"/>
                     <YAxis/>
                     <Tooltip/>
                     <Legend />
-                    <Bar dataKey="sum" fill="#008ece" label="Suma totală" />
-                    <Bar dataKey="ngoNum" fill="#006b9b" label="Nr. ONG-uri"/>
+                    <Bar dataKey="sum" fill="#008ece" label={"Suma"} />
+                   
                 </BarChart>
             </div>
         )
     }
 }
+
+// <Bar dataKey="ngoNum" fill="#006b9b" label="Nr. ONG-uri"/>
 
 export default BarChartView;

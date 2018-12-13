@@ -42,9 +42,11 @@ export class Event extends Component {
                             ...eventStyle,
                         }}
                         key={item.id}>
-                    <p>{item.displayDate}</p>
-                    <hr style={{...lineStyle}}/>
-                    <h3>{item.name}</h3>
+                    <a href="#">
+                        <p>{item.displayDate}</p>
+                        <hr style={{...lineStyle}}/>
+                        <h3>{item.name}</h3>
+                    </a>
                     </div>
                 ))}
             </div>

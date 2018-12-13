@@ -154,16 +154,18 @@ export class Menu extends Component {
             ...textStyle
           }}
         >
-          <img
-            alt='Logo'
-            src='/media/fpaan.png'
-            style={{
-              paddingTop: MENU_PADDING / 2,
-              maxWidth: MENU_WIDTH,
-              marginBottom: -10
-              // maxHeight: 100,
-            }}
-          />
+          <Link to='/date-si-resurse'>
+            <img
+              alt='Logo'
+              src='/media/fpaan.png'
+              style={{
+                paddingTop: MENU_PADDING / 2,
+                maxWidth: MENU_WIDTH,
+                marginBottom: -10
+                // maxHeight: 100,
+              }}
+            />
+          </Link>
           <ul
             style={{
               ...listStyle
@@ -195,32 +197,31 @@ export class Menu extends Component {
             </li>
             <li
               key='menu-2'
-              onMouseEnter={this.handleHoverFP}
-              onMouseLeave={this.handleLeaveFP}
+              //onMouseEnter={this.handleHoverFP}
+              //onMouseLeave={this.handleLeaveFP}
             >
-              <a href='#'>
-                <div
+              <Link to='/finantari-publice'>
+                {/*<div
                   style={{
                     display: 'inline-block',
                     width: 210,
                     height: 35
-                  }}
-                >
+                  }}*/}
                   <p>Finan&#355;&#259;ri Publice</p>
-                </div>
+                {/*</div>
                 <div
                   style={{
                     display: 'inline-block'
                   }}
                 >
                   <FontAwesome name='angle-right' />
-                </div>
-              </a>
+                </div>*/}
+              </Link>
             </li>
             <li key='menu-3' onClick={() => {}}>
-              <a href='#'>
+              <Link to='/evenimente'>
                 <p>Evenimente</p>
-              </a>
+              </Link>
             </li>
             <li key='menu-4'>
               <a href='#'>
@@ -233,17 +234,26 @@ export class Menu extends Component {
               </Link>
             </li>
             <hr style={{ ...lineStyle }} />
-            <li key='menu-4' onClick={this.handlePopupClick}>
+            <li key='menu-5' onClick={this.handlePopupClick}>
               <a href='#'>
                 <p>Cum se citeaz&#259;</p>
               </a>
             </li>
-            <li key='menu-4'>
-              <a href='#'>
+            <li key='menu-6'>
+              <Link to='/despre'>
                 <p>Despre proiect</p>
-              </a>
+              </Link>
             </li>
+            <hr style={{ ...lineStyle}} />
           </ul>
+          <img 
+            alt="Parteneri"
+            src="/media/logos.png"
+            style={{
+              paddingTop: 0,
+              maxWidth: MENU_WIDTH + MENU_MARGIN,
+              // maxHeight: 100,
+            }}/>
         </div>
         <div
           onMouseEnter={this.handleHoverRE}

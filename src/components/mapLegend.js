@@ -10,24 +10,6 @@ export class MapLegend extends Component {
         //this.handlePopupClick = this.handlePopupClick.bind(this);
     }
 
-    /*copyTextToClipboard(text) {
-        var textArea = document.createElement("textarea");
-        textArea.value = text;
-        document.body.appendChild(textArea);
-        textArea.focus();
-        textArea.select();
-      
-        try {
-          var successful = document.execCommand('copy');
-          var msg = successful ? 'successful' : 'unsuccessful';
-          console.log('Fallback: Copying text command was ' + msg);
-        } catch (err) {
-          console.error('Fallback: Oops, unable to copy', err);
-        }
-      
-        document.body.removeChild(textArea);
-    }*/
-
     handlePopupClick = () => {
         Popup.create({
             title: "Cum se citează",
@@ -66,10 +48,10 @@ export class MapLegend extends Component {
 
     render() {
       return(
-        <div class='my-legend'>
-            <div class='legend-title'>Suma totală per județ (RON)</div>
-            <div class='legend-scale'>
-            <ul class='legend-labels'>
+        <div className='my-legend'>
+            <div className='legend-title'>Suma totală per județ (RON)</div>
+            <div className='legend-scale'>
+            <ul className='legend-labels'>
                 <li><span style={{background:"#F1EEF6"}}></span>2.000.000</li>
                 <li><span style={{background:"#BDC9E1"}}></span>5.000.000</li>
                 <li><span style={{background:"#74A9CF"}}></span>10.000.000</li>
@@ -77,7 +59,7 @@ export class MapLegend extends Component {
                 <li><span style={{background:"#045A8D"}}></span>50.000.000</li>
             </ul>
             </div>
-            <div class='legend-source'><a href="#" onClick={this.handlePopupClick}>Cum se citează</a></div>
+            <div className='legend-source'><a href="#" onClick={this.handlePopupClick}>Cum se citează</a></div>
         </div>
       )
     }

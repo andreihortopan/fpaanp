@@ -19,6 +19,10 @@ const pageStyle = {
     overflowX: "hidden",
 }
 
+const formats ={
+   
+}
+
 const diffWidth = 0;
 //const diffWidth = MENU_WIDTH + MENU_MARGIN + 2*MENU_PADDING;
 const diffHeight = 0;
@@ -82,7 +86,12 @@ export class Calendar extends Component {
                     float: "left",
                 }}>
                     <h1 style={{marginLeft: 40, marginTop: -5}}>{this.state.events[this.state.selectedEvent].name}</h1>
-                    <p>{this.state.events[this.state.selectedEvent].description}</p>
+                    <div style= {{
+                        marginLeft: 40,
+                        maxWidth: 600
+                    }}>
+                        <p>{this.state.events[this.state.selectedEvent].description}</p>
+                    </div>
                 </div>
 
 
@@ -99,11 +108,18 @@ export class Calendar extends Component {
                     float: "right",
                 }}>
                     <BigCalendar
+                        selected={events[this.state.selectedEvent]}
                         localizer={localizer}
                         defaultDate={new Date()}
                         defaultView="month"
+                        titleAccessor="name"
+                        tooltipAccessor="name"
+                        startAccessor="start"
+                        endAccessor="end"
                         events={this.state.events}
                         style={{ height: this.height }}
+                        onSelectEvent={(event) => this.selectEvent(event.id)}
+                        //formats={formats}
                     />
                 </div>
                 

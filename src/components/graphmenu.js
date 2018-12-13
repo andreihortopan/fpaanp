@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { changeCanvas } from './canvas'
 import PDF from '../media/dummy.pdf'
-import CSV from '../media/sample.csv'
 import {
   countyDataArray,
   counties,
@@ -196,11 +195,10 @@ export class GraphMenu extends Component {
 
   isSum (ngo) {
     // TODO Implement sum logic - it doesn't work as of now.
-    if (this.state.selectedLegislation == null) {
+    if (this.state.selectedLegislation === 0) {
       return ngo
     } else {
-      return ngo
-      // return ngo.sum == this.state.selectedSum.map(a => a.value);
+        return this.state.selectedSum.filter(a => a.min <= ngo.sum && a.max >= ngo.sum)
     }
   }
 
@@ -224,7 +222,7 @@ export class GraphMenu extends Component {
 
   filterData () {
     dataArray = data.filter(this.isCounty)
-    console.log(dataArray)
+    console.log(this.props.tip)
     dataArray = dataArray.filter(this.isLegislation)
     dataArray = dataArray.filter(this.isFunder)
     dataArray = dataArray.filter(this.isLevel)
@@ -240,20 +238,16 @@ export class GraphMenu extends Component {
     if (tip === 'tabel') refreshTable(dataArray)
   }
 
+  handleChange = data => {
+    this.setState(data, () => {
+      this.filterData()
+    })
+  }
+
   handleCountyChange = selectedCounty => {
-    // console.log(selectedCounty);
-    /* if (selectedCounty.map((a) => a.value)) {
-            selectedCounty = {value: "Toate", label: "Toate"};
-            this.setState({ selectedCounty: undefined });
-            this.setState({ selectedCounty }, () => {
-                this.filterData();
-            });
-            console.log("TOATE");
-        }
-        else { */
     this.setState({ selectedCounty }, () => {
       this.filterData()
-    }) /* } */
+    })
   }
 
   handleLegislationChange = selectedLegislation => {
@@ -412,7 +406,7 @@ export class GraphMenu extends Component {
             value={selectedCounty}
             menuPosition={'absolute'}
             placeholder={selectionOne}
-            onChange={this.handleCountyChange}
+            onChange={(selectedCounty) => this.handleChange({selectedCounty})}
             options={counties}
             isMulti
             closeMenuOnSelect={false}
@@ -577,7 +571,7 @@ export class GraphMenu extends Component {
                   </a>
                 </td>
                 <td align='center'>
-                  <a data-tip='Descarcă CSV' href={CSV}>
+                  
                     <CSVLink data={dataArray}>
                       <img
                         onMouseOver={e =>
@@ -593,7 +587,6 @@ export class GraphMenu extends Component {
                         }}
                       />
                     </CSVLink>
-                  </a>
                 </td>
               </tr>
             </tbody>

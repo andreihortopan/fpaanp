@@ -5,13 +5,14 @@ import MyMenu from './menu';
 var styles = {
     bmBurgerButton: {
       position: 'fixed',
-      width: '15px',
+      width: '80px',
       height: '15px',
       left: '45px',
       top: '50px'
     },
     bmBurgerBars: {
-      background: '#bcbcbc'
+      background: '#bcbcbc',
+      width: '15px'
     },
     bmCrossButton: {
       height: '24px',
