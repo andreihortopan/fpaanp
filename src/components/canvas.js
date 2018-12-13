@@ -15,6 +15,7 @@ const canvasStyle = {
 
 export class Canvas extends Component {
   render () {
+    console.log(this.props.match.params.tip)
     return (
       <div style={{ canvasStyle }}>
         <GraphMenu tip={this.props.match.params.tip} />
