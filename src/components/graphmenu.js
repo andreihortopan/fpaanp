@@ -18,8 +18,8 @@ import Select, { components } from 'react-select'
 import { refreshMap } from './romaniaMapRSM'
 import { refreshTable } from './tableView'
 import { refreshBarChart } from './barChartView'
-import { CSVLink } from "react-csv";
-import '../canvasjs.react';
+import { CSVLink } from 'react-csv'
+import '../canvasjs.react'
 
 // Size constants
 export const MENU_MARGIN = 20
@@ -201,6 +201,7 @@ export class GraphMenu extends Component {
     } else {
       return ngo
       // return ngo.sum == this.state.selectedSum.map(a => a.value);
+    }
   }
 
   computeCountyDataArray () {
@@ -231,8 +232,8 @@ export class GraphMenu extends Component {
     dataArray = dataArray.filter(this.isYear)
     dataArray = dataArray.filter(this.isSum)
     this.computeCountyDataArray()
-    
-    const {tip} = this.props
+
+    const { tip } = this.props
 
     if (tip === 'harta') refreshMap(countyDataArray) // TO DO FIX SUM
     if (tip === 'grafic') refreshBarChart(countyDataArray)
@@ -333,7 +334,7 @@ export class GraphMenu extends Component {
           boxShadow: '1px 1px 4px 1px #bababa',
           padding: MENU_PADDING,
           paddingBottom: MENU_PADDING / 2,
-          paddingTop: MENU_PADDING / 2,
+          paddingTop: MENU_PADDING / 2
         }}
       >
         <div style={{ paddingLeft: 10 }}>
@@ -505,16 +506,13 @@ export class GraphMenu extends Component {
             <tbody>
               <tr bordertop='0'>
                 <td align='center'>
-                  <Link
-                    data-tip='Afișează hartă'
-                    to='/date-si-resurse/harta'
-                  >
+                  <Link data-tip='Afișează hartă' to='/date-si-resurse/harta'>
                     <img
                       onMouseOver={e =>
                         (e.currentTarget.src = '/media/map-selected.png')
                       }
                       onMouseLeave={e => {
-                        (e.currentTarget.src=this.setIcon(1))
+                        e.currentTarget.src = this.setIcon(1)
                       }}
                       alt='Hart&#259;'
                       src={this.setIcon(1)}
@@ -534,7 +532,7 @@ export class GraphMenu extends Component {
                         (e.currentTarget.src = '/media/barchart-selected.png')
                       }
                       onMouseLeave={e => {
-                        (e.currentTarget.src=this.setIcon(2))
+                        e.currentTarget.src = this.setIcon(2)
                       }}
                       alt='Grafic bar&#259;'
                       src={this.setIcon(2)}
@@ -545,16 +543,13 @@ export class GraphMenu extends Component {
                   </Link>
                 </td>
                 <td align='center'>
-                  <Link
-                    data-tip='Afișează tabel'
-                    to='/date-si-resurse/tabel'
-                  >
+                  <Link data-tip='Afișează tabel' to='/date-si-resurse/tabel'>
                     <img
                       onMouseOver={e =>
                         (e.currentTarget.src = '/media/excel-selected.png')
                       }
                       onMouseLeave={e => {
-                        (e.currentTarget.src=this.setIcon(3))
+                        e.currentTarget.src = this.setIcon(3)
                       }}
                       alt='Tabel'
                       src={this.setIcon(3)}
@@ -584,19 +579,19 @@ export class GraphMenu extends Component {
                 <td align='center'>
                   <a data-tip='Descarcă CSV' href={CSV}>
                     <CSVLink data={dataArray}>
-                    <img
-                      onMouseOver={e =>
-                        (e.currentTarget.src = '/media/csv-selected.png')
-                      }
-                      onMouseLeave={e =>
-                        (e.currentTarget.src = '/media/csv.png')
-                      }
-                      alt='Descarc&#259; CSV'
-                      src='/media/csv.png'
-                      style={{
-                        ...graphStyle
-                      }}
-                    />
+                      <img
+                        onMouseOver={e =>
+                          (e.currentTarget.src = '/media/csv-selected.png')
+                        }
+                        onMouseLeave={e =>
+                          (e.currentTarget.src = '/media/csv.png')
+                        }
+                        alt='Descarc&#259; CSV'
+                        src='/media/csv.png'
+                        style={{
+                          ...graphStyle
+                        }}
+                      />
                     </CSVLink>
                   </a>
                 </td>

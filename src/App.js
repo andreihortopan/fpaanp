@@ -26,8 +26,8 @@ class App extends Component {
               In the meantime, we redirect to map page */}
 
           <Switch>
-            <Route path='/date-si-resurse' component={Canvas} />
             <Route path='/date-si-resurse/:tip' component={Canvas} />
+            <Route path='/date-si-resurse' component={Canvas} />
             <Route path='/membri' component={Members} />
             <Route path='/calendar' component={Calendar} />
             <Route render={() => <Redirect to='/date-si-resurse' />} />
