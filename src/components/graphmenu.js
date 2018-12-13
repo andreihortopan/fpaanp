@@ -18,6 +18,8 @@ import Select, { components } from 'react-select'
 import { refreshMap } from './romaniaMapRSM'
 import { refreshTable } from './tableView'
 import { refreshBarChart } from './barChartView'
+import { CSVLink } from "react-csv";
+import '../canvasjs.react';
 
 // Size constants
 export const MENU_MARGIN = 20
@@ -199,7 +201,6 @@ export class GraphMenu extends Component {
     } else {
       return ngo
       // return ngo.sum == this.state.selectedSum.map(a => a.value);
-    }
   }
 
   computeCountyDataArray () {
@@ -582,6 +583,7 @@ export class GraphMenu extends Component {
                 </td>
                 <td align='center'>
                   <a data-tip='Descarcă CSV' href={CSV}>
+                    <CSVLink data={dataArray}>
                     <img
                       onMouseOver={e =>
                         (e.currentTarget.src = '/media/csv-selected.png')
@@ -595,6 +597,7 @@ export class GraphMenu extends Component {
                         ...graphStyle
                       }}
                     />
+                    </CSVLink>
                   </a>
                 </td>
               </tr>
