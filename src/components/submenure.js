@@ -1,42 +1,46 @@
-import React, { Component } from 'react';
-import { menuLook, MENU_MARGIN } from './menu';
-import { listStyle } from './menu';
-import { itemStyle } from './menu';
-import { changeCanvas } from './canvas';
-import { resetGraphMenuState } from './graphmenu';
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import { MENU_PADDING, MENU_MARGIN, MENU_WIDTH, menuLook } from './graphmenu'
+import { listStyle } from './menu'
+import { itemStyle } from './menu'
 
 export class SubmenuRE extends Component {
-  render() {
+  render () {
     return (
-            <div style={{
-                ...menuLook,
-                marginLeft: -MENU_MARGIN,
-                backgroundColor: "#008ece",
-                color: "#ffffff"
-            }}>
-                <ul style={{
-                    ...listStyle,
-                }}>
-                    <li style={{
-                        ...itemStyle
-                    }}>
-                        <a href="#" onClick={(e) => {
-                            changeCanvas("Membri");
-                            resetGraphMenuState();
-                        }}>Membri</a>
-                    </li>
-                    <li style={{
-                        ...itemStyle
-                    }}>
-                        <a href="#" onClick={(e) => {
-                            changeCanvas("Membri");
-                            resetGraphMenuState();
-                        }}>Activit&#259;&#355;i Re&#355;ea</a>
-                    </li>
-                </ul>
-            </div>
-    );
+      <div
+        style={{
+          ...menuLook,
+          marginLeft: -MENU_MARGIN,
+          backgroundColor: '#008ece',
+          color: '#ffffff',
+          boxShadow: '1px 1px 4px 1px #848484'
+        }}
+      >
+        <ul
+          style={{
+            ...listStyle
+          }}
+        >
+          <li
+            style={{
+              ...itemStyle
+            }}
+          >
+            <Link to='/membri'>Membri</Link>
+          </li>
+          <li
+            style={{
+              ...itemStyle
+            }}
+          >
+            <a href='#' onClick={e => {}}>
+              Activit&#259;&#355;i Re&#355;ea
+            </a>
+          </li>
+        </ul>
+      </div>
+    )
   }
 }
 
-export default SubmenuRE;
+export default SubmenuRE

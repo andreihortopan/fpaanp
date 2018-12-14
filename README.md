@@ -7,8 +7,8 @@ Additional node packages that have been used are listed [below](#additional-pack
 
 - `index` connects to the ReactDOM, rendering `App`.
 - `App` renders the following:
-    - `Menu` is the top-right menu, which contains the logo and four of the menu options.
-    - `GraphMenu` is the bottom-right menu, which contains the last of the five available menu options: "Date si resurse". This option includes customization options (data fields (dropdown menus) and a display field (the five icons)) and it directly changes the `Canvas`.
+    - `Menu` is the hamburger menu, which contains the logo and five of the menu options, two of which contain submenus.
+    - `GraphMenu` is the left menu, which contains the Data & Resources panel. This option includes customization options (data fields (multiple dropdown menus - `Select`) and a display field (the five icons)) and it directly changes the `Canvas`.
     - `Canvas` represents the main part of the page, displaying the chosen data in a certain format (default is: all data on a `RomaniaMap`). Other display options are: `BarChartView` and `TableView`.
 
 ## Current bugs
@@ -20,6 +20,8 @@ Additional node packages that have been used are listed [below](#additional-pack
 
 ## To do
 
+- Modify `Select` in order to properly accomodate the `Select all` option.
+- Implement 'Copy' function in the pop-up.
 - Translate `Table` and `Calendar` into Romanian
 - Move constants and styles to a separate file then import them all at once to each file which requires them (especially with regards to the components which display a white div to the right of the menus, like `Membri`).
 - Check compilation warnings.
@@ -33,28 +35,20 @@ Additional node packages that have been used are listed [below](#additional-pack
 - `membri.js`:
     - Add styling to the page, but only once the data to-be-added is known (so a design can be created around the data).
 - `calendar.js` & `event.js`:
-    - Calculate and import `GraphMenu` height instead of hardcoding it (to allow for flexibility upon margin and/or padding change).
-    - Fix the paddings and margins and sizes - they might not be perfectly set.
+    - Check the paddings and margins and sizes - they might not be perfectly set.
     - Bind mouse wheel scrolling to the horizontal event scrollbar.
-- Modularize the blank white page used to display most of the pages (implement it as a component).
+- ?: Modularize the blank white page used to display most of the pages (implement it as a component).
+- Import all styling from `GraphMenu` instead of `Menu` as the latter has been deprived of advanced styling.
 
 ## To implement
 
 - Submenu items individual pages
 - News
-- JPG downloader
+- Data downloader
 
-## Data related
-
-Data must be updated in `romania-counties.json` in order to include county data; or it can be added externally and then linked.
+## Data-related
 
 Data must be added for:
-- Public funding
-- Resources:
-    - Domains of interest
-    - Authorities
-    - Money data
-    - Calendaristic data
 - Events
 - News
 - Metadata in `index.html`
@@ -73,7 +67,7 @@ Data must be added for:
 - `react-simple-maps` for rendering the interactive map.
 - `d3-geo` for mapping projections for the map. It works in conjuction with the previous package.
 - `topojson-client` for manipulating the `romania-counties.json` TopoJSON file.
-- `react-onclickoutside` for detecting clicks outside the `Dropdown` components.
+- `react-onclickoutside` for detecting clicks outside the `Select` components.
 - `react-fontawesome` for arrow icons used across the menus.
 - `react-tooltip` for generating county info on hovering over the map.
 - `react-transition-group` for generating menu animations.
@@ -82,10 +76,14 @@ Data must be added for:
 - `moment` for localization and data formatting used by `Calendar`.
 - `react-table` for displaying the `TableView`.
 - `recharts` for displaying the `BarChartView`.
+- `react-select` for rendering the `Select` menus.
+- `react-tooltip` for displaying pop-ups.
+- `react-burger-menu` for displaying the `Sidemenu`.
+- `react-popup` for displaying the `Popup`.
 <br />
 Run the following command in the project directory to install the neccesary packages:
 
-`npm install react react-dom react-simple-maps d3-geo topojson-client react-onclickoutside react-fontawesome react-tooltip react-transition-group webfontloader react-big-calendar moment react-table recharts --save`
+`npm install react react-dom react-simple-maps d3-geo topojson-client react-onclickoutside react-fontawesome react-tooltip react-transition-group webfontloader react-big-calendar moment react-table recharts react-select react-tooltip react-burger-menu react-popup --save`
 <br />
 <br />
 - NOTE: `canvasjs.min.js` and `canvasjs.react.js` have been added manually, not installed as modules.

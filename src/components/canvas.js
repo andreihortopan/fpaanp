@@ -1,44 +1,34 @@
-import React, { Component } from 'react';
-import { RomaniaMap } from './romaniaMapRSM';
-import { BarChartView } from './barChartView';
-import { TableView } from './tableView';
-import { Membri } from './membri';
-import { Calendar } from './calendar';
+import React, { Component } from 'react'
+import { Route, Redirect, Switch } from 'react-router-dom'
+import { RomaniaMap } from './romaniaMapRSM'
+import { BarChartView } from './barChartView'
+import { TableView } from './tableView'
+import { GraphMenu } from './graphmenu'
 
 const canvasStyle = {
-    position: "absolute",
-    padding: 0,
-    margin: 0,
-    width: "100%",
-    height: "100%",
-}
-
-function changeCanvas(canvasType) {
-    this.setState({canvasType});
+  display: 'flex',
+  padding: 0,
+  margin: 0
 }
 
 export class Canvas extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      canvasType: "RomaniaMap",
-    }
-
-    changeCanvas = changeCanvas.bind(this);
-  }
-
-  render() {
+  render () {
     return (
-        <div style={{canvasStyle}}>
-            { this.state.canvasType == "RomaniaMap" && <RomaniaMap />}
-            { this.state.canvasType == "BarChart" && <BarChartView />}
-            { this.state.canvasType == "TableView" && <TableView />}
-            { this.state.canvasType == "Membri" && <Membri />}
-            { this.state.canvasType == "Calendar" && <Calendar />}
-        </div> 
-    );
+      <div style={{ canvasStyle }}>
+        <GraphMenu tip={this.props.match.params.tip} />
+        <Switch>
+          <Route exact path='/date-si-resurse/harta' component={RomaniaMap} />
+          <Route exact path='/date-si-resurse/tabel' component={TableView} />
+          <Route
+            exact
+            path='/date-si-resurse/grafic'
+            component={BarChartView}
+          />
+          <Route render={() => <Redirect to='/date-si-resurse/harta' />} />
+        </Switch>
+      </div>
+    )
   }
 }
 
-export { changeCanvas };
-export default Canvas;
+export default Canvas

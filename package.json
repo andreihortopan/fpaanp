@@ -4,18 +4,26 @@
   "private": true,
   "dependencies": {
     "d3-geo": "^1.11.1",
+    "jspdf-autotable": "^2.3.5",
     "moment": "^2.22.2",
     "next-redux-wrapper": "^2.0.0",
+    "pkg": "^4.3.5",
     "react": "^16.5.2",
     "react-bar-chart": "^0.1.2",
     "react-big-calendar": "^0.20.2",
+    "react-burger-menu": "^2.5.4",
+    "react-collapsible": "^2.3.2",
+    "react-csv": "^1.0.19",
     "react-dom": "^16.5.2",
     "react-fontawesome": "^1.6.1",
     "react-motion": "^0.5.2",
     "react-onclickoutside": "^6.7.1",
+    "react-popup": "^0.9.3",
     "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.4",
     "react-scroll-horizontal": "^1.5.1",
+    "react-select": "^2.1.2",
     "react-simple-maps": "^0.12.1",
     "react-table": "^6.8.6",
     "react-tooltip": "^3.9.0",
@@ -40,5 +48,24 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "pkg": {
+    "scripts": [
+      "canvasjs.min.js",
+      "canvasjs.react.js",
+      "serviceWorker"
+    ],
+    "assets": [
+      "App.css",
+      "App.js",
+      "calendar.css",
+      "css.css",
+      "index.css",
+      "legend.js",
+      "index.js",
+      "popup.css",
+      "transition.css",
+      "docs/*"
+    ]
+  }
 }
