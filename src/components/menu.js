@@ -36,7 +36,6 @@ const menuStyle = {
 
 // Submenu style, for popups on hover
 const submenuStyle = {
-  width: 100,
   position: 'absolute',
   zIndex: 99,
   width: MENU_WIDTH,
@@ -46,7 +45,6 @@ const submenuStyle = {
 // Menu list styling
 const listStyle = {
   listStyleType: 'none',
-  paddingLeft: 10,
   marginRight: -MENU_MARGIN,
   marginLeft: -MENU_MARGIN,
   paddingLeft: MENU_MARGIN + 10
@@ -197,25 +195,25 @@ export class Menu extends Component {
             </li>
             <li
               key='menu-2'
-              //onMouseEnter={this.handleHoverFP}
-              //onMouseLeave={this.handleLeaveFP}
+              // onMouseEnter={this.handleHoverFP}
+              // onMouseLeave={this.handleLeaveFP}
             >
               <Link to='/finantari-publice'>
-                {/*<div
+                {/* <div
                   style={{
                     display: 'inline-block',
                     width: 210,
                     height: 35
-                  }}*/}
-                  <p>Finan&#355;&#259;ri Publice</p>
-                {/*</div>
+                  }} */}
+                <p>Finan&#355;&#259;ri Publice</p>
+                {/* </div>
                 <div
                   style={{
                     display: 'inline-block'
                   }}
                 >
                   <FontAwesome name='angle-right' />
-                </div>*/}
+                </div> */}
               </Link>
             </li>
             <li key='menu-3' onClick={() => {}}>
@@ -244,16 +242,17 @@ export class Menu extends Component {
                 <p>Despre proiect</p>
               </Link>
             </li>
-            <hr style={{ ...lineStyle}} />
+            <hr style={{ ...lineStyle }} />
           </ul>
-          <img 
-            alt="Parteneri"
-            src="/media/logos.png"
+          <img
+            alt='Parteneri'
+            src='/media/logos.png'
             style={{
               paddingTop: 0,
-              maxWidth: MENU_WIDTH + MENU_MARGIN,
+              maxWidth: MENU_WIDTH + MENU_MARGIN
               // maxHeight: 100,
-            }}/>
+            }}
+          />
         </div>
         <div
           onMouseEnter={this.handleHoverRE}

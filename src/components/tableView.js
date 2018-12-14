@@ -28,8 +28,8 @@ const dataColumns = [
     Header: 'Sumă fonduri (RON)',
     accessor: 'sum',
     sortMethod: (a, b) => {
-        return parseInt(a,10) > parseInt(b,10) ? 1 : -1;
-      }
+      return parseInt(a, 10) > parseInt(b, 10) ? 1 : -1
+    }
   },
   {
     Header: 'Finanțator',
@@ -55,7 +55,12 @@ const dataColumns = [
     Header: 'Contact',
     accessor: 'contact',
     Cell: row => (
-      <a style={{ color: '#008ECE' }} href={row.value} target='_blank'>
+      <a
+        style={{ color: '#008ECE' }}
+        href={row.value}
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         {row.value}
       </a>
     )
@@ -78,7 +83,6 @@ export class TableView extends Component {
       height: window.innerHeight - 80,
       nrOfLines: this.calculateNrOfLines()
     }
-    setTimeout(() => console.log(this.state), 1000)
     refreshTable = refreshTable.bind(this)
   }
 
