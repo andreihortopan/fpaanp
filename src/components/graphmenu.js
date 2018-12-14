@@ -367,7 +367,7 @@ export class GraphMenu extends Component {
                 float: 'right'
               }}
             >
-              <a href='#' onClick={e => {}}>
+              <a download="dl.jpg" href='/dl.jpg' onClick={e => {}}>
                 <img
                   onMouseOver={e =>
                     (e.currentTarget.src = '/media/download-selected.png')
