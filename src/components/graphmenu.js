@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { changeCanvas } from './canvas'
 import PDF from '../media/dummy.pdf'
 import {
   countyDataArray,
@@ -140,6 +139,8 @@ export class GraphMenu extends Component {
       case 3:
         if (this.props.tip === 'tabel') return '/media/excel-selected.png'
         return '/media/excel.png'
+      default:
+        return null
     }
   }
 
@@ -198,7 +199,9 @@ export class GraphMenu extends Component {
     if (this.state.selectedLegislation === 0) {
       return ngo
     } else {
-        return this.state.selectedSum.filter(a => a.min <= ngo.sum && a.max >= ngo.sum)
+      return this.state.selectedSum.filter(
+        a => a.min <= ngo.sum && a.max >= ngo.sum
+      )
     }
   }
 
@@ -217,12 +220,10 @@ export class GraphMenu extends Component {
       currentCounty.sum += parseInt(ngo.sum)
       currentCounty.ngoNum++
     })
-    // console.log(countyDataArray);
   }
 
   filterData () {
     dataArray = data.filter(this.isCounty)
-    console.log(this.props.tip)
     dataArray = dataArray.filter(this.isLegislation)
     dataArray = dataArray.filter(this.isFunder)
     dataArray = dataArray.filter(this.isLevel)
@@ -406,7 +407,7 @@ export class GraphMenu extends Component {
             value={selectedCounty}
             menuPosition={'absolute'}
             placeholder={selectionOne}
-            onChange={(selectedCounty) => this.handleChange({selectedCounty})}
+            onChange={selectedCounty => this.handleChange({ selectedCounty })}
             options={counties}
             isMulti
             closeMenuOnSelect={false}
@@ -571,22 +572,21 @@ export class GraphMenu extends Component {
                   </a>
                 </td>
                 <td align='center'>
-                  
-                    <CSVLink data={dataArray}>
-                      <img
-                        onMouseOver={e =>
-                          (e.currentTarget.src = '/media/csv-selected.png')
-                        }
-                        onMouseLeave={e =>
-                          (e.currentTarget.src = '/media/csv.png')
-                        }
-                        alt='Descarc&#259; CSV'
-                        src='/media/csv.png'
-                        style={{
-                          ...graphStyle
-                        }}
-                      />
-                    </CSVLink>
+                  <CSVLink data={dataArray}>
+                    <img
+                      onMouseOver={e =>
+                        (e.currentTarget.src = '/media/csv-selected.png')
+                      }
+                      onMouseLeave={e =>
+                        (e.currentTarget.src = '/media/csv.png')
+                      }
+                      alt='Descarc&#259; CSV'
+                      src='/media/csv.png'
+                      style={{
+                        ...graphStyle
+                      }}
+                    />
+                  </CSVLink>
                 </td>
               </tr>
             </tbody>

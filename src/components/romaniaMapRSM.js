@@ -9,7 +9,6 @@ import { geoMercator } from 'd3-geo'
 import ReactTooltip from 'react-tooltip'
 import { MENU_PADDING, MENU_MARGIN, MENU_WIDTH } from './graphmenu'
 import { scaleLinear } from 'd3-scale'
-import { dataArray } from './graphmenu.js'
 import { countyDataArray } from '../docs/data'
 import { MapLegend } from './mapLegend'
 
@@ -62,7 +61,6 @@ export class RomaniaMap extends Component {
     } else {
       res = ww * 5.5
     }
-    console.log(res)
     return res
   }
 
@@ -91,11 +89,8 @@ export class RomaniaMap extends Component {
         <ComposableMap
           width={this.state.windowWidth}
           height={this.state.windowHeight}
-          //   projection='mercator'
-          //   projectionConfig={{ scale: 1000 }}
           projectionConfig
           projection={(width, height, projectionConfig) => {
-            console.log({ width, height, projectionConfig })
             return geoMercator()
               .center([12.5, 25.05])
               .translate([width / 2 /* + this.calculateOffset() */, height / 2])
@@ -107,7 +102,6 @@ export class RomaniaMap extends Component {
             <Geographies geography='/romania-counties.json' disableOptimization>
               {(geographies, projection) =>
                 geographies.map((geography, i) => {
-                  // console.log(this.state.displayData);
                   var countyData = this.state.displayData.find(function (
                     county
                   ) {
