@@ -342,6 +342,39 @@ export class GraphMenu extends Component {
 		doc.save('date-fonduri.pdf')
 	}
 
+	selectionExists = () => {
+		if (this.state.selectedCounty.length > 0)
+			return true
+		if (this.state.selectedLegislation.length > 0)
+			return true
+		if (this.state.selectedFunder.length > 0)
+			return true
+		if (this.state.selectedLevel.length > 0)
+			return true
+		if (this.state.selectedDomain.length > 0)
+			return true
+		if (this.state.selectedYear.length > 0)
+			return true
+		if (this.state.selectedYear.length > 0)
+			return true
+
+		return false
+	}
+
+	clearFilters = () => {
+		this.setState({
+			selectedCounty: [],
+			selectedLegislation: [],
+			selectedFunder: [],
+			selectedLevel: [],
+			selectedDomain: [],
+			selectedYear: [],
+			selectedCounty: [],
+		}, () => {
+			this.filterData()
+		})
+	}
+
 	render() {
 		const {
 			selectedCounty,
@@ -452,6 +485,36 @@ export class GraphMenu extends Component {
 								float: 'right'
 							}}
 						>
+							{this.selectionExists() &&
+								<div style={{
+									display: 'inline-block'
+								}}>
+									<a href='#' data-tip='Resetează filtrele'>
+										<svg
+											onClick={this.clearFilters}
+											width={20}
+											height={20}
+											style={{
+												marginRight: 8,
+												marginBottom: 2,
+												fill: '#bcbcbc'
+											}}
+										>
+											<path d={'M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z'} />
+										</svg>
+									</a>
+
+									<span style={{
+										position: 'relative',
+										borderLeft: '1px solid #bcbcbc',
+										backgroundColor: '#fafafa',
+										marginRight: 3,
+										paddingTop: 10,
+									}}></span>
+								</div>
+							}
+
+
 							{(this.props.tip === 'harta' || this.props.tip === 'grafic') &&
 								<a
 									href='#'
@@ -474,7 +537,7 @@ export class GraphMenu extends Component {
 										style={{
 											...graphStyle,
 											marginTop: MENU_MARGIN / 2,
-											marginRight: 5
+											marginRight: 4
 										}}
 									/>
 								</a>}
