@@ -97,6 +97,20 @@ const selections = [
 	'7｜Sumă',
 ]
 
+const headers = [
+	{ label: "ID", key: "id" },
+	{ label: "Regiune", key: "region" },
+	{ label: "Județ", key: "county" },
+	{ label: "Legislație", key: "legislation" },
+	{ label: "Finanțator", key: "funder" },
+	{ label: "Nivel", key: "level" },
+	{ label: "Domeniu", key: "domain" },
+	{ label: "An", key: "year" },
+	{ label: "ONG", key: "ong" },
+	{ label: "Sumă", key: "sum" },
+	{ label: "Contact", key: "contact" },
+]
+
 export class GraphMenu extends Component {
 	constructor(props) {
 		super(props)
@@ -610,7 +624,12 @@ export class GraphMenu extends Component {
 									</a>
 								</td>
 								<td align='center'>
-									<CSVLink data-tip="Descarcă CSV" data={this.props.filteredData}>
+									<CSVLink
+										headers={headers}
+										data-tip="Descarcă CSV"
+										data={this.props.filteredData}
+										filename={'date-fonduri.csv'}
+									>
 										<img
 											onMouseOver={e =>
 												(e.currentTarget.src = '/media/csv-selected.png')

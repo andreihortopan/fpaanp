@@ -79,10 +79,11 @@ Data must be added for:
 - `react-popup` for displaying the `Popup`.
 - `react-router` for changing the page URL.
 - `react-data-export` for .xlsx file export.
+- `normalize-text` for removing diacritics when exporting to PDF.
 <br />
 Run the following command in the project directory to install the neccesary packages:
 
-`npm install react react-dom react-simple-maps d3-geo topojson-client react-onclickoutside react-fontawesome react-tooltip react-transition-group webfontloader react-big-calendar moment react-table recharts react-select react-tooltip react-burger-menu react-popup react-router react-data-export --save`
+`npm install react react-dom react-simple-maps d3-geo topojson-client react-onclickoutside react-fontawesome react-tooltip react-transition-group webfontloader react-big-calendar moment react-table recharts react-select react-tooltip react-burger-menu react-popup react-router react-data-export normalize-text --save`
 <br />
 <br />
 - NOTE: `canvasjs.min.js` and `canvasjs.react.js` have been added manually, not installed as modules.
