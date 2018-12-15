@@ -86,6 +86,7 @@ export class Canvas extends Component {
 					{
 						routes.map(({ path, component: C, data }) => (
 							<Route
+								key={path}
 								exact
 								path={path}
 								render={() => <C data={data} />}

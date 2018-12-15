@@ -111,6 +111,12 @@ const headers = [
 	{ label: "Contact", key: "contact" },
 ]
 
+export function selectCounty(county) {
+	this.setState({ selectedCounty: county }, () => {
+		this.filterData()
+	})
+}
+
 export class GraphMenu extends Component {
 	constructor(props) {
 		super(props)
@@ -135,6 +141,8 @@ export class GraphMenu extends Component {
 		this.isYear = this.isYear.bind(this)
 		this.isSum = this.isSum.bind(this)
 		this.downloadPDF = this.downloadPDF.bind(this)
+
+		selectCounty = selectCounty.bind(this)
 
 		//this.computeCountyDataArray()
 	}
@@ -519,6 +527,7 @@ export class GraphMenu extends Component {
 					{
 						selectArray.map(({ value, placeholder, onChange, options }) => (
 							<Select
+								key={placeholder}
 								value={value}
 								menuPosition={'absolute'}
 								placeholder={placeholder}
