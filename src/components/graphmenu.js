@@ -366,9 +366,9 @@ export class GraphMenu extends Component {
 									alt='Descarc&#259;'
 									src='/media/download.png'
 									data-tip={
-										this.state.selected == 1
+										this.props.tip === 'harta'
 											? 'Descarcă hartă'
-											: this.state.selected == 2
+											: this.props.tip === 'grafic'
 												? 'Descarcă grafic'
 												: 'Descarcă tabel'
 									}

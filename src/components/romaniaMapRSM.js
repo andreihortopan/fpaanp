@@ -10,6 +10,7 @@ import ReactTooltip from 'react-tooltip'
 import { MENU_PADDING, MENU_MARGIN, MENU_WIDTH } from './graphmenu'
 import { scaleLinear } from 'd3-scale'
 import { MapLegend } from './mapLegend'
+import Link from 'react-router-dom/Link'
 
 const pageStyle = {
   position: 'absolute',
@@ -151,22 +152,23 @@ export class RomaniaMap extends Component {
             </Geographies>
           </ZoomableGroup>
         </ComposableMap>
-        {window.innerWidth > 950 && <div style={{
-          right: MENU_MARGIN,
-          bottom: MENU_MARGIN,
-          width: 200,
-          height: 'auto',
-          position: 'absolute'
-        }}>
-          <img
-            alt='Logo'
-            src='/media/fpaan_s.png'
-            style={{
-              paddingTop: MENU_PADDING / 2,
-              maxWidth: 200,
-            }}
-          />
-        </div>}
+        {window.innerWidth > 950 && <Link to='/despre'>
+          <div style={{
+            right: MENU_MARGIN,
+            bottom: MENU_MARGIN,
+            width: 200,
+            height: 'auto',
+            position: 'absolute'
+          }}>
+            <img
+              alt='Logo'
+              src='/media/fpaan_s.png'
+              style={{
+                paddingTop: MENU_PADDING / 2,
+                maxWidth: 200,
+              }}
+            />
+          </div></Link>}
         <ReactTooltip multiline />
       </div >
     )

@@ -8,8 +8,8 @@ Additional node packages that have been used are listed [below](#additional-pack
 - `index` connects to the ReactDOM, rendering `App`.
 - `App` renders the following:
     - `Menu` is the hamburger menu, which contains the logo and five of the menu options, two of which contain submenus.
-    - `GraphMenu` is the left menu, which contains the Data & Resources panel. This option includes customization options (data fields (multiple dropdown menus - `Select`) and a display field (the five icons)) and it directly changes the `Canvas`.
-    - `Canvas` represents the main part of the page, displaying the chosen data in a certain format (default is: all data on a `RomaniaMap`). Other display options are: `BarChartView` and `TableView`.
+    - `GraphMenu` is the left menu, which contains the Data & Resources panel. This option includes customization options (data fields (multiple dropdown menus - `Select`) and a display field (the five icons)); the selections made here change the data based on which `Canvas` renders other components.
+    - `Canvas` represents the main part of the page, displaying the chosen data in a certain format (default is: all data on a `RomaniaMap`). Other display options are: `BarChartView` and `TableView`. It manages data, by first sending it to `GraphMenu`, which returns a filtered version of it, and then passing it to the other components (`RomaniaMap`, `TableView`, `BarChartView`).
 
 ## Current bugs
 
@@ -20,36 +20,33 @@ Additional node packages that have been used are listed [below](#additional-pack
 
 ## To do
 
-- Modify `Select` in order to properly accomodate the `Select all` option.
-- Implement 'Copy' function in the pop-up.
-- Translate `Table` and `Calendar` into Romanian
+- Translate `Calendar` into Romanian
 - Move constants and styles to a separate file then import them all at once to each file which requires them (especially with regards to the components which display a white div to the right of the menus, like `Membri`).
 - Check compilation warnings.
 - `menu.js`:
     - Change text color on hover.
-    - Modularize submenu components using a single component which takes props to generate content dynamically.
 - `graphmenu.js`:
     - Check if imported menu size constants have been properly implemented in all styling options (for proper resizing when changing them).
 - `css.css`:
     - Clean css, eventually integrate via constants in `dropdown.js`.
-- `membri.js`:
-    - Add styling to the page, but only once the data to-be-added is known (so a design can be created around the data).
+- `members.js`:
+    - Add styling to the page
 - `calendar.js` & `event.js`:
     - Check the paddings and margins and sizes - they might not be perfectly set.
     - Bind mouse wheel scrolling to the horizontal event scrollbar.
 - ?: Modularize the blank white page used to display most of the pages (implement it as a component).
-- Import all styling from `GraphMenu` instead of `Menu` as the latter has been deprived of advanced styling.
 
 ## To implement
 
-- Submenu items individual pages
 - News
 - Data downloader
+- Multiple tab bar chart
+- Map description
+- Dynamic map color scale
 
 ## Data-related
 
 Data must be added for:
-- Events
 - News
 - Metadata in `index.html`
 
@@ -80,10 +77,11 @@ Data must be added for:
 - `react-tooltip` for displaying pop-ups.
 - `react-burger-menu` for displaying the `Sidemenu`.
 - `react-popup` for displaying the `Popup`.
+- `react-router` for changing the page URL.
 <br />
 Run the following command in the project directory to install the neccesary packages:
 
-`npm install react react-dom react-simple-maps d3-geo topojson-client react-onclickoutside react-fontawesome react-tooltip react-transition-group webfontloader react-big-calendar moment react-table recharts react-select react-tooltip react-burger-menu react-popup --save`
+`npm install react react-dom react-simple-maps d3-geo topojson-client react-onclickoutside react-fontawesome react-tooltip react-transition-group webfontloader react-big-calendar moment react-table recharts react-select react-tooltip react-burger-menu react-popup react-router --save`
 <br />
 <br />
 - NOTE: `canvasjs.min.js` and `canvasjs.react.js` have been added manually, not installed as modules.
