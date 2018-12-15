@@ -105,6 +105,7 @@ export class TableView extends Component {
 
 		return (
 			<div
+				id='table'
 				style={{
 					width: this.state.width,
 					height: this.state.height,

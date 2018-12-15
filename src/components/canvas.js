@@ -33,7 +33,7 @@ const computeCountyDataArray = (dataArray) => {
 	})
 
 	countyDataArray.forEach(currentCounty => {
-		if(currentCounty.ngoNum != 0)
+		if (currentCounty.ngoNum != 0)
 			currentCounty.average = Math.round(currentCounty.sum / currentCounty.ngoNum)
 	})
 

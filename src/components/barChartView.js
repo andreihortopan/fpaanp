@@ -43,15 +43,17 @@ export class BarChartView extends Component {
         const barChartData = this.props.data
 
         return (
-            <div style={{
-                width: this.state.width,
-                height: this.state.height,
-                ...pageStyle,
-                ...menuLook,
-                overflow: "hidden",
-                paddingTop: MENU_PADDING,
-                paddingBottom: MENU_PADDING,
-            }}>
+            <div
+                id='barChart'
+                style={{
+                    width: this.state.width,
+                    height: this.state.height,
+                    ...pageStyle,
+                    ...menuLook,
+                    overflow: "hidden",
+                    paddingTop: MENU_PADDING,
+                    paddingBottom: MENU_PADDING,
+                }}>
                 <BarChart width={this.state.width} height={this.state.height} data={barChartData.slice()}
                     margin={{ top: 5, right: 0, left: 20, bottom: 5 }}>
                     <CartesianGrid strokeDasharray="3 3" />

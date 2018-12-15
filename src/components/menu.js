@@ -79,9 +79,26 @@ export class Menu extends Component {
   constructor(props) {
     super(props)
     this.state = {
+      height: window.innerHeight,
       showReteaExpertiMenu: false,
       showFinantariPubliceMenu: false
     }
+  }
+
+  componentDidMount() {
+    window.addEventListener('resize', this.handleResize)
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleResize)
+  }
+
+  handleResize = e => {
+    this.setState(() => {
+      return {
+        height: window.innerHeight
+      }
+    })
   }
 
   handlePopupClick = () => {
@@ -149,7 +166,8 @@ export class Menu extends Component {
           style={{
             ...menuStyle,
             ...menuLook,
-            ...textStyle
+            ...textStyle,
+            height: this.state.height,
           }}
         >
           <Link to='/date-si-resurse'>
@@ -182,7 +200,7 @@ export class Menu extends Component {
                     height: 35
                   }}
                 >
-                  <p>Re&#355;ea Exper&#355;i</p>
+                  <p>Rețea Experți</p>
                 </div>
                 <div
                   style={{
@@ -205,7 +223,7 @@ export class Menu extends Component {
                     width: 210,
                     height: 35
                   }} */}
-                <p>Finan&#355;&#259;ri Publice</p>
+                <p>Finanțări Publice</p>
                 {/* </div>
                 <div
                   style={{
@@ -223,18 +241,18 @@ export class Menu extends Component {
             </li>
             <li key='menu-4'>
               <a href='#'>
-                <p>&#350;tiri</p>
+                <p>Știri</p>
               </a>
             </li>
             <li key='menu-0' onClick={() => { }}>
               <Link to='/date-si-resurse'>
-                <p>Date &#351;i resurse</p>
+                <p>Date și resurse</p>
               </Link>
             </li>
             <hr style={{ ...lineStyle }} />
             <li key='menu-5' onClick={this.handlePopupClick}>
               <a href='#'>
-                <p>Cum se citeaz&#259;</p>
+                <p>Cum se citează</p>
               </a>
             </li>
             <li key='menu-6'>
@@ -259,7 +277,7 @@ export class Menu extends Component {
           onMouseLeave={this.handleLeaveRE}
           style={{
             ...submenuStyle,
-            marginTop: MENU_MARGIN + MENU_PADDING + 70
+            marginTop: MENU_MARGIN + MENU_PADDING + 50
           }}
         >
           <CSSTransitionGroup
@@ -270,7 +288,7 @@ export class Menu extends Component {
             {this.state.showReteaExpertiMenu && <SubmenuRE key='1' />}
           </CSSTransitionGroup>
         </div>
-        <div
+        {/* <div
           onMouseEnter={this.handleHoverFP}
           onMouseLeave={this.handleLeaveFP}
           style={{
@@ -285,7 +303,7 @@ export class Menu extends Component {
           >
             {this.state.showFinantariPubliceMenu && <SubmenuFP key='2' />}
           </CSSTransitionGroup>
-        </div>
+        </div> */}
       </div>
     )
   }

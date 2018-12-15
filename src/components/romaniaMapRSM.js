@@ -74,6 +74,7 @@ export class RomaniaMap extends Component {
 
     return (
       <div
+        id='map'
         style={{
           width: this.state.windowWidth,
           height: this.state.windowHeight,
@@ -169,7 +170,7 @@ export class RomaniaMap extends Component {
               }}
             />
           </div></Link>}
-        <ReactTooltip multiline />
+        {/* <ReactTooltip multiline /> */}
       </div >
     )
   }

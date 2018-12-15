@@ -14,6 +14,15 @@ import { refreshData } from './canvas.js'
 import Select, { components } from 'react-select'
 import { CSVLink } from 'react-csv'
 import '../canvasjs.react'
+import domtoimage from 'dom-to-image'
+import ReactExport from 'react-data-export'
+import * as jdPDF from 'jspdf'
+import 'jspdf-autotable'
+import normalize, { normalizeDiacritics } from 'normalize-text'
+
+const ExcelFile = ReactExport.ExcelFile;
+const ExcelSheet = ReactExport.ExcelFile.ExcelSheet;
+const ExcelColumn = ReactExport.ExcelFile.ExcelColumn;
 
 // Size constants
 export const MENU_MARGIN = 20
@@ -111,8 +120,17 @@ export class GraphMenu extends Component {
 		this.isDomain = this.isDomain.bind(this)
 		this.isYear = this.isYear.bind(this)
 		this.isSum = this.isSum.bind(this)
+		this.downloadPDF = this.downloadPDF.bind(this)
 
 		//this.computeCountyDataArray()
+	}
+
+	componentDidMount() {
+		window.addEventListener('resize', this.handleResize)
+	}
+
+	componentWillUnmount() {
+		window.removeEventListener('resize', this.handleResize)
 	}
 
 	resetThenSet = (id, key) => {
@@ -230,19 +248,76 @@ export class GraphMenu extends Component {
 	}
 
 	handleResize = e => {
-		this.setState(prevState => {
+		this.setState(() => {
 			return {
 				height: window.innerHeight - 2 * MENU_MARGIN - MENU_PADDING
 			}
 		})
 	}
 
-	componentDidMount() {
-		window.addEventListener('resize', this.handleResize)
+	handleDownload = e => {
+		if (this.props.tip === 'harta') {
+			domtoimage.toJpeg(document
+				.getElementById('map'),
+				{
+					quality: 0.9,
+					bgcolor: '#ffffff',
+					height: window.innerHeight,
+					width: window.innerWidth
+				})
+				.then(function (dataUrl) {
+					var link = document.createElement('a');
+					link.download = 'harta-fonduri.jpeg';
+					link.href = dataUrl;
+					link.click();
+				});
+		}
+		else {
+			domtoimage.toJpeg(document
+				.getElementById('barChart'),
+				{
+					quality: 0.9,
+					bgcolor: '#ffffff',
+					height: window.innerHeight,
+					width: window.innerWidth
+				})
+				.then(function (dataUrl) {
+					var link = document.createElement('a');
+					link.download = 'grafic-fonduri.jpeg';
+					link.href = dataUrl;
+					link.click();
+				});
+		}
 	}
 
-	componentWillUnmount() {
-		window.removeEventListener('resize', this.handleResize)
+	downloadPDF() {
+		const columns = [
+			{ title: 'ONG', dataKey: 'ong' },
+			{ title: 'Regiune', dataKey: 'region' },
+			{ title: 'Judet', dataKey: 'county' },
+			{ title: 'Suma (RON)', dataKey: 'sum' },
+			{ title: 'Finantator', dataKey: 'funder' },
+			{ title: 'Nivel', dataKey: 'level' },
+			{ title: 'Domeniu', dataKey: 'domain' },
+			{ title: 'An', dataKey: 'year' },
+		]
+
+		let stringified = JSON.stringify(this.props.filteredData)
+		stringified = normalizeDiacritics(stringified)
+		let newJson = JSON.parse(stringified)
+
+		var doc = new jdPDF('p', 'pt')
+		doc.autoTable(columns, newJson, {
+			theme: 'striped',
+			styles: { overflow: 'linebreak' },
+			margin: { top: 60 },
+			columnStyles: { text: { columnWidth: 'wrap' } },
+			addPageContent: function (data) {
+				doc.text("Lista ONG-uri", 40, 30);
+			}
+		})
+
+		doc.save('date-fonduri.pdf')
 	}
 
 	render() {
@@ -347,7 +422,7 @@ export class GraphMenu extends Component {
 				<hr style={{ ...lineStyle }} />
 				<div style={{ paddingLeft: 10, clear: 'both' }}>
 					<div style={{ float: 'left' }}>
-						<p>Date &#351;i resurse</p>
+						<p>Date și resurse</p>
 					</div>
 					{this.state.selected != 0 && (
 						<div
@@ -355,30 +430,67 @@ export class GraphMenu extends Component {
 								float: 'right'
 							}}
 						>
-							<a download="dl.jpg" href='/dl.jpg' onClick={e => { }}>
-								<img
-									onMouseOver={e =>
-										(e.currentTarget.src = '/media/download-selected.png')
-									}
-									onMouseLeave={e =>
-										(e.currentTarget.src = '/media/download.png')
-									}
-									alt='Descarc&#259;'
-									src='/media/download.png'
-									data-tip={
-										this.props.tip === 'harta'
-											? 'Descarcă hartă'
-											: this.props.tip === 'grafic'
-												? 'Descarcă grafic'
-												: 'Descarcă tabel'
-									}
-									style={{
-										...graphStyle,
-										marginTop: MENU_MARGIN / 2,
-										marginRight: 5
-									}}
-								/>
-							</a>
+							{(this.props.tip === 'harta' || this.props.tip === 'grafic') &&
+								<a
+									href='#'
+									onClick={this.handleDownload}
+								>
+									<img
+										onMouseOver={e =>
+											(e.currentTarget.src = '/media/download-selected.png')
+										}
+										onMouseLeave={e =>
+											(e.currentTarget.src = '/media/download.png')
+										}
+										alt='Descarc&#259;'
+										src='/media/download.png'
+										data-tip={
+											this.props.tip === 'harta'
+												? 'Descarcă hartă'
+												: 'Descarcă grafic'
+										}
+										style={{
+											...graphStyle,
+											marginTop: MENU_MARGIN / 2,
+											marginRight: 5
+										}}
+									/>
+								</a>}
+
+							{this.props.tip === 'tabel' &&
+								<ExcelFile element={
+									<a href='#'>
+										<img
+											onMouseOver={e =>
+												(e.currentTarget.src = '/media/download-selected.png')
+											}
+											onMouseLeave={e =>
+												(e.currentTarget.src = '/media/download.png')
+											}
+											alt='Descarc&#259;'
+											src='/media/download.png'
+											data-tip={'Descarcă tabel'}
+											style={{
+												...graphStyle,
+												marginTop: MENU_MARGIN / 2,
+												marginRight: 5
+											}}
+										/>
+									</a>
+								}>
+									<ExcelSheet data={this.props.filteredData} name="ONG-uri">
+										<ExcelColumn label="ONG" value="ong" />
+										<ExcelColumn label="Regiune" value="region" />
+										<ExcelColumn label="Județ" value="county" />
+										<ExcelColumn label="Sumă fonduri (RON)" value="sum" />
+										<ExcelColumn label="Finanțator" value="funder" />
+										<ExcelColumn label="Nivel" value="level" />
+										<ExcelColumn label="Domeniu" value="domain" />
+										<ExcelColumn label="An" value="year" />
+										<ExcelColumn label="Contact" value="contact" />
+									</ExcelSheet>
+								</ExcelFile>
+							}
 						</div>
 					)}
 				</div>
@@ -480,8 +592,9 @@ export class GraphMenu extends Component {
 									</Link>
 								</td>
 								<td align='center'>
-									<a data-tip='Descarcă PDF' href={PDF} target='_blank'>
+									<a data-tip='Descarcă PDF' href='#'>
 										<img
+											onClick={this.downloadPDF}
 											onMouseOver={e =>
 												(e.currentTarget.src = '/media/pdf-selected.png')
 											}
@@ -497,7 +610,7 @@ export class GraphMenu extends Component {
 									</a>
 								</td>
 								<td align='center'>
-									<CSVLink data={this.props.filteredData}>
+									<CSVLink data-tip="Descarcă CSV" data={this.props.filteredData}>
 										<img
 											onMouseOver={e =>
 												(e.currentTarget.src = '/media/csv-selected.png')

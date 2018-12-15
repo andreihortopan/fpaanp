@@ -14,16 +14,13 @@ import './popup.css'
 // Main page ----- Incorporates main menu, canvas ('map' as default display option), graph menu (for interacting with the canvas)
 
 class App extends Component {
-  render () {
+  render() {
     return (
       <div style={{ width: '100%', height: '100%', margin: 'auto' }}>
         <SideMenu />
         <div style={{ width: '100%', height: '100%', margin: 'auto' }}>
           <ReactTooltip multiline />
           <Popup />
-
-          {/* In the future, oute '/' will render "About us" page
-              In the meantime, we redirect to map page */}
 
           <Switch>
             <Route exact path='/date-si-resurse/:tip' component={Canvas} />
