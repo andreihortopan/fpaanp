@@ -45,9 +45,10 @@ export class MapLegend extends Component {
     })
   }
 
-  render () {
+  render() {
     return (
       <div className='my-legend'>
+        {/* <div className='legend-source'>Suma totală acoperă toți anii, toate domeniile si toate legislațiile pentru fiecare județ</div> */}
         <div className='legend-title'>Suma totală per județ (RON)</div>
         <div className='legend-scale'>
           <ul className='legend-labels'>

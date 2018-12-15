@@ -76,7 +76,7 @@ const lineStyle = {
 // TODO Fix CSStransitions
 // TODO Modularize menu item with a separate component.
 export class Menu extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
     this.state = {
       showReteaExpertiMenu: false,
@@ -142,7 +142,7 @@ export class Menu extends Component {
     this.setState({ showFinantariPubliceMenu: false })
   }
 
-  render () {
+  render() {
     return (
       <div>
         <div
@@ -155,7 +155,7 @@ export class Menu extends Component {
           <Link to='/date-si-resurse'>
             <img
               alt='Logo'
-              src='/media/fpaan.png'
+              src='/media/fpaan_s.png'
               style={{
                 paddingTop: MENU_PADDING / 2,
                 maxWidth: MENU_WIDTH,
@@ -195,8 +195,8 @@ export class Menu extends Component {
             </li>
             <li
               key='menu-2'
-              // onMouseEnter={this.handleHoverFP}
-              // onMouseLeave={this.handleLeaveFP}
+            // onMouseEnter={this.handleHoverFP}
+            // onMouseLeave={this.handleLeaveFP}
             >
               <Link to='/finantari-publice'>
                 {/* <div
@@ -216,7 +216,7 @@ export class Menu extends Component {
                 </div> */}
               </Link>
             </li>
-            <li key='menu-3' onClick={() => {}}>
+            <li key='menu-3' onClick={() => { }}>
               <Link to='/evenimente'>
                 <p>Evenimente</p>
               </Link>
@@ -226,7 +226,7 @@ export class Menu extends Component {
                 <p>&#350;tiri</p>
               </a>
             </li>
-            <li key='menu-0' onClick={() => {}}>
+            <li key='menu-0' onClick={() => { }}>
               <Link to='/date-si-resurse'>
                 <p>Date &#351;i resurse</p>
               </Link>
