@@ -17,6 +17,10 @@ const diffHeight = 2 * MENU_MARGIN + 2 * MENU_PADDING
 
 const dataColumns = [
   {
+    Header: 'ONG',
+    accessor: 'ong'
+  },
+  {
     Header: 'Regiune',
     accessor: 'region'
   },
@@ -46,10 +50,6 @@ const dataColumns = [
   {
     Header: 'An',
     accessor: 'year'
-  },
-  {
-    Header: 'ONG',
-    accessor: 'ong'
   },
   {
     Header: 'Contact',
