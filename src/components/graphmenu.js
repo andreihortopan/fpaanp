@@ -323,16 +323,10 @@ export class GraphMenu extends Component {
 									}
 								}],
 								right: [{
-									text: 'Înapoi',
-									key: 'ctrl+backspace',
-									action: function () {
-										Popup.close()
-									}
-								},
-								{
 									text: 'Continuă',
 									key: 'ctrl+enter',
 									action: function () {
+										Popup.close()
 										Popup.create({
 											title: instructions[2].title,
 											content: instructions[2].text,
@@ -347,16 +341,10 @@ export class GraphMenu extends Component {
 													}
 												}],
 												right: [{
-													text: 'Înapoi',
-													key: 'ctrl+backspace',
-													action: function () {
-														Popup.close()
-													}
-												},
-												{
 													text: 'Continuă',
 													key: 'ctrl+enter',
 													action: function () {
+														Popup.close()
 														Popup.create({
 															title: instructions[3].title,
 															content: instructions[3].text,
@@ -368,20 +356,13 @@ export class GraphMenu extends Component {
 																		Popup.close()
 																		Popup.close()
 																		Popup.close()
-																		Popup.close()
 																	}
 																}],
 																right: [{
-																	text: 'Înapoi',
-																	key: 'ctrl+backspace',
-																	action: function () {
-																		Popup.close()
-																	}
-																},
-																{
 																	text: 'Continuă',
 																	key: 'ctrl+enter',
 																	action: function () {
+																		Popup.close()
 																		Popup.create({
 																			title: instructions[4].title,
 																			content: instructions[4].text,
@@ -393,18 +374,8 @@ export class GraphMenu extends Component {
 																						Popup.close()
 																						Popup.close()
 																						Popup.close()
-																						Popup.close()
-																						Popup.close()
 																					}
 																				}],
-																				right: [{
-																					text: 'Înapoi',
-																					key: 'ctrl+backspace',
-																					action: function () {
-																						Popup.close()
-																					}
-																				},
-																				]
 																			}
 																		}, true);
 																	}

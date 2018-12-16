@@ -3,7 +3,7 @@ import React from 'react'
 export const instructions = [
     {
         title: 'Informații de utilizare a platformei',
-        text: <p>Platforma oferă acces la fondurile oferite din 2007 până în prezent diverselor ONG-uri de pe teritoriul României.<br /><br /> Ecranul prinicipal afișează harta României, cu o distrbutie pe județe a fondurilor.<br /><br />Datele pot fi vizualizate atât sub formă de harta, cât și sub formă de grafic, tabel, fișier PDF sau fișier CSV.<br /><br />Toate aceste tipuri de date pot fi descărcate local: săgeata de descărcare este prezența în partea de sus a meniului de selecție.</p>
+        text: <p>Platforma oferă acces la fondurile oferite din 2007 până în prezent diverselor ONG-uri de pe teritoriul României.<br /><br /> Ecranul prinicipal afișează harta României, cu o distrbuție pe județe a fondurilor.<br /><br />Datele pot fi vizualizate atât sub formă de hartă, cât și sub formă de grafic, tabel, fișier PDF sau fișier CSV.<br /><br />Toate aceste tipuri de date pot fi descărcate local: săgeata de descărcare este prezentă în partea de sus a meniului de selecție, în dreapta iconiței pentru informații.</p>
     },
     {
         title: 'Descriere filtre',
@@ -11,15 +11,15 @@ export const instructions = [
     },
     {
         title: 'Descriere hartă',
-        text: <div><p>Pentru fiecare județ sunt oferite următoarele informații:</p> <ul><li>Suma totală de fonduri primită în toți anii de toate ONG-urile din acel județ</li><li>Numărul de ONG-uri din acel județ</li><li>Suma medie primită de fiecare ONG, calculată pe toți anii.</li></ul><p>Intensitatea culorii este direct proporțională cu suma totală din județul respectiv.</p><br /><br /><p>Pentru a accesa exclusiv datele unui județ anume, dați click pe acesta și veți fi duși la tabel, unde veți găsi lista cu ONG-urile din acel județ.</p></div>
+        text: <div><p>Pentru fiecare județ sunt oferite următoarele informații:</p> <ul><li>Suma totală de fonduri primită în toți anii de toate ONG-urile din acel județ</li><li>Numărul de ONG-uri din acel județ</li><li>Suma medie primită de fiecare ONG, calculată pe toți anii.</li></ul><p>Intensitatea culorii este direct proporțională cu suma totală din județul respectiv.</p><br /><p>Pentru a accesa exclusiv datele unui județ anume, dați click pe acesta și veți fi duși la tabel, unde veți găsi lista cu ONG-urile din acel județ.</p></div>
     },
     {
         title: 'Descriere grafic',
-        text: <div><p>Graficul afișează inițial suma totală (din toți anii) pentru fiecare județ. Se poate selecta și afișarea numărului de ONG-uri pentru fiecare județ, sau afișarea unei sume medii per ONG pentru fiecare județ.</p><br /><br /><p>Filtrele vor restrânge selecția afișată, iar în cazul în care este selectat un singur județ, vor apărea tabele noi cu informații privitoare la ONG-urile din acel județ, împărțite fie pe domenii, legislații sau ani.</p></div>
+        text: <div><p>Graficul afișează inițial suma totală (din toți anii) pentru fiecare județ. Se poate selecta și afișarea numărului de ONG-uri pentru fiecare județ, sau afișarea unei sume medii per ONG pentru fiecare județ.</p><br /><p>Filtrele vor restrânge selecția afișată, iar în cazul în care este selectat un singur județ, vor apărea tabele noi cu informații privitoare la ONG-urile din acel județ, împărțite fie pe domenii, legislații sau ani.</p></div>
     },
     {
         title: 'Descriere tabel',
-        text: <div>Tabelul afișează toate ONG-urile conforme selecției. Dacă nu este aplicat niciun filtru, sunt afișate toate ONG-urile din baza de date. Coloanele se pot sorta crescător sau descrescător.</div>
+        text: <div><p>Tabelul afișează toate ONG-urile conforme selecției. Dacă nu este aplicat niciun filtru, sunt afișate toate ONG-urile din baza de date. Coloanele se pot sorta crescător sau descrescător.</p><br /><p>Butonul de descărcare va descarcă tabelul curent în format XLSX, iar pentru hartă și grafic va descărca o poză în format PNG</p></div>
     },
 
 ]
