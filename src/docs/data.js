@@ -1,3 +1,13 @@
+export const regions = [
+  { value: 'Centru', label: 'Centru'},
+  { value: 'Nord-Est', label: 'Nord-Est'},
+  { value: 'Nord-Vest', label: 'Nord-Vest'},
+  { value: 'Sud-Muntenia', label: 'Sud-Muntenia'},
+  { value: 'Sud-Est', label: 'Sud-Est'},
+  { value: 'Sud-Vest', label: 'Sud-Vest'},
+  { value: 'Vest', label: 'Vest'},
+]
+
 export const counties = [
   { value: 'Alba', label: 'Alba'},
   { value: 'Arad', label: 'Arad'},
@@ -7426,7 +7436,7 @@ export const data = [
   },
   {
     "id": 490,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7441,7 +7451,7 @@ export const data = [
   },
   {
     "id": 491,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7456,7 +7466,7 @@ export const data = [
   },
   {
     "id": 492,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7471,7 +7481,7 @@ export const data = [
   },
   {
     "id": 493,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7486,7 +7496,7 @@ export const data = [
   },
   {
     "id": 494,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7501,7 +7511,7 @@ export const data = [
   },
   {
     "id": 495,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7516,7 +7526,7 @@ export const data = [
   },
   {
     "id": 496,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7531,7 +7541,7 @@ export const data = [
   },
   {
     "id": 497,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7546,7 +7556,7 @@ export const data = [
   },
   {
     "id": 498,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7561,7 +7571,7 @@ export const data = [
   },
   {
     "id": 499,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7576,7 +7586,7 @@ export const data = [
   },
   {
     "id": 500,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7591,7 +7601,7 @@ export const data = [
   },
   {
     "id": 501,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7606,7 +7616,7 @@ export const data = [
   },
   {
     "id": 502,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7621,7 +7631,7 @@ export const data = [
   },
   {
     "id": 503,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7636,7 +7646,7 @@ export const data = [
   },
   {
     "id": 504,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7651,7 +7661,7 @@ export const data = [
   },
   {
     "id": 505,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7666,7 +7676,7 @@ export const data = [
   },
   {
     "id": 506,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7681,7 +7691,7 @@ export const data = [
   },
   {
     "id": 507,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7696,7 +7706,7 @@ export const data = [
   },
   {
     "id": 508,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7711,7 +7721,7 @@ export const data = [
   },
   {
     "id": 509,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7726,7 +7736,7 @@ export const data = [
   },
   {
     "id": 510,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7741,7 +7751,7 @@ export const data = [
   },
   {
     "id": 511,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7756,7 +7766,7 @@ export const data = [
   },
   {
     "id": 512,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7771,7 +7781,7 @@ export const data = [
   },
   {
     "id": 513,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7786,7 +7796,7 @@ export const data = [
   },
   {
     "id": 514,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7801,7 +7811,7 @@ export const data = [
   },
   {
     "id": 515,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7816,7 +7826,7 @@ export const data = [
   },
   {
     "id": 516,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7831,7 +7841,7 @@ export const data = [
   },
   {
     "id": 517,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7846,7 +7856,7 @@ export const data = [
   },
   {
     "id": 518,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7861,7 +7871,7 @@ export const data = [
   },
   {
     "id": 519,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7876,7 +7886,7 @@ export const data = [
   },
   {
     "id": 520,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7891,7 +7901,7 @@ export const data = [
   },
   {
     "id": 521,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7906,7 +7916,7 @@ export const data = [
   },
   {
     "id": 522,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7921,7 +7931,7 @@ export const data = [
   },
   {
     "id": 523,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7936,7 +7946,7 @@ export const data = [
   },
   {
     "id": 524,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7951,7 +7961,7 @@ export const data = [
   },
   {
     "id": 525,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7966,7 +7976,7 @@ export const data = [
   },
   {
     "id": 526,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7981,7 +7991,7 @@ export const data = [
   },
   {
     "id": 527,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -7996,7 +8006,7 @@ export const data = [
   },
   {
     "id": 528,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -8011,7 +8021,7 @@ export const data = [
   },
   {
     "id": 529,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -8026,7 +8036,7 @@ export const data = [
   },
   {
     "id": 530,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -8041,7 +8051,7 @@ export const data = [
   },
   {
     "id": 531,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -8056,7 +8066,7 @@ export const data = [
   },
   {
     "id": 532,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -8071,7 +8081,7 @@ export const data = [
   },
   {
     "id": 533,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -8086,7 +8096,7 @@ export const data = [
   },
   {
     "id": 534,
-    "region": "Nord- Vest",
+    "region": "Nord-Vest",
     "county": "Bihor",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Bihor",
@@ -65161,7 +65171,7 @@ export const data = [
   },
   {
     "id": 4364,
-    "region": "Sud-Vest Oltenia",
+    "region": "Sud-Vest",
     "county": "Gorj",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Gorj",
@@ -65176,7 +65186,7 @@ export const data = [
   },
   {
     "id": 4365,
-    "region": "Sud-Vest Oltenia",
+    "region": "Sud-Vest",
     "county": "Gorj",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Gorj",
@@ -65191,7 +65201,7 @@ export const data = [
   },
   {
     "id": 4366,
-    "region": "Sud-Vest Oltenia",
+    "region": "Sud-Vest",
     "county": "Gorj",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Gorj",
@@ -65206,7 +65216,7 @@ export const data = [
   },
   {
     "id": 4367,
-    "region": "Sud-Vest Oltenia",
+    "region": "Sud-Vest",
     "county": "Gorj",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Gorj",
@@ -65221,7 +65231,7 @@ export const data = [
   },
   {
     "id": 4368,
-    "region": "Sud-Vest Oltenia",
+    "region": "Sud-Vest",
     "county": "Gorj",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Gorj",
@@ -86491,7 +86501,7 @@ export const data = [
   },
   {
     "id": 5786,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86506,7 +86516,7 @@ export const data = [
   },
   {
     "id": 5788,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86521,7 +86531,7 @@ export const data = [
   },
   {
     "id": 5789,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86536,7 +86546,7 @@ export const data = [
   },
   {
     "id": 5790,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86551,7 +86561,7 @@ export const data = [
   },
   {
     "id": 5791,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86566,7 +86576,7 @@ export const data = [
   },
   {
     "id": 5792,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86581,7 +86591,7 @@ export const data = [
   },
   {
     "id": 5793,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86596,7 +86606,7 @@ export const data = [
   },
   {
     "id": 5794,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86611,7 +86621,7 @@ export const data = [
   },
   {
     "id": 5795,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86626,7 +86636,7 @@ export const data = [
   },
   {
     "id": 5796,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86641,7 +86651,7 @@ export const data = [
   },
   {
     "id": 5797,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86656,7 +86666,7 @@ export const data = [
   },
   {
     "id": 5798,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86671,7 +86681,7 @@ export const data = [
   },
   {
     "id": 5799,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86686,7 +86696,7 @@ export const data = [
   },
   {
     "id": 5800,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86701,7 +86711,7 @@ export const data = [
   },
   {
     "id": 5801,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86716,7 +86726,7 @@ export const data = [
   },
   {
     "id": 5802,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86731,7 +86741,7 @@ export const data = [
   },
   {
     "id": 5803,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86746,7 +86756,7 @@ export const data = [
   },
   {
     "id": 5804,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86761,7 +86771,7 @@ export const data = [
   },
   {
     "id": 5805,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86776,7 +86786,7 @@ export const data = [
   },
   {
     "id": 5806,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86791,7 +86801,7 @@ export const data = [
   },
   {
     "id": 5807,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86806,7 +86816,7 @@ export const data = [
   },
   {
     "id": 5808,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86821,7 +86831,7 @@ export const data = [
   },
   {
     "id": 5809,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86836,7 +86846,7 @@ export const data = [
   },
   {
     "id": 5810,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86851,7 +86861,7 @@ export const data = [
   },
   {
     "id": 5811,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86866,7 +86876,7 @@ export const data = [
   },
   {
     "id": 5812,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86881,7 +86891,7 @@ export const data = [
   },
   {
     "id": 5813,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86896,7 +86906,7 @@ export const data = [
   },
   {
     "id": 5814,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86911,7 +86921,7 @@ export const data = [
   },
   {
     "id": 5815,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86926,7 +86936,7 @@ export const data = [
   },
   {
     "id": 5816,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86941,7 +86951,7 @@ export const data = [
   },
   {
     "id": 5817,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86956,7 +86966,7 @@ export const data = [
   },
   {
     "id": 5818,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86971,7 +86981,7 @@ export const data = [
   },
   {
     "id": 5819,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -86986,7 +86996,7 @@ export const data = [
   },
   {
     "id": 5820,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87001,7 +87011,7 @@ export const data = [
   },
   {
     "id": 5821,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87016,7 +87026,7 @@ export const data = [
   },
   {
     "id": 5822,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87031,7 +87041,7 @@ export const data = [
   },
   {
     "id": 5823,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87046,7 +87056,7 @@ export const data = [
   },
   {
     "id": 5824,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87061,7 +87071,7 @@ export const data = [
   },
   {
     "id": 5825,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87076,7 +87086,7 @@ export const data = [
   },
   {
     "id": 5826,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87091,7 +87101,7 @@ export const data = [
   },
   {
     "id": 5827,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87106,7 +87116,7 @@ export const data = [
   },
   {
     "id": 5828,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87121,7 +87131,7 @@ export const data = [
   },
   {
     "id": 5829,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87136,7 +87146,7 @@ export const data = [
   },
   {
     "id": 5830,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87151,7 +87161,7 @@ export const data = [
   },
   {
     "id": 5831,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87166,7 +87176,7 @@ export const data = [
   },
   {
     "id": 5832,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87181,7 +87191,7 @@ export const data = [
   },
   {
     "id": 5833,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87196,7 +87206,7 @@ export const data = [
   },
   {
     "id": 5834,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87211,7 +87221,7 @@ export const data = [
   },
   {
     "id": 5835,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87226,7 +87236,7 @@ export const data = [
   },
   {
     "id": 5836,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87241,7 +87251,7 @@ export const data = [
   },
   {
     "id": 5837,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87256,7 +87266,7 @@ export const data = [
   },
   {
     "id": 5838,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87271,7 +87281,7 @@ export const data = [
   },
   {
     "id": 5839,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87286,7 +87296,7 @@ export const data = [
   },
   {
     "id": 5840,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87301,7 +87311,7 @@ export const data = [
   },
   {
     "id": 5841,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87316,7 +87326,7 @@ export const data = [
   },
   {
     "id": 5842,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87331,7 +87341,7 @@ export const data = [
   },
   {
     "id": 5843,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87346,7 +87356,7 @@ export const data = [
   },
   {
     "id": 5844,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87361,7 +87371,7 @@ export const data = [
   },
   {
     "id": 5845,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87376,7 +87386,7 @@ export const data = [
   },
   {
     "id": 5846,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87391,7 +87401,7 @@ export const data = [
   },
   {
     "id": 5847,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87406,7 +87416,7 @@ export const data = [
   },
   {
     "id": 5848,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87421,7 +87431,7 @@ export const data = [
   },
   {
     "id": 5849,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87436,7 +87446,7 @@ export const data = [
   },
   {
     "id": 5850,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87451,7 +87461,7 @@ export const data = [
   },
   {
     "id": 5851,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87466,7 +87476,7 @@ export const data = [
   },
   {
     "id": 5852,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87481,7 +87491,7 @@ export const data = [
   },
   {
     "id": 5853,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87496,7 +87506,7 @@ export const data = [
   },
   {
     "id": 5854,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87511,7 +87521,7 @@ export const data = [
   },
   {
     "id": 5855,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87526,7 +87536,7 @@ export const data = [
   },
   {
     "id": 5856,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87541,7 +87551,7 @@ export const data = [
   },
   {
     "id": 5857,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87556,7 +87566,7 @@ export const data = [
   },
   {
     "id": 5858,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87571,7 +87581,7 @@ export const data = [
   },
   {
     "id": 5859,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87586,7 +87596,7 @@ export const data = [
   },
   {
     "id": 5860,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87601,7 +87611,7 @@ export const data = [
   },
   {
     "id": 5861,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Ialomița",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Ialomița",
@@ -87616,7 +87626,7 @@ export const data = [
   },
   {
     "id": 5862,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87631,7 +87641,7 @@ export const data = [
   },
   {
     "id": 5863,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87646,7 +87656,7 @@ export const data = [
   },
   {
     "id": 5864,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87661,7 +87671,7 @@ export const data = [
   },
   {
     "id": 5865,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87676,7 +87686,7 @@ export const data = [
   },
   {
     "id": 5866,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87691,7 +87701,7 @@ export const data = [
   },
   {
     "id": 5867,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87706,7 +87716,7 @@ export const data = [
   },
   {
     "id": 5868,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87721,7 +87731,7 @@ export const data = [
   },
   {
     "id": 5869,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87736,7 +87746,7 @@ export const data = [
   },
   {
     "id": 5870,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87751,7 +87761,7 @@ export const data = [
   },
   {
     "id": 5871,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87766,7 +87776,7 @@ export const data = [
   },
   {
     "id": 5872,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87781,7 +87791,7 @@ export const data = [
   },
   {
     "id": 5873,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87796,7 +87806,7 @@ export const data = [
   },
   {
     "id": 5874,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87811,7 +87821,7 @@ export const data = [
   },
   {
     "id": 5875,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87826,7 +87836,7 @@ export const data = [
   },
   {
     "id": 5876,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87841,7 +87851,7 @@ export const data = [
   },
   {
     "id": 5877,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87856,7 +87866,7 @@ export const data = [
   },
   {
     "id": 5878,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87871,7 +87881,7 @@ export const data = [
   },
   {
     "id": 5879,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87886,7 +87896,7 @@ export const data = [
   },
   {
     "id": 5880,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87901,7 +87911,7 @@ export const data = [
   },
   {
     "id": 5881,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87916,7 +87926,7 @@ export const data = [
   },
   {
     "id": 5882,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87931,7 +87941,7 @@ export const data = [
   },
   {
     "id": 5883,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87946,7 +87956,7 @@ export const data = [
   },
   {
     "id": 5884,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87961,7 +87971,7 @@ export const data = [
   },
   {
     "id": 5885,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87976,7 +87986,7 @@ export const data = [
   },
   {
     "id": 5886,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -87991,7 +88001,7 @@ export const data = [
   },
   {
     "id": 5887,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88006,7 +88016,7 @@ export const data = [
   },
   {
     "id": 5888,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88021,7 +88031,7 @@ export const data = [
   },
   {
     "id": 5889,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88036,7 +88046,7 @@ export const data = [
   },
   {
     "id": 5890,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88051,7 +88061,7 @@ export const data = [
   },
   {
     "id": 5891,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88066,7 +88076,7 @@ export const data = [
   },
   {
     "id": 5892,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88081,7 +88091,7 @@ export const data = [
   },
   {
     "id": 5893,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88096,7 +88106,7 @@ export const data = [
   },
   {
     "id": 5894,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88111,7 +88121,7 @@ export const data = [
   },
   {
     "id": 5895,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88126,7 +88136,7 @@ export const data = [
   },
   {
     "id": 5896,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88141,7 +88151,7 @@ export const data = [
   },
   {
     "id": 5897,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88156,7 +88166,7 @@ export const data = [
   },
   {
     "id": 5898,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88171,7 +88181,7 @@ export const data = [
   },
   {
     "id": 5899,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88186,7 +88196,7 @@ export const data = [
   },
   {
     "id": 5900,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88201,7 +88211,7 @@ export const data = [
   },
   {
     "id": 5901,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88216,7 +88226,7 @@ export const data = [
   },
   {
     "id": 5902,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88231,7 +88241,7 @@ export const data = [
   },
   {
     "id": 5903,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88246,7 +88256,7 @@ export const data = [
   },
   {
     "id": 5904,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88261,7 +88271,7 @@ export const data = [
   },
   {
     "id": 5905,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88276,7 +88286,7 @@ export const data = [
   },
   {
     "id": 5906,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88291,7 +88301,7 @@ export const data = [
   },
   {
     "id": 5907,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88306,7 +88316,7 @@ export const data = [
   },
   {
     "id": 5908,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88321,7 +88331,7 @@ export const data = [
   },
   {
     "id": 5909,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88336,7 +88346,7 @@ export const data = [
   },
   {
     "id": 5910,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88351,7 +88361,7 @@ export const data = [
   },
   {
     "id": 5911,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88366,7 +88376,7 @@ export const data = [
   },
   {
     "id": 5912,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88381,7 +88391,7 @@ export const data = [
   },
   {
     "id": 5913,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88396,7 +88406,7 @@ export const data = [
   },
   {
     "id": 5914,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88411,7 +88421,7 @@ export const data = [
   },
   {
     "id": 5915,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88426,7 +88436,7 @@ export const data = [
   },
   {
     "id": 5916,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88441,7 +88451,7 @@ export const data = [
   },
   {
     "id": 5917,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88456,7 +88466,7 @@ export const data = [
   },
   {
     "id": 5918,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88471,7 +88481,7 @@ export const data = [
   },
   {
     "id": 5919,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88486,7 +88496,7 @@ export const data = [
   },
   {
     "id": 5920,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88501,7 +88511,7 @@ export const data = [
   },
   {
     "id": 5921,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88516,7 +88526,7 @@ export const data = [
   },
   {
     "id": 5922,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88531,7 +88541,7 @@ export const data = [
   },
   {
     "id": 5923,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88546,7 +88556,7 @@ export const data = [
   },
   {
     "id": 5924,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88561,7 +88571,7 @@ export const data = [
   },
   {
     "id": 5925,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88576,7 +88586,7 @@ export const data = [
   },
   {
     "id": 5926,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88591,7 +88601,7 @@ export const data = [
   },
   {
     "id": 5927,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88606,7 +88616,7 @@ export const data = [
   },
   {
     "id": 5928,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88621,7 +88631,7 @@ export const data = [
   },
   {
     "id": 5929,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88636,7 +88646,7 @@ export const data = [
   },
   {
     "id": 5930,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88651,7 +88661,7 @@ export const data = [
   },
   {
     "id": 5931,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88666,7 +88676,7 @@ export const data = [
   },
   {
     "id": 5932,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88681,7 +88691,7 @@ export const data = [
   },
   {
     "id": 5933,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88696,7 +88706,7 @@ export const data = [
   },
   {
     "id": 5934,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Iași",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Iași",
@@ -88711,7 +88721,7 @@ export const data = [
   },
   {
     "id": 5935,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88726,7 +88736,7 @@ export const data = [
   },
   {
     "id": 5936,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88741,7 +88751,7 @@ export const data = [
   },
   {
     "id": 5937,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88756,7 +88766,7 @@ export const data = [
   },
   {
     "id": 5938,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88771,7 +88781,7 @@ export const data = [
   },
   {
     "id": 5939,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88786,7 +88796,7 @@ export const data = [
   },
   {
     "id": 5940,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88801,7 +88811,7 @@ export const data = [
   },
   {
     "id": 5941,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88816,7 +88826,7 @@ export const data = [
   },
   {
     "id": 5942,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88831,7 +88841,7 @@ export const data = [
   },
   {
     "id": 5943,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88846,7 +88856,7 @@ export const data = [
   },
   {
     "id": 5944,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88861,7 +88871,7 @@ export const data = [
   },
   {
     "id": 5945,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88876,7 +88886,7 @@ export const data = [
   },
   {
     "id": 5946,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88891,7 +88901,7 @@ export const data = [
   },
   {
     "id": 5947,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88906,7 +88916,7 @@ export const data = [
   },
   {
     "id": 5948,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88921,7 +88931,7 @@ export const data = [
   },
   {
     "id": 5949,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88936,7 +88946,7 @@ export const data = [
   },
   {
     "id": 5950,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88951,7 +88961,7 @@ export const data = [
   },
   {
     "id": 5951,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88966,7 +88976,7 @@ export const data = [
   },
   {
     "id": 5952,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88981,7 +88991,7 @@ export const data = [
   },
   {
     "id": 5953,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -88996,7 +89006,7 @@ export const data = [
   },
   {
     "id": 5954,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89011,7 +89021,7 @@ export const data = [
   },
   {
     "id": 5955,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89026,7 +89036,7 @@ export const data = [
   },
   {
     "id": 5956,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89041,7 +89051,7 @@ export const data = [
   },
   {
     "id": 5957,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89056,7 +89066,7 @@ export const data = [
   },
   {
     "id": 5958,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89071,7 +89081,7 @@ export const data = [
   },
   {
     "id": 5959,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89086,7 +89096,7 @@ export const data = [
   },
   {
     "id": 5960,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89101,7 +89111,7 @@ export const data = [
   },
   {
     "id": 5961,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89116,7 +89126,7 @@ export const data = [
   },
   {
     "id": 5962,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89131,7 +89141,7 @@ export const data = [
   },
   {
     "id": 5963,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89146,7 +89156,7 @@ export const data = [
   },
   {
     "id": 5964,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89161,7 +89171,7 @@ export const data = [
   },
   {
     "id": 5965,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89176,7 +89186,7 @@ export const data = [
   },
   {
     "id": 5966,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89191,7 +89201,7 @@ export const data = [
   },
   {
     "id": 5967,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89206,7 +89216,7 @@ export const data = [
   },
   {
     "id": 5968,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89221,7 +89231,7 @@ export const data = [
   },
   {
     "id": 5969,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89236,7 +89246,7 @@ export const data = [
   },
   {
     "id": 5970,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89251,7 +89261,7 @@ export const data = [
   },
   {
     "id": 5971,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89266,7 +89276,7 @@ export const data = [
   },
   {
     "id": 5972,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89281,7 +89291,7 @@ export const data = [
   },
   {
     "id": 5973,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -89296,7 +89306,7 @@ export const data = [
   },
   {
     "id": 5974,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89311,7 +89321,7 @@ export const data = [
   },
   {
     "id": 5975,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89326,7 +89336,7 @@ export const data = [
   },
   {
     "id": 5976,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89341,7 +89351,7 @@ export const data = [
   },
   {
     "id": 5977,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89356,7 +89366,7 @@ export const data = [
   },
   {
     "id": 5978,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89371,7 +89381,7 @@ export const data = [
   },
   {
     "id": 5979,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89386,7 +89396,7 @@ export const data = [
   },
   {
     "id": 5980,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89401,7 +89411,7 @@ export const data = [
   },
   {
     "id": 5981,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89416,7 +89426,7 @@ export const data = [
   },
   {
     "id": 5982,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89431,7 +89441,7 @@ export const data = [
   },
   {
     "id": 5983,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89446,7 +89456,7 @@ export const data = [
   },
   {
     "id": 5984,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89461,7 +89471,7 @@ export const data = [
   },
   {
     "id": 5985,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89476,7 +89486,7 @@ export const data = [
   },
   {
     "id": 5986,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89491,7 +89501,7 @@ export const data = [
   },
   {
     "id": 5987,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89506,7 +89516,7 @@ export const data = [
   },
   {
     "id": 5988,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89521,7 +89531,7 @@ export const data = [
   },
   {
     "id": 5989,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89536,7 +89546,7 @@ export const data = [
   },
   {
     "id": 5990,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89551,7 +89561,7 @@ export const data = [
   },
   {
     "id": 5991,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89566,7 +89576,7 @@ export const data = [
   },
   {
     "id": 5992,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89581,7 +89591,7 @@ export const data = [
   },
   {
     "id": 5993,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89596,7 +89606,7 @@ export const data = [
   },
   {
     "id": 5994,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89611,7 +89621,7 @@ export const data = [
   },
   {
     "id": 5995,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89626,7 +89636,7 @@ export const data = [
   },
   {
     "id": 5996,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89641,7 +89651,7 @@ export const data = [
   },
   {
     "id": 5997,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89656,7 +89666,7 @@ export const data = [
   },
   {
     "id": 5998,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89671,7 +89681,7 @@ export const data = [
   },
   {
     "id": 5999,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89686,7 +89696,7 @@ export const data = [
   },
   {
     "id": 6000,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89701,7 +89711,7 @@ export const data = [
   },
   {
     "id": 6001,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89716,7 +89726,7 @@ export const data = [
   },
   {
     "id": 6002,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89731,7 +89741,7 @@ export const data = [
   },
   {
     "id": 6003,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89746,7 +89756,7 @@ export const data = [
   },
   {
     "id": 6004,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89761,7 +89771,7 @@ export const data = [
   },
   {
     "id": 6005,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89776,7 +89786,7 @@ export const data = [
   },
   {
     "id": 6006,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89791,7 +89801,7 @@ export const data = [
   },
   {
     "id": 6007,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89806,7 +89816,7 @@ export const data = [
   },
   {
     "id": 6008,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89821,7 +89831,7 @@ export const data = [
   },
   {
     "id": 6009,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89836,7 +89846,7 @@ export const data = [
   },
   {
     "id": 6010,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89851,7 +89861,7 @@ export const data = [
   },
   {
     "id": 6011,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89866,7 +89876,7 @@ export const data = [
   },
   {
     "id": 6012,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89881,7 +89891,7 @@ export const data = [
   },
   {
     "id": 6013,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89896,7 +89906,7 @@ export const data = [
   },
   {
     "id": 6014,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89911,7 +89921,7 @@ export const data = [
   },
   {
     "id": 6015,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89926,7 +89936,7 @@ export const data = [
   },
   {
     "id": 6016,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89941,7 +89951,7 @@ export const data = [
   },
   {
     "id": 6017,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89956,7 +89966,7 @@ export const data = [
   },
   {
     "id": 6018,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89971,7 +89981,7 @@ export const data = [
   },
   {
     "id": 6019,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -89986,7 +89996,7 @@ export const data = [
   },
   {
     "id": 6020,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90001,7 +90011,7 @@ export const data = [
   },
   {
     "id": 6021,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90016,7 +90026,7 @@ export const data = [
   },
   {
     "id": 6022,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90031,7 +90041,7 @@ export const data = [
   },
   {
     "id": 6023,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90046,7 +90056,7 @@ export const data = [
   },
   {
     "id": 6024,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90061,7 +90071,7 @@ export const data = [
   },
   {
     "id": 6025,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90076,7 +90086,7 @@ export const data = [
   },
   {
     "id": 6026,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90091,7 +90101,7 @@ export const data = [
   },
   {
     "id": 6027,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90106,7 +90116,7 @@ export const data = [
   },
   {
     "id": 6028,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90121,7 +90131,7 @@ export const data = [
   },
   {
     "id": 6029,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90136,7 +90146,7 @@ export const data = [
   },
   {
     "id": 6030,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90151,7 +90161,7 @@ export const data = [
   },
   {
     "id": 6031,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90166,7 +90176,7 @@ export const data = [
   },
   {
     "id": 6032,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90181,7 +90191,7 @@ export const data = [
   },
   {
     "id": 6033,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90196,7 +90206,7 @@ export const data = [
   },
   {
     "id": 6034,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90211,7 +90221,7 @@ export const data = [
   },
   {
     "id": 6035,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90226,7 +90236,7 @@ export const data = [
   },
   {
     "id": 6036,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90241,7 +90251,7 @@ export const data = [
   },
   {
     "id": 6037,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90256,7 +90266,7 @@ export const data = [
   },
   {
     "id": 6038,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90271,7 +90281,7 @@ export const data = [
   },
   {
     "id": 6039,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90286,7 +90296,7 @@ export const data = [
   },
   {
     "id": 6040,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90301,7 +90311,7 @@ export const data = [
   },
   {
     "id": 6041,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90316,7 +90326,7 @@ export const data = [
   },
   {
     "id": 6042,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90331,7 +90341,7 @@ export const data = [
   },
   {
     "id": 6043,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90346,7 +90356,7 @@ export const data = [
   },
   {
     "id": 6044,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90361,7 +90371,7 @@ export const data = [
   },
   {
     "id": 6045,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90376,7 +90386,7 @@ export const data = [
   },
   {
     "id": 6046,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90391,7 +90401,7 @@ export const data = [
   },
   {
     "id": 6047,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90406,7 +90416,7 @@ export const data = [
   },
   {
     "id": 6048,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90421,7 +90431,7 @@ export const data = [
   },
   {
     "id": 6049,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90436,7 +90446,7 @@ export const data = [
   },
   {
     "id": 6050,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90451,7 +90461,7 @@ export const data = [
   },
   {
     "id": 6051,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90466,7 +90476,7 @@ export const data = [
   },
   {
     "id": 6052,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90481,7 +90491,7 @@ export const data = [
   },
   {
     "id": 6053,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90496,7 +90506,7 @@ export const data = [
   },
   {
     "id": 6054,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90511,7 +90521,7 @@ export const data = [
   },
   {
     "id": 6055,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90526,7 +90536,7 @@ export const data = [
   },
   {
     "id": 6056,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90541,7 +90551,7 @@ export const data = [
   },
   {
     "id": 6057,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90556,7 +90566,7 @@ export const data = [
   },
   {
     "id": 6058,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90571,7 +90581,7 @@ export const data = [
   },
   {
     "id": 6059,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90586,7 +90596,7 @@ export const data = [
   },
   {
     "id": 6060,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90601,7 +90611,7 @@ export const data = [
   },
   {
     "id": 6061,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90616,7 +90626,7 @@ export const data = [
   },
   {
     "id": 6062,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90631,7 +90641,7 @@ export const data = [
   },
   {
     "id": 6063,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90646,7 +90656,7 @@ export const data = [
   },
   {
     "id": 6064,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90661,7 +90671,7 @@ export const data = [
   },
   {
     "id": 6065,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90676,7 +90686,7 @@ export const data = [
   },
   {
     "id": 6066,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90691,7 +90701,7 @@ export const data = [
   },
   {
     "id": 6067,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90706,7 +90716,7 @@ export const data = [
   },
   {
     "id": 6068,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90721,7 +90731,7 @@ export const data = [
   },
   {
     "id": 6069,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90736,7 +90746,7 @@ export const data = [
   },
   {
     "id": 6070,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90751,7 +90761,7 @@ export const data = [
   },
   {
     "id": 6071,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90766,7 +90776,7 @@ export const data = [
   },
   {
     "id": 6072,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90781,7 +90791,7 @@ export const data = [
   },
   {
     "id": 6073,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90796,7 +90806,7 @@ export const data = [
   },
   {
     "id": 6074,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90811,7 +90821,7 @@ export const data = [
   },
   {
     "id": 6075,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90826,7 +90836,7 @@ export const data = [
   },
   {
     "id": 6076,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90841,7 +90851,7 @@ export const data = [
   },
   {
     "id": 6077,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90856,7 +90866,7 @@ export const data = [
   },
   {
     "id": 6078,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90871,7 +90881,7 @@ export const data = [
   },
   {
     "id": 6079,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90886,7 +90896,7 @@ export const data = [
   },
   {
     "id": 6080,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90901,7 +90911,7 @@ export const data = [
   },
   {
     "id": 6081,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90916,7 +90926,7 @@ export const data = [
   },
   {
     "id": 6082,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90931,7 +90941,7 @@ export const data = [
   },
   {
     "id": 6083,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90946,7 +90956,7 @@ export const data = [
   },
   {
     "id": 6084,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90961,7 +90971,7 @@ export const data = [
   },
   {
     "id": 6085,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90976,7 +90986,7 @@ export const data = [
   },
   {
     "id": 6086,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -90991,7 +91001,7 @@ export const data = [
   },
   {
     "id": 6087,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91006,7 +91016,7 @@ export const data = [
   },
   {
     "id": 6088,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91021,7 +91031,7 @@ export const data = [
   },
   {
     "id": 6089,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91036,7 +91046,7 @@ export const data = [
   },
   {
     "id": 6090,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91051,7 +91061,7 @@ export const data = [
   },
   {
     "id": 6091,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91066,7 +91076,7 @@ export const data = [
   },
   {
     "id": 6092,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91081,7 +91091,7 @@ export const data = [
   },
   {
     "id": 6093,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91096,7 +91106,7 @@ export const data = [
   },
   {
     "id": 6094,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91111,7 +91121,7 @@ export const data = [
   },
   {
     "id": 6095,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91126,7 +91136,7 @@ export const data = [
   },
   {
     "id": 6096,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91141,7 +91151,7 @@ export const data = [
   },
   {
     "id": 6097,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91156,7 +91166,7 @@ export const data = [
   },
   {
     "id": 6098,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91171,7 +91181,7 @@ export const data = [
   },
   {
     "id": 6099,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91186,7 +91196,7 @@ export const data = [
   },
   {
     "id": 6100,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91201,7 +91211,7 @@ export const data = [
   },
   {
     "id": 6101,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91216,7 +91226,7 @@ export const data = [
   },
   {
     "id": 6102,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91231,7 +91241,7 @@ export const data = [
   },
   {
     "id": 6103,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91246,7 +91256,7 @@ export const data = [
   },
   {
     "id": 6104,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91261,7 +91271,7 @@ export const data = [
   },
   {
     "id": 6105,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91276,7 +91286,7 @@ export const data = [
   },
   {
     "id": 6106,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91291,7 +91301,7 @@ export const data = [
   },
   {
     "id": 6107,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -91306,7 +91316,7 @@ export const data = [
   },
   {
     "id": 6120,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91321,7 +91331,7 @@ export const data = [
   },
   {
     "id": 6121,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91336,7 +91346,7 @@ export const data = [
   },
   {
     "id": 6122,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91351,7 +91361,7 @@ export const data = [
   },
   {
     "id": 6123,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91366,7 +91376,7 @@ export const data = [
   },
   {
     "id": 6124,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91381,7 +91391,7 @@ export const data = [
   },
   {
     "id": 6125,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91396,7 +91406,7 @@ export const data = [
   },
   {
     "id": 6126,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91411,7 +91421,7 @@ export const data = [
   },
   {
     "id": 6127,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91426,7 +91436,7 @@ export const data = [
   },
   {
     "id": 6128,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91441,7 +91451,7 @@ export const data = [
   },
   {
     "id": 6129,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91456,7 +91466,7 @@ export const data = [
   },
   {
     "id": 6130,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91471,7 +91481,7 @@ export const data = [
   },
   {
     "id": 6131,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91486,7 +91496,7 @@ export const data = [
   },
   {
     "id": 6132,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91501,7 +91511,7 @@ export const data = [
   },
   {
     "id": 6133,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91516,7 +91526,7 @@ export const data = [
   },
   {
     "id": 6134,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91531,7 +91541,7 @@ export const data = [
   },
   {
     "id": 6135,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91546,7 +91556,7 @@ export const data = [
   },
   {
     "id": 6136,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91561,7 +91571,7 @@ export const data = [
   },
   {
     "id": 6137,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91576,7 +91586,7 @@ export const data = [
   },
   {
     "id": 6138,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91591,7 +91601,7 @@ export const data = [
   },
   {
     "id": 6139,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91606,7 +91616,7 @@ export const data = [
   },
   {
     "id": 6140,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91621,7 +91631,7 @@ export const data = [
   },
   {
     "id": 6141,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91636,7 +91646,7 @@ export const data = [
   },
   {
     "id": 6142,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91651,7 +91661,7 @@ export const data = [
   },
   {
     "id": 6143,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91666,7 +91676,7 @@ export const data = [
   },
   {
     "id": 6144,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91681,7 +91691,7 @@ export const data = [
   },
   {
     "id": 6145,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91696,7 +91706,7 @@ export const data = [
   },
   {
     "id": 6146,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91711,7 +91721,7 @@ export const data = [
   },
   {
     "id": 6147,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91726,7 +91736,7 @@ export const data = [
   },
   {
     "id": 6148,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91741,7 +91751,7 @@ export const data = [
   },
   {
     "id": 6149,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91756,7 +91766,7 @@ export const data = [
   },
   {
     "id": 6150,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91771,7 +91781,7 @@ export const data = [
   },
   {
     "id": 6151,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91786,7 +91796,7 @@ export const data = [
   },
   {
     "id": 6152,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91801,7 +91811,7 @@ export const data = [
   },
   {
     "id": 6153,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91816,7 +91826,7 @@ export const data = [
   },
   {
     "id": 6154,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91831,7 +91841,7 @@ export const data = [
   },
   {
     "id": 6155,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91846,7 +91856,7 @@ export const data = [
   },
   {
     "id": 6156,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91861,7 +91871,7 @@ export const data = [
   },
   {
     "id": 6157,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91876,7 +91886,7 @@ export const data = [
   },
   {
     "id": 6158,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91891,7 +91901,7 @@ export const data = [
   },
   {
     "id": 6159,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91906,7 +91916,7 @@ export const data = [
   },
   {
     "id": 6160,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91921,7 +91931,7 @@ export const data = [
   },
   {
     "id": 6161,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91936,7 +91946,7 @@ export const data = [
   },
   {
     "id": 6162,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91951,7 +91961,7 @@ export const data = [
   },
   {
     "id": 6163,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91966,7 +91976,7 @@ export const data = [
   },
   {
     "id": 6164,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91981,7 +91991,7 @@ export const data = [
   },
   {
     "id": 6165,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -91996,7 +92006,7 @@ export const data = [
   },
   {
     "id": 6166,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92011,7 +92021,7 @@ export const data = [
   },
   {
     "id": 6167,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92026,7 +92036,7 @@ export const data = [
   },
   {
     "id": 6168,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92041,7 +92051,7 @@ export const data = [
   },
   {
     "id": 6169,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92056,7 +92066,7 @@ export const data = [
   },
   {
     "id": 6170,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92071,7 +92081,7 @@ export const data = [
   },
   {
     "id": 6171,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92086,7 +92096,7 @@ export const data = [
   },
   {
     "id": 6172,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92101,7 +92111,7 @@ export const data = [
   },
   {
     "id": 6173,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92116,7 +92126,7 @@ export const data = [
   },
   {
     "id": 6174,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92131,7 +92141,7 @@ export const data = [
   },
   {
     "id": 6175,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92146,7 +92156,7 @@ export const data = [
   },
   {
     "id": 6176,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92161,7 +92171,7 @@ export const data = [
   },
   {
     "id": 6177,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92176,7 +92186,7 @@ export const data = [
   },
   {
     "id": 6178,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92191,7 +92201,7 @@ export const data = [
   },
   {
     "id": 6179,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92206,7 +92216,7 @@ export const data = [
   },
   {
     "id": 6180,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92221,7 +92231,7 @@ export const data = [
   },
   {
     "id": 6181,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92236,7 +92246,7 @@ export const data = [
   },
   {
     "id": 6182,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92251,7 +92261,7 @@ export const data = [
   },
   {
     "id": 6183,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92266,7 +92276,7 @@ export const data = [
   },
   {
     "id": 6184,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92281,7 +92291,7 @@ export const data = [
   },
   {
     "id": 6185,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92296,7 +92306,7 @@ export const data = [
   },
   {
     "id": 6186,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92311,7 +92321,7 @@ export const data = [
   },
   {
     "id": 6187,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92326,7 +92336,7 @@ export const data = [
   },
   {
     "id": 6188,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92341,7 +92351,7 @@ export const data = [
   },
   {
     "id": 6189,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92356,7 +92366,7 @@ export const data = [
   },
   {
     "id": 6190,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92371,7 +92381,7 @@ export const data = [
   },
   {
     "id": 6191,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92386,7 +92396,7 @@ export const data = [
   },
   {
     "id": 6192,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92401,7 +92411,7 @@ export const data = [
   },
   {
     "id": 6193,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92416,7 +92426,7 @@ export const data = [
   },
   {
     "id": 6194,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92431,7 +92441,7 @@ export const data = [
   },
   {
     "id": 6195,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92446,7 +92456,7 @@ export const data = [
   },
   {
     "id": 6196,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92461,7 +92471,7 @@ export const data = [
   },
   {
     "id": 6197,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92476,7 +92486,7 @@ export const data = [
   },
   {
     "id": 6198,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92491,7 +92501,7 @@ export const data = [
   },
   {
     "id": 6199,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92506,7 +92516,7 @@ export const data = [
   },
   {
     "id": 6200,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92521,7 +92531,7 @@ export const data = [
   },
   {
     "id": 6201,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92536,7 +92546,7 @@ export const data = [
   },
   {
     "id": 6202,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92551,7 +92561,7 @@ export const data = [
   },
   {
     "id": 6203,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92566,7 +92576,7 @@ export const data = [
   },
   {
     "id": 6204,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92581,7 +92591,7 @@ export const data = [
   },
   {
     "id": 6205,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92596,7 +92606,7 @@ export const data = [
   },
   {
     "id": 6206,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92611,7 +92621,7 @@ export const data = [
   },
   {
     "id": 6207,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92626,7 +92636,7 @@ export const data = [
   },
   {
     "id": 6208,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92641,7 +92651,7 @@ export const data = [
   },
   {
     "id": 6209,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92656,7 +92666,7 @@ export const data = [
   },
   {
     "id": 6210,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92671,7 +92681,7 @@ export const data = [
   },
   {
     "id": 6211,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92686,7 +92696,7 @@ export const data = [
   },
   {
     "id": 6212,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92701,7 +92711,7 @@ export const data = [
   },
   {
     "id": 6213,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92716,7 +92726,7 @@ export const data = [
   },
   {
     "id": 6214,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92731,7 +92741,7 @@ export const data = [
   },
   {
     "id": 6215,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92746,7 +92756,7 @@ export const data = [
   },
   {
     "id": 6216,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92761,7 +92771,7 @@ export const data = [
   },
   {
     "id": 6217,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92776,7 +92786,7 @@ export const data = [
   },
   {
     "id": 6218,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92791,7 +92801,7 @@ export const data = [
   },
   {
     "id": 6219,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92806,7 +92816,7 @@ export const data = [
   },
   {
     "id": 6220,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92821,7 +92831,7 @@ export const data = [
   },
   {
     "id": 6221,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92836,7 +92846,7 @@ export const data = [
   },
   {
     "id": 6222,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92851,7 +92861,7 @@ export const data = [
   },
   {
     "id": 6223,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92866,7 +92876,7 @@ export const data = [
   },
   {
     "id": 6224,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92881,7 +92891,7 @@ export const data = [
   },
   {
     "id": 6225,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92896,7 +92906,7 @@ export const data = [
   },
   {
     "id": 6226,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92911,7 +92921,7 @@ export const data = [
   },
   {
     "id": 6227,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92926,7 +92936,7 @@ export const data = [
   },
   {
     "id": 6228,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92941,7 +92951,7 @@ export const data = [
   },
   {
     "id": 6229,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Maramureș",
@@ -92956,7 +92966,7 @@ export const data = [
   },
   {
     "id": 6233,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -92971,7 +92981,7 @@ export const data = [
   },
   {
     "id": 6234,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -92986,7 +92996,7 @@ export const data = [
   },
   {
     "id": 6235,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93001,7 +93011,7 @@ export const data = [
   },
   {
     "id": 6236,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93016,7 +93026,7 @@ export const data = [
   },
   {
     "id": 6237,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93031,7 +93041,7 @@ export const data = [
   },
   {
     "id": 6238,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93046,7 +93056,7 @@ export const data = [
   },
   {
     "id": 6239,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93061,7 +93071,7 @@ export const data = [
   },
   {
     "id": 6240,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93076,7 +93086,7 @@ export const data = [
   },
   {
     "id": 6241,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93091,7 +93101,7 @@ export const data = [
   },
   {
     "id": 6242,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93106,7 +93116,7 @@ export const data = [
   },
   {
     "id": 6243,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93121,7 +93131,7 @@ export const data = [
   },
   {
     "id": 6244,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93136,7 +93146,7 @@ export const data = [
   },
   {
     "id": 6245,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93151,7 +93161,7 @@ export const data = [
   },
   {
     "id": 6246,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93166,7 +93176,7 @@ export const data = [
   },
   {
     "id": 6247,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93181,7 +93191,7 @@ export const data = [
   },
   {
     "id": 6248,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93196,7 +93206,7 @@ export const data = [
   },
   {
     "id": 6249,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93211,7 +93221,7 @@ export const data = [
   },
   {
     "id": 6250,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93226,7 +93236,7 @@ export const data = [
   },
   {
     "id": 6251,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93241,7 +93251,7 @@ export const data = [
   },
   {
     "id": 6252,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93256,7 +93266,7 @@ export const data = [
   },
   {
     "id": 6253,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93271,7 +93281,7 @@ export const data = [
   },
   {
     "id": 6254,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93286,7 +93296,7 @@ export const data = [
   },
   {
     "id": 6255,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93301,7 +93311,7 @@ export const data = [
   },
   {
     "id": 6256,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "Legea 215/2001",
     "funder": "Consiliul Județean Maramureș",
@@ -93316,7 +93326,7 @@ export const data = [
   },
   {
     "id": 6272,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -93331,7 +93341,7 @@ export const data = [
   },
   {
     "id": 6277,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -93346,7 +93356,7 @@ export const data = [
   },
   {
     "id": 6282,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -93361,7 +93371,7 @@ export const data = [
   },
   {
     "id": 6283,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Maramureș",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Maramureș",
@@ -138646,7 +138656,7 @@ export const data = [
   },
   {
     "id": 9303,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138661,7 +138671,7 @@ export const data = [
   },
   {
     "id": 9304,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138676,7 +138686,7 @@ export const data = [
   },
   {
     "id": 9305,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138691,7 +138701,7 @@ export const data = [
   },
   {
     "id": 9306,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138706,7 +138716,7 @@ export const data = [
   },
   {
     "id": 9307,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138721,7 +138731,7 @@ export const data = [
   },
   {
     "id": 9308,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138736,7 +138746,7 @@ export const data = [
   },
   {
     "id": 9309,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138751,7 +138761,7 @@ export const data = [
   },
   {
     "id": 9310,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138766,7 +138776,7 @@ export const data = [
   },
   {
     "id": 9311,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138781,7 +138791,7 @@ export const data = [
   },
   {
     "id": 9312,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138796,7 +138806,7 @@ export const data = [
   },
   {
     "id": 9313,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138811,7 +138821,7 @@ export const data = [
   },
   {
     "id": 9314,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138826,7 +138836,7 @@ export const data = [
   },
   {
     "id": 9315,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138841,7 +138851,7 @@ export const data = [
   },
   {
     "id": 9316,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138856,7 +138866,7 @@ export const data = [
   },
   {
     "id": 9317,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138871,7 +138881,7 @@ export const data = [
   },
   {
     "id": 9318,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138886,7 +138896,7 @@ export const data = [
   },
   {
     "id": 9319,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138901,7 +138911,7 @@ export const data = [
   },
   {
     "id": 9320,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138916,7 +138926,7 @@ export const data = [
   },
   {
     "id": 9321,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138931,7 +138941,7 @@ export const data = [
   },
   {
     "id": 9322,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138946,7 +138956,7 @@ export const data = [
   },
   {
     "id": 9323,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138961,7 +138971,7 @@ export const data = [
   },
   {
     "id": 9324,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138976,7 +138986,7 @@ export const data = [
   },
   {
     "id": 9325,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -138991,7 +139001,7 @@ export const data = [
   },
   {
     "id": 9326,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139006,7 +139016,7 @@ export const data = [
   },
   {
     "id": 9327,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139021,7 +139031,7 @@ export const data = [
   },
   {
     "id": 9328,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139036,7 +139046,7 @@ export const data = [
   },
   {
     "id": 9329,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139051,7 +139061,7 @@ export const data = [
   },
   {
     "id": 9330,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139066,7 +139076,7 @@ export const data = [
   },
   {
     "id": 9331,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139081,7 +139091,7 @@ export const data = [
   },
   {
     "id": 9332,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139096,7 +139106,7 @@ export const data = [
   },
   {
     "id": 9333,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139111,7 +139121,7 @@ export const data = [
   },
   {
     "id": 9334,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139126,7 +139136,7 @@ export const data = [
   },
   {
     "id": 9335,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139141,7 +139151,7 @@ export const data = [
   },
   {
     "id": 9336,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139156,7 +139166,7 @@ export const data = [
   },
   {
     "id": 9337,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139171,7 +139181,7 @@ export const data = [
   },
   {
     "id": 9338,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139186,7 +139196,7 @@ export const data = [
   },
   {
     "id": 9339,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139201,7 +139211,7 @@ export const data = [
   },
   {
     "id": 9340,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139216,7 +139226,7 @@ export const data = [
   },
   {
     "id": 9341,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139231,7 +139241,7 @@ export const data = [
   },
   {
     "id": 9342,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139246,7 +139256,7 @@ export const data = [
   },
   {
     "id": 9343,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139261,7 +139271,7 @@ export const data = [
   },
   {
     "id": 9344,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139276,7 +139286,7 @@ export const data = [
   },
   {
     "id": 9345,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139291,7 +139301,7 @@ export const data = [
   },
   {
     "id": 9346,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139306,7 +139316,7 @@ export const data = [
   },
   {
     "id": 9347,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139321,7 +139331,7 @@ export const data = [
   },
   {
     "id": 9348,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139336,7 +139346,7 @@ export const data = [
   },
   {
     "id": 9349,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139351,7 +139361,7 @@ export const data = [
   },
   {
     "id": 9350,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139366,7 +139376,7 @@ export const data = [
   },
   {
     "id": 9351,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139381,7 +139391,7 @@ export const data = [
   },
   {
     "id": 9352,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139396,7 +139406,7 @@ export const data = [
   },
   {
     "id": 9353,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139411,7 +139421,7 @@ export const data = [
   },
   {
     "id": 9354,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139426,7 +139436,7 @@ export const data = [
   },
   {
     "id": 9355,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139441,7 +139451,7 @@ export const data = [
   },
   {
     "id": 9356,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139456,7 +139466,7 @@ export const data = [
   },
   {
     "id": 9357,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139471,7 +139481,7 @@ export const data = [
   },
   {
     "id": 9358,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139486,7 +139496,7 @@ export const data = [
   },
   {
     "id": 9359,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139501,7 +139511,7 @@ export const data = [
   },
   {
     "id": 9360,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139516,7 +139526,7 @@ export const data = [
   },
   {
     "id": 9361,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139531,7 +139541,7 @@ export const data = [
   },
   {
     "id": 9362,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139546,7 +139556,7 @@ export const data = [
   },
   {
     "id": 9363,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139561,7 +139571,7 @@ export const data = [
   },
   {
     "id": 9364,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139576,7 +139586,7 @@ export const data = [
   },
   {
     "id": 9365,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139591,7 +139601,7 @@ export const data = [
   },
   {
     "id": 9366,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139606,7 +139616,7 @@ export const data = [
   },
   {
     "id": 9367,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139621,7 +139631,7 @@ export const data = [
   },
   {
     "id": 9368,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139636,7 +139646,7 @@ export const data = [
   },
   {
     "id": 9369,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139651,7 +139661,7 @@ export const data = [
   },
   {
     "id": 9370,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139666,7 +139676,7 @@ export const data = [
   },
   {
     "id": 9371,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139681,7 +139691,7 @@ export const data = [
   },
   {
     "id": 9372,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139696,7 +139706,7 @@ export const data = [
   },
   {
     "id": 9373,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139711,7 +139721,7 @@ export const data = [
   },
   {
     "id": 9374,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139726,7 +139736,7 @@ export const data = [
   },
   {
     "id": 9375,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139741,7 +139751,7 @@ export const data = [
   },
   {
     "id": 9376,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139756,7 +139766,7 @@ export const data = [
   },
   {
     "id": 9377,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139771,7 +139781,7 @@ export const data = [
   },
   {
     "id": 9378,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139786,7 +139796,7 @@ export const data = [
   },
   {
     "id": 9379,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139801,7 +139811,7 @@ export const data = [
   },
   {
     "id": 9380,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139816,7 +139826,7 @@ export const data = [
   },
   {
     "id": 9381,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139831,7 +139841,7 @@ export const data = [
   },
   {
     "id": 9382,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139846,7 +139856,7 @@ export const data = [
   },
   {
     "id": 9383,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139861,7 +139871,7 @@ export const data = [
   },
   {
     "id": 9384,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139876,7 +139886,7 @@ export const data = [
   },
   {
     "id": 9385,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139891,7 +139901,7 @@ export const data = [
   },
   {
     "id": 9386,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139906,7 +139916,7 @@ export const data = [
   },
   {
     "id": 9387,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139921,7 +139931,7 @@ export const data = [
   },
   {
     "id": 9388,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139936,7 +139946,7 @@ export const data = [
   },
   {
     "id": 9389,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139951,7 +139961,7 @@ export const data = [
   },
   {
     "id": 9390,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139966,7 +139976,7 @@ export const data = [
   },
   {
     "id": 9391,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139981,7 +139991,7 @@ export const data = [
   },
   {
     "id": 9392,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -139996,7 +140006,7 @@ export const data = [
   },
   {
     "id": 9393,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140011,7 +140021,7 @@ export const data = [
   },
   {
     "id": 9394,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140026,7 +140036,7 @@ export const data = [
   },
   {
     "id": 9395,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140041,7 +140051,7 @@ export const data = [
   },
   {
     "id": 9396,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140056,7 +140066,7 @@ export const data = [
   },
   {
     "id": 9397,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140071,7 +140081,7 @@ export const data = [
   },
   {
     "id": 9398,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140086,7 +140096,7 @@ export const data = [
   },
   {
     "id": 9399,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140101,7 +140111,7 @@ export const data = [
   },
   {
     "id": 9400,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140116,7 +140126,7 @@ export const data = [
   },
   {
     "id": 9401,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140131,7 +140141,7 @@ export const data = [
   },
   {
     "id": 9402,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140146,7 +140156,7 @@ export const data = [
   },
   {
     "id": 9403,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140161,7 +140171,7 @@ export const data = [
   },
   {
     "id": 9404,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140176,7 +140186,7 @@ export const data = [
   },
   {
     "id": 9405,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140191,7 +140201,7 @@ export const data = [
   },
   {
     "id": 9406,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140206,7 +140216,7 @@ export const data = [
   },
   {
     "id": 9407,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140221,7 +140231,7 @@ export const data = [
   },
   {
     "id": 9408,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140236,7 +140246,7 @@ export const data = [
   },
   {
     "id": 9409,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140251,7 +140261,7 @@ export const data = [
   },
   {
     "id": 9410,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140266,7 +140276,7 @@ export const data = [
   },
   {
     "id": 9411,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140281,7 +140291,7 @@ export const data = [
   },
   {
     "id": 9412,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140296,7 +140306,7 @@ export const data = [
   },
   {
     "id": 9413,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140311,7 +140321,7 @@ export const data = [
   },
   {
     "id": 9414,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140326,7 +140336,7 @@ export const data = [
   },
   {
     "id": 9415,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140341,7 +140351,7 @@ export const data = [
   },
   {
     "id": 9416,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140356,7 +140366,7 @@ export const data = [
   },
   {
     "id": 9417,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140371,7 +140381,7 @@ export const data = [
   },
   {
     "id": 9418,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140386,7 +140396,7 @@ export const data = [
   },
   {
     "id": 9419,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140401,7 +140411,7 @@ export const data = [
   },
   {
     "id": 9420,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140416,7 +140426,7 @@ export const data = [
   },
   {
     "id": 9421,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140431,7 +140441,7 @@ export const data = [
   },
   {
     "id": 9422,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140446,7 +140456,7 @@ export const data = [
   },
   {
     "id": 9423,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140461,7 +140471,7 @@ export const data = [
   },
   {
     "id": 9424,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140476,7 +140486,7 @@ export const data = [
   },
   {
     "id": 9425,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140491,7 +140501,7 @@ export const data = [
   },
   {
     "id": 9426,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140506,7 +140516,7 @@ export const data = [
   },
   {
     "id": 9427,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140521,7 +140531,7 @@ export const data = [
   },
   {
     "id": 9428,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140536,7 +140546,7 @@ export const data = [
   },
   {
     "id": 9429,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140551,7 +140561,7 @@ export const data = [
   },
   {
     "id": 9430,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140566,7 +140576,7 @@ export const data = [
   },
   {
     "id": 9431,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140581,7 +140591,7 @@ export const data = [
   },
   {
     "id": 9432,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140596,7 +140606,7 @@ export const data = [
   },
   {
     "id": 9433,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140611,7 +140621,7 @@ export const data = [
   },
   {
     "id": 9434,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140626,7 +140636,7 @@ export const data = [
   },
   {
     "id": 9435,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140641,7 +140651,7 @@ export const data = [
   },
   {
     "id": 9436,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140656,7 +140666,7 @@ export const data = [
   },
   {
     "id": 9437,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140671,7 +140681,7 @@ export const data = [
   },
   {
     "id": 9438,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140686,7 +140696,7 @@ export const data = [
   },
   {
     "id": 9439,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140701,7 +140711,7 @@ export const data = [
   },
   {
     "id": 9440,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140716,7 +140726,7 @@ export const data = [
   },
   {
     "id": 9441,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140731,7 +140741,7 @@ export const data = [
   },
   {
     "id": 9442,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140746,7 +140756,7 @@ export const data = [
   },
   {
     "id": 9443,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140761,7 +140771,7 @@ export const data = [
   },
   {
     "id": 9444,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140776,7 +140786,7 @@ export const data = [
   },
   {
     "id": 9445,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140791,7 +140801,7 @@ export const data = [
   },
   {
     "id": 9446,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140806,7 +140816,7 @@ export const data = [
   },
   {
     "id": 9447,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140821,7 +140831,7 @@ export const data = [
   },
   {
     "id": 9448,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140836,7 +140846,7 @@ export const data = [
   },
   {
     "id": 9449,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140851,7 +140861,7 @@ export const data = [
   },
   {
     "id": 9450,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140866,7 +140876,7 @@ export const data = [
   },
   {
     "id": 9451,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140881,7 +140891,7 @@ export const data = [
   },
   {
     "id": 9452,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140896,7 +140906,7 @@ export const data = [
   },
   {
     "id": 9453,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140911,7 +140921,7 @@ export const data = [
   },
   {
     "id": 9454,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140926,7 +140936,7 @@ export const data = [
   },
   {
     "id": 9455,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140941,7 +140951,7 @@ export const data = [
   },
   {
     "id": 9456,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140956,7 +140966,7 @@ export const data = [
   },
   {
     "id": 9457,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140971,7 +140981,7 @@ export const data = [
   },
   {
     "id": 9458,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -140986,7 +140996,7 @@ export const data = [
   },
   {
     "id": 9459,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141001,7 +141011,7 @@ export const data = [
   },
   {
     "id": 9460,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141016,7 +141026,7 @@ export const data = [
   },
   {
     "id": 9461,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141031,7 +141041,7 @@ export const data = [
   },
   {
     "id": 9462,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141046,7 +141056,7 @@ export const data = [
   },
   {
     "id": 9463,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141061,7 +141071,7 @@ export const data = [
   },
   {
     "id": 9464,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141076,7 +141086,7 @@ export const data = [
   },
   {
     "id": 9465,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141091,7 +141101,7 @@ export const data = [
   },
   {
     "id": 9466,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141106,7 +141116,7 @@ export const data = [
   },
   {
     "id": 9467,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141121,7 +141131,7 @@ export const data = [
   },
   {
     "id": 9468,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141136,7 +141146,7 @@ export const data = [
   },
   {
     "id": 9469,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141151,7 +141161,7 @@ export const data = [
   },
   {
     "id": 9470,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141166,7 +141176,7 @@ export const data = [
   },
   {
     "id": 9471,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141181,7 +141191,7 @@ export const data = [
   },
   {
     "id": 9472,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141196,7 +141206,7 @@ export const data = [
   },
   {
     "id": 9473,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141211,7 +141221,7 @@ export const data = [
   },
   {
     "id": 9474,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141226,7 +141236,7 @@ export const data = [
   },
   {
     "id": 9475,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141241,7 +141251,7 @@ export const data = [
   },
   {
     "id": 9476,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141256,7 +141266,7 @@ export const data = [
   },
   {
     "id": 9477,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141271,7 +141281,7 @@ export const data = [
   },
   {
     "id": 9478,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141286,7 +141296,7 @@ export const data = [
   },
   {
     "id": 9479,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141301,7 +141311,7 @@ export const data = [
   },
   {
     "id": 9480,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141316,7 +141326,7 @@ export const data = [
   },
   {
     "id": 9481,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141331,7 +141341,7 @@ export const data = [
   },
   {
     "id": 9482,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141346,7 +141356,7 @@ export const data = [
   },
   {
     "id": 9483,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141361,7 +141371,7 @@ export const data = [
   },
   {
     "id": 9484,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141376,7 +141386,7 @@ export const data = [
   },
   {
     "id": 9485,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141391,7 +141401,7 @@ export const data = [
   },
   {
     "id": 9486,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141406,7 +141416,7 @@ export const data = [
   },
   {
     "id": 9487,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141421,7 +141431,7 @@ export const data = [
   },
   {
     "id": 9488,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141436,7 +141446,7 @@ export const data = [
   },
   {
     "id": 9489,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141451,7 +141461,7 @@ export const data = [
   },
   {
     "id": 9490,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141466,7 +141476,7 @@ export const data = [
   },
   {
     "id": 9491,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141481,7 +141491,7 @@ export const data = [
   },
   {
     "id": 9492,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141496,7 +141506,7 @@ export const data = [
   },
   {
     "id": 9493,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141511,7 +141521,7 @@ export const data = [
   },
   {
     "id": 9494,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141526,7 +141536,7 @@ export const data = [
   },
   {
     "id": 9495,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141541,7 +141551,7 @@ export const data = [
   },
   {
     "id": 9496,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141556,7 +141566,7 @@ export const data = [
   },
   {
     "id": 9497,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141571,7 +141581,7 @@ export const data = [
   },
   {
     "id": 9498,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141586,7 +141596,7 @@ export const data = [
   },
   {
     "id": 9499,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141601,7 +141611,7 @@ export const data = [
   },
   {
     "id": 9500,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141616,7 +141626,7 @@ export const data = [
   },
   {
     "id": 9501,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141631,7 +141641,7 @@ export const data = [
   },
   {
     "id": 9502,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141646,7 +141656,7 @@ export const data = [
   },
   {
     "id": 9503,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141661,7 +141671,7 @@ export const data = [
   },
   {
     "id": 9504,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141676,7 +141686,7 @@ export const data = [
   },
   {
     "id": 9505,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141691,7 +141701,7 @@ export const data = [
   },
   {
     "id": 9506,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141706,7 +141716,7 @@ export const data = [
   },
   {
     "id": 9507,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141721,7 +141731,7 @@ export const data = [
   },
   {
     "id": 9508,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141736,7 +141746,7 @@ export const data = [
   },
   {
     "id": 9509,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141751,7 +141761,7 @@ export const data = [
   },
   {
     "id": 9510,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141766,7 +141776,7 @@ export const data = [
   },
   {
     "id": 9511,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141781,7 +141791,7 @@ export const data = [
   },
   {
     "id": 9512,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141796,7 +141806,7 @@ export const data = [
   },
   {
     "id": 9513,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141811,7 +141821,7 @@ export const data = [
   },
   {
     "id": 9514,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141826,7 +141836,7 @@ export const data = [
   },
   {
     "id": 9515,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141841,7 +141851,7 @@ export const data = [
   },
   {
     "id": 9516,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141856,7 +141866,7 @@ export const data = [
   },
   {
     "id": 9517,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141871,7 +141881,7 @@ export const data = [
   },
   {
     "id": 9518,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141886,7 +141896,7 @@ export const data = [
   },
   {
     "id": 9519,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141901,7 +141911,7 @@ export const data = [
   },
   {
     "id": 9520,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141916,7 +141926,7 @@ export const data = [
   },
   {
     "id": 9521,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141931,7 +141941,7 @@ export const data = [
   },
   {
     "id": 9522,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141946,7 +141956,7 @@ export const data = [
   },
   {
     "id": 9523,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141961,7 +141971,7 @@ export const data = [
   },
   {
     "id": 9524,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141976,7 +141986,7 @@ export const data = [
   },
   {
     "id": 9525,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Neamț",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Neamț",
@@ -141991,7 +142001,7 @@ export const data = [
   },
   {
     "id": 9526,
-    "region": "Sud - Vest",
+    "region": "Sud-Vest",
     "county": "Olt",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Olt",
@@ -142006,7 +142016,7 @@ export const data = [
   },
   {
     "id": 9527,
-    "region": "Sud - Vest",
+    "region": "Sud-Vest",
     "county": "Olt",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Olt",
@@ -142021,7 +142031,7 @@ export const data = [
   },
   {
     "id": 9528,
-    "region": "Sud - Vest",
+    "region": "Sud-Vest",
     "county": "Olt",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Olt",
@@ -142036,7 +142046,7 @@ export const data = [
   },
   {
     "id": 9529,
-    "region": "Sud - Vest",
+    "region": "Sud-Vest",
     "county": "Olt",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Olt",
@@ -142051,7 +142061,7 @@ export const data = [
   },
   {
     "id": 9530,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Prahova",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Prahova",
@@ -142066,7 +142076,7 @@ export const data = [
   },
   {
     "id": 9531,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Prahova",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Prahova",
@@ -142081,7 +142091,7 @@ export const data = [
   },
   {
     "id": 9532,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Prahova",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Prahova",
@@ -142096,7 +142106,7 @@ export const data = [
   },
   {
     "id": 9533,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Prahova",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Prahova",
@@ -142111,7 +142121,7 @@ export const data = [
   },
   {
     "id": 9534,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Prahova",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Prahova",
@@ -142126,7 +142136,7 @@ export const data = [
   },
   {
     "id": 9535,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Prahova",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Prahova",
@@ -142141,7 +142151,7 @@ export const data = [
   },
   {
     "id": 9536,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Prahova",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Prahova",
@@ -142156,7 +142166,7 @@ export const data = [
   },
   {
     "id": 9537,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Prahova",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Prahova",
@@ -142171,7 +142181,7 @@ export const data = [
   },
   {
     "id": 9538,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Prahova",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Prahova",
@@ -142186,7 +142196,7 @@ export const data = [
   },
   {
     "id": 9539,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Prahova",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Prahova",
@@ -142201,7 +142211,7 @@ export const data = [
   },
   {
     "id": 9540,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Prahova",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Prahova",
@@ -142216,7 +142226,7 @@ export const data = [
   },
   {
     "id": 9541,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Prahova",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Prahova",
@@ -142231,7 +142241,7 @@ export const data = [
   },
   {
     "id": 9542,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Prahova",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Prahova",
@@ -142246,7 +142256,7 @@ export const data = [
   },
   {
     "id": 9543,
-    "region": "Sud - Muntenia",
+    "region": "Sud-Muntenia",
     "county": "Prahova",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Prahova",
@@ -142261,7 +142271,7 @@ export const data = [
   },
   {
     "id": 9544,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142276,7 +142286,7 @@ export const data = [
   },
   {
     "id": 9545,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142291,7 +142301,7 @@ export const data = [
   },
   {
     "id": 9546,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142306,7 +142316,7 @@ export const data = [
   },
   {
     "id": 9547,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142321,7 +142331,7 @@ export const data = [
   },
   {
     "id": 9548,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142336,7 +142346,7 @@ export const data = [
   },
   {
     "id": 9549,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142351,7 +142361,7 @@ export const data = [
   },
   {
     "id": 9550,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142366,7 +142376,7 @@ export const data = [
   },
   {
     "id": 9551,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142381,7 +142391,7 @@ export const data = [
   },
   {
     "id": 9552,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142396,7 +142406,7 @@ export const data = [
   },
   {
     "id": 9553,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142411,7 +142421,7 @@ export const data = [
   },
   {
     "id": 9554,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142426,7 +142436,7 @@ export const data = [
   },
   {
     "id": 9555,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142441,7 +142451,7 @@ export const data = [
   },
   {
     "id": 9556,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142456,7 +142466,7 @@ export const data = [
   },
   {
     "id": 9557,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142471,7 +142481,7 @@ export const data = [
   },
   {
     "id": 9558,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142486,7 +142496,7 @@ export const data = [
   },
   {
     "id": 9559,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142501,7 +142511,7 @@ export const data = [
   },
   {
     "id": 9560,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142516,7 +142526,7 @@ export const data = [
   },
   {
     "id": 9561,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142531,7 +142541,7 @@ export const data = [
   },
   {
     "id": 9562,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142546,7 +142556,7 @@ export const data = [
   },
   {
     "id": 9563,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142561,7 +142571,7 @@ export const data = [
   },
   {
     "id": 9564,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142576,7 +142586,7 @@ export const data = [
   },
   {
     "id": 9565,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142591,7 +142601,7 @@ export const data = [
   },
   {
     "id": 9566,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142606,7 +142616,7 @@ export const data = [
   },
   {
     "id": 9567,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142621,7 +142631,7 @@ export const data = [
   },
   {
     "id": 9568,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142636,7 +142646,7 @@ export const data = [
   },
   {
     "id": 9569,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142651,7 +142661,7 @@ export const data = [
   },
   {
     "id": 9570,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142666,7 +142676,7 @@ export const data = [
   },
   {
     "id": 9571,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142681,7 +142691,7 @@ export const data = [
   },
   {
     "id": 9572,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142696,7 +142706,7 @@ export const data = [
   },
   {
     "id": 9573,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142711,7 +142721,7 @@ export const data = [
   },
   {
     "id": 9574,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142726,7 +142736,7 @@ export const data = [
   },
   {
     "id": 9575,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142741,7 +142751,7 @@ export const data = [
   },
   {
     "id": 9576,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142756,7 +142766,7 @@ export const data = [
   },
   {
     "id": 9577,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142771,7 +142781,7 @@ export const data = [
   },
   {
     "id": 9578,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142786,7 +142796,7 @@ export const data = [
   },
   {
     "id": 9579,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142801,7 +142811,7 @@ export const data = [
   },
   {
     "id": 9580,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142816,7 +142826,7 @@ export const data = [
   },
   {
     "id": 9581,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142831,7 +142841,7 @@ export const data = [
   },
   {
     "id": 9582,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142846,7 +142856,7 @@ export const data = [
   },
   {
     "id": 9583,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142861,7 +142871,7 @@ export const data = [
   },
   {
     "id": 9584,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142876,7 +142886,7 @@ export const data = [
   },
   {
     "id": 9585,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142891,7 +142901,7 @@ export const data = [
   },
   {
     "id": 9586,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142906,7 +142916,7 @@ export const data = [
   },
   {
     "id": 9587,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142921,7 +142931,7 @@ export const data = [
   },
   {
     "id": 9588,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142936,7 +142946,7 @@ export const data = [
   },
   {
     "id": 9589,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142951,7 +142961,7 @@ export const data = [
   },
   {
     "id": 9590,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142966,7 +142976,7 @@ export const data = [
   },
   {
     "id": 9591,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142981,7 +142991,7 @@ export const data = [
   },
   {
     "id": 9592,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -142996,7 +143006,7 @@ export const data = [
   },
   {
     "id": 9593,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -143011,7 +143021,7 @@ export const data = [
   },
   {
     "id": 9594,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -143026,7 +143036,7 @@ export const data = [
   },
   {
     "id": 9595,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -143041,7 +143051,7 @@ export const data = [
   },
   {
     "id": 9596,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -143056,7 +143066,7 @@ export const data = [
   },
   {
     "id": 9597,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -143071,7 +143081,7 @@ export const data = [
   },
   {
     "id": 9598,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -143086,7 +143096,7 @@ export const data = [
   },
   {
     "id": 9599,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -143101,7 +143111,7 @@ export const data = [
   },
   {
     "id": 9600,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -143116,7 +143126,7 @@ export const data = [
   },
   {
     "id": 9601,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -143131,7 +143141,7 @@ export const data = [
   },
   {
     "id": 9602,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -143146,7 +143156,7 @@ export const data = [
   },
   {
     "id": 9603,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -143161,7 +143171,7 @@ export const data = [
   },
   {
     "id": 9604,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -143176,7 +143186,7 @@ export const data = [
   },
   {
     "id": 9605,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -143191,7 +143201,7 @@ export const data = [
   },
   {
     "id": 9606,
-    "region": "Nord - Vest",
+    "region": "Nord-Vest",
     "county": "Satu Mare",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Satu Mare",
@@ -155986,7 +155996,7 @@ export const data = [
   },
   {
     "id": 10459,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156001,7 +156011,7 @@ export const data = [
   },
   {
     "id": 10460,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156016,7 +156026,7 @@ export const data = [
   },
   {
     "id": 10461,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156031,7 +156041,7 @@ export const data = [
   },
   {
     "id": 10462,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156046,7 +156056,7 @@ export const data = [
   },
   {
     "id": 10463,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156061,7 +156071,7 @@ export const data = [
   },
   {
     "id": 10464,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156076,7 +156086,7 @@ export const data = [
   },
   {
     "id": 10465,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156091,7 +156101,7 @@ export const data = [
   },
   {
     "id": 10466,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156106,7 +156116,7 @@ export const data = [
   },
   {
     "id": 10467,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156121,7 +156131,7 @@ export const data = [
   },
   {
     "id": 10468,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156136,7 +156146,7 @@ export const data = [
   },
   {
     "id": 10469,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156151,7 +156161,7 @@ export const data = [
   },
   {
     "id": 10470,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156166,7 +156176,7 @@ export const data = [
   },
   {
     "id": 10471,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156181,7 +156191,7 @@ export const data = [
   },
   {
     "id": 10472,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156196,7 +156206,7 @@ export const data = [
   },
   {
     "id": 10473,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156211,7 +156221,7 @@ export const data = [
   },
   {
     "id": 10474,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156226,7 +156236,7 @@ export const data = [
   },
   {
     "id": 10475,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156241,7 +156251,7 @@ export const data = [
   },
   {
     "id": 10476,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156256,7 +156266,7 @@ export const data = [
   },
   {
     "id": 10477,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156271,7 +156281,7 @@ export const data = [
   },
   {
     "id": 10478,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156286,7 +156296,7 @@ export const data = [
   },
   {
     "id": 10479,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156301,7 +156311,7 @@ export const data = [
   },
   {
     "id": 10480,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156316,7 +156326,7 @@ export const data = [
   },
   {
     "id": 10481,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156331,7 +156341,7 @@ export const data = [
   },
   {
     "id": 10482,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156346,7 +156356,7 @@ export const data = [
   },
   {
     "id": 10483,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156361,7 +156371,7 @@ export const data = [
   },
   {
     "id": 10484,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156376,7 +156386,7 @@ export const data = [
   },
   {
     "id": 10485,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156391,7 +156401,7 @@ export const data = [
   },
   {
     "id": 10486,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156406,7 +156416,7 @@ export const data = [
   },
   {
     "id": 10487,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156421,7 +156431,7 @@ export const data = [
   },
   {
     "id": 10488,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156436,7 +156446,7 @@ export const data = [
   },
   {
     "id": 10489,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156451,7 +156461,7 @@ export const data = [
   },
   {
     "id": 10490,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156466,7 +156476,7 @@ export const data = [
   },
   {
     "id": 10491,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156481,7 +156491,7 @@ export const data = [
   },
   {
     "id": 10492,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156496,7 +156506,7 @@ export const data = [
   },
   {
     "id": 10493,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156511,7 +156521,7 @@ export const data = [
   },
   {
     "id": 10494,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156526,7 +156536,7 @@ export const data = [
   },
   {
     "id": 10495,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156541,7 +156551,7 @@ export const data = [
   },
   {
     "id": 10496,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156556,7 +156566,7 @@ export const data = [
   },
   {
     "id": 10497,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156571,7 +156581,7 @@ export const data = [
   },
   {
     "id": 10498,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156586,7 +156596,7 @@ export const data = [
   },
   {
     "id": 10499,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156601,7 +156611,7 @@ export const data = [
   },
   {
     "id": 10500,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156616,7 +156626,7 @@ export const data = [
   },
   {
     "id": 10501,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156631,7 +156641,7 @@ export const data = [
   },
   {
     "id": 10502,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156646,7 +156656,7 @@ export const data = [
   },
   {
     "id": 10503,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156661,7 +156671,7 @@ export const data = [
   },
   {
     "id": 10504,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156676,7 +156686,7 @@ export const data = [
   },
   {
     "id": 10505,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156691,7 +156701,7 @@ export const data = [
   },
   {
     "id": 10506,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156706,7 +156716,7 @@ export const data = [
   },
   {
     "id": 10507,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156721,7 +156731,7 @@ export const data = [
   },
   {
     "id": 10508,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156736,7 +156746,7 @@ export const data = [
   },
   {
     "id": 10509,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156751,7 +156761,7 @@ export const data = [
   },
   {
     "id": 10510,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156766,7 +156776,7 @@ export const data = [
   },
   {
     "id": 10511,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156781,7 +156791,7 @@ export const data = [
   },
   {
     "id": 10512,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156796,7 +156806,7 @@ export const data = [
   },
   {
     "id": 10513,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156811,7 +156821,7 @@ export const data = [
   },
   {
     "id": 10514,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156826,7 +156836,7 @@ export const data = [
   },
   {
     "id": 10515,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156841,7 +156851,7 @@ export const data = [
   },
   {
     "id": 10516,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156856,7 +156866,7 @@ export const data = [
   },
   {
     "id": 10517,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156871,7 +156881,7 @@ export const data = [
   },
   {
     "id": 10518,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156886,7 +156896,7 @@ export const data = [
   },
   {
     "id": 10519,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156901,7 +156911,7 @@ export const data = [
   },
   {
     "id": 10520,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156916,7 +156926,7 @@ export const data = [
   },
   {
     "id": 10521,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156931,7 +156941,7 @@ export const data = [
   },
   {
     "id": 10522,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156946,7 +156956,7 @@ export const data = [
   },
   {
     "id": 10523,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156961,7 +156971,7 @@ export const data = [
   },
   {
     "id": 10524,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156976,7 +156986,7 @@ export const data = [
   },
   {
     "id": 10525,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -156991,7 +157001,7 @@ export const data = [
   },
   {
     "id": 10526,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157006,7 +157016,7 @@ export const data = [
   },
   {
     "id": 10527,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157021,7 +157031,7 @@ export const data = [
   },
   {
     "id": 10528,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157036,7 +157046,7 @@ export const data = [
   },
   {
     "id": 10529,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157051,7 +157061,7 @@ export const data = [
   },
   {
     "id": 10530,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157066,7 +157076,7 @@ export const data = [
   },
   {
     "id": 10531,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157081,7 +157091,7 @@ export const data = [
   },
   {
     "id": 10532,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157096,7 +157106,7 @@ export const data = [
   },
   {
     "id": 10533,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157111,7 +157121,7 @@ export const data = [
   },
   {
     "id": 10534,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157126,7 +157136,7 @@ export const data = [
   },
   {
     "id": 10535,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157141,7 +157151,7 @@ export const data = [
   },
   {
     "id": 10536,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157156,7 +157166,7 @@ export const data = [
   },
   {
     "id": 10537,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157171,7 +157181,7 @@ export const data = [
   },
   {
     "id": 10538,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157186,7 +157196,7 @@ export const data = [
   },
   {
     "id": 10539,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157201,7 +157211,7 @@ export const data = [
   },
   {
     "id": 10540,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157216,7 +157226,7 @@ export const data = [
   },
   {
     "id": 10541,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157231,7 +157241,7 @@ export const data = [
   },
   {
     "id": 10542,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157246,7 +157256,7 @@ export const data = [
   },
   {
     "id": 10543,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157261,7 +157271,7 @@ export const data = [
   },
   {
     "id": 10544,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157276,7 +157286,7 @@ export const data = [
   },
   {
     "id": 10545,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157291,7 +157301,7 @@ export const data = [
   },
   {
     "id": 10546,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157306,7 +157316,7 @@ export const data = [
   },
   {
     "id": 10547,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157321,7 +157331,7 @@ export const data = [
   },
   {
     "id": 10548,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157336,7 +157346,7 @@ export const data = [
   },
   {
     "id": 10549,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157351,7 +157361,7 @@ export const data = [
   },
   {
     "id": 10550,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157366,7 +157376,7 @@ export const data = [
   },
   {
     "id": 10551,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157381,7 +157391,7 @@ export const data = [
   },
   {
     "id": 10552,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157396,7 +157406,7 @@ export const data = [
   },
   {
     "id": 10553,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157411,7 +157421,7 @@ export const data = [
   },
   {
     "id": 10554,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157426,7 +157436,7 @@ export const data = [
   },
   {
     "id": 10555,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157441,7 +157451,7 @@ export const data = [
   },
   {
     "id": 10556,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157456,7 +157466,7 @@ export const data = [
   },
   {
     "id": 10557,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157471,7 +157481,7 @@ export const data = [
   },
   {
     "id": 10558,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157486,7 +157496,7 @@ export const data = [
   },
   {
     "id": 10559,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157501,7 +157511,7 @@ export const data = [
   },
   {
     "id": 10560,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157516,7 +157526,7 @@ export const data = [
   },
   {
     "id": 10561,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157531,7 +157541,7 @@ export const data = [
   },
   {
     "id": 10562,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157546,7 +157556,7 @@ export const data = [
   },
   {
     "id": 10563,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157561,7 +157571,7 @@ export const data = [
   },
   {
     "id": 10564,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157576,7 +157586,7 @@ export const data = [
   },
   {
     "id": 10565,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157591,7 +157601,7 @@ export const data = [
   },
   {
     "id": 10566,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157606,7 +157616,7 @@ export const data = [
   },
   {
     "id": 10567,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157621,7 +157631,7 @@ export const data = [
   },
   {
     "id": 10568,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157636,7 +157646,7 @@ export const data = [
   },
   {
     "id": 10569,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157651,7 +157661,7 @@ export const data = [
   },
   {
     "id": 10570,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157666,7 +157676,7 @@ export const data = [
   },
   {
     "id": 10571,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157681,7 +157691,7 @@ export const data = [
   },
   {
     "id": 10572,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157696,7 +157706,7 @@ export const data = [
   },
   {
     "id": 10573,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157711,7 +157721,7 @@ export const data = [
   },
   {
     "id": 10574,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157726,7 +157736,7 @@ export const data = [
   },
   {
     "id": 10575,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157741,7 +157751,7 @@ export const data = [
   },
   {
     "id": 10576,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157756,7 +157766,7 @@ export const data = [
   },
   {
     "id": 10577,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157771,7 +157781,7 @@ export const data = [
   },
   {
     "id": 10578,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157786,7 +157796,7 @@ export const data = [
   },
   {
     "id": 10579,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157801,7 +157811,7 @@ export const data = [
   },
   {
     "id": 10580,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157816,7 +157826,7 @@ export const data = [
   },
   {
     "id": 10581,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157831,7 +157841,7 @@ export const data = [
   },
   {
     "id": 10582,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157846,7 +157856,7 @@ export const data = [
   },
   {
     "id": 10583,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157861,7 +157871,7 @@ export const data = [
   },
   {
     "id": 10584,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157876,7 +157886,7 @@ export const data = [
   },
   {
     "id": 10585,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157891,7 +157901,7 @@ export const data = [
   },
   {
     "id": 10586,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157906,7 +157916,7 @@ export const data = [
   },
   {
     "id": 10587,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157921,7 +157931,7 @@ export const data = [
   },
   {
     "id": 10588,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157936,7 +157946,7 @@ export const data = [
   },
   {
     "id": 10589,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157951,7 +157961,7 @@ export const data = [
   },
   {
     "id": 10590,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157966,7 +157976,7 @@ export const data = [
   },
   {
     "id": 10591,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157981,7 +157991,7 @@ export const data = [
   },
   {
     "id": 10592,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -157996,7 +158006,7 @@ export const data = [
   },
   {
     "id": 10593,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158011,7 +158021,7 @@ export const data = [
   },
   {
     "id": 10594,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158026,7 +158036,7 @@ export const data = [
   },
   {
     "id": 10595,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158041,7 +158051,7 @@ export const data = [
   },
   {
     "id": 10596,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158056,7 +158066,7 @@ export const data = [
   },
   {
     "id": 10597,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158071,7 +158081,7 @@ export const data = [
   },
   {
     "id": 10598,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158086,7 +158096,7 @@ export const data = [
   },
   {
     "id": 10599,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158101,7 +158111,7 @@ export const data = [
   },
   {
     "id": 10600,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158116,7 +158126,7 @@ export const data = [
   },
   {
     "id": 10601,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158131,7 +158141,7 @@ export const data = [
   },
   {
     "id": 10602,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158146,7 +158156,7 @@ export const data = [
   },
   {
     "id": 10603,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158161,7 +158171,7 @@ export const data = [
   },
   {
     "id": 10604,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158176,7 +158186,7 @@ export const data = [
   },
   {
     "id": 10605,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158191,7 +158201,7 @@ export const data = [
   },
   {
     "id": 10606,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158206,7 +158216,7 @@ export const data = [
   },
   {
     "id": 10607,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158221,7 +158231,7 @@ export const data = [
   },
   {
     "id": 10608,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158236,7 +158246,7 @@ export const data = [
   },
   {
     "id": 10609,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158251,7 +158261,7 @@ export const data = [
   },
   {
     "id": 10610,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158266,7 +158276,7 @@ export const data = [
   },
   {
     "id": 10611,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158281,7 +158291,7 @@ export const data = [
   },
   {
     "id": 10612,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158296,7 +158306,7 @@ export const data = [
   },
   {
     "id": 10613,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158311,7 +158321,7 @@ export const data = [
   },
   {
     "id": 10614,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158326,7 +158336,7 @@ export const data = [
   },
   {
     "id": 10615,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158341,7 +158351,7 @@ export const data = [
   },
   {
     "id": 10616,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158356,7 +158366,7 @@ export const data = [
   },
   {
     "id": 10617,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158371,7 +158381,7 @@ export const data = [
   },
   {
     "id": 10618,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158386,7 +158396,7 @@ export const data = [
   },
   {
     "id": 10619,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158401,7 +158411,7 @@ export const data = [
   },
   {
     "id": 10620,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158416,7 +158426,7 @@ export const data = [
   },
   {
     "id": 10621,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158431,7 +158441,7 @@ export const data = [
   },
   {
     "id": 10622,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158446,7 +158456,7 @@ export const data = [
   },
   {
     "id": 10623,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158461,7 +158471,7 @@ export const data = [
   },
   {
     "id": 10624,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158476,7 +158486,7 @@ export const data = [
   },
   {
     "id": 10625,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158491,7 +158501,7 @@ export const data = [
   },
   {
     "id": 10626,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158506,7 +158516,7 @@ export const data = [
   },
   {
     "id": 10627,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158521,7 +158531,7 @@ export const data = [
   },
   {
     "id": 10628,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158536,7 +158546,7 @@ export const data = [
   },
   {
     "id": 10629,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158551,7 +158561,7 @@ export const data = [
   },
   {
     "id": 10630,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158566,7 +158576,7 @@ export const data = [
   },
   {
     "id": 10631,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158581,7 +158591,7 @@ export const data = [
   },
   {
     "id": 10632,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158596,7 +158606,7 @@ export const data = [
   },
   {
     "id": 10633,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158611,7 +158621,7 @@ export const data = [
   },
   {
     "id": 10634,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158626,7 +158636,7 @@ export const data = [
   },
   {
     "id": 10635,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158641,7 +158651,7 @@ export const data = [
   },
   {
     "id": 10636,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158656,7 +158666,7 @@ export const data = [
   },
   {
     "id": 10637,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158671,7 +158681,7 @@ export const data = [
   },
   {
     "id": 10638,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158686,7 +158696,7 @@ export const data = [
   },
   {
     "id": 10639,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158701,7 +158711,7 @@ export const data = [
   },
   {
     "id": 10640,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158716,7 +158726,7 @@ export const data = [
   },
   {
     "id": 10641,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158731,7 +158741,7 @@ export const data = [
   },
   {
     "id": 10642,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158746,7 +158756,7 @@ export const data = [
   },
   {
     "id": 10643,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158761,7 +158771,7 @@ export const data = [
   },
   {
     "id": 10644,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158776,7 +158786,7 @@ export const data = [
   },
   {
     "id": 10645,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158791,7 +158801,7 @@ export const data = [
   },
   {
     "id": 10646,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158806,7 +158816,7 @@ export const data = [
   },
   {
     "id": 10647,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158821,7 +158831,7 @@ export const data = [
   },
   {
     "id": 10648,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158836,7 +158846,7 @@ export const data = [
   },
   {
     "id": 10649,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158851,7 +158861,7 @@ export const data = [
   },
   {
     "id": 10650,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158866,7 +158876,7 @@ export const data = [
   },
   {
     "id": 10651,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158881,7 +158891,7 @@ export const data = [
   },
   {
     "id": 10652,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158896,7 +158906,7 @@ export const data = [
   },
   {
     "id": 10653,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158911,7 +158921,7 @@ export const data = [
   },
   {
     "id": 10654,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158926,7 +158936,7 @@ export const data = [
   },
   {
     "id": 10655,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158941,7 +158951,7 @@ export const data = [
   },
   {
     "id": 10656,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158956,7 +158966,7 @@ export const data = [
   },
   {
     "id": 10657,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158971,7 +158981,7 @@ export const data = [
   },
   {
     "id": 10658,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -158986,7 +158996,7 @@ export const data = [
   },
   {
     "id": 10659,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159001,7 +159011,7 @@ export const data = [
   },
   {
     "id": 10660,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159016,7 +159026,7 @@ export const data = [
   },
   {
     "id": 10661,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159031,7 +159041,7 @@ export const data = [
   },
   {
     "id": 10662,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159046,7 +159056,7 @@ export const data = [
   },
   {
     "id": 10663,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159061,7 +159071,7 @@ export const data = [
   },
   {
     "id": 10664,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159076,7 +159086,7 @@ export const data = [
   },
   {
     "id": 10665,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159091,7 +159101,7 @@ export const data = [
   },
   {
     "id": 10666,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159106,7 +159116,7 @@ export const data = [
   },
   {
     "id": 10667,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159121,7 +159131,7 @@ export const data = [
   },
   {
     "id": 10668,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159136,7 +159146,7 @@ export const data = [
   },
   {
     "id": 10669,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159151,7 +159161,7 @@ export const data = [
   },
   {
     "id": 10670,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159166,7 +159176,7 @@ export const data = [
   },
   {
     "id": 10671,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159181,7 +159191,7 @@ export const data = [
   },
   {
     "id": 10672,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159196,7 +159206,7 @@ export const data = [
   },
   {
     "id": 10673,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159211,7 +159221,7 @@ export const data = [
   },
   {
     "id": 10674,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159226,7 +159236,7 @@ export const data = [
   },
   {
     "id": 10675,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159241,7 +159251,7 @@ export const data = [
   },
   {
     "id": 10676,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159256,7 +159266,7 @@ export const data = [
   },
   {
     "id": 10677,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159271,7 +159281,7 @@ export const data = [
   },
   {
     "id": 10678,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159286,7 +159296,7 @@ export const data = [
   },
   {
     "id": 10679,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159301,7 +159311,7 @@ export const data = [
   },
   {
     "id": 10680,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159316,7 +159326,7 @@ export const data = [
   },
   {
     "id": 10681,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159331,7 +159341,7 @@ export const data = [
   },
   {
     "id": 10682,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159346,7 +159356,7 @@ export const data = [
   },
   {
     "id": 10683,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159361,7 +159371,7 @@ export const data = [
   },
   {
     "id": 10684,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159376,7 +159386,7 @@ export const data = [
   },
   {
     "id": 10685,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159391,7 +159401,7 @@ export const data = [
   },
   {
     "id": 10686,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159406,7 +159416,7 @@ export const data = [
   },
   {
     "id": 10687,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159421,7 +159431,7 @@ export const data = [
   },
   {
     "id": 10688,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159436,7 +159446,7 @@ export const data = [
   },
   {
     "id": 10689,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159451,7 +159461,7 @@ export const data = [
   },
   {
     "id": 10690,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159466,7 +159476,7 @@ export const data = [
   },
   {
     "id": 10691,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159481,7 +159491,7 @@ export const data = [
   },
   {
     "id": 10692,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159496,7 +159506,7 @@ export const data = [
   },
   {
     "id": 10693,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159511,7 +159521,7 @@ export const data = [
   },
   {
     "id": 10694,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159526,7 +159536,7 @@ export const data = [
   },
   {
     "id": 10695,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159541,7 +159551,7 @@ export const data = [
   },
   {
     "id": 10696,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159556,7 +159566,7 @@ export const data = [
   },
   {
     "id": 10697,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159571,7 +159581,7 @@ export const data = [
   },
   {
     "id": 10698,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159586,7 +159596,7 @@ export const data = [
   },
   {
     "id": 10699,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159601,7 +159611,7 @@ export const data = [
   },
   {
     "id": 10700,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159616,7 +159626,7 @@ export const data = [
   },
   {
     "id": 10701,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159631,7 +159641,7 @@ export const data = [
   },
   {
     "id": 10702,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159646,7 +159656,7 @@ export const data = [
   },
   {
     "id": 10703,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159661,7 +159671,7 @@ export const data = [
   },
   {
     "id": 10704,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159676,7 +159686,7 @@ export const data = [
   },
   {
     "id": 10705,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159691,7 +159701,7 @@ export const data = [
   },
   {
     "id": 10706,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159706,7 +159716,7 @@ export const data = [
   },
   {
     "id": 10707,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159721,7 +159731,7 @@ export const data = [
   },
   {
     "id": 10708,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159736,7 +159746,7 @@ export const data = [
   },
   {
     "id": 10709,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159751,7 +159761,7 @@ export const data = [
   },
   {
     "id": 10710,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159766,7 +159776,7 @@ export const data = [
   },
   {
     "id": 10711,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159781,7 +159791,7 @@ export const data = [
   },
   {
     "id": 10712,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159796,7 +159806,7 @@ export const data = [
   },
   {
     "id": 10713,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159811,7 +159821,7 @@ export const data = [
   },
   {
     "id": 10714,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159826,7 +159836,7 @@ export const data = [
   },
   {
     "id": 10715,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159841,7 +159851,7 @@ export const data = [
   },
   {
     "id": 10716,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159856,7 +159866,7 @@ export const data = [
   },
   {
     "id": 10717,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159871,7 +159881,7 @@ export const data = [
   },
   {
     "id": 10718,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159886,7 +159896,7 @@ export const data = [
   },
   {
     "id": 10719,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159901,7 +159911,7 @@ export const data = [
   },
   {
     "id": 10720,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159916,7 +159926,7 @@ export const data = [
   },
   {
     "id": 10721,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159931,7 +159941,7 @@ export const data = [
   },
   {
     "id": 10722,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159946,7 +159956,7 @@ export const data = [
   },
   {
     "id": 10723,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159961,7 +159971,7 @@ export const data = [
   },
   {
     "id": 10724,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159976,7 +159986,7 @@ export const data = [
   },
   {
     "id": 10725,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -159991,7 +160001,7 @@ export const data = [
   },
   {
     "id": 10726,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160006,7 +160016,7 @@ export const data = [
   },
   {
     "id": 10727,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160021,7 +160031,7 @@ export const data = [
   },
   {
     "id": 10728,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160036,7 +160046,7 @@ export const data = [
   },
   {
     "id": 10729,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160051,7 +160061,7 @@ export const data = [
   },
   {
     "id": 10730,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160066,7 +160076,7 @@ export const data = [
   },
   {
     "id": 10731,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160081,7 +160091,7 @@ export const data = [
   },
   {
     "id": 10732,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160096,7 +160106,7 @@ export const data = [
   },
   {
     "id": 10733,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160111,7 +160121,7 @@ export const data = [
   },
   {
     "id": 10734,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160126,7 +160136,7 @@ export const data = [
   },
   {
     "id": 10735,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160141,7 +160151,7 @@ export const data = [
   },
   {
     "id": 10736,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160156,7 +160166,7 @@ export const data = [
   },
   {
     "id": 10737,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160171,7 +160181,7 @@ export const data = [
   },
   {
     "id": 10738,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160186,7 +160196,7 @@ export const data = [
   },
   {
     "id": 10739,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160201,7 +160211,7 @@ export const data = [
   },
   {
     "id": 10740,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160216,7 +160226,7 @@ export const data = [
   },
   {
     "id": 10741,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160231,7 +160241,7 @@ export const data = [
   },
   {
     "id": 10742,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160246,7 +160256,7 @@ export const data = [
   },
   {
     "id": 10743,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160261,7 +160271,7 @@ export const data = [
   },
   {
     "id": 10744,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160276,7 +160286,7 @@ export const data = [
   },
   {
     "id": 10745,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160291,7 +160301,7 @@ export const data = [
   },
   {
     "id": 10746,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160306,7 +160316,7 @@ export const data = [
   },
   {
     "id": 10747,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160321,7 +160331,7 @@ export const data = [
   },
   {
     "id": 10748,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160336,7 +160346,7 @@ export const data = [
   },
   {
     "id": 10749,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160351,7 +160361,7 @@ export const data = [
   },
   {
     "id": 10750,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160366,7 +160376,7 @@ export const data = [
   },
   {
     "id": 10751,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160381,7 +160391,7 @@ export const data = [
   },
   {
     "id": 10752,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160396,7 +160406,7 @@ export const data = [
   },
   {
     "id": 10753,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160411,7 +160421,7 @@ export const data = [
   },
   {
     "id": 10754,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160426,7 +160436,7 @@ export const data = [
   },
   {
     "id": 10755,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160441,7 +160451,7 @@ export const data = [
   },
   {
     "id": 10756,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160456,7 +160466,7 @@ export const data = [
   },
   {
     "id": 10757,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160471,7 +160481,7 @@ export const data = [
   },
   {
     "id": 10758,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160486,7 +160496,7 @@ export const data = [
   },
   {
     "id": 10759,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160501,7 +160511,7 @@ export const data = [
   },
   {
     "id": 10760,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160516,7 +160526,7 @@ export const data = [
   },
   {
     "id": 10761,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160531,7 +160541,7 @@ export const data = [
   },
   {
     "id": 10762,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160546,7 +160556,7 @@ export const data = [
   },
   {
     "id": 10763,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160561,7 +160571,7 @@ export const data = [
   },
   {
     "id": 10764,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160576,7 +160586,7 @@ export const data = [
   },
   {
     "id": 10765,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160591,7 +160601,7 @@ export const data = [
   },
   {
     "id": 10766,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160606,7 +160616,7 @@ export const data = [
   },
   {
     "id": 10767,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160621,7 +160631,7 @@ export const data = [
   },
   {
     "id": 10768,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160636,7 +160646,7 @@ export const data = [
   },
   {
     "id": 10769,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160651,7 +160661,7 @@ export const data = [
   },
   {
     "id": 10770,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160666,7 +160676,7 @@ export const data = [
   },
   {
     "id": 10771,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160681,7 +160691,7 @@ export const data = [
   },
   {
     "id": 10772,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160696,7 +160706,7 @@ export const data = [
   },
   {
     "id": 10773,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160711,7 +160721,7 @@ export const data = [
   },
   {
     "id": 10774,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160726,7 +160736,7 @@ export const data = [
   },
   {
     "id": 10775,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160741,7 +160751,7 @@ export const data = [
   },
   {
     "id": 10776,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160756,7 +160766,7 @@ export const data = [
   },
   {
     "id": 10777,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160771,7 +160781,7 @@ export const data = [
   },
   {
     "id": 10778,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160786,7 +160796,7 @@ export const data = [
   },
   {
     "id": 10779,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160801,7 +160811,7 @@ export const data = [
   },
   {
     "id": 10780,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160816,7 +160826,7 @@ export const data = [
   },
   {
     "id": 10781,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160831,7 +160841,7 @@ export const data = [
   },
   {
     "id": 10782,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160846,7 +160856,7 @@ export const data = [
   },
   {
     "id": 10783,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160861,7 +160871,7 @@ export const data = [
   },
   {
     "id": 10784,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160876,7 +160886,7 @@ export const data = [
   },
   {
     "id": 10785,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160891,7 +160901,7 @@ export const data = [
   },
   {
     "id": 10786,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160906,7 +160916,7 @@ export const data = [
   },
   {
     "id": 10787,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160921,7 +160931,7 @@ export const data = [
   },
   {
     "id": 10788,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160936,7 +160946,7 @@ export const data = [
   },
   {
     "id": 10789,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160951,7 +160961,7 @@ export const data = [
   },
   {
     "id": 10790,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160966,7 +160976,7 @@ export const data = [
   },
   {
     "id": 10791,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160981,7 +160991,7 @@ export const data = [
   },
   {
     "id": 10792,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -160996,7 +161006,7 @@ export const data = [
   },
   {
     "id": 10793,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161011,7 +161021,7 @@ export const data = [
   },
   {
     "id": 10794,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161026,7 +161036,7 @@ export const data = [
   },
   {
     "id": 10795,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161041,7 +161051,7 @@ export const data = [
   },
   {
     "id": 10796,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161056,7 +161066,7 @@ export const data = [
   },
   {
     "id": 10797,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161071,7 +161081,7 @@ export const data = [
   },
   {
     "id": 10798,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161086,7 +161096,7 @@ export const data = [
   },
   {
     "id": 10799,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161101,7 +161111,7 @@ export const data = [
   },
   {
     "id": 10800,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161116,7 +161126,7 @@ export const data = [
   },
   {
     "id": 10801,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161131,7 +161141,7 @@ export const data = [
   },
   {
     "id": 10802,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161146,7 +161156,7 @@ export const data = [
   },
   {
     "id": 10803,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161161,7 +161171,7 @@ export const data = [
   },
   {
     "id": 10804,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161176,7 +161186,7 @@ export const data = [
   },
   {
     "id": 10805,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161191,7 +161201,7 @@ export const data = [
   },
   {
     "id": 10806,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161206,7 +161216,7 @@ export const data = [
   },
   {
     "id": 10807,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161221,7 +161231,7 @@ export const data = [
   },
   {
     "id": 10808,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161236,7 +161246,7 @@ export const data = [
   },
   {
     "id": 10809,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161251,7 +161261,7 @@ export const data = [
   },
   {
     "id": 10810,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161266,7 +161276,7 @@ export const data = [
   },
   {
     "id": 10811,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161281,7 +161291,7 @@ export const data = [
   },
   {
     "id": 10812,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161296,7 +161306,7 @@ export const data = [
   },
   {
     "id": 10813,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161311,7 +161321,7 @@ export const data = [
   },
   {
     "id": 10814,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161326,7 +161336,7 @@ export const data = [
   },
   {
     "id": 10815,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161341,7 +161351,7 @@ export const data = [
   },
   {
     "id": 10816,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161356,7 +161366,7 @@ export const data = [
   },
   {
     "id": 10817,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161371,7 +161381,7 @@ export const data = [
   },
   {
     "id": 10818,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161386,7 +161396,7 @@ export const data = [
   },
   {
     "id": 10819,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161401,7 +161411,7 @@ export const data = [
   },
   {
     "id": 10820,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161416,7 +161426,7 @@ export const data = [
   },
   {
     "id": 10821,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161431,7 +161441,7 @@ export const data = [
   },
   {
     "id": 10822,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161446,7 +161456,7 @@ export const data = [
   },
   {
     "id": 10823,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161461,7 +161471,7 @@ export const data = [
   },
   {
     "id": 10824,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161476,7 +161486,7 @@ export const data = [
   },
   {
     "id": 10825,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161491,7 +161501,7 @@ export const data = [
   },
   {
     "id": 10826,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161506,7 +161516,7 @@ export const data = [
   },
   {
     "id": 10827,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161521,7 +161531,7 @@ export const data = [
   },
   {
     "id": 10828,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161536,7 +161546,7 @@ export const data = [
   },
   {
     "id": 10829,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161551,7 +161561,7 @@ export const data = [
   },
   {
     "id": 10830,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161566,7 +161576,7 @@ export const data = [
   },
   {
     "id": 10831,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161581,7 +161591,7 @@ export const data = [
   },
   {
     "id": 10832,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161596,7 +161606,7 @@ export const data = [
   },
   {
     "id": 10833,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161611,7 +161621,7 @@ export const data = [
   },
   {
     "id": 10834,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161626,7 +161636,7 @@ export const data = [
   },
   {
     "id": 10835,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161641,7 +161651,7 @@ export const data = [
   },
   {
     "id": 10836,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161656,7 +161666,7 @@ export const data = [
   },
   {
     "id": 10837,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161671,7 +161681,7 @@ export const data = [
   },
   {
     "id": 10838,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161686,7 +161696,7 @@ export const data = [
   },
   {
     "id": 10839,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161701,7 +161711,7 @@ export const data = [
   },
   {
     "id": 10840,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161716,7 +161726,7 @@ export const data = [
   },
   {
     "id": 10841,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161731,7 +161741,7 @@ export const data = [
   },
   {
     "id": 10842,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161746,7 +161756,7 @@ export const data = [
   },
   {
     "id": 10843,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161761,7 +161771,7 @@ export const data = [
   },
   {
     "id": 10844,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161776,7 +161786,7 @@ export const data = [
   },
   {
     "id": 10845,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161791,7 +161801,7 @@ export const data = [
   },
   {
     "id": 10846,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161806,7 +161816,7 @@ export const data = [
   },
   {
     "id": 10847,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161821,7 +161831,7 @@ export const data = [
   },
   {
     "id": 10848,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161836,7 +161846,7 @@ export const data = [
   },
   {
     "id": 10849,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161851,7 +161861,7 @@ export const data = [
   },
   {
     "id": 10850,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161866,7 +161876,7 @@ export const data = [
   },
   {
     "id": 10851,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161881,7 +161891,7 @@ export const data = [
   },
   {
     "id": 10852,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161896,7 +161906,7 @@ export const data = [
   },
   {
     "id": 10853,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161911,7 +161921,7 @@ export const data = [
   },
   {
     "id": 10854,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161926,7 +161936,7 @@ export const data = [
   },
   {
     "id": 10855,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161941,7 +161951,7 @@ export const data = [
   },
   {
     "id": 10856,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161956,7 +161966,7 @@ export const data = [
   },
   {
     "id": 10857,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161971,7 +161981,7 @@ export const data = [
   },
   {
     "id": 10858,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -161986,7 +161996,7 @@ export const data = [
   },
   {
     "id": 10859,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162001,7 +162011,7 @@ export const data = [
   },
   {
     "id": 10860,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162016,7 +162026,7 @@ export const data = [
   },
   {
     "id": 10861,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162031,7 +162041,7 @@ export const data = [
   },
   {
     "id": 10862,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162046,7 +162056,7 @@ export const data = [
   },
   {
     "id": 10863,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162061,7 +162071,7 @@ export const data = [
   },
   {
     "id": 10864,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162076,7 +162086,7 @@ export const data = [
   },
   {
     "id": 10865,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162091,7 +162101,7 @@ export const data = [
   },
   {
     "id": 10866,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162106,7 +162116,7 @@ export const data = [
   },
   {
     "id": 10867,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162121,7 +162131,7 @@ export const data = [
   },
   {
     "id": 10868,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162136,7 +162146,7 @@ export const data = [
   },
   {
     "id": 10869,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162151,7 +162161,7 @@ export const data = [
   },
   {
     "id": 10870,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162166,7 +162176,7 @@ export const data = [
   },
   {
     "id": 10871,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162181,7 +162191,7 @@ export const data = [
   },
   {
     "id": 10872,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162196,7 +162206,7 @@ export const data = [
   },
   {
     "id": 10873,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162211,7 +162221,7 @@ export const data = [
   },
   {
     "id": 10874,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162226,7 +162236,7 @@ export const data = [
   },
   {
     "id": 10875,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162241,7 +162251,7 @@ export const data = [
   },
   {
     "id": 10876,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162256,7 +162266,7 @@ export const data = [
   },
   {
     "id": 10877,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162271,7 +162281,7 @@ export const data = [
   },
   {
     "id": 10878,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162286,7 +162296,7 @@ export const data = [
   },
   {
     "id": 10879,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162301,7 +162311,7 @@ export const data = [
   },
   {
     "id": 10880,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162316,7 +162326,7 @@ export const data = [
   },
   {
     "id": 10881,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162331,7 +162341,7 @@ export const data = [
   },
   {
     "id": 10882,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162346,7 +162356,7 @@ export const data = [
   },
   {
     "id": 10883,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162361,7 +162371,7 @@ export const data = [
   },
   {
     "id": 10884,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162376,7 +162386,7 @@ export const data = [
   },
   {
     "id": 10885,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162391,7 +162401,7 @@ export const data = [
   },
   {
     "id": 10886,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162406,7 +162416,7 @@ export const data = [
   },
   {
     "id": 10887,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162421,7 +162431,7 @@ export const data = [
   },
   {
     "id": 10888,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162436,7 +162446,7 @@ export const data = [
   },
   {
     "id": 10889,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162451,7 +162461,7 @@ export const data = [
   },
   {
     "id": 10890,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162466,7 +162476,7 @@ export const data = [
   },
   {
     "id": 10891,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162481,7 +162491,7 @@ export const data = [
   },
   {
     "id": 10892,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162496,7 +162506,7 @@ export const data = [
   },
   {
     "id": 10893,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162511,7 +162521,7 @@ export const data = [
   },
   {
     "id": 10894,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162526,7 +162536,7 @@ export const data = [
   },
   {
     "id": 10895,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162541,7 +162551,7 @@ export const data = [
   },
   {
     "id": 10896,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162556,7 +162566,7 @@ export const data = [
   },
   {
     "id": 10897,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162571,7 +162581,7 @@ export const data = [
   },
   {
     "id": 10898,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162586,7 +162596,7 @@ export const data = [
   },
   {
     "id": 10899,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162601,7 +162611,7 @@ export const data = [
   },
   {
     "id": 10900,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162616,7 +162626,7 @@ export const data = [
   },
   {
     "id": 10901,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162631,7 +162641,7 @@ export const data = [
   },
   {
     "id": 10902,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162646,7 +162656,7 @@ export const data = [
   },
   {
     "id": 10903,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162661,7 +162671,7 @@ export const data = [
   },
   {
     "id": 10904,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162676,7 +162686,7 @@ export const data = [
   },
   {
     "id": 10905,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162691,7 +162701,7 @@ export const data = [
   },
   {
     "id": 10906,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162706,7 +162716,7 @@ export const data = [
   },
   {
     "id": 10907,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162721,7 +162731,7 @@ export const data = [
   },
   {
     "id": 10908,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162736,7 +162746,7 @@ export const data = [
   },
   {
     "id": 10909,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162751,7 +162761,7 @@ export const data = [
   },
   {
     "id": 10910,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162766,7 +162776,7 @@ export const data = [
   },
   {
     "id": 10911,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162781,7 +162791,7 @@ export const data = [
   },
   {
     "id": 10912,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162796,7 +162806,7 @@ export const data = [
   },
   {
     "id": 10913,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162811,7 +162821,7 @@ export const data = [
   },
   {
     "id": 10914,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162826,7 +162836,7 @@ export const data = [
   },
   {
     "id": 10915,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162841,7 +162851,7 @@ export const data = [
   },
   {
     "id": 10916,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162856,7 +162866,7 @@ export const data = [
   },
   {
     "id": 10917,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162871,7 +162881,7 @@ export const data = [
   },
   {
     "id": 10918,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162886,7 +162896,7 @@ export const data = [
   },
   {
     "id": 10919,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162901,7 +162911,7 @@ export const data = [
   },
   {
     "id": 10920,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162916,7 +162926,7 @@ export const data = [
   },
   {
     "id": 10921,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162931,7 +162941,7 @@ export const data = [
   },
   {
     "id": 10922,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162946,7 +162956,7 @@ export const data = [
   },
   {
     "id": 10923,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162961,7 +162971,7 @@ export const data = [
   },
   {
     "id": 10924,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162976,7 +162986,7 @@ export const data = [
   },
   {
     "id": 10925,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -162991,7 +163001,7 @@ export const data = [
   },
   {
     "id": 10926,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163006,7 +163016,7 @@ export const data = [
   },
   {
     "id": 10927,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163021,7 +163031,7 @@ export const data = [
   },
   {
     "id": 10928,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163036,7 +163046,7 @@ export const data = [
   },
   {
     "id": 10929,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163051,7 +163061,7 @@ export const data = [
   },
   {
     "id": 10930,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163066,7 +163076,7 @@ export const data = [
   },
   {
     "id": 10931,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163081,7 +163091,7 @@ export const data = [
   },
   {
     "id": 10932,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163096,7 +163106,7 @@ export const data = [
   },
   {
     "id": 10933,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163111,7 +163121,7 @@ export const data = [
   },
   {
     "id": 10934,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163126,7 +163136,7 @@ export const data = [
   },
   {
     "id": 10935,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163141,7 +163151,7 @@ export const data = [
   },
   {
     "id": 10936,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163156,7 +163166,7 @@ export const data = [
   },
   {
     "id": 10937,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163171,7 +163181,7 @@ export const data = [
   },
   {
     "id": 10938,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163186,7 +163196,7 @@ export const data = [
   },
   {
     "id": 10939,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163201,7 +163211,7 @@ export const data = [
   },
   {
     "id": 10940,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163216,7 +163226,7 @@ export const data = [
   },
   {
     "id": 10941,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163231,7 +163241,7 @@ export const data = [
   },
   {
     "id": 10942,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163246,7 +163256,7 @@ export const data = [
   },
   {
     "id": 10943,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163261,7 +163271,7 @@ export const data = [
   },
   {
     "id": 10944,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163276,7 +163286,7 @@ export const data = [
   },
   {
     "id": 10945,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163291,7 +163301,7 @@ export const data = [
   },
   {
     "id": 10946,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163306,7 +163316,7 @@ export const data = [
   },
   {
     "id": 10947,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163321,7 +163331,7 @@ export const data = [
   },
   {
     "id": 10948,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163336,7 +163346,7 @@ export const data = [
   },
   {
     "id": 10949,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163351,7 +163361,7 @@ export const data = [
   },
   {
     "id": 10950,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163366,7 +163376,7 @@ export const data = [
   },
   {
     "id": 10951,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163381,7 +163391,7 @@ export const data = [
   },
   {
     "id": 10952,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163396,7 +163406,7 @@ export const data = [
   },
   {
     "id": 10953,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163411,7 +163421,7 @@ export const data = [
   },
   {
     "id": 10954,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163426,7 +163436,7 @@ export const data = [
   },
   {
     "id": 10955,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163441,7 +163451,7 @@ export const data = [
   },
   {
     "id": 10956,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163456,7 +163466,7 @@ export const data = [
   },
   {
     "id": 10957,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163471,7 +163481,7 @@ export const data = [
   },
   {
     "id": 10958,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163486,7 +163496,7 @@ export const data = [
   },
   {
     "id": 10959,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163501,7 +163511,7 @@ export const data = [
   },
   {
     "id": 10960,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163516,7 +163526,7 @@ export const data = [
   },
   {
     "id": 10961,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163531,7 +163541,7 @@ export const data = [
   },
   {
     "id": 10962,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163546,7 +163556,7 @@ export const data = [
   },
   {
     "id": 10963,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163561,7 +163571,7 @@ export const data = [
   },
   {
     "id": 10964,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163576,7 +163586,7 @@ export const data = [
   },
   {
     "id": 10965,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163591,7 +163601,7 @@ export const data = [
   },
   {
     "id": 10966,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163606,7 +163616,7 @@ export const data = [
   },
   {
     "id": 10967,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163621,7 +163631,7 @@ export const data = [
   },
   {
     "id": 10968,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163636,7 +163646,7 @@ export const data = [
   },
   {
     "id": 10969,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163651,7 +163661,7 @@ export const data = [
   },
   {
     "id": 10970,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163666,7 +163676,7 @@ export const data = [
   },
   {
     "id": 10971,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163681,7 +163691,7 @@ export const data = [
   },
   {
     "id": 10972,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163696,7 +163706,7 @@ export const data = [
   },
   {
     "id": 10973,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163711,7 +163721,7 @@ export const data = [
   },
   {
     "id": 10974,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163726,7 +163736,7 @@ export const data = [
   },
   {
     "id": 10975,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163741,7 +163751,7 @@ export const data = [
   },
   {
     "id": 10976,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163756,7 +163766,7 @@ export const data = [
   },
   {
     "id": 10977,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163771,7 +163781,7 @@ export const data = [
   },
   {
     "id": 10978,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163786,7 +163796,7 @@ export const data = [
   },
   {
     "id": 10979,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163801,7 +163811,7 @@ export const data = [
   },
   {
     "id": 10980,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163816,7 +163826,7 @@ export const data = [
   },
   {
     "id": 10981,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163831,7 +163841,7 @@ export const data = [
   },
   {
     "id": 10982,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163846,7 +163856,7 @@ export const data = [
   },
   {
     "id": 10983,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163861,7 +163871,7 @@ export const data = [
   },
   {
     "id": 10984,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163876,7 +163886,7 @@ export const data = [
   },
   {
     "id": 10985,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163891,7 +163901,7 @@ export const data = [
   },
   {
     "id": 10986,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163906,7 +163916,7 @@ export const data = [
   },
   {
     "id": 10987,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163921,7 +163931,7 @@ export const data = [
   },
   {
     "id": 10988,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163936,7 +163946,7 @@ export const data = [
   },
   {
     "id": 10989,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163951,7 +163961,7 @@ export const data = [
   },
   {
     "id": 10990,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163966,7 +163976,7 @@ export const data = [
   },
   {
     "id": 10991,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163981,7 +163991,7 @@ export const data = [
   },
   {
     "id": 10992,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -163996,7 +164006,7 @@ export const data = [
   },
   {
     "id": 10993,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164011,7 +164021,7 @@ export const data = [
   },
   {
     "id": 10994,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164026,7 +164036,7 @@ export const data = [
   },
   {
     "id": 10995,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164041,7 +164051,7 @@ export const data = [
   },
   {
     "id": 10996,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164056,7 +164066,7 @@ export const data = [
   },
   {
     "id": 10997,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164071,7 +164081,7 @@ export const data = [
   },
   {
     "id": 10998,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164086,7 +164096,7 @@ export const data = [
   },
   {
     "id": 10999,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164101,7 +164111,7 @@ export const data = [
   },
   {
     "id": 11000,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164116,7 +164126,7 @@ export const data = [
   },
   {
     "id": 11001,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164131,7 +164141,7 @@ export const data = [
   },
   {
     "id": 11002,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164146,7 +164156,7 @@ export const data = [
   },
   {
     "id": 11003,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164161,7 +164171,7 @@ export const data = [
   },
   {
     "id": 11004,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164176,7 +164186,7 @@ export const data = [
   },
   {
     "id": 11005,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164191,7 +164201,7 @@ export const data = [
   },
   {
     "id": 11006,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164206,7 +164216,7 @@ export const data = [
   },
   {
     "id": 11007,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164221,7 +164231,7 @@ export const data = [
   },
   {
     "id": 11008,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164236,7 +164246,7 @@ export const data = [
   },
   {
     "id": 11009,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164251,7 +164261,7 @@ export const data = [
   },
   {
     "id": 11010,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164266,7 +164276,7 @@ export const data = [
   },
   {
     "id": 11011,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164281,7 +164291,7 @@ export const data = [
   },
   {
     "id": 11012,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164296,7 +164306,7 @@ export const data = [
   },
   {
     "id": 11013,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164311,7 +164321,7 @@ export const data = [
   },
   {
     "id": 11014,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164326,7 +164336,7 @@ export const data = [
   },
   {
     "id": 11015,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164341,7 +164351,7 @@ export const data = [
   },
   {
     "id": 11016,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164356,7 +164366,7 @@ export const data = [
   },
   {
     "id": 11017,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164371,7 +164381,7 @@ export const data = [
   },
   {
     "id": 11018,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164386,7 +164396,7 @@ export const data = [
   },
   {
     "id": 11019,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164401,7 +164411,7 @@ export const data = [
   },
   {
     "id": 11020,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164416,7 +164426,7 @@ export const data = [
   },
   {
     "id": 11021,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164431,7 +164441,7 @@ export const data = [
   },
   {
     "id": 11022,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164446,7 +164456,7 @@ export const data = [
   },
   {
     "id": 11023,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164461,7 +164471,7 @@ export const data = [
   },
   {
     "id": 11024,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164476,7 +164486,7 @@ export const data = [
   },
   {
     "id": 11025,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164491,7 +164501,7 @@ export const data = [
   },
   {
     "id": 11026,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164506,7 +164516,7 @@ export const data = [
   },
   {
     "id": 11027,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164521,7 +164531,7 @@ export const data = [
   },
   {
     "id": 11028,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164536,7 +164546,7 @@ export const data = [
   },
   {
     "id": 11029,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164551,7 +164561,7 @@ export const data = [
   },
   {
     "id": 11030,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164566,7 +164576,7 @@ export const data = [
   },
   {
     "id": 11031,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164581,7 +164591,7 @@ export const data = [
   },
   {
     "id": 11032,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164596,7 +164606,7 @@ export const data = [
   },
   {
     "id": 11033,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164611,7 +164621,7 @@ export const data = [
   },
   {
     "id": 11034,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164626,7 +164636,7 @@ export const data = [
   },
   {
     "id": 11035,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164641,7 +164651,7 @@ export const data = [
   },
   {
     "id": 11036,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164656,7 +164666,7 @@ export const data = [
   },
   {
     "id": 11037,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164671,7 +164681,7 @@ export const data = [
   },
   {
     "id": 11038,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164686,7 +164696,7 @@ export const data = [
   },
   {
     "id": 11039,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164701,7 +164711,7 @@ export const data = [
   },
   {
     "id": 11040,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164716,7 +164726,7 @@ export const data = [
   },
   {
     "id": 11041,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164731,7 +164741,7 @@ export const data = [
   },
   {
     "id": 11042,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164746,7 +164756,7 @@ export const data = [
   },
   {
     "id": 11043,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164761,7 +164771,7 @@ export const data = [
   },
   {
     "id": 11044,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164776,7 +164786,7 @@ export const data = [
   },
   {
     "id": 11045,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164791,7 +164801,7 @@ export const data = [
   },
   {
     "id": 11046,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164806,7 +164816,7 @@ export const data = [
   },
   {
     "id": 11047,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164821,7 +164831,7 @@ export const data = [
   },
   {
     "id": 11048,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164836,7 +164846,7 @@ export const data = [
   },
   {
     "id": 11049,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164851,7 +164861,7 @@ export const data = [
   },
   {
     "id": 11050,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164866,7 +164876,7 @@ export const data = [
   },
   {
     "id": 11051,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164881,7 +164891,7 @@ export const data = [
   },
   {
     "id": 11052,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164896,7 +164906,7 @@ export const data = [
   },
   {
     "id": 11053,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164911,7 +164921,7 @@ export const data = [
   },
   {
     "id": 11054,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164926,7 +164936,7 @@ export const data = [
   },
   {
     "id": 11055,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164941,7 +164951,7 @@ export const data = [
   },
   {
     "id": 11056,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164956,7 +164966,7 @@ export const data = [
   },
   {
     "id": 11057,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164971,7 +164981,7 @@ export const data = [
   },
   {
     "id": 11058,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -164986,7 +164996,7 @@ export const data = [
   },
   {
     "id": 11059,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165001,7 +165011,7 @@ export const data = [
   },
   {
     "id": 11060,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165016,7 +165026,7 @@ export const data = [
   },
   {
     "id": 11061,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165031,7 +165041,7 @@ export const data = [
   },
   {
     "id": 11062,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165046,7 +165056,7 @@ export const data = [
   },
   {
     "id": 11063,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165061,7 +165071,7 @@ export const data = [
   },
   {
     "id": 11064,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165076,7 +165086,7 @@ export const data = [
   },
   {
     "id": 11065,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165091,7 +165101,7 @@ export const data = [
   },
   {
     "id": 11066,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165106,7 +165116,7 @@ export const data = [
   },
   {
     "id": 11067,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165121,7 +165131,7 @@ export const data = [
   },
   {
     "id": 11068,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165136,7 +165146,7 @@ export const data = [
   },
   {
     "id": 11069,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165151,7 +165161,7 @@ export const data = [
   },
   {
     "id": 11070,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165166,7 +165176,7 @@ export const data = [
   },
   {
     "id": 11071,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165181,7 +165191,7 @@ export const data = [
   },
   {
     "id": 11072,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165196,7 +165206,7 @@ export const data = [
   },
   {
     "id": 11073,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165211,7 +165221,7 @@ export const data = [
   },
   {
     "id": 11074,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165226,7 +165236,7 @@ export const data = [
   },
   {
     "id": 11075,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165241,7 +165251,7 @@ export const data = [
   },
   {
     "id": 11076,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165256,7 +165266,7 @@ export const data = [
   },
   {
     "id": 11077,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165271,7 +165281,7 @@ export const data = [
   },
   {
     "id": 11078,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165286,7 +165296,7 @@ export const data = [
   },
   {
     "id": 11079,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165301,7 +165311,7 @@ export const data = [
   },
   {
     "id": 11080,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165316,7 +165326,7 @@ export const data = [
   },
   {
     "id": 11081,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165331,7 +165341,7 @@ export const data = [
   },
   {
     "id": 11082,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165346,7 +165356,7 @@ export const data = [
   },
   {
     "id": 11083,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165361,7 +165371,7 @@ export const data = [
   },
   {
     "id": 11084,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165376,7 +165386,7 @@ export const data = [
   },
   {
     "id": 11085,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165391,7 +165401,7 @@ export const data = [
   },
   {
     "id": 11086,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165406,7 +165416,7 @@ export const data = [
   },
   {
     "id": 11087,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165421,7 +165431,7 @@ export const data = [
   },
   {
     "id": 11088,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165436,7 +165446,7 @@ export const data = [
   },
   {
     "id": 11089,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165451,7 +165461,7 @@ export const data = [
   },
   {
     "id": 11090,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165466,7 +165476,7 @@ export const data = [
   },
   {
     "id": 11091,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165481,7 +165491,7 @@ export const data = [
   },
   {
     "id": 11092,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165496,7 +165506,7 @@ export const data = [
   },
   {
     "id": 11093,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165511,7 +165521,7 @@ export const data = [
   },
   {
     "id": 11094,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165526,7 +165536,7 @@ export const data = [
   },
   {
     "id": 11095,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165541,7 +165551,7 @@ export const data = [
   },
   {
     "id": 11096,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165556,7 +165566,7 @@ export const data = [
   },
   {
     "id": 11097,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165571,7 +165581,7 @@ export const data = [
   },
   {
     "id": 11098,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165586,7 +165596,7 @@ export const data = [
   },
   {
     "id": 11099,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165601,7 +165611,7 @@ export const data = [
   },
   {
     "id": 11100,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165616,7 +165626,7 @@ export const data = [
   },
   {
     "id": 11101,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165631,7 +165641,7 @@ export const data = [
   },
   {
     "id": 11102,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165646,7 +165656,7 @@ export const data = [
   },
   {
     "id": 11103,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165661,7 +165671,7 @@ export const data = [
   },
   {
     "id": 11104,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165676,7 +165686,7 @@ export const data = [
   },
   {
     "id": 11105,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165691,7 +165701,7 @@ export const data = [
   },
   {
     "id": 11106,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165706,7 +165716,7 @@ export const data = [
   },
   {
     "id": 11107,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165721,7 +165731,7 @@ export const data = [
   },
   {
     "id": 11108,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165736,7 +165746,7 @@ export const data = [
   },
   {
     "id": 11109,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165751,7 +165761,7 @@ export const data = [
   },
   {
     "id": 11110,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165766,7 +165776,7 @@ export const data = [
   },
   {
     "id": 11111,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165781,7 +165791,7 @@ export const data = [
   },
   {
     "id": 11112,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165796,7 +165806,7 @@ export const data = [
   },
   {
     "id": 11113,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165811,7 +165821,7 @@ export const data = [
   },
   {
     "id": 11114,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165826,7 +165836,7 @@ export const data = [
   },
   {
     "id": 11115,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165841,7 +165851,7 @@ export const data = [
   },
   {
     "id": 11116,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165856,7 +165866,7 @@ export const data = [
   },
   {
     "id": 11117,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165871,7 +165881,7 @@ export const data = [
   },
   {
     "id": 11118,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165886,7 +165896,7 @@ export const data = [
   },
   {
     "id": 11119,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165901,7 +165911,7 @@ export const data = [
   },
   {
     "id": 11120,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165916,7 +165926,7 @@ export const data = [
   },
   {
     "id": 11121,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165931,7 +165941,7 @@ export const data = [
   },
   {
     "id": 11122,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165946,7 +165956,7 @@ export const data = [
   },
   {
     "id": 11123,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165961,7 +165971,7 @@ export const data = [
   },
   {
     "id": 11124,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165976,7 +165986,7 @@ export const data = [
   },
   {
     "id": 11125,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -165991,7 +166001,7 @@ export const data = [
   },
   {
     "id": 11126,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166006,7 +166016,7 @@ export const data = [
   },
   {
     "id": 11127,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166021,7 +166031,7 @@ export const data = [
   },
   {
     "id": 11128,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166036,7 +166046,7 @@ export const data = [
   },
   {
     "id": 11129,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166051,7 +166061,7 @@ export const data = [
   },
   {
     "id": 11130,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166066,7 +166076,7 @@ export const data = [
   },
   {
     "id": 11131,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166081,7 +166091,7 @@ export const data = [
   },
   {
     "id": 11132,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166096,7 +166106,7 @@ export const data = [
   },
   {
     "id": 11133,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166111,7 +166121,7 @@ export const data = [
   },
   {
     "id": 11134,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166126,7 +166136,7 @@ export const data = [
   },
   {
     "id": 11135,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166141,7 +166151,7 @@ export const data = [
   },
   {
     "id": 11136,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166156,7 +166166,7 @@ export const data = [
   },
   {
     "id": 11137,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166171,7 +166181,7 @@ export const data = [
   },
   {
     "id": 11138,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166186,7 +166196,7 @@ export const data = [
   },
   {
     "id": 11139,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166201,7 +166211,7 @@ export const data = [
   },
   {
     "id": 11140,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166216,7 +166226,7 @@ export const data = [
   },
   {
     "id": 11141,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166231,7 +166241,7 @@ export const data = [
   },
   {
     "id": 11142,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166246,7 +166256,7 @@ export const data = [
   },
   {
     "id": 11143,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166261,7 +166271,7 @@ export const data = [
   },
   {
     "id": 11144,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166276,7 +166286,7 @@ export const data = [
   },
   {
     "id": 11145,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166291,7 +166301,7 @@ export const data = [
   },
   {
     "id": 11146,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166306,7 +166316,7 @@ export const data = [
   },
   {
     "id": 11147,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166321,7 +166331,7 @@ export const data = [
   },
   {
     "id": 11148,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166336,7 +166346,7 @@ export const data = [
   },
   {
     "id": 11149,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166351,7 +166361,7 @@ export const data = [
   },
   {
     "id": 11150,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166366,7 +166376,7 @@ export const data = [
   },
   {
     "id": 11151,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166381,7 +166391,7 @@ export const data = [
   },
   {
     "id": 11152,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166396,7 +166406,7 @@ export const data = [
   },
   {
     "id": 11153,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166411,7 +166421,7 @@ export const data = [
   },
   {
     "id": 11154,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166426,7 +166436,7 @@ export const data = [
   },
   {
     "id": 11155,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166441,7 +166451,7 @@ export const data = [
   },
   {
     "id": 11156,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166456,7 +166466,7 @@ export const data = [
   },
   {
     "id": 11157,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166471,7 +166481,7 @@ export const data = [
   },
   {
     "id": 11158,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166486,7 +166496,7 @@ export const data = [
   },
   {
     "id": 11159,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166501,7 +166511,7 @@ export const data = [
   },
   {
     "id": 11160,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166516,7 +166526,7 @@ export const data = [
   },
   {
     "id": 11161,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166531,7 +166541,7 @@ export const data = [
   },
   {
     "id": 11162,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166546,7 +166556,7 @@ export const data = [
   },
   {
     "id": 11163,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166561,7 +166571,7 @@ export const data = [
   },
   {
     "id": 11164,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166576,7 +166586,7 @@ export const data = [
   },
   {
     "id": 11165,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166591,7 +166601,7 @@ export const data = [
   },
   {
     "id": 11166,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166606,7 +166616,7 @@ export const data = [
   },
   {
     "id": 11167,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166621,7 +166631,7 @@ export const data = [
   },
   {
     "id": 11168,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166636,7 +166646,7 @@ export const data = [
   },
   {
     "id": 11169,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166651,7 +166661,7 @@ export const data = [
   },
   {
     "id": 11170,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166666,7 +166676,7 @@ export const data = [
   },
   {
     "id": 11171,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166681,7 +166691,7 @@ export const data = [
   },
   {
     "id": 11172,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166696,7 +166706,7 @@ export const data = [
   },
   {
     "id": 11173,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166711,7 +166721,7 @@ export const data = [
   },
   {
     "id": 11174,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166726,7 +166736,7 @@ export const data = [
   },
   {
     "id": 11175,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166741,7 +166751,7 @@ export const data = [
   },
   {
     "id": 11176,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166756,7 +166766,7 @@ export const data = [
   },
   {
     "id": 11177,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166771,7 +166781,7 @@ export const data = [
   },
   {
     "id": 11178,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166786,7 +166796,7 @@ export const data = [
   },
   {
     "id": 11179,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166801,7 +166811,7 @@ export const data = [
   },
   {
     "id": 11180,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166816,7 +166826,7 @@ export const data = [
   },
   {
     "id": 11181,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166831,7 +166841,7 @@ export const data = [
   },
   {
     "id": 11182,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166846,7 +166856,7 @@ export const data = [
   },
   {
     "id": 11183,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166861,7 +166871,7 @@ export const data = [
   },
   {
     "id": 11184,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166876,7 +166886,7 @@ export const data = [
   },
   {
     "id": 11185,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166891,7 +166901,7 @@ export const data = [
   },
   {
     "id": 11186,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166906,7 +166916,7 @@ export const data = [
   },
   {
     "id": 11187,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166921,7 +166931,7 @@ export const data = [
   },
   {
     "id": 11188,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166936,7 +166946,7 @@ export const data = [
   },
   {
     "id": 11189,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166951,7 +166961,7 @@ export const data = [
   },
   {
     "id": 11190,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166966,7 +166976,7 @@ export const data = [
   },
   {
     "id": 11191,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166981,7 +166991,7 @@ export const data = [
   },
   {
     "id": 11192,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -166996,7 +167006,7 @@ export const data = [
   },
   {
     "id": 11193,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -167011,7 +167021,7 @@ export const data = [
   },
   {
     "id": 11194,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -167026,7 +167036,7 @@ export const data = [
   },
   {
     "id": 11195,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Suceava",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Suceava",
@@ -172411,7 +172421,7 @@ export const data = [
   },
   {
     "id": 11554,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172426,7 +172436,7 @@ export const data = [
   },
   {
     "id": 11555,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172441,7 +172451,7 @@ export const data = [
   },
   {
     "id": 11556,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172456,7 +172466,7 @@ export const data = [
   },
   {
     "id": 11557,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172471,7 +172481,7 @@ export const data = [
   },
   {
     "id": 11558,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172486,7 +172496,7 @@ export const data = [
   },
   {
     "id": 11559,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172501,7 +172511,7 @@ export const data = [
   },
   {
     "id": 11560,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172516,7 +172526,7 @@ export const data = [
   },
   {
     "id": 11561,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172531,7 +172541,7 @@ export const data = [
   },
   {
     "id": 11562,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172546,7 +172556,7 @@ export const data = [
   },
   {
     "id": 11563,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172561,7 +172571,7 @@ export const data = [
   },
   {
     "id": 11564,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172576,7 +172586,7 @@ export const data = [
   },
   {
     "id": 11565,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172591,7 +172601,7 @@ export const data = [
   },
   {
     "id": 11566,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172606,7 +172616,7 @@ export const data = [
   },
   {
     "id": 11567,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172621,7 +172631,7 @@ export const data = [
   },
   {
     "id": 11568,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172636,7 +172646,7 @@ export const data = [
   },
   {
     "id": 11569,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172651,7 +172661,7 @@ export const data = [
   },
   {
     "id": 11570,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172666,7 +172676,7 @@ export const data = [
   },
   {
     "id": 11571,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172681,7 +172691,7 @@ export const data = [
   },
   {
     "id": 11572,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172696,7 +172706,7 @@ export const data = [
   },
   {
     "id": 11573,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172711,7 +172721,7 @@ export const data = [
   },
   {
     "id": 11574,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172726,7 +172736,7 @@ export const data = [
   },
   {
     "id": 11575,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172741,7 +172751,7 @@ export const data = [
   },
   {
     "id": 11576,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -172756,7 +172766,7 @@ export const data = [
   },
   {
     "id": 11577,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -172771,7 +172781,7 @@ export const data = [
   },
   {
     "id": 11578,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -172786,7 +172796,7 @@ export const data = [
   },
   {
     "id": 11579,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -172801,7 +172811,7 @@ export const data = [
   },
   {
     "id": 11580,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -172816,7 +172826,7 @@ export const data = [
   },
   {
     "id": 11581,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -172831,7 +172841,7 @@ export const data = [
   },
   {
     "id": 11582,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -172846,7 +172856,7 @@ export const data = [
   },
   {
     "id": 11583,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -172861,7 +172871,7 @@ export const data = [
   },
   {
     "id": 11584,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -172876,7 +172886,7 @@ export const data = [
   },
   {
     "id": 11585,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -172891,7 +172901,7 @@ export const data = [
   },
   {
     "id": 11586,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -172906,7 +172916,7 @@ export const data = [
   },
   {
     "id": 11587,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -172921,7 +172931,7 @@ export const data = [
   },
   {
     "id": 11588,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -172936,7 +172946,7 @@ export const data = [
   },
   {
     "id": 11589,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -172951,7 +172961,7 @@ export const data = [
   },
   {
     "id": 11590,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -172966,7 +172976,7 @@ export const data = [
   },
   {
     "id": 11591,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -172981,7 +172991,7 @@ export const data = [
   },
   {
     "id": 11592,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -172996,7 +173006,7 @@ export const data = [
   },
   {
     "id": 11593,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173011,7 +173021,7 @@ export const data = [
   },
   {
     "id": 11594,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173026,7 +173036,7 @@ export const data = [
   },
   {
     "id": 11595,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173041,7 +173051,7 @@ export const data = [
   },
   {
     "id": 11596,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173056,7 +173066,7 @@ export const data = [
   },
   {
     "id": 11597,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173071,7 +173081,7 @@ export const data = [
   },
   {
     "id": 11598,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173086,7 +173096,7 @@ export const data = [
   },
   {
     "id": 11599,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173101,7 +173111,7 @@ export const data = [
   },
   {
     "id": 11600,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173116,7 +173126,7 @@ export const data = [
   },
   {
     "id": 11601,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173131,7 +173141,7 @@ export const data = [
   },
   {
     "id": 11602,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173146,7 +173156,7 @@ export const data = [
   },
   {
     "id": 11603,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173161,7 +173171,7 @@ export const data = [
   },
   {
     "id": 11604,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173176,7 +173186,7 @@ export const data = [
   },
   {
     "id": 11605,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173191,7 +173201,7 @@ export const data = [
   },
   {
     "id": 11606,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173206,7 +173216,7 @@ export const data = [
   },
   {
     "id": 11607,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173221,7 +173231,7 @@ export const data = [
   },
   {
     "id": 11608,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173236,7 +173246,7 @@ export const data = [
   },
   {
     "id": 11609,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173251,7 +173261,7 @@ export const data = [
   },
   {
     "id": 11610,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173266,7 +173276,7 @@ export const data = [
   },
   {
     "id": 11611,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173281,7 +173291,7 @@ export const data = [
   },
   {
     "id": 11612,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173296,7 +173306,7 @@ export const data = [
   },
   {
     "id": 11613,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173311,7 +173321,7 @@ export const data = [
   },
   {
     "id": 11614,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173326,7 +173336,7 @@ export const data = [
   },
   {
     "id": 11615,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173341,7 +173351,7 @@ export const data = [
   },
   {
     "id": 11616,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173356,7 +173366,7 @@ export const data = [
   },
   {
     "id": 11617,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173371,7 +173381,7 @@ export const data = [
   },
   {
     "id": 11618,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173386,7 +173396,7 @@ export const data = [
   },
   {
     "id": 11619,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173401,7 +173411,7 @@ export const data = [
   },
   {
     "id": 11620,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173416,7 +173426,7 @@ export const data = [
   },
   {
     "id": 11621,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173431,7 +173441,7 @@ export const data = [
   },
   {
     "id": 11622,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173446,7 +173456,7 @@ export const data = [
   },
   {
     "id": 11623,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173461,7 +173471,7 @@ export const data = [
   },
   {
     "id": 11624,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173476,7 +173486,7 @@ export const data = [
   },
   {
     "id": 11625,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173491,7 +173501,7 @@ export const data = [
   },
   {
     "id": 11626,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173506,7 +173516,7 @@ export const data = [
   },
   {
     "id": 11627,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173521,7 +173531,7 @@ export const data = [
   },
   {
     "id": 11628,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173536,7 +173546,7 @@ export const data = [
   },
   {
     "id": 11629,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173551,7 +173561,7 @@ export const data = [
   },
   {
     "id": 11630,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173566,7 +173576,7 @@ export const data = [
   },
   {
     "id": 11631,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173581,7 +173591,7 @@ export const data = [
   },
   {
     "id": 11632,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173596,7 +173606,7 @@ export const data = [
   },
   {
     "id": 11633,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173611,7 +173621,7 @@ export const data = [
   },
   {
     "id": 11634,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173626,7 +173636,7 @@ export const data = [
   },
   {
     "id": 11635,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173641,7 +173651,7 @@ export const data = [
   },
   {
     "id": 11636,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173656,7 +173666,7 @@ export const data = [
   },
   {
     "id": 11637,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173671,7 +173681,7 @@ export const data = [
   },
   {
     "id": 11638,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173686,7 +173696,7 @@ export const data = [
   },
   {
     "id": 11639,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173701,7 +173711,7 @@ export const data = [
   },
   {
     "id": 11640,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173716,7 +173726,7 @@ export const data = [
   },
   {
     "id": 11641,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173731,7 +173741,7 @@ export const data = [
   },
   {
     "id": 11642,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173746,7 +173756,7 @@ export const data = [
   },
   {
     "id": 11643,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173761,7 +173771,7 @@ export const data = [
   },
   {
     "id": 11644,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173776,7 +173786,7 @@ export const data = [
   },
   {
     "id": 11645,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173791,7 +173801,7 @@ export const data = [
   },
   {
     "id": 11646,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173806,7 +173816,7 @@ export const data = [
   },
   {
     "id": 11647,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173821,7 +173831,7 @@ export const data = [
   },
   {
     "id": 11648,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173836,7 +173846,7 @@ export const data = [
   },
   {
     "id": 11649,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173851,7 +173861,7 @@ export const data = [
   },
   {
     "id": 11650,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173866,7 +173876,7 @@ export const data = [
   },
   {
     "id": 11651,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173881,7 +173891,7 @@ export const data = [
   },
   {
     "id": 11652,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173896,7 +173906,7 @@ export const data = [
   },
   {
     "id": 11653,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173911,7 +173921,7 @@ export const data = [
   },
   {
     "id": 11654,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173926,7 +173936,7 @@ export const data = [
   },
   {
     "id": 11655,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173941,7 +173951,7 @@ export const data = [
   },
   {
     "id": 11656,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173956,7 +173966,7 @@ export const data = [
   },
   {
     "id": 11657,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173971,7 +173981,7 @@ export const data = [
   },
   {
     "id": 11658,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -173986,7 +173996,7 @@ export const data = [
   },
   {
     "id": 11659,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174001,7 +174011,7 @@ export const data = [
   },
   {
     "id": 11660,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174016,7 +174026,7 @@ export const data = [
   },
   {
     "id": 11661,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174031,7 +174041,7 @@ export const data = [
   },
   {
     "id": 11662,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174046,7 +174056,7 @@ export const data = [
   },
   {
     "id": 11663,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174061,7 +174071,7 @@ export const data = [
   },
   {
     "id": 11664,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174076,7 +174086,7 @@ export const data = [
   },
   {
     "id": 11665,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174091,7 +174101,7 @@ export const data = [
   },
   {
     "id": 11666,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174106,7 +174116,7 @@ export const data = [
   },
   {
     "id": 11667,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174121,7 +174131,7 @@ export const data = [
   },
   {
     "id": 11668,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174136,7 +174146,7 @@ export const data = [
   },
   {
     "id": 11669,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174151,7 +174161,7 @@ export const data = [
   },
   {
     "id": 11670,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174166,7 +174176,7 @@ export const data = [
   },
   {
     "id": 11671,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174181,7 +174191,7 @@ export const data = [
   },
   {
     "id": 11672,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174196,7 +174206,7 @@ export const data = [
   },
   {
     "id": 11673,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174211,7 +174221,7 @@ export const data = [
   },
   {
     "id": 11674,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174226,7 +174236,7 @@ export const data = [
   },
   {
     "id": 11675,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174241,7 +174251,7 @@ export const data = [
   },
   {
     "id": 11676,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174256,7 +174266,7 @@ export const data = [
   },
   {
     "id": 11677,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174271,7 +174281,7 @@ export const data = [
   },
   {
     "id": 11678,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174286,7 +174296,7 @@ export const data = [
   },
   {
     "id": 11679,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174301,7 +174311,7 @@ export const data = [
   },
   {
     "id": 11680,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174316,7 +174326,7 @@ export const data = [
   },
   {
     "id": 11681,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174331,7 +174341,7 @@ export const data = [
   },
   {
     "id": 11682,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174346,7 +174356,7 @@ export const data = [
   },
   {
     "id": 11683,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174361,7 +174371,7 @@ export const data = [
   },
   {
     "id": 11684,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174376,7 +174386,7 @@ export const data = [
   },
   {
     "id": 11685,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174391,7 +174401,7 @@ export const data = [
   },
   {
     "id": 11686,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174406,7 +174416,7 @@ export const data = [
   },
   {
     "id": 11687,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174421,7 +174431,7 @@ export const data = [
   },
   {
     "id": 11688,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174436,7 +174446,7 @@ export const data = [
   },
   {
     "id": 11689,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174451,7 +174461,7 @@ export const data = [
   },
   {
     "id": 11690,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174466,7 +174476,7 @@ export const data = [
   },
   {
     "id": 11691,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174481,7 +174491,7 @@ export const data = [
   },
   {
     "id": 11692,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174496,7 +174506,7 @@ export const data = [
   },
   {
     "id": 11693,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174511,7 +174521,7 @@ export const data = [
   },
   {
     "id": 11694,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174526,7 +174536,7 @@ export const data = [
   },
   {
     "id": 11695,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174541,7 +174551,7 @@ export const data = [
   },
   {
     "id": 11696,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174556,7 +174566,7 @@ export const data = [
   },
   {
     "id": 11697,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174571,7 +174581,7 @@ export const data = [
   },
   {
     "id": 11698,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174586,7 +174596,7 @@ export const data = [
   },
   {
     "id": 11699,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174601,7 +174611,7 @@ export const data = [
   },
   {
     "id": 11700,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174616,7 +174626,7 @@ export const data = [
   },
   {
     "id": 11701,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174631,7 +174641,7 @@ export const data = [
   },
   {
     "id": 11702,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174646,7 +174656,7 @@ export const data = [
   },
   {
     "id": 11703,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174661,7 +174671,7 @@ export const data = [
   },
   {
     "id": 11704,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174676,7 +174686,7 @@ export const data = [
   },
   {
     "id": 11705,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174691,7 +174701,7 @@ export const data = [
   },
   {
     "id": 11706,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174706,7 +174716,7 @@ export const data = [
   },
   {
     "id": 11707,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174721,7 +174731,7 @@ export const data = [
   },
   {
     "id": 11708,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174736,7 +174746,7 @@ export const data = [
   },
   {
     "id": 11709,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174751,7 +174761,7 @@ export const data = [
   },
   {
     "id": 11710,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174766,7 +174776,7 @@ export const data = [
   },
   {
     "id": 11711,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174781,7 +174791,7 @@ export const data = [
   },
   {
     "id": 11712,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174796,7 +174806,7 @@ export const data = [
   },
   {
     "id": 11713,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174811,7 +174821,7 @@ export const data = [
   },
   {
     "id": 11714,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174826,7 +174836,7 @@ export const data = [
   },
   {
     "id": 11715,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174841,7 +174851,7 @@ export const data = [
   },
   {
     "id": 11716,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174856,7 +174866,7 @@ export const data = [
   },
   {
     "id": 11717,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174871,7 +174881,7 @@ export const data = [
   },
   {
     "id": 11718,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174886,7 +174896,7 @@ export const data = [
   },
   {
     "id": 11719,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174901,7 +174911,7 @@ export const data = [
   },
   {
     "id": 11720,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174916,7 +174926,7 @@ export const data = [
   },
   {
     "id": 11721,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174931,7 +174941,7 @@ export const data = [
   },
   {
     "id": 11722,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174946,7 +174956,7 @@ export const data = [
   },
   {
     "id": 11723,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174961,7 +174971,7 @@ export const data = [
   },
   {
     "id": 11724,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174976,7 +174986,7 @@ export const data = [
   },
   {
     "id": 11725,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -174991,7 +175001,7 @@ export const data = [
   },
   {
     "id": 11726,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175006,7 +175016,7 @@ export const data = [
   },
   {
     "id": 11727,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175021,7 +175031,7 @@ export const data = [
   },
   {
     "id": 11728,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175036,7 +175046,7 @@ export const data = [
   },
   {
     "id": 11729,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175051,7 +175061,7 @@ export const data = [
   },
   {
     "id": 11730,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175066,7 +175076,7 @@ export const data = [
   },
   {
     "id": 11731,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175081,7 +175091,7 @@ export const data = [
   },
   {
     "id": 11732,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175096,7 +175106,7 @@ export const data = [
   },
   {
     "id": 11733,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175111,7 +175121,7 @@ export const data = [
   },
   {
     "id": 11734,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175126,7 +175136,7 @@ export const data = [
   },
   {
     "id": 11735,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175141,7 +175151,7 @@ export const data = [
   },
   {
     "id": 11736,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175156,7 +175166,7 @@ export const data = [
   },
   {
     "id": 11737,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175171,7 +175181,7 @@ export const data = [
   },
   {
     "id": 11738,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175186,7 +175196,7 @@ export const data = [
   },
   {
     "id": 11739,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175201,7 +175211,7 @@ export const data = [
   },
   {
     "id": 11740,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175216,7 +175226,7 @@ export const data = [
   },
   {
     "id": 11741,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175231,7 +175241,7 @@ export const data = [
   },
   {
     "id": 11742,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175246,7 +175256,7 @@ export const data = [
   },
   {
     "id": 11743,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175261,7 +175271,7 @@ export const data = [
   },
   {
     "id": 11744,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175276,7 +175286,7 @@ export const data = [
   },
   {
     "id": 11745,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175291,7 +175301,7 @@ export const data = [
   },
   {
     "id": 11746,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175306,7 +175316,7 @@ export const data = [
   },
   {
     "id": 11747,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175321,7 +175331,7 @@ export const data = [
   },
   {
     "id": 11748,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175336,7 +175346,7 @@ export const data = [
   },
   {
     "id": 11749,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175351,7 +175361,7 @@ export const data = [
   },
   {
     "id": 11750,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175366,7 +175376,7 @@ export const data = [
   },
   {
     "id": 11751,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175381,7 +175391,7 @@ export const data = [
   },
   {
     "id": 11752,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175396,7 +175406,7 @@ export const data = [
   },
   {
     "id": 11753,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175411,7 +175421,7 @@ export const data = [
   },
   {
     "id": 11754,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175426,7 +175436,7 @@ export const data = [
   },
   {
     "id": 11755,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175441,7 +175451,7 @@ export const data = [
   },
   {
     "id": 11756,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175456,7 +175466,7 @@ export const data = [
   },
   {
     "id": 11757,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175471,7 +175481,7 @@ export const data = [
   },
   {
     "id": 11758,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175486,7 +175496,7 @@ export const data = [
   },
   {
     "id": 11759,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175501,7 +175511,7 @@ export const data = [
   },
   {
     "id": 11760,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175516,7 +175526,7 @@ export const data = [
   },
   {
     "id": 11761,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175531,7 +175541,7 @@ export const data = [
   },
   {
     "id": 11762,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "O.G. 51/1998",
     "funder": "Consiliul Județean Tulcea",
@@ -175546,7 +175556,7 @@ export const data = [
   },
   {
     "id": 11763,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -175561,7 +175571,7 @@ export const data = [
   },
   {
     "id": 11764,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -175576,7 +175586,7 @@ export const data = [
   },
   {
     "id": 11765,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -175591,7 +175601,7 @@ export const data = [
   },
   {
     "id": 11766,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -175606,7 +175616,7 @@ export const data = [
   },
   {
     "id": 11767,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -175621,7 +175631,7 @@ export const data = [
   },
   {
     "id": 11768,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -175636,7 +175646,7 @@ export const data = [
   },
   {
     "id": 11769,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -175651,7 +175661,7 @@ export const data = [
   },
   {
     "id": 11770,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -175666,7 +175676,7 @@ export const data = [
   },
   {
     "id": 11771,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -175681,7 +175691,7 @@ export const data = [
   },
   {
     "id": 11772,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -175696,7 +175706,7 @@ export const data = [
   },
   {
     "id": 11773,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -175711,7 +175721,7 @@ export const data = [
   },
   {
     "id": 11774,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -175726,7 +175736,7 @@ export const data = [
   },
   {
     "id": 11775,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -175741,7 +175751,7 @@ export const data = [
   },
   {
     "id": 11776,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -175756,7 +175766,7 @@ export const data = [
   },
   {
     "id": 11777,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -175771,7 +175781,7 @@ export const data = [
   },
   {
     "id": 11778,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175786,7 +175796,7 @@ export const data = [
   },
   {
     "id": 11779,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175801,7 +175811,7 @@ export const data = [
   },
   {
     "id": 11780,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175816,7 +175826,7 @@ export const data = [
   },
   {
     "id": 11781,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175831,7 +175841,7 @@ export const data = [
   },
   {
     "id": 11782,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175846,7 +175856,7 @@ export const data = [
   },
   {
     "id": 11783,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175861,7 +175871,7 @@ export const data = [
   },
   {
     "id": 11784,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175876,7 +175886,7 @@ export const data = [
   },
   {
     "id": 11785,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175891,7 +175901,7 @@ export const data = [
   },
   {
     "id": 11786,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175906,7 +175916,7 @@ export const data = [
   },
   {
     "id": 11787,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175921,7 +175931,7 @@ export const data = [
   },
   {
     "id": 11788,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175936,7 +175946,7 @@ export const data = [
   },
   {
     "id": 11789,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175951,7 +175961,7 @@ export const data = [
   },
   {
     "id": 11790,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175966,7 +175976,7 @@ export const data = [
   },
   {
     "id": 11791,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175981,7 +175991,7 @@ export const data = [
   },
   {
     "id": 11792,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -175996,7 +176006,7 @@ export const data = [
   },
   {
     "id": 11793,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176011,7 +176021,7 @@ export const data = [
   },
   {
     "id": 11794,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176026,7 +176036,7 @@ export const data = [
   },
   {
     "id": 11795,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176041,7 +176051,7 @@ export const data = [
   },
   {
     "id": 11796,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176056,7 +176066,7 @@ export const data = [
   },
   {
     "id": 11797,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176071,7 +176081,7 @@ export const data = [
   },
   {
     "id": 11798,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176086,7 +176096,7 @@ export const data = [
   },
   {
     "id": 11799,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176101,7 +176111,7 @@ export const data = [
   },
   {
     "id": 11800,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176116,7 +176126,7 @@ export const data = [
   },
   {
     "id": 11801,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176131,7 +176141,7 @@ export const data = [
   },
   {
     "id": 11802,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176146,7 +176156,7 @@ export const data = [
   },
   {
     "id": 11803,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176161,7 +176171,7 @@ export const data = [
   },
   {
     "id": 11804,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176176,7 +176186,7 @@ export const data = [
   },
   {
     "id": 11805,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176191,7 +176201,7 @@ export const data = [
   },
   {
     "id": 11806,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176206,7 +176216,7 @@ export const data = [
   },
   {
     "id": 11807,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176221,7 +176231,7 @@ export const data = [
   },
   {
     "id": 11808,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176236,7 +176246,7 @@ export const data = [
   },
   {
     "id": 11809,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176251,7 +176261,7 @@ export const data = [
   },
   {
     "id": 11810,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176266,7 +176276,7 @@ export const data = [
   },
   {
     "id": 11811,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176281,7 +176291,7 @@ export const data = [
   },
   {
     "id": 11812,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176296,7 +176306,7 @@ export const data = [
   },
   {
     "id": 11813,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176311,7 +176321,7 @@ export const data = [
   },
   {
     "id": 11814,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176326,7 +176336,7 @@ export const data = [
   },
   {
     "id": 11815,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176341,7 +176351,7 @@ export const data = [
   },
   {
     "id": 11816,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176356,7 +176366,7 @@ export const data = [
   },
   {
     "id": 11817,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176371,7 +176381,7 @@ export const data = [
   },
   {
     "id": 11818,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176386,7 +176396,7 @@ export const data = [
   },
   {
     "id": 11819,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176401,7 +176411,7 @@ export const data = [
   },
   {
     "id": 11820,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176416,7 +176426,7 @@ export const data = [
   },
   {
     "id": 11821,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176431,7 +176441,7 @@ export const data = [
   },
   {
     "id": 11822,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176446,7 +176456,7 @@ export const data = [
   },
   {
     "id": 11823,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176461,7 +176471,7 @@ export const data = [
   },
   {
     "id": 11824,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176476,7 +176486,7 @@ export const data = [
   },
   {
     "id": 11825,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176491,7 +176501,7 @@ export const data = [
   },
   {
     "id": 11826,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176506,7 +176516,7 @@ export const data = [
   },
   {
     "id": 11827,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -176521,7 +176531,7 @@ export const data = [
   },
   {
     "id": 11828,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176536,7 +176546,7 @@ export const data = [
   },
   {
     "id": 11829,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176551,7 +176561,7 @@ export const data = [
   },
   {
     "id": 11830,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176566,7 +176576,7 @@ export const data = [
   },
   {
     "id": 11831,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176581,7 +176591,7 @@ export const data = [
   },
   {
     "id": 11832,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176596,7 +176606,7 @@ export const data = [
   },
   {
     "id": 11833,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176611,7 +176621,7 @@ export const data = [
   },
   {
     "id": 11834,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176626,7 +176636,7 @@ export const data = [
   },
   {
     "id": 11835,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176641,7 +176651,7 @@ export const data = [
   },
   {
     "id": 11836,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176656,7 +176666,7 @@ export const data = [
   },
   {
     "id": 11837,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176671,7 +176681,7 @@ export const data = [
   },
   {
     "id": 11838,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176686,7 +176696,7 @@ export const data = [
   },
   {
     "id": 11839,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176701,7 +176711,7 @@ export const data = [
   },
   {
     "id": 11840,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176716,7 +176726,7 @@ export const data = [
   },
   {
     "id": 11841,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176731,7 +176741,7 @@ export const data = [
   },
   {
     "id": 11842,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176746,7 +176756,7 @@ export const data = [
   },
   {
     "id": 11843,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176761,7 +176771,7 @@ export const data = [
   },
   {
     "id": 11844,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176776,7 +176786,7 @@ export const data = [
   },
   {
     "id": 11845,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176791,7 +176801,7 @@ export const data = [
   },
   {
     "id": 11846,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176806,7 +176816,7 @@ export const data = [
   },
   {
     "id": 11847,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176821,7 +176831,7 @@ export const data = [
   },
   {
     "id": 11848,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176836,7 +176846,7 @@ export const data = [
   },
   {
     "id": 11849,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176851,7 +176861,7 @@ export const data = [
   },
   {
     "id": 11850,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176866,7 +176876,7 @@ export const data = [
   },
   {
     "id": 11851,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176881,7 +176891,7 @@ export const data = [
   },
   {
     "id": 11852,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176896,7 +176906,7 @@ export const data = [
   },
   {
     "id": 11853,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176911,7 +176921,7 @@ export const data = [
   },
   {
     "id": 11854,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176926,7 +176936,7 @@ export const data = [
   },
   {
     "id": 11855,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176941,7 +176951,7 @@ export const data = [
   },
   {
     "id": 11856,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176956,7 +176966,7 @@ export const data = [
   },
   {
     "id": 11857,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176971,7 +176981,7 @@ export const data = [
   },
   {
     "id": 11858,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -176986,7 +176996,7 @@ export const data = [
   },
   {
     "id": 11859,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177001,7 +177011,7 @@ export const data = [
   },
   {
     "id": 11860,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177016,7 +177026,7 @@ export const data = [
   },
   {
     "id": 11861,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177031,7 +177041,7 @@ export const data = [
   },
   {
     "id": 11862,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177046,7 +177056,7 @@ export const data = [
   },
   {
     "id": 11863,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177061,7 +177071,7 @@ export const data = [
   },
   {
     "id": 11864,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177076,7 +177086,7 @@ export const data = [
   },
   {
     "id": 11865,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177091,7 +177101,7 @@ export const data = [
   },
   {
     "id": 11866,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177106,7 +177116,7 @@ export const data = [
   },
   {
     "id": 11867,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177121,7 +177131,7 @@ export const data = [
   },
   {
     "id": 11868,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177136,7 +177146,7 @@ export const data = [
   },
   {
     "id": 11869,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177151,7 +177161,7 @@ export const data = [
   },
   {
     "id": 11870,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177166,7 +177176,7 @@ export const data = [
   },
   {
     "id": 11871,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177181,7 +177191,7 @@ export const data = [
   },
   {
     "id": 11872,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177196,7 +177206,7 @@ export const data = [
   },
   {
     "id": 11873,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177211,7 +177221,7 @@ export const data = [
   },
   {
     "id": 11874,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177226,7 +177236,7 @@ export const data = [
   },
   {
     "id": 11875,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177241,7 +177251,7 @@ export const data = [
   },
   {
     "id": 11876,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177256,7 +177266,7 @@ export const data = [
   },
   {
     "id": 11877,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177271,7 +177281,7 @@ export const data = [
   },
   {
     "id": 11878,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177286,7 +177296,7 @@ export const data = [
   },
   {
     "id": 11879,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177301,7 +177311,7 @@ export const data = [
   },
   {
     "id": 11880,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177316,7 +177326,7 @@ export const data = [
   },
   {
     "id": 11881,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177331,7 +177341,7 @@ export const data = [
   },
   {
     "id": 11882,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177346,7 +177356,7 @@ export const data = [
   },
   {
     "id": 11883,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177361,7 +177371,7 @@ export const data = [
   },
   {
     "id": 11884,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177376,7 +177386,7 @@ export const data = [
   },
   {
     "id": 11885,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177391,7 +177401,7 @@ export const data = [
   },
   {
     "id": 11886,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177406,7 +177416,7 @@ export const data = [
   },
   {
     "id": 11887,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177421,7 +177431,7 @@ export const data = [
   },
   {
     "id": 11888,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177436,7 +177446,7 @@ export const data = [
   },
   {
     "id": 11889,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177451,7 +177461,7 @@ export const data = [
   },
   {
     "id": 11890,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177466,7 +177476,7 @@ export const data = [
   },
   {
     "id": 11891,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177481,7 +177491,7 @@ export const data = [
   },
   {
     "id": 11892,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177496,7 +177506,7 @@ export const data = [
   },
   {
     "id": 11893,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177511,7 +177521,7 @@ export const data = [
   },
   {
     "id": 11894,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177526,7 +177536,7 @@ export const data = [
   },
   {
     "id": 11895,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177541,7 +177551,7 @@ export const data = [
   },
   {
     "id": 11896,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177556,7 +177566,7 @@ export const data = [
   },
   {
     "id": 11897,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177571,7 +177581,7 @@ export const data = [
   },
   {
     "id": 11898,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177586,7 +177596,7 @@ export const data = [
   },
   {
     "id": 11899,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177601,7 +177611,7 @@ export const data = [
   },
   {
     "id": 11900,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177616,7 +177626,7 @@ export const data = [
   },
   {
     "id": 11901,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177631,7 +177641,7 @@ export const data = [
   },
   {
     "id": 11902,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177646,7 +177656,7 @@ export const data = [
   },
   {
     "id": 11903,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177661,7 +177671,7 @@ export const data = [
   },
   {
     "id": 11904,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177676,7 +177686,7 @@ export const data = [
   },
   {
     "id": 11905,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177691,7 +177701,7 @@ export const data = [
   },
   {
     "id": 11906,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177706,7 +177716,7 @@ export const data = [
   },
   {
     "id": 11907,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177721,7 +177731,7 @@ export const data = [
   },
   {
     "id": 11908,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177736,7 +177746,7 @@ export const data = [
   },
   {
     "id": 11909,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177751,7 +177761,7 @@ export const data = [
   },
   {
     "id": 11910,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -177766,7 +177776,7 @@ export const data = [
   },
   {
     "id": 11911,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -177781,7 +177791,7 @@ export const data = [
   },
   {
     "id": 11912,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -177796,7 +177806,7 @@ export const data = [
   },
   {
     "id": 11913,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -177811,7 +177821,7 @@ export const data = [
   },
   {
     "id": 11914,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -177826,7 +177836,7 @@ export const data = [
   },
   {
     "id": 11915,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -177841,7 +177851,7 @@ export const data = [
   },
   {
     "id": 11916,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -177856,7 +177866,7 @@ export const data = [
   },
   {
     "id": 11917,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -177871,7 +177881,7 @@ export const data = [
   },
   {
     "id": 11918,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -177886,7 +177896,7 @@ export const data = [
   },
   {
     "id": 11919,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -177901,7 +177911,7 @@ export const data = [
   },
   {
     "id": 11920,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -177916,7 +177926,7 @@ export const data = [
   },
   {
     "id": 11921,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -177931,7 +177941,7 @@ export const data = [
   },
   {
     "id": 11922,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -177946,7 +177956,7 @@ export const data = [
   },
   {
     "id": 11923,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -177961,7 +177971,7 @@ export const data = [
   },
   {
     "id": 11924,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -177976,7 +177986,7 @@ export const data = [
   },
   {
     "id": 11925,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -177991,7 +178001,7 @@ export const data = [
   },
   {
     "id": 11926,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -178006,7 +178016,7 @@ export const data = [
   },
   {
     "id": 11927,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -178021,7 +178031,7 @@ export const data = [
   },
   {
     "id": 11928,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -178036,7 +178046,7 @@ export const data = [
   },
   {
     "id": 11929,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -178051,7 +178061,7 @@ export const data = [
   },
   {
     "id": 11930,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 69/2000",
     "funder": "Consiliul Județean Tulcea",
@@ -178066,7 +178076,7 @@ export const data = [
   },
   {
     "id": 11931,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178081,7 +178091,7 @@ export const data = [
   },
   {
     "id": 11932,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178096,7 +178106,7 @@ export const data = [
   },
   {
     "id": 11933,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178111,7 +178121,7 @@ export const data = [
   },
   {
     "id": 11934,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178126,7 +178136,7 @@ export const data = [
   },
   {
     "id": 11935,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178141,7 +178151,7 @@ export const data = [
   },
   {
     "id": 11936,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178156,7 +178166,7 @@ export const data = [
   },
   {
     "id": 11937,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178171,7 +178181,7 @@ export const data = [
   },
   {
     "id": 11938,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178186,7 +178196,7 @@ export const data = [
   },
   {
     "id": 11939,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178201,7 +178211,7 @@ export const data = [
   },
   {
     "id": 11940,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178216,7 +178226,7 @@ export const data = [
   },
   {
     "id": 11941,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178231,7 +178241,7 @@ export const data = [
   },
   {
     "id": 11942,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178246,7 +178256,7 @@ export const data = [
   },
   {
     "id": 11943,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178261,7 +178271,7 @@ export const data = [
   },
   {
     "id": 11944,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178276,7 +178286,7 @@ export const data = [
   },
   {
     "id": 11945,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178291,7 +178301,7 @@ export const data = [
   },
   {
     "id": 11946,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178306,7 +178316,7 @@ export const data = [
   },
   {
     "id": 11947,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178321,7 +178331,7 @@ export const data = [
   },
   {
     "id": 11948,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178336,7 +178346,7 @@ export const data = [
   },
   {
     "id": 11949,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178351,7 +178361,7 @@ export const data = [
   },
   {
     "id": 11950,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178366,7 +178376,7 @@ export const data = [
   },
   {
     "id": 11951,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178381,7 +178391,7 @@ export const data = [
   },
   {
     "id": 11952,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178396,7 +178406,7 @@ export const data = [
   },
   {
     "id": 11953,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178411,7 +178421,7 @@ export const data = [
   },
   {
     "id": 11954,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178426,7 +178436,7 @@ export const data = [
   },
   {
     "id": 11955,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178441,7 +178451,7 @@ export const data = [
   },
   {
     "id": 11956,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178456,7 +178466,7 @@ export const data = [
   },
   {
     "id": 11957,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178471,7 +178481,7 @@ export const data = [
   },
   {
     "id": 11958,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178486,7 +178496,7 @@ export const data = [
   },
   {
     "id": 11959,
-    "region": "Sud- Est",
+    "region": "Sud-Est",
     "county": "Tulcea",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Tulcea",
@@ -178501,7 +178511,7 @@ export const data = [
   },
   {
     "id": 11960,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178516,7 +178526,7 @@ export const data = [
   },
   {
     "id": 11961,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178531,7 +178541,7 @@ export const data = [
   },
   {
     "id": 11962,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178546,7 +178556,7 @@ export const data = [
   },
   {
     "id": 11963,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178561,7 +178571,7 @@ export const data = [
   },
   {
     "id": 11964,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178576,7 +178586,7 @@ export const data = [
   },
   {
     "id": 11965,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178591,7 +178601,7 @@ export const data = [
   },
   {
     "id": 11966,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178606,7 +178616,7 @@ export const data = [
   },
   {
     "id": 11967,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178621,7 +178631,7 @@ export const data = [
   },
   {
     "id": 11968,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178636,7 +178646,7 @@ export const data = [
   },
   {
     "id": 11969,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178651,7 +178661,7 @@ export const data = [
   },
   {
     "id": 11970,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178666,7 +178676,7 @@ export const data = [
   },
   {
     "id": 11971,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178681,7 +178691,7 @@ export const data = [
   },
   {
     "id": 11972,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178696,7 +178706,7 @@ export const data = [
   },
   {
     "id": 11973,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178711,7 +178721,7 @@ export const data = [
   },
   {
     "id": 11974,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178726,7 +178736,7 @@ export const data = [
   },
   {
     "id": 11975,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178741,7 +178751,7 @@ export const data = [
   },
   {
     "id": 11976,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178756,7 +178766,7 @@ export const data = [
   },
   {
     "id": 11977,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178771,7 +178781,7 @@ export const data = [
   },
   {
     "id": 11978,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178786,7 +178796,7 @@ export const data = [
   },
   {
     "id": 11979,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178801,7 +178811,7 @@ export const data = [
   },
   {
     "id": 11980,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178816,7 +178826,7 @@ export const data = [
   },
   {
     "id": 11981,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178831,7 +178841,7 @@ export const data = [
   },
   {
     "id": 11982,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178846,7 +178856,7 @@ export const data = [
   },
   {
     "id": 11983,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178861,7 +178871,7 @@ export const data = [
   },
   {
     "id": 11984,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178876,7 +178886,7 @@ export const data = [
   },
   {
     "id": 11985,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178891,7 +178901,7 @@ export const data = [
   },
   {
     "id": 11986,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178906,7 +178916,7 @@ export const data = [
   },
   {
     "id": 11987,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178921,7 +178931,7 @@ export const data = [
   },
   {
     "id": 11988,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178936,7 +178946,7 @@ export const data = [
   },
   {
     "id": 11989,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178951,7 +178961,7 @@ export const data = [
   },
   {
     "id": 11990,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178966,7 +178976,7 @@ export const data = [
   },
   {
     "id": 11991,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178981,7 +178991,7 @@ export const data = [
   },
   {
     "id": 11992,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -178996,7 +179006,7 @@ export const data = [
   },
   {
     "id": 11993,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179011,7 +179021,7 @@ export const data = [
   },
   {
     "id": 11994,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179026,7 +179036,7 @@ export const data = [
   },
   {
     "id": 11995,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179041,7 +179051,7 @@ export const data = [
   },
   {
     "id": 11996,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179056,7 +179066,7 @@ export const data = [
   },
   {
     "id": 11997,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179071,7 +179081,7 @@ export const data = [
   },
   {
     "id": 11998,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179086,7 +179096,7 @@ export const data = [
   },
   {
     "id": 11999,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179101,7 +179111,7 @@ export const data = [
   },
   {
     "id": 12000,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179116,7 +179126,7 @@ export const data = [
   },
   {
     "id": 12001,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179131,7 +179141,7 @@ export const data = [
   },
   {
     "id": 12002,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179146,7 +179156,7 @@ export const data = [
   },
   {
     "id": 12003,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179161,7 +179171,7 @@ export const data = [
   },
   {
     "id": 12004,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179176,7 +179186,7 @@ export const data = [
   },
   {
     "id": 12005,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179191,7 +179201,7 @@ export const data = [
   },
   {
     "id": 12006,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179206,7 +179216,7 @@ export const data = [
   },
   {
     "id": 12007,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179221,7 +179231,7 @@ export const data = [
   },
   {
     "id": 12008,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179236,7 +179246,7 @@ export const data = [
   },
   {
     "id": 12009,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179251,7 +179261,7 @@ export const data = [
   },
   {
     "id": 12010,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179266,7 +179276,7 @@ export const data = [
   },
   {
     "id": 12011,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179281,7 +179291,7 @@ export const data = [
   },
   {
     "id": 12012,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179296,7 +179306,7 @@ export const data = [
   },
   {
     "id": 12013,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179311,7 +179321,7 @@ export const data = [
   },
   {
     "id": 12014,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179326,7 +179336,7 @@ export const data = [
   },
   {
     "id": 12015,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179341,7 +179351,7 @@ export const data = [
   },
   {
     "id": 12016,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179356,7 +179366,7 @@ export const data = [
   },
   {
     "id": 12017,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179371,7 +179381,7 @@ export const data = [
   },
   {
     "id": 12018,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179386,7 +179396,7 @@ export const data = [
   },
   {
     "id": 12019,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179401,7 +179411,7 @@ export const data = [
   },
   {
     "id": 12020,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179416,7 +179426,7 @@ export const data = [
   },
   {
     "id": 12021,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179431,7 +179441,7 @@ export const data = [
   },
   {
     "id": 12022,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179446,7 +179456,7 @@ export const data = [
   },
   {
     "id": 12023,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179461,7 +179471,7 @@ export const data = [
   },
   {
     "id": 12024,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179476,7 +179486,7 @@ export const data = [
   },
   {
     "id": 12025,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179491,7 +179501,7 @@ export const data = [
   },
   {
     "id": 12026,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179506,7 +179516,7 @@ export const data = [
   },
   {
     "id": 12027,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179521,7 +179531,7 @@ export const data = [
   },
   {
     "id": 12028,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179536,7 +179546,7 @@ export const data = [
   },
   {
     "id": 12029,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179551,7 +179561,7 @@ export const data = [
   },
   {
     "id": 12030,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179566,7 +179576,7 @@ export const data = [
   },
   {
     "id": 12031,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179581,7 +179591,7 @@ export const data = [
   },
   {
     "id": 12032,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179596,7 +179606,7 @@ export const data = [
   },
   {
     "id": 12033,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179611,7 +179621,7 @@ export const data = [
   },
   {
     "id": 12034,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179626,7 +179636,7 @@ export const data = [
   },
   {
     "id": 12035,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179641,7 +179651,7 @@ export const data = [
   },
   {
     "id": 12036,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179656,7 +179666,7 @@ export const data = [
   },
   {
     "id": 12037,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179671,7 +179681,7 @@ export const data = [
   },
   {
     "id": 12038,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179686,7 +179696,7 @@ export const data = [
   },
   {
     "id": 12039,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179701,7 +179711,7 @@ export const data = [
   },
   {
     "id": 12040,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179716,7 +179726,7 @@ export const data = [
   },
   {
     "id": 12041,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179731,7 +179741,7 @@ export const data = [
   },
   {
     "id": 12042,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179746,7 +179756,7 @@ export const data = [
   },
   {
     "id": 12043,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179761,7 +179771,7 @@ export const data = [
   },
   {
     "id": 12044,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179776,7 +179786,7 @@ export const data = [
   },
   {
     "id": 12045,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179791,7 +179801,7 @@ export const data = [
   },
   {
     "id": 12046,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179806,7 +179816,7 @@ export const data = [
   },
   {
     "id": 12047,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179821,7 +179831,7 @@ export const data = [
   },
   {
     "id": 12048,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179836,7 +179846,7 @@ export const data = [
   },
   {
     "id": 12049,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179851,7 +179861,7 @@ export const data = [
   },
   {
     "id": 12050,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179866,7 +179876,7 @@ export const data = [
   },
   {
     "id": 12051,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179881,7 +179891,7 @@ export const data = [
   },
   {
     "id": 12052,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179896,7 +179906,7 @@ export const data = [
   },
   {
     "id": 12053,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179911,7 +179921,7 @@ export const data = [
   },
   {
     "id": 12054,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179926,7 +179936,7 @@ export const data = [
   },
   {
     "id": 12055,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179941,7 +179951,7 @@ export const data = [
   },
   {
     "id": 12056,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179956,7 +179966,7 @@ export const data = [
   },
   {
     "id": 12057,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179971,7 +179981,7 @@ export const data = [
   },
   {
     "id": 12058,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -179986,7 +179996,7 @@ export const data = [
   },
   {
     "id": 12059,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -180001,7 +180011,7 @@ export const data = [
   },
   {
     "id": 12060,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -180016,7 +180026,7 @@ export const data = [
   },
   {
     "id": 12061,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -180031,7 +180041,7 @@ export const data = [
   },
   {
     "id": 12062,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -180046,7 +180056,7 @@ export const data = [
   },
   {
     "id": 12063,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -180061,7 +180071,7 @@ export const data = [
   },
   {
     "id": 12064,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -180076,7 +180086,7 @@ export const data = [
   },
   {
     "id": 12065,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -180091,7 +180101,7 @@ export const data = [
   },
   {
     "id": 12066,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -180106,7 +180116,7 @@ export const data = [
   },
   {
     "id": 12067,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",
@@ -180121,7 +180131,7 @@ export const data = [
   },
   {
     "id": 12068,
-    "region": "Nord - Est",
+    "region": "Nord-Est",
     "county": "Vaslui",
     "legislation": "Legea 350/2005",
     "funder": "Consiliul Județean Vaslui",

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import PDF from '../media/dummy.pdf'
 import {
+	regions,
 	counties,
 	legislations,
 	funders,
@@ -88,13 +89,14 @@ const ControlComponent = props => (
 )
 
 const selections = [
-	'1｜Județ',
-	'2｜Legislație',
-	'3｜Finanțator',
-	'4｜Nivel',
-	'5｜Domeniu',
-	'6｜An',
-	'7｜Sumă',
+	'1｜Regiune',
+	'2｜Județ',
+	'3｜Legislație',
+	'4｜Finanțator',
+	'5｜Nivel',
+	'6｜Domeniu',
+	'7｜An',
+	'8｜Sumă',
 ]
 
 const headers = [
@@ -123,6 +125,7 @@ export class GraphMenu extends Component {
 
 		this.state = {
 			height: window.innerHeight - 2 * MENU_MARGIN - MENU_PADDING,
+			selectedRegion: [],
 			selectedCounty: [],
 			selectedLegislation: [],
 			selectedFunder: [],
@@ -133,6 +136,7 @@ export class GraphMenu extends Component {
 		}
 
 		this.filterData = this.filterData.bind(this)
+		this.isRegion = this.isRegion.bind(this)
 		this.isCounty = this.isCounty.bind(this)
 		this.isLegislation = this.isLegislation.bind(this)
 		this.isFunder = this.isFunder.bind(this)
@@ -177,6 +181,16 @@ export class GraphMenu extends Component {
 				return '/media/excel.png'
 			default:
 				return null
+		}
+	}
+
+	isRegion(ngo) {
+		if (this.state.selectedRegion.length === 0) {
+			return ngo
+		} else {
+			return this.state.selectedRegion
+				.map(a => a.value)
+				.includes(ngo.region)
 		}
 	}
 
@@ -252,7 +266,8 @@ export class GraphMenu extends Component {
 	}
 
 	filterData() {
-		var dataArray = this.props.data.filter(this.isCounty)
+		var dataArray = this.props.data.filter(this.isRegion)
+		dataArray = dataArray.filter(this.isCounty)
 		dataArray = dataArray.filter(this.isLegislation)
 		dataArray = dataArray.filter(this.isFunder)
 		dataArray = dataArray.filter(this.isLevel)
@@ -343,6 +358,8 @@ export class GraphMenu extends Component {
 	}
 
 	selectionExists = () => {
+		if (this.state.selectedRegion.length > 0)
+			return true
 		if (this.state.selectedCounty.length > 0)
 			return true
 		if (this.state.selectedLegislation.length > 0)
@@ -363,6 +380,7 @@ export class GraphMenu extends Component {
 
 	clearFilters = () => {
 		this.setState({
+			selectedRegion: [],
 			selectedCounty: [],
 			selectedLegislation: [],
 			selectedFunder: [],
@@ -377,6 +395,7 @@ export class GraphMenu extends Component {
 
 	render() {
 		const {
+			selectedRegion,
 			selectedCounty,
 			selectedLegislation,
 			selectedFunder,
@@ -388,44 +407,50 @@ export class GraphMenu extends Component {
 
 		const selectArray = [
 			{
-				value: selectedCounty,
+				value: selectedRegion,
 				placeholder: selections[0],
+				onChange: (selectedRegion) => this.handleChange({ selectedRegion }),
+				options: regions,
+			},
+			{
+				value: selectedCounty,
+				placeholder: selections[1],
 				onChange: (selectedCounty) => this.handleChange({ selectedCounty }),
 				options: counties,
 			},
 			{
 				value: selectedLegislation,
-				placeholder: selections[1],
+				placeholder: selections[2],
 				onChange: (selectedLegislation) => this.handleChange({ selectedLegislation }),
 				options: legislations,
 			},
 			{
 				value: selectedFunder,
-				placeholder: selections[2],
+				placeholder: selections[3],
 				onChange: (selectedFunder) => this.handleChange({ selectedFunder }),
 				options: funders,
 			},
 			{
 				value: selectedLevel,
-				placeholder: selections[3],
+				placeholder: selections[4],
 				onChange: (selectedLevel) => this.handleChange({ selectedLevel }),
 				options: levels,
 			},
 			{
 				value: selectedDomain,
-				placeholder: selections[4],
+				placeholder: selections[5],
 				onChange: (selectedDomain) => this.handleChange({ selectedDomain }),
 				options: domains,
 			},
 			{
 				value: selectedYear,
-				placeholder: selections[5],
+				placeholder: selections[6],
 				onChange: (selectedYear) => this.handleChange({ selectedYear }),
 				options: years,
 			},
 			{
 				value: selectedSum,
-				placeholder: selections[6],
+				placeholder: selections[7],
 				onChange: (selectedSum) => this.handleChange({ selectedSum }),
 				options: sums,
 			},
