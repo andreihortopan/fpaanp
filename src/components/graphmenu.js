@@ -356,6 +356,7 @@ export class GraphMenu extends Component {
 																		Popup.close()
 																		Popup.close()
 																		Popup.close()
+																		Popup.close()
 																	}
 																}],
 																right: [{
@@ -371,6 +372,8 @@ export class GraphMenu extends Component {
 																					text: 'Închide',
 																					className: 'danger',
 																					action: function () {
+																						Popup.close()
+																						Popup.close()
 																						Popup.close()
 																						Popup.close()
 																						Popup.close()

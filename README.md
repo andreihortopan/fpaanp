@@ -7,9 +7,9 @@ Additional node packages that have been used are listed [below](#additional-pack
 
 - `index` connects to the ReactDOM, rendering `App`.
 - `App` renders the following:
-    - `Menu` is the hamburger menu, which contains the logo and five of the menu options, two of which contain submenus.
+    - `Menu` is the hamburger menu.
     - `GraphMenu` is the left menu, which contains the Data & Resources panel. This option includes customization options (data fields (multiple dropdown menus - `Select`) and a display field (the five icons)); the selections made here change the data based on which `Canvas` renders other components.
-    - `Canvas` represents the main part of the page, displaying the chosen data in a certain format (default is: all data on a `RomaniaMap`). Other display options are: `BarChartView` and `TableView`. It manages data, by first sending it to `GraphMenu`, which returns a filtered version of it, and then passing it to the other components (`RomaniaMap`, `TableView`, `BarChartView`).
+    - `Canvas` represents the main part of the page, displaying the chosen data in a certain format (default is: all data on a `RomaniaMap`). Other display options are: `BarChartView` and `TableView`. It manages data, first by sending it to `GraphMenu`, which returns a filtered version of it, and then passing it to the other components (`RomaniaMap`, `TableView`, `BarChartView`).
 
 ## Current bugs
 
@@ -39,15 +39,14 @@ Additional node packages that have been used are listed [below](#additional-pack
 ## To implement
 
 - News
-- Data downloader
-- Multiple tab bar chart
-- Map description
 - Dynamic map color scale
 
 ## Data-related
 
 Data must be added for:
 - News
+- Members
+- Citation
 - Metadata in `index.html`
 
 ## Build Guide
@@ -80,10 +79,11 @@ Data must be added for:
 - `react-router` for changing the page URL.
 - `react-data-export` for .xlsx file export.
 - `normalize-text` for removing diacritics when exporting to PDF.
+- `react-tabs` for displaying tabs inside `BarChartView`.
 <br />
 Run the following command in the project directory to install the neccesary packages:
 
-`npm install react react-dom react-simple-maps d3-geo topojson-client react-onclickoutside react-fontawesome react-tooltip react-transition-group webfontloader react-big-calendar moment react-table recharts react-select react-tooltip react-burger-menu react-popup react-router react-data-export normalize-text --save`
+`npm install react react-dom react-simple-maps d3-geo topojson-client react-onclickoutside react-fontawesome react-tooltip react-transition-group webfontloader react-big-calendar moment react-table recharts react-select react-tooltip react-burger-menu react-popup react-router react-data-export normalize-text react-tabs --save`
 <br />
 <br />
 - NOTE: `canvasjs.min.js` and `canvasjs.react.js` have been added manually, not installed as modules.
