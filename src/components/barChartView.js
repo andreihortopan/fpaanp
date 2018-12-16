@@ -12,6 +12,7 @@ const pageStyle = {
     overflowX: "hidden",
 }
 
+const BAR_CHART_DOUBLE_DIFF = 50
 const diffWidth = MENU_WIDTH + 3 * MENU_MARGIN + 4 * MENU_PADDING;
 const diffHeight = 2 * MENU_MARGIN + 2 * MENU_PADDING;
 
@@ -121,18 +122,41 @@ export class BarChartView extends Component {
                 {barChartData.length === 1 && barChartCountyDomainArray != null && barChartCountyLegislationArray != null && barChartCountyYearArray != null &&
                     <Tabs>
                         <TabList>
-                            <Tab>Suma/numărul. de ONG-uri după domeniu</Tab>
-                            <Tab>Suma/numărul. de ONG-uri după legislație</Tab>
-                            <Tab>Suma/numărul. de ONG-uri după an</Tab>
+                            <Tab>Filtrare după domeniu</Tab>
+                            <Tab>Filtrare după legislație</Tab>
+                            <Tab>Filtrare după an</Tab>
                         </TabList>
 
 
                         <TabPanel>
                             <Tabs>
                                 <TabList>
-                                    <Tab></Tab>
-                                    <Tab></Tab>
+                                    <Tab>Suma totală per domeniu (RON)</Tab>
+                                    <Tab>Numărul de ONG-uri per domeniu</Tab>
                                 </TabList>
+
+                                <TabPanel>
+                                    <BarChart width={this.state.width} height={this.state.height - BAR_CHART_DOUBLE_DIFF} data={barChartCountyDomainArray.slice()}
+                                        margin={{ top: 5, right: 0, left: 20, bottom: 5 }}>
+                                        <CartesianGrid strokeDasharray="3 3" />
+                                        <XAxis dataKey="name" />
+                                        <YAxis />
+                                        <Tooltip />
+                                        <Legend />
+                                        <Bar dataKey="sum" fill="#008ece" label={"Sumă"} />
+                                    </BarChart>
+                                </TabPanel>
+                                <TabPanel>
+                                    <BarChart width={this.state.width} height={this.state.height - BAR_CHART_DOUBLE_DIFF} data={barChartCountyDomainArray.slice()}
+                                        margin={{ top: 5, right: 0, left: 20, bottom: 5 }}>
+                                        <CartesianGrid strokeDasharray="3 3" />
+                                        <XAxis dataKey="name" />
+                                        <YAxis />
+                                        <Tooltip />
+                                        <Legend />
+                                        <Bar dataKey="ngoNum" fill="#008ece" label={"Număr ONG-uri"} />
+                                    </BarChart>
+                                </TabPanel>
                             </Tabs>
                             {/* <BarChart width={this.state.width} height={this.state.height} data={barChartCountyDomainArray.slice()}
                                 margin={{ top: 5, right: 0, left: 20, bottom: 5 }}>
@@ -146,6 +170,35 @@ export class BarChartView extends Component {
                             </BarChart> */}
                         </TabPanel>
                         <TabPanel>
+                            <Tabs>
+                                <TabList>
+                                    <Tab>Suma totală per legislație (RON)</Tab>
+                                    <Tab>Numărul de ONG-uri per legislație</Tab>
+                                </TabList>
+
+                                <TabPanel>
+                                    <BarChart width={this.state.width} height={this.state.height - BAR_CHART_DOUBLE_DIFF} data={barChartCountyLegislationArray.slice()}
+                                        margin={{ top: 5, right: 0, left: 20, bottom: 5 }}>
+                                        <CartesianGrid strokeDasharray="3 3" />
+                                        <XAxis dataKey="name" />
+                                        <YAxis />
+                                        <Tooltip />
+                                        <Legend />
+                                        <Bar dataKey="sum" fill="#008ece" label={"Sumă"} />
+                                    </BarChart>
+                                </TabPanel>
+                                <TabPanel>
+                                    <BarChart width={this.state.width} height={this.state.height - BAR_CHART_DOUBLE_DIFF} data={barChartCountyLegislationArray.slice()}
+                                        margin={{ top: 5, right: 0, left: 20, bottom: 5 }}>
+                                        <CartesianGrid strokeDasharray="3 3" />
+                                        <XAxis dataKey="name" />
+                                        <YAxis />
+                                        <Tooltip />
+                                        <Legend />
+                                        <Bar dataKey="ngoNum" fill="#008ece" label={"Număr ONG-uri"} />
+                                    </BarChart>
+                                </TabPanel>
+                            </Tabs>
                             {/* <BarChart width={this.state.width} height={this.state.height} data={barChartCountyLegislationArray.slice()}
                                 margin={{ top: 5, right: 0, left: 20, bottom: 5 }}>
                                 <CartesianGrid strokeDasharray="3 3" />
@@ -158,6 +211,35 @@ export class BarChartView extends Component {
                             </BarChart> */}
                         </TabPanel>
                         <TabPanel>
+                            <Tabs>
+                                <TabList>
+                                    <Tab>Suma totală per an (RON)</Tab>
+                                    <Tab>Numărul de ONG-uri per an</Tab>
+                                </TabList>
+
+                                <TabPanel>
+                                    <BarChart width={this.state.width} height={this.state.height - BAR_CHART_DOUBLE_DIFF} data={barChartCountyYearArray.slice()}
+                                        margin={{ top: 5, right: 0, left: 20, bottom: 5 }}>
+                                        <CartesianGrid strokeDasharray="3 3" />
+                                        <XAxis dataKey="name" />
+                                        <YAxis />
+                                        <Tooltip />
+                                        <Legend />
+                                        <Bar dataKey="sum" fill="#008ece" label={"Suma"} />
+                                    </BarChart>
+                                </TabPanel>
+                                <TabPanel>
+                                    <BarChart width={this.state.width} height={this.state.height - BAR_CHART_DOUBLE_DIFF} data={barChartCountyYearArray.slice()}
+                                        margin={{ top: 5, right: 0, left: 20, bottom: 5 }}>
+                                        <CartesianGrid strokeDasharray="3 3" />
+                                        <XAxis dataKey="name" />
+                                        <YAxis />
+                                        <Tooltip />
+                                        <Legend />
+                                        <Bar dataKey="ngoNum" fill="#008ece" label={"Număr ONG-uri"} />
+                                    </BarChart>
+                                </TabPanel>
+                            </Tabs>
                             {/* <BarChart width={this.state.width} height={this.state.height} data={barChartCountyYearArray.slice()}
                                 margin={{ top: 5, right: 0, left: 20, bottom: 5 }}>
                                 <CartesianGrid strokeDasharray="3 3" />
