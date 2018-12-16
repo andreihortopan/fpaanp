@@ -253,6 +253,15 @@ export class BarChartView extends Component {
                         </TabPanel>
                     </Tabs>}
 
+                {barChartData.length === 0 &&
+                    <div style={{
+                        display: 'table',
+                        margin: '0 auto',
+                    }}>
+                        <p>Nu există date pentru județul selectat.</p>
+                        <p>Selectați alt județ sau extindeți selecția.</p>
+                    </div>
+                }
             </div>
         )
     }

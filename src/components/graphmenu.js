@@ -13,6 +13,7 @@ import {
 } from '../docs/data'
 import { refreshData } from './canvas.js'
 import Select, { components } from 'react-select'
+import Popup from 'react-popup'
 import { CSVLink } from 'react-csv'
 import '../canvasjs.react'
 import domtoimage from 'dom-to-image'
@@ -292,6 +293,44 @@ export class GraphMenu extends Component {
 		})
 	}
 
+	handleInfoClick = () => {
+		Popup.create({
+			title: 'Informații de utilizare a platformei',
+			content: 'Platforma blablabla',
+			buttons: {
+				left: [{
+					text: 'Inchide',
+					className: 'danger',
+					action: function () {
+						Popup.close();
+					}
+				}],
+				right: [{
+					text: 'Continua',
+					key: 'ctrl+enter',
+					action: function () {
+						// Passing true as the second argument to the create method
+						// displays it directly, without interupting the queue.
+						Popup.create({
+							title: 'Selectarea ...',
+							content: 'IBla blablalv',
+							buttons: {
+								left: [{
+									text: 'Inchide',
+									className: 'danger',
+									action: function () {
+										Popup.close();
+									}
+								}],
+								right: []
+							}
+						}, true);
+					}
+				}]
+			}
+		});
+	}
+
 	handleDownload = e => {
 		if (this.props.tip === 'harta') {
 			domtoimage.toJpeg(document
@@ -510,6 +549,28 @@ export class GraphMenu extends Component {
 								float: 'right'
 							}}
 						>
+							<a
+								href='#'
+								onClick={this.handleInfoClick}
+							>
+								<img
+									onMouseOver={e =>
+										(e.currentTarget.src = '/media/info-selected.png')
+									}
+									onMouseLeave={e =>
+										(e.currentTarget.src = '/media/info.png')
+									}
+									alt='Descarcă'
+									src='/media/info.png'
+									data-tip={'Informații de utilizare'}
+									style={{
+										...graphStyle,
+										marginTop: MENU_MARGIN / 2,
+										marginRight: 10
+									}}
+								/>
+							</a>
+
 							{this.selectionExists() &&
 								<div style={{
 									display: 'inline-block'
@@ -577,7 +638,7 @@ export class GraphMenu extends Component {
 											onMouseLeave={e =>
 												(e.currentTarget.src = '/media/download.png')
 											}
-											alt='Descarc&#259;'
+											alt='Descarcă'
 											src='/media/download.png'
 											data-tip={'Descarcă tabel'}
 											style={{
@@ -674,7 +735,7 @@ export class GraphMenu extends Component {
 											onMouseLeave={e => {
 												e.currentTarget.src = this.setIcon(2)
 											}}
-											alt='Grafic bar&#259;'
+											alt='Grafic bară'
 											src={this.setIcon(2)}
 											style={{
 												...graphStyle
