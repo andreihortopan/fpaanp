@@ -72,6 +72,7 @@ export class RomaniaMap extends Component {
 	}
 
 	handleOnClick = (e) => {
+		ReactTooltip.hide()
 		let county = [
 			{ value: e.properties.NAME_1, label: e.properties.NAME_1 },
 		]
