@@ -124,14 +124,14 @@ export class RomaniaMap extends Component {
 													geography.properties.NAME_1 +
 													'<br/>' +
 													'Suma totală: ' +
-													countyData.sum.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") +
+													countyData.sum.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") +
 													' RON' +
 													'<br/>' +
 													'Nr. ONG-uri: ' +
 													countyData.ngoNum +
 													'<br/>' +
 													'Suma medie/ONG: ' +
-													countyData.average.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") +
+													countyData.average.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") +
 													' RON'
 												}
 												geography={geography}

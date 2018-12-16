@@ -54,23 +54,23 @@ export class MapLegend extends Component {
           <ul className='legend-labels'>
             <li>
               <span style={{ background: '#F1EEF6' }} />
-              2,000,000
+              2.000.000
             </li>
             <li>
               <span style={{ background: '#BDC9E1' }} />
-              5,000,000
+              5.000.000
             </li>
             <li>
               <span style={{ background: '#74A9CF' }} />
-              10,000,000
+              10.000.000
             </li>
             <li>
               <span style={{ background: '#2B8CBE' }} />
-              20,000,000
+              20.000.000
             </li>
             <li>
               <span style={{ background: '#045A8D' }} />
-              50,000,000
+              50.000.000
             </li>
           </ul>
         </div>
