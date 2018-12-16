@@ -143,6 +143,48 @@ export const sums = [
   { value: '> 50.000 RON', label: '> 50.000 RON', min:'50001', max:'-1'},
 ];
 
+export var barChartCountyDomainArray = [
+  { name: 'Civic', sum: 0, ngoNum:0},
+  { name: 'Culte', sum: 0, ngoNum:0},
+  { name: 'Cultură', sum: 0, ngoNum:0},
+  { name: 'Educație', sum: 0, ngoNum:0},
+  { name: 'Mediu', sum: 0, ngoNum:0},
+  { name: 'Protecția mediului', sum: 0, ngoNum:0},
+  { name: 'Sănătate', sum: 0, ngoNum:0},
+  { name: 'Social', sum: 0, ngoNum:0},
+  { name: 'Sport', sum: 0, ngoNum:0},
+  { name: 'Tineret', sum: 0, ngoNum:0},
+  { name: 'Turism', sum: 0, ngoNum:0},
+]
+
+export var barChartCountyYearArray = [
+  { name: 2007, sum: 0, ngoNum:0},
+  { name: 2008, sum: 0, ngoNum:0},
+  { name: 2009, sum: 0, ngoNum:0},
+  { name: 2010, sum: 0, ngoNum:0},
+  { name: 2011, sum: 0, ngoNum:0},
+  { name: 2012, sum: 0, ngoNum:0},
+  { name: 2013, sum: 0, ngoNum:0},
+  { name: 2014, sum: 0, ngoNum:0},
+  { name: 2015, sum: 0, ngoNum:0},
+  { name: 2016, sum: 0, ngoNum:0},
+  { name: 2017, sum: 0, ngoNum:0},
+  { name: 2018, sum: 0, ngoNum:0},
+]
+
+export var barChartCountyLegislationArray = [
+  { name: 'Legea 215/2001', sum: 0, ngoNum:0},
+  { name: 'Legea 273/2006', sum: 0, ngoNum:0},
+  { name: 'Legea 292/2011', sum: 0, ngoNum:0},
+  { name: 'Legea 34/1998', sum: 0, ngoNum:0},
+  { name: 'Legea 350/2005', sum: 0, ngoNum:0},
+  { name: 'Legea 69/2000', sum: 0, ngoNum:0},
+  { name: 'Legea Tinerilor 350/2006', sum: 0, ngoNum:0},
+  { name: 'O.G. 51/1998', sum: 0, ngoNum:0},
+  { name: 'O.G. 82/2001', sum: 0, ngoNum:0},
+  { name: 'OUG 68/2003', sum: 0, ngoNum:0},
+]
+
 export var countyDataArray = [
   { name: 'Alba', sum: 0, average: 0, ngoNum: 0, short:'AB'},
   { name: 'Arad', sum: 0, average: 0, ngoNum: 0, short:'AR'},

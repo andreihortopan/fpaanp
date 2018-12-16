@@ -5,6 +5,9 @@ import { BarChartView } from './barChartView'
 import { TableView } from './tableView'
 import { GraphMenu } from './graphmenu'
 import {
+	barChartCountyDomainArray,
+	barChartCountyYearArray,
+	barChartCountyLegislationArray,
 	countyDataArray,
 	data
 } from '../docs/data'
@@ -36,8 +39,74 @@ const computeCountyDataArray = (dataArray) => {
 		if (currentCounty.ngoNum != 0)
 			currentCounty.average = Math.round(currentCounty.sum / currentCounty.ngoNum)
 	})
+}
 
-	console.log(countyDataArray)
+const computeBarChartData = (dataArray, countyDataArray) => {
+	let countyNum = 0
+
+	countyDataArray.forEach(county => {
+		if (county.ngoNum != 0)
+			countyNum++
+	})
+
+	if (countyNum === 1) {
+		//Array of domains
+		barChartCountyDomainArray.forEach(currentDomain => {
+			currentDomain.ngoNum = 0
+			currentDomain.sum = 0
+		})
+
+		dataArray.forEach(ngo => {
+			var currentDomain = barChartCountyDomainArray.find(function (domain) {
+				if (domain != null) {
+					return domain.name == ngo.domain
+				} else return null
+			})
+			if (currentDomain != null) {
+				currentDomain.sum += parseInt(ngo.sum)
+				currentDomain.ngoNum++
+			}
+		})
+
+		//Array of years
+		barChartCountyYearArray.forEach(currentYear => {
+			currentYear.ngoNum = 0
+			currentYear.sum = 0
+		})
+
+		dataArray.forEach(ngo => {
+			var currentYear = barChartCountyYearArray.find(function (year) {
+				if (year != null) {
+					return year.name == ngo.year
+				} else return null
+			})
+			if (currentYear != null) {
+				currentYear.sum += parseInt(ngo.sum)
+				currentYear.ngoNum++
+			}
+		})
+
+		//Array of legislations
+		barChartCountyLegislationArray.forEach(currentLegislation => {
+			currentLegislation.ngoNum = 0
+			currentLegislation.sum = 0
+		})
+
+		dataArray.forEach(ngo => {
+			var currentLegislation = barChartCountyLegislationArray.find(function (legislation) {
+				if (legislation != null) {
+					return legislation.name == ngo.legislation
+				} else return null
+			})
+			if (currentLegislation != null) {
+				currentLegislation.sum += parseInt(ngo.sum)
+				currentLegislation.ngoNum++
+			}
+		})
+
+		return [barChartCountyDomainArray, barChartCountyYearArray, barChartCountyLegislationArray]
+	}
+	else return null
 }
 
 // Data on which we apply filters:
@@ -70,7 +139,7 @@ export class Canvas extends Component {
 			{
 				path: '/date-si-resurse/grafic',
 				component: BarChartView,
-				data: countyDataArray,
+				data: [countyDataArray, computeBarChartData(this.state.dataArray, countyDataArray)],
 			},
 			{
 				path: '/date-si-resurse/tabel',
