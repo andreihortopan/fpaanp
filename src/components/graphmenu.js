@@ -20,6 +20,7 @@ import domtoimage from 'dom-to-image'
 import ReactExport from 'react-data-export'
 import * as jdPDF from 'jspdf'
 import 'jspdf-autotable'
+import { instructions } from '../docs/instructions'
 import normalize, { normalizeDiacritics } from 'normalize-text'
 
 const ExcelFile = ReactExport.ExcelFile;
@@ -295,34 +296,127 @@ export class GraphMenu extends Component {
 
 	handleInfoClick = () => {
 		Popup.create({
-			title: 'Informații de utilizare a platformei',
-			content: 'Platforma blablabla',
+			title: instructions[0].title,
+			content: instructions[0].text,
 			buttons: {
 				left: [{
-					text: 'Inchide',
+					text: 'Închide',
 					className: 'danger',
 					action: function () {
-						Popup.close();
+						Popup.close()
 					}
 				}],
 				right: [{
-					text: 'Continua',
+					text: 'Continuă',
 					key: 'ctrl+enter',
 					action: function () {
-						// Passing true as the second argument to the create method
-						// displays it directly, without interupting the queue.
 						Popup.create({
-							title: 'Selectarea ...',
-							content: 'IBla blablalv',
+							title: instructions[1].title,
+							content: instructions[1].text,
 							buttons: {
 								left: [{
-									text: 'Inchide',
+									text: 'Închide',
 									className: 'danger',
 									action: function () {
-										Popup.close();
+										Popup.close()
+										Popup.close()
 									}
 								}],
-								right: []
+								right: [{
+									text: 'Înapoi',
+									key: 'ctrl+backspace',
+									action: function () {
+										Popup.close()
+									}
+								},
+								{
+									text: 'Continuă',
+									key: 'ctrl+enter',
+									action: function () {
+										Popup.create({
+											title: instructions[2].title,
+											content: instructions[2].text,
+											buttons: {
+												left: [{
+													text: 'Închide',
+													className: 'danger',
+													action: function () {
+														Popup.close()
+														Popup.close()
+														Popup.close()
+													}
+												}],
+												right: [{
+													text: 'Înapoi',
+													key: 'ctrl+backspace',
+													action: function () {
+														Popup.close()
+													}
+												},
+												{
+													text: 'Continuă',
+													key: 'ctrl+enter',
+													action: function () {
+														Popup.create({
+															title: instructions[3].title,
+															content: instructions[3].text,
+															buttons: {
+																left: [{
+																	text: 'Închide',
+																	className: 'danger',
+																	action: function () {
+																		Popup.close()
+																		Popup.close()
+																		Popup.close()
+																		Popup.close()
+																	}
+																}],
+																right: [{
+																	text: 'Înapoi',
+																	key: 'ctrl+backspace',
+																	action: function () {
+																		Popup.close()
+																	}
+																},
+																{
+																	text: 'Continuă',
+																	key: 'ctrl+enter',
+																	action: function () {
+																		Popup.create({
+																			title: instructions[4].title,
+																			content: instructions[4].text,
+																			buttons: {
+																				left: [{
+																					text: 'Închide',
+																					className: 'danger',
+																					action: function () {
+																						Popup.close()
+																						Popup.close()
+																						Popup.close()
+																						Popup.close()
+																						Popup.close()
+																					}
+																				}],
+																				right: [{
+																					text: 'Înapoi',
+																					key: 'ctrl+backspace',
+																					action: function () {
+																						Popup.close()
+																					}
+																				},
+																				]
+																			}
+																		}, true);
+																	}
+																}]
+															}
+														}, true);
+													}
+												}]
+											}
+										}, true);
+									}
+								}]
 							}
 						}, true);
 					}
