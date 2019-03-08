@@ -566,12 +566,12 @@ export class GraphMenu extends Component {
 				onChange: (selectedYear) => this.handleChange({ selectedYear }),
 				options: this.state.years,
 			},
-			{
+			/*{
 				value: selectedSum,
 				placeholder: selections[7],
 				onChange: (selectedSum) => this.handleChange({ selectedSum }),
 				options: this.state.sums,
-			},
+			},*/
 		]
 
 		return (
