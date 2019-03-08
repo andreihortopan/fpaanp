@@ -9,8 +9,9 @@ import {
 	barChartCountyYearArray,
 	barChartCountyLegislationArray,
 	countyDataArray,
-	data
 } from '../docs/data'
+import config from '../config'
+import load from './spreadsheet'
 
 const canvasStyle = {
 	display: 'flex',
@@ -119,14 +120,37 @@ export class Canvas extends Component {
 	constructor(props) {
 		super(props)
 
-		computeCountyDataArray(data)
-
 		this.state = {
-			dataArray: data,
+			dataArray: [],
+			fullData: [],
+			error: null
 		}
+		window.gapi.load("client", this.initClient);
 
 		refreshData = refreshData.bind(this)
 	}
+
+	onLoad = (data, error) => {
+		if (data) {
+			const dataArray = data.items;
+			const fullData = data.items
+			computeCountyDataArray(dataArray)
+			this.setState({ dataArray, fullData });
+		} else {
+			this.setState({ error });
+		}
+	};
+
+	initClient = () => {
+		window.gapi.client
+			.init({
+				apiKey: config.apiKey,
+				discoveryDocs: config.discoveryDocs
+			})
+			.then(() => {
+				load(this.onLoad);
+			});
+	};
 
 	render() {
 		// All 3 display options for the data:
@@ -148,9 +172,11 @@ export class Canvas extends Component {
 			},
 		]
 
+		console.log(this.state.fullData);
+
 		return (
 			<div style={{ canvasStyle }}>
-				<GraphMenu tip={this.props.match.params.tip} data={data} filteredData={this.state.dataArray} />
+				<GraphMenu tip={this.props.match.params.tip} data={this.state.fullData} filteredData={this.state.dataArray} />
 				<Switch>
 					{
 						routes.map(({ path, component: C, data }) => (

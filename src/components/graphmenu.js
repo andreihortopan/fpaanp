@@ -134,7 +134,15 @@ export class GraphMenu extends Component {
 			selectedLevel: [],
 			selectedDomain: [],
 			selectedYear: [],
-			selectedSum: []
+			selectedSum: [],
+			regions: regions,
+			counties: counties,
+			legislations: legislations,
+			funders: funders,
+			levels: levels,
+			domains: domains,
+			years: years,
+			sums: sums,
 		}
 
 		this.filterData = this.filterData.bind(this)
@@ -278,6 +286,9 @@ export class GraphMenu extends Component {
 		dataArray = dataArray.filter(this.isSum)
 
 		refreshData(dataArray);
+
+
+
 	}
 
 	handleChange = data => {
@@ -517,49 +528,49 @@ export class GraphMenu extends Component {
 				value: selectedRegion,
 				placeholder: selections[0],
 				onChange: (selectedRegion) => this.handleChange({ selectedRegion }),
-				options: regions,
+				options: this.state.regions,
 			},
 			{
 				value: selectedCounty,
 				placeholder: selections[1],
 				onChange: (selectedCounty) => this.handleChange({ selectedCounty }),
-				options: counties,
+				options: this.state.counties,
 			},
 			{
 				value: selectedLegislation,
 				placeholder: selections[2],
 				onChange: (selectedLegislation) => this.handleChange({ selectedLegislation }),
-				options: legislations,
+				options: this.state.legislations,
 			},
 			{
 				value: selectedFunder,
 				placeholder: selections[3],
 				onChange: (selectedFunder) => this.handleChange({ selectedFunder }),
-				options: funders,
+				options: this.state.funders,
 			},
 			{
 				value: selectedLevel,
 				placeholder: selections[4],
 				onChange: (selectedLevel) => this.handleChange({ selectedLevel }),
-				options: levels,
+				options: this.state.levels,
 			},
 			{
 				value: selectedDomain,
 				placeholder: selections[5],
 				onChange: (selectedDomain) => this.handleChange({ selectedDomain }),
-				options: domains,
+				options: this.state.domains,
 			},
 			{
 				value: selectedYear,
 				placeholder: selections[6],
 				onChange: (selectedYear) => this.handleChange({ selectedYear }),
-				options: years,
+				options: this.state.years,
 			},
 			{
 				value: selectedSum,
 				placeholder: selections[7],
 				onChange: (selectedSum) => this.handleChange({ selectedSum }),
-				options: sums,
+				options: this.state.sums,
 			},
 		]
 
