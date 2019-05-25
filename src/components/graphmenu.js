@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import PDF from '../media/dummy.pdf'
-import logo_img from '../media/clnr_logo.png'
+import logoImg from '../media/clnr_logo.png'
 import {
 	regions,
 	counties,
@@ -483,7 +483,7 @@ export class GraphMenu extends Component {
 			}
 		})
 
-		doc.addImage(logo_img, 'PNG', 230, 700, 136, 50)
+		doc.addImage(logoImg, 'PNG', 230, 700, 136, 50)
 		doc.text('Platforma Finantarea publica a activitatilor nonprofit', 110, 770)
 		doc.setTextColor(0, 0, 255)
 		doc.textWithLink('finantari.clnr.ro', 250, 800, {
