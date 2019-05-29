@@ -239,22 +239,22 @@ export class Menu extends Component {
                 <p>Evenimente</p>
               </Link>
             </li>
-            <li key='menu-4'>
+            {/* <li key='menu-4'>
               <a href='#'>
                 <p>Știri</p>
               </a>
-            </li>
+            </li> */}
             <li key='menu-0' onClick={() => { }}>
               <Link to='/date-si-resurse'>
                 <p>Date și resurse</p>
               </Link>
             </li>
             <hr style={{ ...lineStyle }} />
-            <li key='menu-5' onClick={this.handlePopupClick}>
+            {/* <li key='menu-5' onClick={this.handlePopupClick}>
               <a href='#'>
                 <p>Cum se citează</p>
               </a>
-            </li>
+            </li> */}
             <li key='menu-6'>
               <Link to='/despre'>
                 <p>Despre proiect</p>

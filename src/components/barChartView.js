@@ -23,6 +23,7 @@ export class BarChartView extends Component {
         this.state = {
             width: window.innerWidth - diffWidth,
             height: window.innerHeight - diffHeight,
+            graphWidth: Math.max(window.innerWidth - diffWidth, 1500),
         }
 
     }
@@ -66,7 +67,7 @@ export class BarChartView extends Component {
                     height: this.state.height,
                     ...pageStyle,
                     ...menuLook,
-                    overflow: "hidden",
+                    overflowY: "hidden",
                     paddingTop: MENU_PADDING,
                     paddingBottom: MENU_PADDING,
                 }}>
@@ -79,43 +80,48 @@ export class BarChartView extends Component {
                             <Tab>Numărul de ONG-uri per județ</Tab>
                         </TabList>
 
+                        <div
+                            style={{
+                                overflowY: "hidden",
+                                overflowX: "scroll",
+                            }}>
+                            <TabPanel>
+                                <BarChart width={this.state.graphWidth} height={this.state.height} data={barChartData.slice()}
+                                    margin={{ top: 5, right: 0, left: 20, bottom: 5 }}>
+                                    <CartesianGrid strokeDasharray="3 3" />
+                                    <XAxis dataKey="short" />
+                                    <YAxis />
+                                    <Tooltip />
+                                    <Legend />
+                                    <Bar dataKey="sum" fill="#008ece" label={"Sumă"} />
 
-                        <TabPanel>
-                            <BarChart width={this.state.width} height={this.state.height} data={barChartData.slice()}
-                                margin={{ top: 5, right: 0, left: 20, bottom: 5 }}>
-                                <CartesianGrid strokeDasharray="3 3" />
-                                <XAxis dataKey="short" />
-                                <YAxis />
-                                <Tooltip />
-                                <Legend />
-                                <Bar dataKey="sum" fill="#008ece" label={"Sumă"} />
+                                </BarChart>
+                            </TabPanel>
+                            <TabPanel>
+                                <BarChart width={this.state.graphWidth} height={this.state.height} data={barChartData.slice()}
+                                    margin={{ top: 5, right: 0, left: 20, bottom: 5 }}>
+                                    <CartesianGrid strokeDasharray="3 3" />
+                                    <XAxis dataKey="short" />
+                                    <YAxis />
+                                    <Tooltip />
+                                    <Legend />
+                                    <Bar dataKey="average" fill="#008ece" label={"Medie"} />
 
-                            </BarChart>
-                        </TabPanel>
-                        <TabPanel>
-                            <BarChart width={this.state.width} height={this.state.height} data={barChartData.slice()}
-                                margin={{ top: 5, right: 0, left: 20, bottom: 5 }}>
-                                <CartesianGrid strokeDasharray="3 3" />
-                                <XAxis dataKey="short" />
-                                <YAxis />
-                                <Tooltip />
-                                <Legend />
-                                <Bar dataKey="average" fill="#008ece" label={"Medie"} />
+                                </BarChart>
+                            </TabPanel>
+                            <TabPanel>
+                                <BarChart width={this.state.graphWidth} height={this.state.height} data={barChartData.slice()}
+                                    margin={{ top: 5, right: 0, left: 20, bottom: 5 }}>
+                                    <CartesianGrid strokeDasharray="3 3" />
+                                    <XAxis dataKey="short" />
+                                    <YAxis />
+                                    <Tooltip />
+                                    <Legend />
+                                    <Bar dataKey="ngoNum" fill="#008ece" label={"Număr ONG-uri"} />
 
-                            </BarChart>
-                        </TabPanel>
-                        <TabPanel>
-                            <BarChart width={this.state.width} height={this.state.height} data={barChartData.slice()}
-                                margin={{ top: 5, right: 0, left: 20, bottom: 5 }}>
-                                <CartesianGrid strokeDasharray="3 3" />
-                                <XAxis dataKey="short" />
-                                <YAxis />
-                                <Tooltip />
-                                <Legend />
-                                <Bar dataKey="ngoNum" fill="#008ece" label={"Număr ONG-uri"} />
-
-                            </BarChart>
-                        </TabPanel>
+                                </BarChart>
+                            </TabPanel>
+                        </div>
                     </Tabs>}
 
 
@@ -267,6 +273,6 @@ export class BarChartView extends Component {
     }
 }
 
-// <Bar dataKey="ngoNum" fill="#006b9b" label="Nr. ONG-uri"/>
+// <Bar dataKey="ngoNum" fill="#006b9b" label="Nr. ONG-uri" />
 
 export default BarChartView;

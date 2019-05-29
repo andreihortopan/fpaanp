@@ -3,19 +3,19 @@ import Collabsible from 'react-collapsible';
 import '../collapsible.css'
 
 const membruStyle = {
-    marginBottom: 40,
+    marginBottom: 20,
 }
 
 
 
 export class Amendment extends Component {
     render() {
-        const{list} = this.props;
+        const { list } = this.props;
 
-        return(
+        return (
             <div>
                 {list.map((item) => (
-                    <div 
+                    <div
                         style={{
                             ...membruStyle,
                         }}

@@ -287,8 +287,6 @@ export class GraphMenu extends Component {
 
 		refreshData(dataArray);
 
-
-
 	}
 
 	handleChange = data => {

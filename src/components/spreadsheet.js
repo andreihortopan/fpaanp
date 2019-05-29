@@ -5,7 +5,7 @@ export function load(callback) {
         window.gapi.client.sheets.spreadsheets.values
             .get({
                 spreadsheetId: config.spreadsheetId,
-                range: "Sheet1!A2:K"
+                range: "Finantare!A2:K"
             })
             .then(
                 response => {
@@ -22,6 +22,34 @@ export function load(callback) {
                         ong: item[8],
                         sum: item[9],
                         contact: item[10],
+                    })) || [];
+                    callback({
+                        items
+                    });
+                },
+                response => {
+                    callback(false, response.result.error);
+                }
+            );
+    });
+}
+
+export function loadMembers(callback) {
+    window.gapi.client.load("sheets", "v4", () => {
+        window.gapi.client.sheets.spreadsheets.values
+            .get({
+                spreadsheetId: config.spreadsheetId,
+                range: "Membri!A2:E"
+            })
+            .then(
+                response => {
+                    const data = response.result.values;
+                    const items = data.map(item => ({
+                        id: item[0],
+                        name: item[1],
+                        legislation: item[2],
+                        function: item[3],
+                        email: item[4],
                     })) || [];
                     callback({
                         items

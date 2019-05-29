@@ -16,7 +16,7 @@ import load from './spreadsheet'
 const canvasStyle = {
 	display: 'flex',
 	padding: 0,
-	margin: 0
+	margin: 0,
 }
 
 const computeCountyDataArray = (dataArray) => {
@@ -171,8 +171,6 @@ export class Canvas extends Component {
 				data: this.state.dataArray,
 			},
 		]
-
-		console.log(this.state.fullData);
 
 		return (
 			<div style={{ canvasStyle }}>

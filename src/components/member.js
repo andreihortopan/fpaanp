@@ -6,18 +6,19 @@ const membruStyle = {
 
 export class Member extends Component {
     render() {
-        const{list} = this.props;
+        const { list } = this.props;
 
-        return(
+        return (
             <div>
                 {list.map((item) => (
-                    <div 
+                    <div
                         style={{
                             ...membruStyle,
                         }}
                         key={item.id}>
-                    <h2>{item.name}</h2>
-                    <p>{item.description}</p>
+                        <h2>{item.function} {item.name}</h2>
+                        <p>{item.legislation}</p>
+                        <p>{item.email}</p>
                     </div>
                 ))}
             </div>

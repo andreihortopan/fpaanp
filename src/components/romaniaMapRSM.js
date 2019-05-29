@@ -22,10 +22,10 @@ const pageStyle = {
 }
 
 const popScale = scaleLinear()
-	.domain([0, 2000000, 5000000, 10000000, 20000000, 50000000])
-	.range(['#F1EEF6', '#BDC9E1', '#74A9CF', '#2B8CBE', '#045A8D'])
-// .domain([0,10000000,40000000])
-// .range(["#FFFFFF","#8c8c8c","#4d4d4d"])
+	// .domain([0, 10000, 20000, 50000, 100000, 500000, 1000000, 2000000, 5000000, 10000000, 20000000, 50000000])
+	// .range(['#F1EEF6', '#BDC9E1', '#74A9CF', '#2B8CBE', '#045A8D', "#FFC281", "#FFB05B", "#FF921C", "#F58000", "#DD7300", "#A45500"])
+	.domain([0, 10000000, 40000000])
+	.range(["#FFFFFF", "#8c8c8c", "#4d4d4d"])
 
 const diffWidth = MENU_WIDTH + MENU_MARGIN + 2 * MENU_PADDING
 const diffHeight = 0

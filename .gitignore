@@ -16,6 +16,7 @@
 /media
 /public/media/large
 /public/media/selected
+/date
 
 # misc
 .DS_Store
