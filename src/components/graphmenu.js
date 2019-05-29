@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import PDF from '../media/dummy.pdf'
+import logoImg from '../media/clnr_logo.png'
 import {
 	regions,
 	counties,
@@ -462,13 +463,30 @@ export class GraphMenu extends Component {
 		var doc = new jdPDF('p', 'pt')
 		doc.autoTable(columns, newJson, {
 			theme: 'striped',
-			styles: { overflow: 'linebreak' },
-			margin: { top: 60 },
-			columnStyles: { text: { columnWidth: 'wrap' } },
+			styles: { overflow: 'linebreak', halign: 'center' },
+			rowPageBreak: 'auto',
+			margin: { top: 60, left: 30, right:30 },
+			columnStyles: {
+				ong: {columnWidth: 100},
+				region: {columnWidth: 60},
+				county: {columnWidth: 80},
+				sum: {columnWidth: 40},
+				funder: {columnWidth: 80},
+				level: {columnWidth: 40},
+				domain: {columnWidth: 100},
+				year: {columnWidth: 40},
+			},
 			addPageContent: function (data) {
 				doc.text("Lista ONG-uri", 40, 30);
 			}
 		})
+
+		doc.addImage(logoImg, 'PNG', 230, 700, 136, 50)
+		doc.text('Platforma Finantarea publica a activitatilor nonprofit', 110, 770)
+		doc.setTextColor(0, 0, 255)
+		doc.textWithLink('finantari.clnr.ro', 250, 800, {
+			url: 'finantari.clnr.ro'
+	})
 
 		doc.save('date-fonduri.pdf')
 	}
