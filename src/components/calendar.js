@@ -25,7 +25,7 @@ const diffWidth = 0
 const diffHeight = 0
 
 export class Calendar extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
 
     this.selectEvent = this.selectEvent.bind(this)
@@ -47,19 +47,19 @@ export class Calendar extends Component {
     })
   }
 
-  selectEvent (id) {
+  selectEvent(id) {
     this.setState({ selectedEvent: id })
   }
 
-  componentDidMount () {
+  componentDidMount() {
     window.addEventListener('resize', this.handleResize)
   }
 
-  componentWillUnmount () {
+  componentWillUnmount() {
     window.removeEventListener('resize', this.handleResize)
   }
 
-  render () {
+  render() {
     return (
       <div
         style={{
@@ -73,29 +73,60 @@ export class Calendar extends Component {
       >
         <div
           style={{
-            width: this.state.width / 2 - 2 * MENU_MARGIN - 4 * MENU_PADDING,
+            position: "fixed",
+            height: 40,
+            width: 40,
+            marginLeft: 32,
+            marginTop: 37,
+            borderRadius: 5,
+            backgroundColor: "white",
+            zIndex: 100,
+          }}>
+
+        </div>
+        <div
+          style={{
+            width: this.state.width / 2 - 4 * MENU_PADDING,
             height:
-              this.state.height - graphMenuHeight - MENU_MARGIN - MENU_PADDING,
+              this.state.height - graphMenuHeight - MENU_PADDING,
             ...menuLook,
-            paddingBottom: MENU_PADDING,
-            paddingTop: MENU_PADDING,
+            // position: "relative",
+            padding: 0,
             marginLeft: MENU_MARGIN,
             marginTop: MENU_MARGIN,
-            overflow: 'hidden',
+            overflowY: 'scroll',
             display: 'inline-block',
             float: 'left'
           }}
         >
-          <h1 style={{ marginLeft: 40, marginTop: -5 }}>
-            {this.state.events[this.state.selectedEvent].name}
-          </h1>
-          <div
-            style={{
-              marginLeft: 40,
-              maxWidth: 600
-            }}
-          >
-            <p>{this.state.events[this.state.selectedEvent].description}</p>
+          <img src={this.state.events[this.state.selectedEvent].image} style={{
+            width: "100%",
+            height: "60%",
+            objectFit: "cover",
+            marginTop: -10,
+            // position: "absolute",
+            webkitMaskImage: "-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))",
+            maskImage: "linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0))",
+          }} />
+          <div style={{
+            backgroundColor: "white",
+            paddingBottom: MENU_PADDING,
+            paddingTop: MENU_PADDING,
+            marginTop: -50,
+          }}>
+            <h1 style={{ marginLeft: 40, marginTop: -5 }}>
+              {this.state.events[this.state.selectedEvent].name}
+            </h1>
+            <div
+              style={{
+                marginLeft: 40,
+                maxWidth: 600,
+              }}
+            >
+              <p>{this.state.events[this.state.selectedEvent].description}</p>
+              <p>{this.state.events[this.state.selectedEvent].description}</p>
+
+            </div>
           </div>
         </div>
 
@@ -126,7 +157,7 @@ export class Calendar extends Component {
             events={this.state.events}
             style={{ height: this.height }}
             onSelectEvent={event => this.selectEvent(event.id)}
-            // formats={formats}
+          // formats={formats}
           />
         </div>
 

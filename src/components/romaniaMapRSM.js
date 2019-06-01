@@ -94,18 +94,21 @@ export class RomaniaMap extends Component {
 			>
 				<MapLegend />
 				<ComposableMap
-					width={this.state.windowWidth}
-					height={this.state.windowHeight}
-					projectionConfig
-					projection={(width, height, projectionConfig) => {
-						return geoMercator()
-							.center([12.5, 25.05])
-							.translate([width / 2 /* + this.calculateOffset() */, height / 2])
-							.scale(this.calculateScaleFactor())
+					// width={this.state.windowWidth}
+					// height={this.state.windowHeight}
+					projectionConfig={{
+						scale: 5500,
+						// rotation: [-11, 0, 0],
 					}}
-					style={{ width: '100%', height: 'auto' }}
+					// projection={(width, height, projectionConfig) => {
+					// 	return geoMercator()
+					// 		.center([12.5, 25.05])
+					// 		.translate([width / 2 /* + this.calculateOffset() */, height / 2])
+					// 		.scale(this.calculateScaleFactor())
+					// }}
+					style={{ width: '100%', height: '100%' }}
 				>
-					<ZoomableGroup center={[0, 0]} disablePanning>
+					<ZoomableGroup center={[25, 45.9]} disablePanning>
 						<Geographies geography='/romania-counties.json' disableOptimization>
 							{(geographies, projection) =>
 								geographies.map((geography, i) => {
