@@ -5,7 +5,19 @@ import { listStyle } from './menu'
 import { itemStyle } from './menu'
 
 export class SubmenuRE extends Component {
-  render () {
+  constructor(props) {
+    super(props)
+    this.state = {
+      show: true,
+    }
+  }
+
+  closeMenu = () => {
+    this.setState({ show: false })
+  }
+
+  render() {
+    //return (this.state.show &&
     return (
       <div
         style={{
@@ -26,15 +38,20 @@ export class SubmenuRE extends Component {
               ...itemStyle
             }}
           >
-            <Link to='/membri'>Membri</Link>
+            <Link to='/membri'>
+              <div onClick={this.closeMenu}>
+                Membri
+              </div></Link>
           </li>
           <li
             style={{
               ...itemStyle
             }}
           >
-            <a href='#' onClick={e => {}}>
-              Activit&#259;&#355;i Re&#355;ea
+            <a href='#' onClick={e => { }}>
+              <div onClick={this.closeMenu}>
+                Activit&#259;&#355;i Re&#355;ea
+              </div>
             </a>
           </li>
         </ul>

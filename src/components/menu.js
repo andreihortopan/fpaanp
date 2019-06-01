@@ -171,16 +171,17 @@ export class Menu extends Component {
           }}
         >
           <Link to='/date-si-resurse'>
-            <img
-              alt='Logo'
-              src='/media/fpaan_s.png'
-              style={{
-                paddingTop: MENU_PADDING / 2,
-                maxWidth: MENU_WIDTH,
-                marginBottom: -10
-                // maxHeight: 100,
-              }}
-            />
+            <div onClick={this.props.closeFunc}>
+              <img
+                alt='Logo'
+                src='/media/fpaan_s.png'
+                style={{
+                  paddingTop: MENU_PADDING / 2,
+                  maxWidth: MENU_WIDTH,
+                  marginBottom: -10
+                  // maxHeight: 100,
+                }}
+              /></div>
           </Link>
           <ul
             style={{
@@ -217,14 +218,15 @@ export class Menu extends Component {
             // onMouseLeave={this.handleLeaveFP}
             >
               <Link to='/finantari-publice'>
-                {/* <div
+                <div onClick={this.props.closeFunc}>
+                  {/* <div
                   style={{
                     display: 'inline-block',
                     width: 210,
                     height: 35
                   }} */}
-                <p>Finanțări Publice</p>
-                {/* </div>
+                  <p>Finanțări Publice</p>
+                  {/* </div>
                 <div
                   style={{
                     display: 'inline-block'
@@ -232,11 +234,13 @@ export class Menu extends Component {
                 >
                   <FontAwesome name='angle-right' />
                 </div> */}
+                </div>
               </Link>
             </li>
             <li key='menu-3' onClick={() => { }}>
               <Link to='/evenimente'>
-                <p>Evenimente</p>
+                <div onClick={this.props.closeFunc}>
+                  <p>Evenimente</p></div>
               </Link>
             </li>
             {/* <li key='menu-4'>
@@ -246,7 +250,9 @@ export class Menu extends Component {
             </li> */}
             <li key='menu-0' onClick={() => { }}>
               <Link to='/date-si-resurse'>
-                <p>Date și resurse</p>
+                <div onClick={this.props.closeFunc}>
+                  <p>Date și resurse</p>
+                </div>
               </Link>
             </li>
             <hr style={{ ...lineStyle }} />
@@ -257,7 +263,8 @@ export class Menu extends Component {
             </li> */}
             <li key='menu-6'>
               <Link to='/despre'>
-                <p>Despre proiect</p>
+                <div onClick={this.props.closeFunc}>
+                  <p>Despre proiect</p></div>
               </Link>
             </li>
             <hr style={{ ...lineStyle }} />

@@ -3,55 +3,66 @@ import { slide as Menu } from 'react-burger-menu';
 import MyMenu from './menu';
 
 var styles = {
-    bmBurgerButton: {
-      position: 'fixed',
-      width: '80px',
-      height: '15px',
-      left: '45px',
-      top: '50px'
-    },
-    bmBurgerBars: {
-      background: '#bcbcbc',
-      width: '15px'
-    },
-    bmCrossButton: {
-      height: '24px',
-      width: '24px',
-      zIndex: 100,
-    },
-    bmCross: {
-      background: '#bcbcbc'
-    },
-    bmMenu: {
-      //background: '#FFFFFF',
-      //padding: '2.5em 1.5em 0',
-      //fontSize: '1.15em'
-    },
-    bmMorphShape: {
-      fill: '#373a47'
-    },
-    bmItemList: {
-      //color: '#b8b7ad',
-      //padding: '0.8em'
-    },
-    bmItem: {
-      display: 'inline-block'
-    },
-    bmOverlay: {
-      background: 'rgba(0, 0, 0, 0.3)'
-    }
+  bmBurgerButton: {
+    position: 'fixed',
+    width: '80px',
+    height: '15px',
+    left: '45px',
+    top: '50px'
+  },
+  bmBurgerBars: {
+    background: '#bcbcbc',
+    width: '15px'
+  },
+  bmCrossButton: {
+    height: '24px',
+    width: '24px',
+    zIndex: 100,
+  },
+  bmCross: {
+    background: '#bcbcbc'
+  },
+  bmMenu: {
+    //background: '#FFFFFF',
+    //padding: '2.5em 1.5em 0',
+    //fontSize: '1.15em'
+  },
+  bmMorphShape: {
+    fill: '#373a47'
+  },
+  bmItemList: {
+    //color: '#b8b7ad',
+    //padding: '0.8em'
+  },
+  bmItem: {
+    display: 'inline-block'
+  },
+  bmOverlay: {
+    background: 'rgba(0, 0, 0, 0.3)'
   }
+}
 
 
 export class SideMenu extends Component {
-  showSettings (event) {
+  constructor(props) {
+    super(props)
+    this.state = {
+      isOpen: false,
+    }
+  }
+
+  showSettings(event) {
     event.preventDefault();
   }
 
-  render () {
+  closeMenu = () => {
+    this.setState({ isOpen: false })
+  }
+
+  render() {
     return (
-      <Menu styles={styles}>
-        <MyMenu/>
+      <Menu styles={styles} isOpen={this.state.isOpen}>
+        <MyMenu closeFunc={this.closeMenu} />
       </Menu>
     );
   }
