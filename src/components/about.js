@@ -10,8 +10,8 @@ const pageStyle = {
     overflowX: "hidden",
 }
 
-const diffWidth = 2*MENU_MARGIN +2*MENU_PADDING;
-const diffHeight = 2*MENU_MARGIN + MENU_PADDING;
+const diffWidth = 2 * MENU_MARGIN + 2 * MENU_PADDING;
+const diffHeight = 2 * MENU_MARGIN + MENU_PADDING;
 
 export class About extends Component {
     constructor(props) {
@@ -41,15 +41,15 @@ export class About extends Component {
     }
 
     render() {
-        return(
+        return (
             <div style={{
                 width: this.state.width,
                 height: this.state.height,
                 ...pageStyle,
                 ...menuLook,
             }}>
-                <h1 style = {{marginLeft: 40, marginTop: 0}}>DESPRE PROIECT</h1>
-                <div style= {{
+                <h1 style={{ marginLeft: 40, marginTop: 0 }}>DESPRE PROIECT</h1>
+                <div style={{
                     marginLeft: 40,
                     maxWidth: 600
                 }}>
@@ -69,9 +69,12 @@ export class About extends Component {
                     <h3>Alte instrumente</h3>
                     <p>Sprijinul acordat de către echipa CLNR reprezentanților societății civile continuă cu un al doilea instrument online, Issue monitoring - primul serviciu de monitorizare legislativă destinat organizațiilor neguvernamentale din România și profesioniștilor din domeniul de advocacy. Platforma este un instrument online modern care permite organizațiilor non-profit să fie la curent cu toate propunerile legislative din 3 domenii - reglementare ONG,  Finanțare ONG și Transparență – propuse și adoptate de către reprezentanții Guvernului și Parlamentului României.</p>
                     <p>Această platformă este dedicată organizațiilor non-profit active în România care vor să fie conectate la procesul decizional, să anticipeze schimbările și să influențeze deciziile legislative. Echipa CLNR urmărește instituțiile statului, de la cum lucrează membrii Comisiilor permanente din Parlament, până la dezbaterile din plenul Senatului sau al Camerei Deputaților; de la discuțiile și dezbaterile din ministere până la ședința de Guvern și până la publicarea actelor în Monitorul Oficial. Ori de câte ori apar schimbări și propuneri legislative de interes, abonații primesc în scurt timp o alertă cu detalii, iar o dată pe săptămână se trimit rapoarte cu ce s-a întâmplat în săptămâna anterioară. </p>
-                    <p>Mai multe detalii pe <a style={{ color: '#008ECE' }} href="http://issuemonitoring.ro/" target="_blank">http://issuemonitoring.ro/</a></p>
+                    <p>Mai multe detalii pe:<br />
+                        <a style={{ color: '#008ECE' }} href="https://www.clnr.ro/project/poca/" target="_blank">clnr.ro</a>
+                        <br />
+                        <a style={{ color: '#008ECE' }} href="http://issuemonitoring.ro/" target="_blank">issuemonitoring.ro</a></p>
                 </div>
-            </div>
+            </div >
         )
     }
 }
