@@ -2,6 +2,20 @@ import React, { Component } from 'react'
 import '../legend.css'
 import Popup from 'react-popup'
 
+
+const lineStyle = {
+  display: 'block',
+  height: 1,
+  width: 192,
+  border: 0,
+  margin: 0,
+  borderTop: '1px solid #bcbcbc',
+  padding: 0,
+  paddingBottom: 5,
+  clear: 'both'
+}
+
+
 export class MapLegend extends Component {
   handlePopupClick = () => {
     Popup.create({
@@ -49,6 +63,12 @@ export class MapLegend extends Component {
     return (
       <div className='my-legend'>
         {/* <div className='legend-source'>Suma totală acoperă toți anii, toate domeniile si toate legislațiile pentru fiecare județ</div> */}
+        <div className='legend-title'>
+          <span style={{ cursor: 'pointer' }} onClick={this.handlePopupClick}>
+            Cum se citează
+          </span>
+        </div>
+        <hr style={{ ...lineStyle }} />
         <div className='legend-title'>Suma totală per județ (RON)</div>
         <div className='legend-scale'>
           <ul className='legend-labels'>
@@ -73,11 +93,6 @@ export class MapLegend extends Component {
               50.000.000
             </li>
           </ul>
-        </div>
-        <div className='legend-source'>
-          <span style={{ cursor: 'pointer' }} onClick={this.handlePopupClick}>
-            Cum se citează
-          </span>
         </div>
       </div>
     )
