@@ -465,16 +465,16 @@ export class GraphMenu extends Component {
 			theme: 'striped',
 			styles: { overflow: 'linebreak', halign: 'center' },
 			rowPageBreak: 'auto',
-			margin: { top: 60, left: 30, right:30 },
+			margin: { top: 60, left: 30, right: 30 },
 			columnStyles: {
-				ong: {columnWidth: 100},
-				region: {columnWidth: 60},
-				county: {columnWidth: 80},
-				sum: {columnWidth: 40},
-				funder: {columnWidth: 80},
-				level: {columnWidth: 40},
-				domain: {columnWidth: 100},
-				year: {columnWidth: 40},
+				ong: { columnWidth: 100 },
+				region: { columnWidth: 60 },
+				county: { columnWidth: 80 },
+				sum: { columnWidth: 40 },
+				funder: { columnWidth: 80 },
+				level: { columnWidth: 40 },
+				domain: { columnWidth: 100 },
+				year: { columnWidth: 40 },
 			},
 			addPageContent: function (data) {
 				doc.text("Lista ONG-uri", 40, 30);
@@ -486,7 +486,7 @@ export class GraphMenu extends Component {
 		doc.setTextColor(0, 0, 255)
 		doc.textWithLink('finantari.clnr.ro', 250, 800, {
 			url: 'finantari.clnr.ro'
-	})
+		})
 
 		doc.save('date-fonduri.pdf')
 	}
@@ -635,9 +635,32 @@ export class GraphMenu extends Component {
 				</div>
 				<hr style={{ ...lineStyle }} />
 				<div style={{ paddingLeft: 10, clear: 'both' }}>
-					<div style={{ float: 'left' }}>
-						<p>Date și resurse</p>
-					</div>
+					{this.selectionExists() &&
+						<div style={{ float: 'left' }}>
+							<button onClick={this.clearFilters}
+								style={{
+									backgroundColor: "#008ece",
+									fontSize: "1em",
+									border: "none",
+									color: "white",
+									paddingTop: 8,
+									paddingBottom: 7,
+									paddingLeft: 20,
+									paddingRight: 20,
+									textAlign: "center",
+									borderRadius: 5,
+									textDecoration: "none",
+									display: "inline-block",
+									margin: "10px 0px 10px -10px",
+									cursor: "pointer",
+								}}>Resetează filtre</button>
+						</div>
+					}
+					{!this.selectionExists() &&
+						<div style={{ float: 'left' }}>
+							<p>Date și resurse</p>
+						</div>
+					}
 					{this.state.selected != 0 && (
 						<div
 							style={{
@@ -665,36 +688,6 @@ export class GraphMenu extends Component {
 									}}
 								/>
 							</a>
-
-							{this.selectionExists() &&
-								<div style={{
-									display: 'inline-block'
-								}}>
-									<a href='#' data-tip='Resetează filtrele'>
-										<svg
-											onClick={this.clearFilters}
-											width={20}
-											height={20}
-											style={{
-												marginRight: 8,
-												marginBottom: 2,
-												fill: '#bcbcbc'
-											}}
-										>
-											<path d={'M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z'} />
-										</svg>
-									</a>
-
-									<span style={{
-										position: 'relative',
-										borderLeft: '1px solid #bcbcbc',
-										backgroundColor: '#fafafa',
-										marginRight: 3,
-										paddingTop: 10,
-									}}></span>
-								</div>
-							}
-
 
 							{(this.props.tip === 'harta' || this.props.tip === 'grafic') &&
 								<a
