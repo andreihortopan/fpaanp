@@ -1,1 +1,31 @@
+.wrapper {
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
 
+main {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: white;
+  padding: 4px;
+  font-size: 0.8em;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px 1px #bababa;
+  margin-top: 8px;
+}
+
+footer > button {
+  margin-left: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}

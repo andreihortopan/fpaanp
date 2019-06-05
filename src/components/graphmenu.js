@@ -43,17 +43,6 @@ export const menuLook = {
 	paddingTop: MENU_PADDING / 2
 }
 
-// Menu styling with regards to exterior styling (eg. margin)
-export const menuStyle = {
-	position: 'fixed',
-	zIndex: 100,
-	width: MENU_WIDTH,
-	height: window.innerHeight - 2 * MENU_MARGIN - 2 * MENU_PADDING,
-	marginTop: MENU_MARGIN,
-	marginLeft: MENU_MARGIN,
-	marginBottom: MENU_MARGIN
-}
-
 const logoStyle = {
 	maxHeight: 30,
 	paddingBottom: 0
@@ -432,8 +421,8 @@ export class GraphMenu extends Component {
 				{
 					quality: 0.9,
 					bgcolor: '#ffffff',
-					height: window.innerHeight,
-					width: window.innerWidth
+					// height: window.innerHeight,
+					// width: window.innerWidth
 				})
 				.then(function (dataUrl) {
 					var link = document.createElement('a');
@@ -593,19 +582,13 @@ export class GraphMenu extends Component {
 		return (
 			<div
 				style={{
-					position: 'fixed',
-					zIndex: 100,
-					height: this.state.height,
-					width: MENU_WIDTH,
-					marginTop: MENU_MARGIN,
-					marginLeft: MENU_MARGIN,
-					marginBottom: MENU_MARGIN,
+					display: 'flex',
+					flexDirection: 'column',
+					flex: `0 0 ${MENU_WIDTH}px`,
 					backgroundColor: '#FFFFFF',
 					borderRadius: '2px',
 					boxShadow: '1px 1px 4px 1px #bababa',
-					padding: MENU_PADDING,
-					paddingBottom: MENU_PADDING / 2,
-					paddingTop: MENU_PADDING / 2
+					padding: `${MENU_PADDING / 2}px ${MENU_PADDING}px`
 				}}
 			>
 				<div style={{ paddingLeft: 10 }}>
@@ -764,7 +747,8 @@ export class GraphMenu extends Component {
 				<div
 					style={{
 						clear: 'both',
-						height: this.state.height - 170,
+						flexGrow: 1,
+						// height: this.state.height - 170,
 						overflowY: 'auto'
 					}}
 				>
@@ -789,9 +773,9 @@ export class GraphMenu extends Component {
 				<div>
 					<table
 						style={{
-							position: 'fixed',
-							bottom: 30,
-							width: MENU_WIDTH,
+							// position: 'fixed',
+							// bottom: 30,
+							width: '100%',
 							height: 50,
 							borderCollapse: 'collapse'
 						}}
