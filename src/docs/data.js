@@ -204,7 +204,7 @@ export var countyDataArray = [
   { name: 'Covasna', sum: 0, average: 0, ngoNum: 0, short: 'CV' },
   { name: 'Dâmbovița', sum: 0, average: 0, ngoNum: 0, short: 'DB' },
   { name: 'Dolj', sum: 0, average: 0, ngoNum: 0, short: 'DJ' },
-  { name: 'Galați', sum: 0, average: 0, ngoNum: 0, short: 'GL' }, ,
+  { name: 'Galați', sum: 0, average: 0, ngoNum: 0, short: 'GL' },
   { name: 'Giurgiu', sum: 0, average: 0, ngoNum: 0, short: 'GR' },
   { name: 'Gorj', sum: 0, average: 0, ngoNum: 0, short: 'GJ' },
   { name: 'Harghita', sum: 0, average: 0, ngoNum: 0, short: 'HR' },

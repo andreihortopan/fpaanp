@@ -13,20 +13,19 @@ Additional node packages that have been used are listed [below](#additional-pack
 
 ## Current bugs
 
-- `romaniaMapRSM.js`:
-    Map is not being centered properly on dynamic resize. It works when reloading the page, but not on window resize via dragging corners.
 - `tableView.js`:
     Table does not resize when window resizing via dragging corners. It does work when reloading the page, however.
 
 ## To do
 
 - Translate `Calendar` into Romanian
-- Move constants and styles to a separate file then import them all at once to each file which requires them (especially with regards to the components which display a white div to the right of the menus, like `Membri`).
+- Move constants and styles to a separate file then import them all at once.
 - Check compilation warnings.
 - `menu.js`:
     - Change text color on hover.
 - `graphmenu.js`:
     - Check if imported menu size constants have been properly implemented in all styling options (for proper resizing when changing them).
+    - Functional approach to filters.
 - `css.css`:
     - Clean css, eventually integrate via constants in `dropdown.js`.
 - `members.js`:
@@ -38,25 +37,22 @@ Additional node packages that have been used are listed [below](#additional-pack
 
 ## To implement
 
-- News
 - Dynamic map color scale
 
 ## Data-related
 
 Data must be added for:
-- News
-- Members
 - Citation
 - Metadata in `index.html`
 
-## Build Guide
+## Build guide
 
 1) Install `npm` (or, alternatively, `yarn`).
 2) Clone repository (or download the zip file).
 3) Open a terminal in the source folder and run `npm install`.
 4) Run `npm start` in the terminal and connect (if not done automatically) to `localhost:3000` in the browser.
 
-## Additional packages
+## Additional packages used
 
 - `react` and `react-dom` for rendering everything.
 
@@ -80,10 +76,11 @@ Data must be added for:
 - `react-data-export` for .xlsx file export.
 - `normalize-text` for removing diacritics when exporting to PDF.
 - `react-tabs` for displaying tabs inside `BarChartView`.
+- `js-pdf` for downloading as PDF.
 <br />
 Run the following command in the project directory to install the neccesary packages:
 
-`npm install react react-dom react-simple-maps d3-geo topojson-client react-onclickoutside react-fontawesome react-tooltip react-transition-group webfontloader react-big-calendar moment react-table recharts react-select react-tooltip react-burger-menu react-popup react-router react-data-export normalize-text react-tabs --save`
+`npm install react react-dom react-simple-maps d3-geo topojson-client react-onclickoutside react-fontawesome react-tooltip react-transition-group webfontloader react-big-calendar moment react-table recharts react-select react-tooltip react-burger-menu react-popup react-router react-data-export normalize-text react-tabs js-pdf --save`
 <br />
 <br />
 - NOTE: `canvasjs.min.js` and `canvasjs.react.js` have been added manually, not installed as modules.

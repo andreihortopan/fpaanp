@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const membruStyle = {
+const memberStyle = {
     marginBottom: 40,
 }
 
@@ -13,7 +13,7 @@ export class Member extends Component {
                 {list.map((item) => (
                     <div
                         style={{
-                            ...membruStyle,
+                            ...memberStyle,
                         }}
                         key={item.id}>
                         <h2>{item.function} {item.name}</h2>
