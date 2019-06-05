@@ -12,6 +12,7 @@ import {
 } from '../docs/data'
 import config from '../config'
 import load from './spreadsheet'
+import LoadingScreen from './loadingScreen';
 
 const canvasStyle = {
 	display: 'flex',
@@ -123,7 +124,8 @@ export class Canvas extends Component {
 		this.state = {
 			dataArray: [],
 			fullData: [],
-			error: null
+			error: null,
+			loaded: 0,
 		}
 		window.gapi.load("client", this.initClient);
 
@@ -135,7 +137,7 @@ export class Canvas extends Component {
 			const dataArray = data.items;
 			const fullData = data.items
 			computeCountyDataArray(dataArray)
-			this.setState({ dataArray, fullData });
+			this.setState({ dataArray, fullData, loaded: 1 });
 		} else {
 			this.setState({ error });
 		}
@@ -171,25 +173,31 @@ export class Canvas extends Component {
 				data: this.state.dataArray,
 			},
 		]
-
-		return (
-			<div style={{ canvasStyle }}>
-				<GraphMenu tip={this.props.match.params.tip} data={this.state.fullData} filteredData={this.state.dataArray} />
-				<Switch>
-					{
-						routes.map(({ path, component: C, data }) => (
-							<Route
-								key={path}
-								exact
-								path={path}
-								render={() => <C data={data} />}
-							/>
-						))
-					}
-					<Route render={() => <Redirect to='/date-si-resurse/harta' />} />
-				</Switch>
-			</div>
-		)
+		if (this.state.loaded == 1) {
+			return (
+				<div style={{ canvasStyle }}>
+					<GraphMenu tip={this.props.match.params.tip} data={this.state.fullData} filteredData={this.state.dataArray} />
+					<Switch>
+						{
+							routes.map(({ path, component: C, data }) => (
+								<Route
+									key={path}
+									exact
+									path={path}
+									render={() => <C data={data} />}
+								/>
+							))
+						}
+						<Route render={() => <Redirect to='/date-si-resurse/harta' />} />
+					</Switch>
+				</div>
+			)
+		}
+		else {
+			return (
+				<LoadingScreen />
+			)
+		}
 	}
 }
 

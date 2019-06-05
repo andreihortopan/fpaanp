@@ -22,8 +22,8 @@ const lineStyle = {
 }
 
 export class Event extends Component {
-  render () {
-    const { list } = this.props
+  render() {
+    const { list, startEvent } = this.props
 
     return (
       <div

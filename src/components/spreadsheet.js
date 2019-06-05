@@ -62,4 +62,34 @@ export function loadMembers(callback) {
     });
 }
 
+export function loadEvents(callback) {
+    window.gapi.client.load("sheets", "v4", () => {
+        window.gapi.client.sheets.spreadsheets.values
+            .get({
+                spreadsheetId: config.spreadsheetId,
+                range: "Evenimente!A2:G"
+            })
+            .then(
+                response => {
+                    const data = response.result.values;
+                    const items = data.map(item => ({
+                        id: item[0],
+                        start: new Date(item[1]),
+                        end: new Date(item[2]),
+                        displayDate: item[3],
+                        name: item[4],
+                        description: item[5],
+                        image: item[6]
+                    })) || [];
+                    callback({
+                        items
+                    });
+                },
+                response => {
+                    callback(false, response.result.error);
+                }
+            );
+    });
+}
+
 export default load;
