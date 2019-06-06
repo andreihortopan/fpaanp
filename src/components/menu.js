@@ -264,7 +264,7 @@ export class Menu extends Component {
             <li key='menu-6'>
               <Link to='/despre'>
                 <div onClick={this.props.closeFunc}>
-                  <p>Despre proiect</p></div>
+                  <p>Despre platformă</p></div>
               </Link>
             </li>
             <hr style={{ ...lineStyle }} />
@@ -284,11 +284,11 @@ export class Menu extends Component {
             }}
           >
             <p><b>Contact</b></p>
-            <p> Centrul pentru Legislație Nonprofit<br/>
-                Adresă: Str. Budila 12, București<br/>
-                E-mail: office@clnr.ro<br/>
-                Website: www.clnr.ro<br/>
-                Tel:  +4 0310 0802 340M<br/>
+            <p> Centrul pentru Legislație Nonprofit<br /><br />
+              <b>Adresă:</b> Str. Budila 12, București<br />
+              <b>E-mail:</b> office@clnr.ro<br />
+              <b>Website:</b> www.clnr.ro<br />
+              <b>Tel:</b> +4 0310 0802 340M<br />
             </p>
           </ul>
         </div>
