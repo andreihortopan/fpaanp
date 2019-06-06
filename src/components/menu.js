@@ -278,6 +278,19 @@ export class Menu extends Component {
               // maxHeight: 100,
             }}
           />
+          <ul
+            style={{
+              ...listStyle
+            }}
+          >
+            <p><b>Contact</b></p>
+            <p> Centrul pentru Legislație Nonprofit<br/>
+                Adresă: Str. Budila 12, București<br/>
+                E-mail: office@clnr.ro<br/>
+                Website: www.clnr.ro<br/>
+                Tel:  +4 0310 0802 340M<br/>
+            </p>
+          </ul>
         </div>
         <div
           onMouseEnter={this.handleHoverRE}
