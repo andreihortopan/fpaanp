@@ -127,7 +127,6 @@ export class GraphMenu extends Component {
 		super(props)
 
 		this.state = {
-			height: window.innerHeight - 2 * MENU_MARGIN - MENU_PADDING,
 			selectedRegion: [],
 			selectedCounty: [],
 			selectedLegislation: [],
@@ -160,14 +159,6 @@ export class GraphMenu extends Component {
 		selectCounty = selectCounty.bind(this)
 
 		//this.computeCountyDataArray()
-	}
-
-	componentDidMount() {
-		window.addEventListener('resize', this.handleResize)
-	}
-
-	componentWillUnmount() {
-		window.removeEventListener('resize', this.handleResize)
 	}
 
 	resetThenSet = (id, key) => {
@@ -293,14 +284,6 @@ export class GraphMenu extends Component {
 	handleChange = data => {
 		this.setState(data, () => {
 			this.filterData()
-		})
-	}
-
-	handleResize = e => {
-		this.setState(() => {
-			return {
-				height: window.innerHeight - 2 * MENU_MARGIN - MENU_PADDING
-			}
 		})
 	}
 
@@ -593,132 +576,106 @@ export class GraphMenu extends Component {
 		return (
 			<div
 				style={{
-					position: 'fixed',
 					zIndex: 100,
-					height: this.state.height,
 					width: MENU_WIDTH,
-					marginTop: MENU_MARGIN,
-					marginLeft: MENU_MARGIN,
-					marginBottom: MENU_MARGIN,
 					backgroundColor: '#FFFFFF',
 					borderRadius: '2px',
 					boxShadow: '1px 1px 4px 1px #bababa',
 					padding: MENU_PADDING,
 					paddingBottom: MENU_PADDING / 2,
-					paddingTop: MENU_PADDING / 2
+					paddingTop: MENU_PADDING / 2,
+					display: 'flex',
+					flexFlow: 'column',
+					justifyContent: 'space-between',
 				}}
 			>
-				<div style={{ paddingLeft: 10 }}>
-					<div style={{ float: 'left', marginLeft: 25 }}>
-						<p>Meniu</p>
-					</div>
-					<div style={{ float: 'right' }}>
-						<a href='https://clnr.ro/' target='_blank' onClick={e => { }}>
-							<img
-								onMouseOver={e =>
-									(e.currentTarget.src = '/media/clnr_logo.png')
-								}
-								onMouseLeave={e =>
-									(e.currentTarget.src = '/media/clnr_logo_bw.png')
-								}
-								alt='CLNR'
-								src='/media/clnr_logo_bw.png'
-								data-tip={'Accesează site-ul CLNR'}
-								style={{
-									...logoStyle,
-									marginTop: MENU_MARGIN / 2,
-									marginRight: 5
-								}}
-							/>
-						</a>
-					</div>
-				</div>
-				<hr style={{ ...lineStyle }} />
-				<div style={{ paddingLeft: 10, clear: 'both' }}>
-					{this.selectionExists() &&
-						<div style={{ float: 'left' }}>
-							<button onClick={this.clearFilters}
-								style={{
-									backgroundColor: "#008ece",
-									fontSize: "1em",
-									border: "none",
-									color: "white",
-									paddingTop: 8,
-									paddingBottom: 7,
-									paddingLeft: 20,
-									paddingRight: 20,
-									textAlign: "center",
-									borderRadius: 5,
-									textDecoration: "none",
-									display: "inline-block",
-									margin: "10px 0px 10px -10px",
-									cursor: "pointer",
-								}}>Resetează filtre</button>
+				<div>
+					<div style={{ paddingLeft: 10 }}>
+						<div style={{ float: 'left', marginLeft: 25 }}>
+							<p>Meniu</p>
 						</div>
-					}
-					{!this.selectionExists() &&
-						<div style={{ float: 'left' }}>
-							<p>Date și resurse</p>
-						</div>
-					}
-					{this.state.selected != 0 && (
-						<div
-							style={{
-								float: 'right'
-							}}
-						>
-							<a
-								href='#'
-								onClick={this.handleInfoClick}
-							>
+						<div style={{ float: 'right' }}>
+							<a href='https://clnr.ro/' target='_blank' onClick={e => { }}>
 								<img
 									onMouseOver={e =>
-										(e.currentTarget.src = '/media/info-selected.png')
+										(e.currentTarget.src = '/media/clnr_logo.png')
 									}
 									onMouseLeave={e =>
-										(e.currentTarget.src = '/media/info.png')
+										(e.currentTarget.src = '/media/clnr_logo_bw.png')
 									}
-									alt='Descarcă'
-									src='/media/info.png'
-									data-tip={'Informații de utilizare'}
+									alt='CLNR'
+									src='/media/clnr_logo_bw.png'
+									data-tip={'Accesează site-ul CLNR'}
 									style={{
-										...graphStyle,
+										...logoStyle,
 										marginTop: MENU_MARGIN / 2,
-										marginRight: 10
+										marginRight: 5
 									}}
 								/>
 							</a>
-
-							{(this.props.tip === 'harta' || this.props.tip === 'grafic') &&
+						</div>
+					</div>
+					<hr style={{ ...lineStyle }} />
+					<div style={{ paddingLeft: 10, clear: 'both' }}>
+						{this.selectionExists() &&
+							<div style={{ float: 'left' }}>
+								<button onClick={this.clearFilters}
+									style={{
+										backgroundColor: "#008ece",
+										fontSize: "1em",
+										border: "none",
+										color: "white",
+										paddingTop: 8,
+										paddingBottom: 7,
+										paddingLeft: 20,
+										paddingRight: 20,
+										textAlign: "center",
+										borderRadius: 5,
+										textDecoration: "none",
+										display: "inline-block",
+										margin: "10px 0px 10px -10px",
+										cursor: "pointer",
+									}}>Resetează filtre</button>
+							</div>
+						}
+						{!this.selectionExists() &&
+							<div style={{ float: 'left' }}>
+								<p>Date și resurse</p>
+							</div>
+						}
+						{this.state.selected != 0 && (
+							<div
+								style={{
+									float: 'right'
+								}}
+							>
 								<a
 									href='#'
-									onClick={this.handleDownload}
+									onClick={this.handleInfoClick}
 								>
 									<img
 										onMouseOver={e =>
-											(e.currentTarget.src = '/media/download-selected.png')
+											(e.currentTarget.src = '/media/info-selected.png')
 										}
 										onMouseLeave={e =>
-											(e.currentTarget.src = '/media/download.png')
+											(e.currentTarget.src = '/media/info.png')
 										}
-										alt='Descarc&#259;'
-										src='/media/download.png'
-										data-tip={
-											this.props.tip === 'harta'
-												? 'Descarcă hartă'
-												: 'Descarcă grafic'
-										}
+										alt='Descarcă'
+										src='/media/info.png'
+										data-tip={'Informații de utilizare'}
 										style={{
 											...graphStyle,
 											marginTop: MENU_MARGIN / 2,
-											marginRight: 4
+											marginRight: 10
 										}}
 									/>
-								</a>}
+								</a>
 
-							{this.props.tip === 'tabel' &&
-								<ExcelFile element={
-									<a href='#'>
+								{(this.props.tip === 'harta' || this.props.tip === 'grafic') &&
+									<a
+										href='#'
+										onClick={this.handleDownload}
+									>
 										<img
 											onMouseOver={e =>
 												(e.currentTarget.src = '/media/download-selected.png')
@@ -726,38 +683,64 @@ export class GraphMenu extends Component {
 											onMouseLeave={e =>
 												(e.currentTarget.src = '/media/download.png')
 											}
-											alt='Descarcă'
+											alt='Descarc&#259;'
 											src='/media/download.png'
-											data-tip={'Descarcă tabel'}
+											data-tip={
+												this.props.tip === 'harta'
+													? 'Descarcă hartă'
+													: 'Descarcă grafic'
+											}
 											style={{
 												...graphStyle,
 												marginTop: MENU_MARGIN / 2,
-												marginRight: 5
+												marginRight: 4
 											}}
 										/>
-									</a>
-								}>
-									<ExcelSheet data={this.props.filteredData} name="ONG-uri">
-										<ExcelColumn label="ONG" value="ong" />
-										<ExcelColumn label="Regiune" value="region" />
-										<ExcelColumn label="Județ" value="county" />
-										<ExcelColumn label="Sumă fonduri (RON)" value="sum" />
-										<ExcelColumn label="Finanțator" value="funder" />
-										<ExcelColumn label="Nivel" value="level" />
-										<ExcelColumn label="Domeniu" value="domain" />
-										<ExcelColumn label="An" value="year" />
-										<ExcelColumn label="Contact" value="contact" />
-									</ExcelSheet>
-								</ExcelFile>
-							}
-						</div>
-					)}
+									</a>}
+
+								{this.props.tip === 'tabel' &&
+									<ExcelFile element={
+										<a href='#'>
+											<img
+												onMouseOver={e =>
+													(e.currentTarget.src = '/media/download-selected.png')
+												}
+												onMouseLeave={e =>
+													(e.currentTarget.src = '/media/download.png')
+												}
+												alt='Descarcă'
+												src='/media/download.png'
+												data-tip={'Descarcă tabel'}
+												style={{
+													...graphStyle,
+													marginTop: MENU_MARGIN / 2,
+													marginRight: 5
+												}}
+											/>
+										</a>
+									}>
+										<ExcelSheet data={this.props.filteredData} name="ONG-uri">
+											<ExcelColumn label="ONG" value="ong" />
+											<ExcelColumn label="Regiune" value="region" />
+											<ExcelColumn label="Județ" value="county" />
+											<ExcelColumn label="Sumă fonduri (RON)" value="sum" />
+											<ExcelColumn label="Finanțator" value="funder" />
+											<ExcelColumn label="Nivel" value="level" />
+											<ExcelColumn label="Domeniu" value="domain" />
+											<ExcelColumn label="An" value="year" />
+											<ExcelColumn label="Contact" value="contact" />
+										</ExcelSheet>
+									</ExcelFile>
+								}
+							</div>
+						)}
+					</div>
 				</div>
 
 				<div
 					style={{
 						clear: 'both',
-						height: this.state.height - 170,
+						height: '100%',
 						overflowY: 'auto'
 					}}
 				>
@@ -778,122 +761,126 @@ export class GraphMenu extends Component {
 						))
 					}
 				</div>
-				<hr style={{ ...lineStyle }} />
+
 				<div>
-					<table
-						style={{
-							position: 'fixed',
-							bottom: 30,
-							width: MENU_WIDTH,
-							height: 50,
-							borderCollapse: 'collapse'
-						}}
-					>
-						<tbody>
-							<tr bordertop='0'>
-								<td align='center'>
-									<Link
-										data-tip='Afișează hartă'
-										to='/date-si-resurse/harta'
-									>
-										<img
-											onMouseOver={e =>
-												(e.currentTarget.src = '/media/map-selected.png')
-											}
-											onMouseLeave={e => {
-												e.currentTarget.src = this.setIcon(1)
-											}}
-											alt='Hart&#259;'
-											src={this.setIcon(1)}
-											style={{
-												...graphStyle
-											}}
-										/>
-									</Link>
-								</td>
-								<td align='center'>
-									<Link
-										data-tip='Afișează grafic bară'
-										to='/date-si-resurse/grafic'
-									>
-										<img
-											onMouseOver={e =>
-												(e.currentTarget.src = '/media/barchart-selected.png')
-											}
-											onMouseLeave={e => {
-												e.currentTarget.src = this.setIcon(2)
-											}}
-											alt='Grafic bară'
-											src={this.setIcon(2)}
-											style={{
-												...graphStyle
-											}}
-										/>
-									</Link>
-								</td>
-								<td align='center'>
-									<Link
-										data-tip='Afișează tabel'
-										to='/date-si-resurse/tabel'
-									>
-										<img
-											onMouseOver={e =>
-												(e.currentTarget.src = '/media/excel-selected.png')
-											}
-											onMouseLeave={e => {
-												e.currentTarget.src = this.setIcon(3)
-											}}
-											alt='Tabel'
-											src={this.setIcon(3)}
-											style={{
-												...graphStyle
-											}}
-										/>
-									</Link>
-								</td>
-								<td align='center'>
-									<a data-tip='Descarcă PDF' href='#'>
-										<img
-											onClick={this.downloadPDF}
-											onMouseOver={e =>
-												(e.currentTarget.src = '/media/pdf-selected.png')
-											}
-											onMouseLeave={e =>
-												(e.currentTarget.src = '/media/pdf.png')
-											}
-											alt='Descarc&#259; PDF'
-											src='/media/pdf.png'
-											style={{
-												...graphStyle
-											}}
-										/>
-									</a>
-								</td>
-								<td align='center'>
-									<CSVLink
-										headers={headers}
-										data-tip="Descarcă CSV"
-										data={this.props.filteredData}
-										filename={'date-fonduri.csv'}
-									>
-										<img
-											onMouseOver={e =>
-												(e.currentTarget.src = '/media/csv-selected.png')
-											}
-											onMouseLeave={e =>
-												(e.currentTarget.src = '/media/csv.png')
-											}
-											alt='Descarc&#259; CSV'
-											src='/media/csv.png'
-											style={{
-												...graphStyle
-											}}
-										/>
-									</CSVLink>
-								</td>
-							</tr>
-						</tbody>
-					</table>
+					<hr style={{ ...lineStyle }} />
+					<div>
+						<table
+							style={{
+								marginBottom: 0,
+								bottom: 30,
+								marginTop: MENU_MARGIN / 2,
+								width: MENU_WIDTH,
+								height: 50,
+								borderCollapse: 'collapse'
+							}}
+						>
+							<tbody>
+								<tr bordertop='0'>
+									<td align='center'>
+										<Link
+											data-tip='Afișează hartă'
+											to='/date-si-resurse/harta'
+										>
+											<img
+												onMouseOver={e =>
+													(e.currentTarget.src = '/media/map-selected.png')
+												}
+												onMouseLeave={e => {
+													e.currentTarget.src = this.setIcon(1)
+												}}
+												alt='Hart&#259;'
+												src={this.setIcon(1)}
+												style={{
+													...graphStyle
+												}}
+											/>
+										</Link>
+									</td>
+									<td align='center'>
+										<Link
+											data-tip='Afișează grafic bară'
+											to='/date-si-resurse/grafic'
+										>
+											<img
+												onMouseOver={e =>
+													(e.currentTarget.src = '/media/barchart-selected.png')
+												}
+												onMouseLeave={e => {
+													e.currentTarget.src = this.setIcon(2)
+												}}
+												alt='Grafic bară'
+												src={this.setIcon(2)}
+												style={{
+													...graphStyle
+												}}
+											/>
+										</Link>
+									</td>
+									<td align='center'>
+										<Link
+											data-tip='Afișează tabel'
+											to='/date-si-resurse/tabel'
+										>
+											<img
+												onMouseOver={e =>
+													(e.currentTarget.src = '/media/excel-selected.png')
+												}
+												onMouseLeave={e => {
+													e.currentTarget.src = this.setIcon(3)
+												}}
+												alt='Tabel'
+												src={this.setIcon(3)}
+												style={{
+													...graphStyle
+												}}
+											/>
+										</Link>
+									</td>
+									<td align='center'>
+										<a data-tip='Descarcă PDF' href='#'>
+											<img
+												onClick={this.downloadPDF}
+												onMouseOver={e =>
+													(e.currentTarget.src = '/media/pdf-selected.png')
+												}
+												onMouseLeave={e =>
+													(e.currentTarget.src = '/media/pdf.png')
+												}
+												alt='Descarc&#259; PDF'
+												src='/media/pdf.png'
+												style={{
+													...graphStyle
+												}}
+											/>
+										</a>
+									</td>
+									<td align='center'>
+										<CSVLink
+											headers={headers}
+											data-tip="Descarcă CSV"
+											data={this.props.filteredData}
+											filename={'date-fonduri.csv'}
+										>
+											<img
+												onMouseOver={e =>
+													(e.currentTarget.src = '/media/csv-selected.png')
+												}
+												onMouseLeave={e =>
+													(e.currentTarget.src = '/media/csv.png')
+												}
+												alt='Descarc&#259; CSV'
+												src='/media/csv.png'
+												style={{
+													...graphStyle
+												}}
+											/>
+										</CSVLink>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
 			</div>
 		)

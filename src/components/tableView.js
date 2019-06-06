@@ -68,37 +68,37 @@ const dataColumns = [
 ]
 
 export class TableView extends Component {
-	constructor(props) {
-		super(props)
+	// constructor(props) {
+	// 	super(props)
 
-		this.state = {
-			width: window.innerWidth - diffWidth,
-			height: window.innerHeight - diffHeight,
-			nrOfLines: this.calculateNrOfLines()
-		}
-	}
+	// 	this.state = {
+	// 		width: window.innerWidth - diffWidth,
+	// 		height: window.innerHeight - diffHeight,
+	// 		nrOfLines: this.calculateNrOfLines()
+	// 	}
+	// }
 
-	calculateNrOfLines() {
-		return Math.floor(
-			(window.innerHeight - 2 * MENU_MARGIN - 2 * MENU_PADDING) / 40
-		)
-	}
+	// calculateNrOfLines() {
+	// 	return Math.floor(
+	// 		(window.innerHeight - 2 * MENU_MARGIN - 2 * MENU_PADDING) / 40
+	// 	)
+	// }
 
-	handleResize = e => {
-		this.setState({
-			width: window.innerWidth - diffWidth,
-			height: window.innerHeight - diffHeight,
-			nrOfLines: this.calculateNrOfLines()
-		})
-	}
+	// handleResize = e => {
+	// 	this.setState({
+	// 		width: window.innerWidth - diffWidth,
+	// 		height: window.innerHeight - diffHeight,
+	// 		nrOfLines: this.calculateNrOfLines()
+	// 	})
+	// }
 
-	componentDidMount() {
-		window.addEventListener('resize', this.handleResize)
-	}
+	// componentDidMount() {
+	// 	window.addEventListener('resize', this.handleResize)
+	// }
 
-	componentWillUnmount() {
-		window.removeEventListener('resize', this.handleResize)
-	}
+	// componentWillUnmount() {
+	// 	window.removeEventListener('resize', this.handleResize)
+	// }
 
 	render() {
 		const tableData = this.props.data
@@ -107,29 +107,33 @@ export class TableView extends Component {
 			<div
 				id='table'
 				style={{
-					width: this.state.width,
-					height: this.state.height,
-					...pageStyle,
+					width: '100%',
+					height: '100%',
 					...menuLook,
-					overflow: 'hidden',
-					paddingTop: MENU_PADDING,
-					paddingBottom: MENU_PADDING
-				}}
-			>
-				<ReactTable
-					data={tableData}
-					columns={dataColumns}
-					pageSize={this.state.nrOfLines}
-					showPageSizeOptions={false}
-					className='-striped -highlight'
-					previousText='Înapoi'
-					nextText='Înainte'
-					loadingText='Încărcare...'
-					noDataText='Nu există date conform selecției'
-					pageText='Pagina'
-					ofText='din'
-					rowsText='rânduri'
-				/>
+					paddingBottom: 0,
+					paddingTop: 0,
+					marginLeft: MENU_MARGIN,
+					overflow: "hidden",
+					position: 'relative',
+				}}>
+				<div style={{ marginTop: 20, marginBottom: 20 }}>
+					<ReactTable
+						style={{
+							height: '100%'
+						}}
+						data={tableData}
+						columns={dataColumns}
+						showPageSizeOptions={false}
+						className='-striped -highlight'
+						previousText='Înapoi'
+						nextText='Înainte'
+						loadingText='Încărcare...'
+						noDataText='Nu există date conform selecției'
+						pageText='Pagina'
+						ofText='din'
+						rowsText='rânduri'
+					/>
+				</div>
 			</div>
 		)
 	}

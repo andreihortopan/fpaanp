@@ -13,62 +13,18 @@ import { MapLegend } from './mapLegend'
 import Link from 'react-router-dom/Link'
 import { selectCounty } from './graphmenu'
 
-
-const pageStyle = {
-	position: 'absolute',
-	right: 0,
-	overflowY: 'scroll',
-	overflowX: 'hidden'
-}
-
 const popScale = scaleLinear()
 	// .domain([0, 10000, 20000, 50000, 100000, 500000, 1000000, 2000000, 5000000, 10000000, 20000000, 50000000])
 	// .range(['#F1EEF6', '#BDC9E1', '#74A9CF', '#2B8CBE', '#045A8D', "#FFC281", "#FFB05B", "#FF921C", "#F58000", "#DD7300", "#A45500"])
 	.domain([0, 10000000, 40000000])
 	.range(["#FFFFFF", "#8c8c8c", "#4d4d4d"])
 
-const diffWidth = MENU_WIDTH + MENU_MARGIN + 2 * MENU_PADDING
-const diffHeight = 0
 
 export class RomaniaMap extends Component {
-	constructor(props) {
-		super(props)
-
-		this.state = {
-			windowWidth: window.innerWidth - diffWidth,
-			windowHeight: window.innerHeight - diffHeight
-		}
-
-	}
-
-	handleResize = e => {
-		this.setState({
-			windowWidth: window.innerWidth - diffWidth,
-			windowHeight: window.innerHeight - diffHeight
-		})
-	}
-
-	calculateScaleFactor = () => {
-		const wh = this.state.windowHeight
-		const ww = this.state.windowWidth
-		let res = 0
-		if (ww >= 1.5 * wh) {
-			res = wh * 7.4
-		} else {
-			res = ww * 5.5
-		}
-		return res
-	}
-
 	componentDidMount() {
 		setTimeout(() => {
 			ReactTooltip.rebuild()
 		}, 100)
-		window.addEventListener('resize', this.handleResize)
-	}
-
-	componentWillUnmount() {
-		window.removeEventListener('resize', this.handleResize)
 	}
 
 	handleOnClick = (e) => {
@@ -86,29 +42,20 @@ export class RomaniaMap extends Component {
 			<div
 				id='map'
 				style={{
-					width: this.state.windowWidth,
-					height: this.state.windowHeight,
-					...pageStyle,
-					overflow: 'hidden'
+					width: '100%',
+					height: '100%',
+					overflow: 'hidden',
+					position: 'relative'
 				}}
 			>
 				<MapLegend />
 				<ComposableMap
-					// width={this.state.windowWidth}
-					// height={this.state.windowHeight}
 					projectionConfig={{
-						scale: 5500,
-						// rotation: [-11, 0, 0],
+						scale: 5000,
 					}}
-					// projection={(width, height, projectionConfig) => {
-					// 	return geoMercator()
-					// 		.center([12.5, 25.05])
-					// 		.translate([width / 2 /* + this.calculateOffset() */, height / 2])
-					// 		.scale(this.calculateScaleFactor())
-					// }}
 					style={{ width: '100%', height: '100%' }}
 				>
-					<ZoomableGroup center={[25, 45.9]} disablePanning>
+					<ZoomableGroup center={[25, 46]} disablePanning>
 						<Geographies geography='/romania-counties.json' disableOptimization>
 							{(geographies, projection) =>
 								geographies.map((geography, i) => {
@@ -170,9 +117,9 @@ export class RomaniaMap extends Component {
 				</ComposableMap>
 				{window.innerWidth > 950 && <Link to='/despre'>
 					<div style={{
-						right: MENU_MARGIN,
-						bottom: MENU_MARGIN,
-						width: 200,
+						right: 0,
+						top: 0,
+						width: 210,
 						height: 'auto',
 						position: 'absolute'
 					}}>

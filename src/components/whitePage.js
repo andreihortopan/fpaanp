@@ -92,11 +92,12 @@ export class WhitePage extends Component {
                         marginTop: 0,
                         fontSize: "0.7em",
                         textAlign: 'center',
+                        zIndex: 200
                     }}>
                     <p>
-                        Platforma Finanțarea publică a activităților nonprofit este dezvoltată de către Asociația Centrul pentru Legislație Nonprofit în cadrul proiectului ”Îmbunătățirea cadrului juridic privind finanțarea publică a organizațiilor neguvernamentale” și este finanțat cu sprijinul Fondului Social European prin Programul Operațional Capacitate Administrativă.
+                        Platforma Finanțarea publică a activităților nonprofit este dezvoltată de către Asociația Centrul pentru Legislație Nonprofit în cadrul proiectului ”Îmbunătățirea cadrului juridic privind finanțarea publică a organizațiilor neguvernamentale”.
                         <br />
-                        Conținutul acestei platforme reflectă numai punctul de vedere al Asociației Centrul pentru Legislație Nonprofit şi Comisia nu este responsabilă pentru informațiile pe care le conține.
+                        Proiect finanțat cu sprijinul Fondului Social European prin Programul Operațional Capacitate Administrativă. Conținutul acestei platforme reflectă numai punctul de vedere al Asociației CLNR şi Comisia nu este responsabilă pentru informațiile pe care le conține.
                     </p>
                 </div>
             </div>

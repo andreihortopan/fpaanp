@@ -13,9 +13,12 @@ import {
 import config from '../config'
 import load from './spreadsheet'
 import LoadingScreen from './loadingScreen';
+import WhitePage from './whitePage';
 
 const canvasStyle = {
-	display: 'flex',
+	backgroundColor: 'blue',
+	width: '100%',
+	height: '100%',
 	padding: 0,
 	margin: 0,
 }
@@ -175,22 +178,38 @@ export class Canvas extends Component {
 		]
 		if (this.state.loaded == 1) {
 			return (
-				<div style={{ canvasStyle }}>
-					<GraphMenu tip={this.props.match.params.tip} data={this.state.fullData} filteredData={this.state.dataArray} />
-					<Switch>
-						{
-							routes.map(({ path, component: C, data }) => (
-								<Route
-									key={path}
-									exact
-									path={path}
-									render={() => <C data={data} />}
-								/>
-							))
-						}
-						<Route render={() => <Redirect to='/date-si-resurse/harta' />} />
-					</Switch>
-				</div>
+				<WhitePage type={0}>
+					<div style={{
+						height: '100%',
+						display: 'flex',
+						flexDirection: 'column',
+					}}>
+						<div style={{
+							margin: 20,
+							display: 'flex',
+							flexDirection: 'row',
+							justifyContent: 'space-between',
+							flex: '1 0',
+							height: '0px',
+						}}>
+							<GraphMenu tip={this.props.match.params.tip} data={this.state.fullData} filteredData={this.state.dataArray} />
+							<Switch>
+								{
+									routes.map(({ path, component: C, data }) => (
+										<Route
+											key={path}
+											exact
+											path={path}
+											render={() => <C data={data} />}
+										/>
+									))
+								}
+								<Route render={() => <Redirect to='/date-si-resurse/harta' />} />
+							</Switch>
+						</div>
+					</div>
+				</WhitePage >
+
 			)
 		}
 		else {
