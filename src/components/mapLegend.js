@@ -63,12 +63,6 @@ export class MapLegend extends Component {
 		return (
 			<div className='my-legend' style={{ marginLeft: 20, marginBottom: -5 }}>
 				{/* <div className='legend-source'>Suma totală acoperă toți anii, toate domeniile si toate legislațiile pentru fiecare județ</div> */}
-				<div className='legend-title'>
-					<span style={{ cursor: 'pointer' }} onClick={this.handlePopupClick}>
-						Cum se citează
-          </span>
-				</div>
-				<hr style={{ ...lineStyle }} />
 				<div className='legend-title'>Suma totală per județ (RON)</div>
 				<div className='legend-scale'>
 					<ul className='legend-labels'>
@@ -94,6 +88,9 @@ export class MapLegend extends Component {
             </li>
 					</ul>
 				</div>
+				{/* <hr style={{ ...lineStyle }} /> */}
+
+
 			</div>
 		)
 	}

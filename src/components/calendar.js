@@ -72,7 +72,7 @@ export class Calendar extends Component {
 		if (this.state.loaded == 1) {
 			return (
 				<WhitePage type={0}>
-
+					{/* 
 					<div
 						style={{
 							position: "fixed",
@@ -85,7 +85,7 @@ export class Calendar extends Component {
 							zIndex: 100,
 						}}>
 
-					</div>
+					</div> */}
 
 					<div style={{
 						height: '100%',

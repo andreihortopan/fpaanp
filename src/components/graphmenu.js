@@ -763,6 +763,7 @@ export class GraphMenu extends Component {
 				</div>
 
 				<div>
+					
 					<hr style={{ ...lineStyle }} />
 					<div>
 						<table

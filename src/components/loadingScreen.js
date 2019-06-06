@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import { setOpacity } from './sidemenu'
 
 export class LoadingScreen extends Component {
     constructor(props) {
@@ -20,10 +21,12 @@ export class LoadingScreen extends Component {
     }
 
     componentDidMount() {
+        setOpacity(0)
         window.addEventListener('resize', this.handleResize)
     }
 
     componentWillUnmount() {
+        setOpacity(1)
         window.removeEventListener('resize', this.handleResize)
     }
 
@@ -37,13 +40,13 @@ export class LoadingScreen extends Component {
                     padding: 0,
                     margin: 0,
                     overflow: 'hidden',
-                    textAlign: "center"
+                    textAlign: "center",
                 }}
             >
                 <div style={{
                     display: "table-cell",
                     verticalAlign: "middle",
-                    margin: "auto"
+                    margin: "auto",
                 }}>
                     <h1>SE ÎNCARCĂ...</h1>
                 </div>
