@@ -53,9 +53,9 @@ export class WhitePage extends Component {
         }
 
         const blankLook = {
-            width: this.state.width - diffWidth,
+            width: this.state.width,
+            height: '100%',
             overflow: 'hidden',
-            margin: MENU_MARGIN,
         }
 
         let chosenType = (this.props.type == 1) ? whitePageLook : blankLook
@@ -72,13 +72,14 @@ export class WhitePage extends Component {
                 }}
             >
                 <div style={chosenType}>
-                    <div style={{
+                    {this.props.type == 1 && <div style={{
                         maxWidth: CONTENT_WIDTH,
                         display: 'inline-block',
                         textAlign: 'center',
                     }}>
                         {this.props.children}
-                    </div>
+                    </div>}
+                    {this.props.type == 0 && this.props.children}
                 </div>
                 <div
                     id="footer"
