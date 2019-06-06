@@ -2,18 +2,6 @@ import React, { Component } from 'react'
 import ReactTable from 'react-table'
 import 'react-table/react-table.css'
 import { MENU_PADDING, MENU_MARGIN, MENU_WIDTH, menuLook } from './graphmenu'
-import { dataArray } from './graphmenu.js'
-
-const pageStyle = {
-	position: 'absolute',
-	right: 0,
-	margin: 20,
-	overflowY: 'scroll',
-	overflowX: 'hidden'
-}
-
-const diffWidth = MENU_WIDTH + 3 * MENU_MARGIN + 4 * MENU_PADDING
-const diffHeight = 2 * MENU_MARGIN + 2 * MENU_PADDING
 
 const dataColumns = [
 	{

@@ -28,12 +28,9 @@ Additional node packages that have been used are listed [below](#additional-pack
     - Functional approach to filters.
 - `css.css`:
     - Clean css, eventually integrate via constants in `dropdown.js`.
-- `members.js`:
-    - Add styling to the page
 - `calendar.js` & `event.js`:
     - Check the paddings and margins and sizes - they might not be perfectly set.
     - Bind mouse wheel scrolling to the horizontal event scrollbar.
-- ?: Modularize the blank white page used to display most of the pages (implement it as a component).
 
 ## To implement
 

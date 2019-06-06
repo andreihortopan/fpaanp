@@ -8,6 +8,8 @@ const diffWidth = 2 * MENU_MARGIN
 const diffHeight = 2 * MENU_MARGIN
 
 export class WhitePage extends Component {
+    static showFooter = true
+
     constructor(props) {
         super(props)
 
@@ -15,6 +17,11 @@ export class WhitePage extends Component {
             width: window.innerWidth,
             height: window.innerHeight,
         }
+    }
+
+    hideFooter = () => {
+        WhitePage.showFooter = false
+        console.log(WhitePage.showFooter)
     }
 
     handleResize = e => {
@@ -81,7 +88,7 @@ export class WhitePage extends Component {
                     </div>}
                     {this.props.type == 0 && this.props.children}
                 </div>
-                <div
+                {WhitePage.showFooter && <div
                     id="footer"
                     style={{
                         ...menuLook,
@@ -92,6 +99,7 @@ export class WhitePage extends Component {
                         marginTop: 0,
                         fontSize: "0.7em",
                         textAlign: 'center',
+                        position: 'relative',
                         zIndex: 200
                     }}>
                     <p>
@@ -99,7 +107,27 @@ export class WhitePage extends Component {
                         <br />
                         Proiect finanțat cu sprijinul Fondului Social European prin Programul Operațional Capacitate Administrativă. Conținutul acestei platforme reflectă numai punctul de vedere al Asociației CLNR şi Comisia nu este responsabilă pentru informațiile pe care le conține.
                     </p>
-                </div>
+                    <div style={{
+                        position: 'absolute',
+                        top: 0,
+                        right: 0,
+                        marginTop: 5,
+                        marginRight: 5,
+                    }}>
+                        <a href='#' data-tip='Ascunde disclaimer'>
+                            <svg
+                                onClick={this.hideFooter}
+                                width={20}
+                                height={20}
+                                style={{
+                                    fill: '#bcbcbc'
+                                }}
+                            >
+                                <path d={'M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z'} />
+                            </svg>
+                        </a>
+                    </div>
+                </div>}
             </div>
         )
     }
