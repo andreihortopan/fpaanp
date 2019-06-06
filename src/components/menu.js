@@ -225,7 +225,7 @@ export class Menu extends Component {
                     width: 210,
                     height: 35
                   }} */}
-                  <p>Finanțări Publice</p>
+                  <p>Legislație</p>
                   {/* </div>
                 <div
                   style={{

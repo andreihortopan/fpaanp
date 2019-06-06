@@ -16,8 +16,11 @@ export class PublicFundings extends Component {
 		return (
 			<WhitePage type={1}>
 				<h1>
-					Cadrul general al finanțării activităților non-profit
+					LEGISLAȚIE
 				</h1>
+				<h2>
+					Cadrul general al finanțării activităților non-profit
+				</h2>
 
 				<a
 					style={{ color: '#008ECE' }}
@@ -29,10 +32,10 @@ export class PublicFundings extends Component {
 						Lege nr. 350/2005 privind regimul finanțărilor nerambursabile din fonduri publice alocate pentru activități nonprofit de interes general
 					</p>
 				</a>
-				
-				<h1>
+
+				<h2>
 					Proiecte și programe culturale
-				</h1>
+				</h2>
 
 				<a
 					style={{ color: '#008ECE' }}
@@ -78,9 +81,9 @@ export class PublicFundings extends Component {
 					</p>
 				</a>
 
-				<h1>
+				<h2>
 					Activități privind protecția mediului
-				</h1>
+				</h2>
 
 				<a
 					style={{ color: '#008ECE' }}
@@ -115,9 +118,9 @@ export class PublicFundings extends Component {
 					</p>
 				</a>
 
-				<h1>
+				<h2>
 					Servicii sociale
-				</h1>
+				</h2>
 				<a
 					style={{ color: '#008ECE' }}
 					href='http://legislatie.just.ro/Public/DetaliiDocument/14145'
@@ -140,9 +143,9 @@ export class PublicFundings extends Component {
 					</p>
 				</a>
 
-				<h1>
+				<h2>
 					Activității destinate românilor de pretutindeni
-				</h1>
+				</h2>
 				<a
 					style={{ color: '#008ECE' }}
 					href='http://legislatie.just.ro/Public/DetaliiDocument/73602'
@@ -154,9 +157,9 @@ export class PublicFundings extends Component {
 					</p>
 				</a>
 
-				<h1>
+				<h2>
 					Activităţi de cooperare internațională pentru dezvoltare
-				</h1>
+				</h2>
 
 				<a
 					style={{ color: '#008ECE' }}
@@ -191,9 +194,9 @@ export class PublicFundings extends Component {
 					</p>
 				</a>
 
-				<h1>
+				<h2>
 					Proiecte și programe sportive
-				</h1>
+				</h2>
 
 				<a
 					style={{ color: '#008ECE' }}
@@ -217,9 +220,9 @@ export class PublicFundings extends Component {
 					</p>
 				</a>
 
-				<h1>
+				<h2>
 					Proiecte de tineret
-				</h1>
+				</h2>
 
 				<a
 					style={{ color: '#008ECE' }}
