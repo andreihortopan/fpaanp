@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'react-router-dom/Link'
 import { SubmenuRE } from './submenure'
-import { SubmenuFP } from './submenufp'
 import { CSSTransitionGroup } from 'react-transition-group'
 import FontAwesome from 'react-fontawesome'
 import '../transition.css'
@@ -217,7 +216,7 @@ export class Menu extends Component {
             // onMouseEnter={this.handleHoverFP}
             // onMouseLeave={this.handleLeaveFP}
             >
-              <Link to='/finantari-publice'>
+              <Link to='/legislatie'>
                 <div onClick={this.props.closeFunc}>
                   {/* <div
                   style={{
@@ -286,9 +285,9 @@ export class Menu extends Component {
             <p><b>Contact</b></p>
             <p> Centrul pentru Legislație Nonprofit<br /><br />
               <b>Adresă:</b> Str. Budila 12, București<br />
-              <b>E-mail:</b> office@clnr.ro<br />
-              <b>Website:</b> www.clnr.ro<br />
-              <b>Tel:</b> +4 0310 0802 340M<br />
+              <b>E-mail:</b> <a mailto='office@clnr.ro'>office@clnr.ro</a><br />
+              <b>Website:</b> <a href='clnr.ro'>www.clnr.ro</a><br />
+              <b>Tel:</b> +40 (310) 080 234<br />
             </p>
           </ul>
         </div>
@@ -308,22 +307,6 @@ export class Menu extends Component {
             {this.state.showReteaExpertiMenu && <SubmenuRE key='1' />}
           </CSSTransitionGroup>
         </div>
-        {/* <div
-          onMouseEnter={this.handleHoverFP}
-          onMouseLeave={this.handleLeaveFP}
-          style={{
-            ...submenuStyle,
-            marginTop: MENU_MARGIN + MENU_PADDING + 105
-          }}
-        >
-          <CSSTransitionGroup
-            transitionName='slide'
-            transitionEnterTimeout={300}
-            transitionLeaveTimeout={300}
-          >
-            {this.state.showFinantariPubliceMenu && <SubmenuFP key='2' />}
-          </CSSTransitionGroup>
-        </div> */}
       </div>
     )
   }

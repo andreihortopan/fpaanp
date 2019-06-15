@@ -27,7 +27,7 @@ class App extends Component {
             <Route exact path='/membri' component={Members} />
             <Route exact path='/evenimente' component={Calendar} />
             <Route exact path='/despre' component={About} />
-            <Route exact path='/finantari-publice' component={PublicFundings} />
+            <Route exact path='/legislatie' component={PublicFundings} />
             <Route render={() => <Redirect to='/date-si-resurse/harta' />} />
           </Switch>
         </div>
