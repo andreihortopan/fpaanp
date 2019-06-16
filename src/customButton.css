@@ -1,0 +1,43 @@
+
+.myButton {
+	background-color:#ffffff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #bababa;
+	display:inline-block;
+	cursor:pointer;
+	color:#808080;
+	padding:5px 10px;
+	text-decoration:none;
+}
+.myButton:hover {
+    background-color:#008ece;
+    border:1px solid #008ece;
+    color: #ffffff
+}
+.myButton:active {
+    background-color:#006b9b;    
+}
+.mySelectedButton {
+	background-color:#008ece;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+    border-radius:5px;
+	border:1px solid #008ece;    
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:5px 10px;
+	text-decoration:none;
+}
+/* .mySelectedButton:hover {
+    background-color: white;
+    color: #008ece;
+} */
+.mySelectedButton:active {
+    background-color:#006b9b;
+}
+.wide {
+    padding:5px 20px;
+}

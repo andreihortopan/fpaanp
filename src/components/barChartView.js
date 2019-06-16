@@ -1,31 +1,42 @@
 import React, { Component } from 'react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 import { MENU_PADDING, MENU_MARGIN, MENU_WIDTH, menuLook } from './graphmenu';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import 'react-tabs/style/react-tabs.css'
 import BarTab from './barTab'
+import TableView from './tableView';
+import CustomButton from './customButton';
 
-const BAR_CHART_DOUBLE_DIFF = 50
 const diffWidth = MENU_WIDTH + 3 * MENU_MARGIN + 4 * MENU_PADDING;
-const diffHeight = 2 * MENU_MARGIN + 6 * MENU_PADDING;
+
+const lineStyle = {
+    display: 'block',
+    height: 1,
+    width: 100,
+    border: 0,
+    marginLeft: 0,
+    marginTop: -MENU_MARGIN / 2,
+    borderTop: '1px solid #bcbcbc',
+    padding: 0,
+    clear: 'both'
+}
 
 export class BarChartView extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            width: window.innerWidth - diffWidth,
-            height: window.innerHeight - diffHeight,
             graphWidth: Math.max(window.innerWidth - diffWidth, 1500),
             scroll: (window.innerWidth - diffWidth < 1500) ? 1 : 0,
+            selectedFilter: 0,
+            selectedCategory: 0,
+            selectedSubcategory: 0,
         }
 
     }
 
     handleResize = e => {
         this.setState({
-            width: window.innerWidth - diffWidth,
-            height: window.innerHeight - diffHeight,
             graphWidth: Math.max(window.innerWidth - diffWidth, 1500),
             scroll: (window.innerWidth - diffWidth < 1500) ? 1 : 0,
         });
@@ -37,6 +48,18 @@ export class BarChartView extends Component {
 
     componentWillUnmount() {
         window.removeEventListener("resize", this.handleResize);
+    }
+
+    selectFilter = (id) => {
+        this.setState({ selectedFilter: id })
+    }
+
+    selectCategory = (id) => {
+        this.setState({ selectedCategory: id })
+    }
+
+    selectSubcategory = (id) => {
+        this.setState({ selectedSubcategory: id })
     }
 
     render() {
@@ -55,37 +78,61 @@ export class BarChartView extends Component {
             barChartCountyLegislationArray = singleCountyData[2]
         }
 
-        const filters = [
+        var filters = [
             {
+                id: 0,
+                title: "Filtrare după domeniu",
                 name: "domeniu",
-                data: barChartCountyDomainArray
+                data: barChartCountyDomainArray,
             },
             {
+                id: 1,
+                title: "Filtrare după legislație",
                 name: "legislație",
-                data: barChartCountyLegislationArray
+                data: barChartCountyLegislationArray,
             },
             {
+                id: 2,
+                title: "Filtrare după an",
                 name: "an",
-                data: barChartCountyYearArray
+                data: barChartCountyYearArray,
             },
         ]
 
-        const categories = [
+        var categories = [
             {
+                id: 0,
                 title: "Suma totală per județ (RON)",
                 name: "sum",
+                label: "Sumă",
+            },
+            {
+                id: 1,
+                title: "Suma medie per ONG per județ (RON)",
+                name: "average",
+                label: "Medie",
+            },
+            {
+                id: 2,
+                title: "Numărul de ONG-uri per județ",
+                name: "ngoNum",
+                label: "Număr ONG-uri",
+            },
+        ]
+
+        var subCategories = [
+            {
+                id: 0,
+                name: 'sum',
+                title: "Suma totală per ",
                 label: "Sumă"
             },
             {
-                title: "Suma medie per ONG per județ (RON)",
-                name: "average",
-                label: "Medie"
-            },
-            {
-                title: "Numărul de ONG-uri per județ",
-                name: "ngoNum",
-                label: "Număr ONG-uri"
-            },
+                id: 1,
+                name: 'ngoNum',
+                title: "Numărul de ONG-uri per ",
+                label: "Număr ONG-uri",
+            }
         ]
 
         return (
@@ -98,75 +145,102 @@ export class BarChartView extends Component {
                     paddingBottom: 0,
                     paddingTop: 0,
                     marginLeft: MENU_MARGIN,
-                    overflow: "hidden",
+                    overflow: 'hidden',
                     position: 'relative',
+                    display: 'flex',
+                    flexFlow: 'column',
+                    justifyContent: 'space-between'
                 }}>
-                <div style={{ marginTop: MENU_MARGIN, marginBottom: MENU_MARGIN }}>
-                    {barChartData.length > 1 &&
-                        <Tabs>
-                            <TabList>
-                                {categories.map((item) => (
-                                    <Tab>{item.title}</Tab>
-                                ))}
-                            </TabList>
 
-                            <div
-                                style={{
-                                    overflowY: "hidden",
-                                    overflowX: "auto",
-                                }}>
-                                {categories.map((item) => (
-                                    <TabPanel>
-                                        <BarTab width={this.state.graphWidth} height={this.state.height} data={barChartData} xDataKey="short" barDataKey={item.name} label={item.label} scroll={this.state.scroll} />
-                                    </TabPanel>
+                {barChartData.length >= 1 &&
+                    <div style={{
+                        marginTop: MENU_MARGIN,
+                        marginBottom: MENU_MARGIN
+                    }}>
+                        <div>
+                            {(barChartData.length === 1 ? filters : categories).map((item) => (
+                                <div
+                                    style={{
+                                        width: 'auto',
+                                        height: 'auto',
+                                        display: 'inline-block'
+                                    }}
+                                    onClick={() => barChartData.length === 1 ? this.selectFilter(item.id) : this.selectCategory(item.id)}
+                                >
+                                    <CustomButton
+                                        wide={1}
+                                        key={item.id}
+                                        id={item.id}
+                                        selected={item.id === (barChartData.length === 1 ? this.state.selectedFilter : this.state.selectedCategory) ? 1 : 0}
+                                        text={item.title}
+                                    /></div>
+                            ))}
+                        </div>
+                        {barChartData.length === 1 &&
+                            <div style={{
+                                marginTop: MENU_MARGIN
+                            }}>
+                                <hr style={{ ...lineStyle }} />
+                                {subCategories.map((item) => (
+                                    <div
+                                        style={{
+                                            width: 'auto',
+                                            height: 'auto',
+                                            display: 'inline-block'
+                                        }}
+                                        onClick={() => this.selectSubcategory(item.id)}
+                                    >
+                                        <CustomButton
+                                            wide={1}
+                                            selected={item.id === this.state.selectedSubcategory ? 1 : 0}
+                                            text={item.title.concat(filters[this.state.selectedFilter].name)}
+                                        />
+                                    </div>
                                 ))}
                             </div>
-                        </Tabs>}
+                        }
+                    </div>
+                }
 
-
-                    {barChartData.length === 1 && barChartCountyDomainArray != null && barChartCountyLegislationArray != null && barChartCountyYearArray != null &&
-                        <Tabs>
-                            <TabList>
-                                {filters.map((item) => (
-                                    <Tab>Filtrare după {item.name}</Tab>
-                                ))}
-                            </TabList>
-
-                            {filters.map((item) => (
-                                <TabPanel>
-                                    <Tabs>
-                                        <TabList>
-                                            <Tab>Suma totală per {item.name} (RON)</Tab>
-                                            <Tab>Numărul de ONG-uri per {item.name}</Tab>
-                                        </TabList>
-
-                                        <div
-                                            style={{
-                                                overflowY: "hidden",
-                                                overflowX: "auto",
-                                            }}>
-                                            <TabPanel>
-                                                <BarTab width={this.state.graphWidth} height={this.state.height - BAR_CHART_DOUBLE_DIFF} data={item.data} xDataKey="name" barDataKey="sum" label={"Sumă"} scroll={this.state.scroll} />
-                                            </TabPanel>
-                                            <TabPanel>
-                                                <BarTab width={this.state.graphWidth} height={this.state.height - BAR_CHART_DOUBLE_DIFF} data={item.data} xDataKey="name" barDataKey="ngoNum" label={"Număr ONG-uri"} scroll={this.state.scroll} />
-                                            </TabPanel>
-                                        </div>
-                                    </Tabs>
-                                </TabPanel>
-                            ))}
-                        </Tabs>}
-
-                    {barChartData.length === 0 &&
+                {barChartData.length >= 1 &&
+                    <div style={{
+                        height: '100%',
+                        overflowX: 'auto',
+                        overflowY: 'hidden'
+                    }}
+                    >
                         <div style={{
-                            display: 'table',
-                            margin: '0 auto',
+                            width: this.state.graphWidth,
+                            height: '100%',
                         }}>
-                            <p>Nu există date pentru județul selectat.</p>
-                            <p>Selectați alt județ sau extindeți selecția.</p>
+                            <ResponsiveContainer width='100%' height="100%">
+                                <BarChart data={(barChartData.length === 1 ? filters[this.state.selectedFilter].data : barChartData).slice()}
+                                    margin={{ top: 5, right: 0, left: 20, bottom: 5 }}>
+                                    <CartesianGrid strokeDasharray="3 3" />
+                                    <XAxis dataKey={barChartData.length === 1 ? 'name' : 'short'} />
+                                    <YAxis />
+                                    <Tooltip />
+                                    <Bar
+                                        dataKey={(barChartData.length === 1 ? subCategories[this.state.selectedSubcategory].name : categories[this.state.selectedCategory].name)}
+                                        fill="#008ece"
+                                        label={(barChartData.length === 1 ? subCategories[this.state.selectedSubcategory].label : categories[this.state.selectedCategory].label)}
+                                    />
+                                </BarChart>
+                            </ResponsiveContainer>
                         </div>
-                    }
-                </div>
+                    </div>
+                }
+
+                {barChartData.length === 0 &&
+                    <div style={{
+                        display: 'table',
+                        margin: '0 auto',
+                    }}>
+                        <p>Nu există date pentru județul selectat.</p>
+                        <p>Selectați alt județ sau extindeți selecția.</p>
+                    </div>
+                }
+
             </div>
 
         )

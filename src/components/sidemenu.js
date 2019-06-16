@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import MyMenu from './menu';
+import CustomButton from './customButton';
 
 export function setOpacity(value) {
   this.setState({ opacity: value })
@@ -39,8 +40,7 @@ export class SideMenu extends Component {
     let styles = {
       bmBurgerButton: {
         position: 'fixed',
-        width: '100px',
-        left: '45px',
+        left: '40px',
         top: '40px',
         opacity: this.state.opacity
       },
@@ -76,7 +76,7 @@ export class SideMenu extends Component {
       }
     }
     return (
-      <Menu customBurgerIcon={<img src='/media/meniu.png' />} styles={styles} isOpen={this.state.isOpen}>
+      <Menu customBurgerIcon={<CustomButton image='../media/menu_bars.png' selected={1} text='Meniu' />} styles={styles} isOpen={this.state.isOpen}>
         <MyMenu closeFunc={this.closeMenu} />
       </Menu>
     );

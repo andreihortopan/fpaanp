@@ -23,6 +23,7 @@ import * as jdPDF from 'jspdf'
 import 'jspdf-autotable'
 import { instructions } from '../docs/instructions'
 import normalize, { normalizeDiacritics } from 'normalize-text'
+import CustomButton from './customButton';
 
 const ExcelFile = ReactExport.ExcelFile;
 const ExcelSheet = ReactExport.ExcelFile.ExcelSheet;
@@ -618,24 +619,16 @@ export class GraphMenu extends Component {
 					<hr style={{ ...lineStyle }} />
 					<div style={{ paddingLeft: 10, clear: 'both' }}>
 						{this.selectionExists() &&
-							<div style={{ float: 'left' }}>
-								<button onClick={this.clearFilters}
-									style={{
-										backgroundColor: "#008ece",
-										fontSize: "1em",
-										border: "none",
-										color: "white",
-										paddingTop: 8,
-										paddingBottom: 7,
-										paddingLeft: 20,
-										paddingRight: 20,
-										textAlign: "center",
-										borderRadius: 5,
-										textDecoration: "none",
-										display: "inline-block",
-										margin: "10px 0px 10px -10px",
-										cursor: "pointer",
-									}}>Resetează filtre</button>
+							<div
+								onClick={this.clearFilters}
+								style={{
+									float: 'left',
+									margin: '10px 0px 10px -10px',
+									display: 'inline-block',
+								}}
+							>
+								<CustomButton wide={1} text='Resetează filtre' selected={1} />
+
 							</div>
 						}
 						{!this.selectionExists() &&
@@ -763,7 +756,7 @@ export class GraphMenu extends Component {
 				</div>
 
 				<div>
-					
+
 					<hr style={{ ...lineStyle }} />
 					<div>
 						<table
