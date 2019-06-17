@@ -124,7 +124,7 @@ export class TableView extends Component {
 	}
 
 	render() {
-		const tableData = this.state.tableData
+		const tableData = this.props.data
 
 		return (
 			<div

@@ -26,6 +26,9 @@ Additional node packages that have been used are listed [below](#additional-pack
     - Prettify 'no data' display
 - `menu.js`:
     - Change text color on hover.
+- `tableView.js`:
+    - Check/repair sorting.
+    - Implement resizable columns.
 - `graphmenu.js`:
     - Check if imported menu size constants have been properly implemented in all styling options (for proper resizing when changing them).
     - Functional approach to filters.
@@ -66,7 +69,7 @@ Data must be added for:
 - `react-big-calendar` for displaying the events in a `Calendar`.
 - `moment` for localization and data formatting used by `Calendar`.
 - `react-virtualizer` for displaying the `TableView`.
-- `react-draggable` for resizing `TableView` columns.
+- `react-draggable` for resizing `TableView` columns. (In the future, for column resizing)
 - `recharts` for displaying the `BarChartView`.
 - `react-select` for rendering the `Select` menus.
 - `react-tooltip` for displaying pop-ups.
