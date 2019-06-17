@@ -279,7 +279,8 @@ export class Menu extends Component {
           />
           <ul
             style={{
-              ...listStyle
+              ...listStyle,
+              fontSize: '0.8em'
             }}
           >
             <p><b>Contact</b></p>

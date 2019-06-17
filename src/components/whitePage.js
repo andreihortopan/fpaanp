@@ -22,8 +22,8 @@ export class WhitePage extends Component {
     }
 
     hideFooter = () => {
+        ReactTooltip.hide()
         WhitePage.showFooter = false
-        console.log(WhitePage.showFooter)
     }
 
     handleResize = e => {

@@ -21,6 +21,9 @@ Additional node packages that have been used are listed [below](#additional-pack
 - Translate `Calendar` into Romanian
 - Move constants and styles to a separate file then import them all at once.
 - Check compilation warnings.
+- `barChartView.js`:
+    - Download whole graph if scrollable
+    - Prettify 'no data' display
 - `menu.js`:
     - Change text color on hover.
 - `graphmenu.js`:
@@ -39,7 +42,6 @@ Additional node packages that have been used are listed [below](#additional-pack
 ## Data-related
 
 Data must be added for:
-- Citation
 - Metadata in `index.html`
 
 ## Build guide
@@ -63,7 +65,8 @@ Data must be added for:
 - `webfontloader` for rendering text using Google Fonts.
 - `react-big-calendar` for displaying the events in a `Calendar`.
 - `moment` for localization and data formatting used by `Calendar`.
-- `react-table` for displaying the `TableView`.
+- `react-virtualizer` for displaying the `TableView`.
+- `react-draggable` for resizing `TableView` columns.
 - `recharts` for displaying the `BarChartView`.
 - `react-select` for rendering the `Select` menus.
 - `react-tooltip` for displaying pop-ups.
@@ -77,7 +80,7 @@ Data must be added for:
 <br />
 Run the following command in the project directory to install the neccesary packages:
 
-`npm install react react-dom react-simple-maps d3-geo topojson-client react-onclickoutside react-fontawesome react-tooltip react-transition-group webfontloader react-big-calendar moment react-table recharts react-select react-tooltip react-burger-menu react-popup react-router react-data-export normalize-text react-tabs js-pdf --save`
+`npm install react react-dom react-simple-maps d3-geo topojson-client react-onclickoutside react-fontawesome react-tooltip react-transition-group webfontloader react-big-calendar moment react-virtualizer react-draggable recharts react-select react-tooltip react-burger-menu react-popup react-router react-data-export normalize-text react-tabs js-pdf --save`
 <br />
 <br />
 - NOTE: `canvasjs.min.js` and `canvasjs.react.js` have been added manually, not installed as modules.

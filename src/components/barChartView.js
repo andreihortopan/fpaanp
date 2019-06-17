@@ -236,8 +236,7 @@ export class BarChartView extends Component {
                         display: 'table',
                         margin: '0 auto',
                     }}>
-                        <p>Nu există date pentru județul selectat.</p>
-                        <p>Selectați alt județ sau extindeți selecția.</p>
+                        <p>Nu există date pentru selecția curentă.</p>
                     </div>
                 }
 
