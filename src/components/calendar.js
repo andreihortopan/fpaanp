@@ -5,16 +5,31 @@ import { Event } from './event'
 import { events } from '../docs/events'
 import config from '../config'
 import { loadEvents } from './spreadsheet'
-
 import { MENU_PADDING, MENU_MARGIN, MENU_WIDTH, menuLook } from './graphmenu'
 import 'react-big-calendar/lib/css/react-big-calendar.css'
 import '../calendar.css'
 import LoadingScreen from './loadingScreen';
 import WhitePage from './whitePage';
+import 'moment/locale/ro';
 
 const localizer = BigCalendar.momentLocalizer(moment)
 
 const GRAPH_MENU_HEIGHT = 250
+
+const messages = {
+	allDay: 'Toată',
+	previous: 'Înapoi',
+	next: 'Înainte',
+	today: 'Azi',
+	month: 'Lună',
+	week: 'Săptămână',
+	day: 'Zi',
+	agenda: 'Agendă',
+	date: 'Dată',
+	time: 'Oră',
+	event: 'Eveniment',
+	showMore: total => `+ Vezi mai multe (${total})`
+};
 
 export class Calendar extends Component {
 	constructor(props) {
@@ -155,6 +170,7 @@ export class Calendar extends Component {
 								}}
 							>
 								<BigCalendar
+									messages={messages}
 									selected={events[this.state.selectedEvent]}
 									localizer={localizer}
 									defaultDate={this.state.now}
