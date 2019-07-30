@@ -13,12 +13,10 @@ Additional node packages that have been used are listed [below](#additional-pack
 
 ## Current bugs
 
-- `tableView.js`:
-    Table does not resize when window resizing via dragging corners. It does work when reloading the page, however.
+- None noted
 
 ## To do
 
-- Translate `Calendar` into Romanian
 - Move constants and styles to a separate file then import them all at once.
 - Check compilation warnings.
 - `barChartView.js`:
