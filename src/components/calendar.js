@@ -164,7 +164,8 @@ export class Calendar extends Component {
 								style={{
 									width: '50%',
 									...menuLook,
-									paddingBottom: MENU_PADDING,
+									paddingTop: MENU_PADDING,
+									paddingBottom: 3 * MENU_PADDING,
 									marginLeft: MENU_MARGIN,
 									overflow: 'hidden',
 								}}
