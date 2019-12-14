@@ -5,7 +5,7 @@ export function load(callback) {
         window.gapi.client.sheets.spreadsheets.values
             .get({
                 spreadsheetId: config.spreadsheetId,
-                range: "Finantare!A2:K"
+                range: "Finantare!A2:L"
             })
             .then(
                 response => {
@@ -14,14 +14,15 @@ export function load(callback) {
                         id: item[0],
                         region: item[1],
                         county: item[2],
-                        legislation: item[3],
-                        funder: item[4],
-                        level: item[5],
-                        domain: item[6],
-                        year: item[7],
-                        ong: item[8],
-                        sum: item[9],
-                        contact: item[10],
+                        city: item[3],
+                        legislation: item[4],
+                        funder: item[5],
+                        level: item[6],
+                        domain: item[7],
+                        year: item[8],
+                        ong: item[9],
+                        sum: item[10],
+                        contact: item[11],
                     })) || [];
                     callback({
                         items

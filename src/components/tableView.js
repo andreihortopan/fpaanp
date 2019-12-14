@@ -22,6 +22,11 @@ const dataColumns = [
 		width: 100
 	},
 	{
+		label: 'Municipiu',
+		dataKey: 'city',
+		width: 100
+	},
+	{
 		label: 'Sumă (RON)',
 		dataKey: 'sum',
 		width: 110
@@ -136,7 +141,6 @@ export class TableView extends Component {
 					paddingBottom: 0,
 					paddingTop: 0,
 					marginLeft: MENU_MARGIN,
-					marginRight: MENU_MARGIN,
 					overflow: "hidden",
 					position: 'relative',
 					display: 'flex',

@@ -5,6 +5,7 @@ import logoImg from '../media/clnr_logo.png'
 import {
 	regions,
 	counties,
+	cities,
 	legislations,
 	funders,
 	levels,
@@ -95,18 +96,20 @@ const ControlComponent = props => (
 const selections = [
 	'1｜Regiune',
 	'2｜Județ',
-	'3｜Legislație',
-	'4｜Finanțator',
-	'5｜Nivel',
-	'6｜Domeniu',
-	'7｜An',
-	'8｜Sumă',
+	'3｜Municipiu',
+	'4｜Legislație',
+	'5｜Finanțator',
+	'6｜Nivel',
+	'7｜Domeniu',
+	'8｜An',
+	'9｜Sumă',
 ]
 
 const headers = [
 	{ label: "ID", key: "id" },
 	{ label: "Regiune", key: "region" },
 	{ label: "Județ", key: "county" },
+	{ label: "Municipiu", key: "city" },
 	{ label: "Legislație", key: "legislation" },
 	{ label: "Finanțator", key: "funder" },
 	{ label: "Nivel", key: "level" },
@@ -130,6 +133,7 @@ export class GraphMenu extends Component {
 		this.state = {
 			selectedRegion: [],
 			selectedCounty: [],
+			selectedCity: [],
 			selectedLegislation: [],
 			selectedFunder: [],
 			selectedLevel: [],
@@ -138,6 +142,7 @@ export class GraphMenu extends Component {
 			selectedSum: [],
 			regions: regions,
 			counties: counties,
+			cities: cities,
 			legislations: legislations,
 			funders: funders,
 			levels: levels,
@@ -149,6 +154,7 @@ export class GraphMenu extends Component {
 		this.filterData = this.filterData.bind(this)
 		this.isRegion = this.isRegion.bind(this)
 		this.isCounty = this.isCounty.bind(this)
+		this.isCity = this.isCity.bind(this)
 		this.isLegislation = this.isLegislation.bind(this)
 		this.isFunder = this.isFunder.bind(this)
 		this.isLevel = this.isLevel.bind(this)
@@ -204,6 +210,16 @@ export class GraphMenu extends Component {
 			return this.state.selectedCounty
 				.map(a => a.value)
 				.includes(ngo.county)
+		}
+	}
+
+	isCity(ngo) {
+		if (this.state.selectedCity.length === 0) {
+			return ngo
+		} else {
+			return this.state.selectedCity
+				.map(a => a.value)
+				.includes(ngo.city)
 		}
 	}
 
@@ -271,6 +287,7 @@ export class GraphMenu extends Component {
 	filterData() {
 		var dataArray = this.props.data.filter(this.isRegion)
 		dataArray = dataArray.filter(this.isCounty)
+		dataArray = dataArray.filter(this.isCity)
 		dataArray = dataArray.filter(this.isLegislation)
 		dataArray = dataArray.filter(this.isFunder)
 		dataArray = dataArray.filter(this.isLevel)
@@ -433,6 +450,7 @@ export class GraphMenu extends Component {
 			{ title: 'ONG', dataKey: 'ong' },
 			{ title: 'Regiune', dataKey: 'region' },
 			{ title: 'Judet', dataKey: 'county' },
+			{ title: 'Municipiu', dataKey: 'city' },
 			{ title: 'Suma (RON)', dataKey: 'sum' },
 			{ title: 'Finantator', dataKey: 'funder' },
 			{ title: 'Nivel', dataKey: 'level' },
@@ -480,6 +498,8 @@ export class GraphMenu extends Component {
 			return true
 		if (this.state.selectedCounty.length > 0)
 			return true
+		if (this.state.selectedCity.length > 0)
+			return true
 		if (this.state.selectedLegislation.length > 0)
 			return true
 		if (this.state.selectedFunder.length > 0)
@@ -500,6 +520,7 @@ export class GraphMenu extends Component {
 		this.setState({
 			selectedRegion: [],
 			selectedCounty: [],
+			selectedCity: [],
 			selectedLegislation: [],
 			selectedFunder: [],
 			selectedLevel: [],
@@ -515,12 +536,13 @@ export class GraphMenu extends Component {
 		const {
 			selectedRegion,
 			selectedCounty,
+			selectedCity,
 			selectedLegislation,
 			selectedFunder,
 			selectedLevel,
 			selectedDomain,
-			selectedYear,
-			selectedSum
+			selectedYear
+			//selectedSum
 		} = this.state
 
 		const selectArray = [
@@ -537,32 +559,38 @@ export class GraphMenu extends Component {
 				options: this.state.counties,
 			},
 			{
-				value: selectedLegislation,
+				value: selectedCity,
 				placeholder: selections[2],
+				onChange: (selectedCity) => this.handleChange({ selectedCity }),
+				options: this.state.cities,
+			},
+			{
+				value: selectedLegislation,
+				placeholder: selections[3],
 				onChange: (selectedLegislation) => this.handleChange({ selectedLegislation }),
 				options: this.state.legislations,
 			},
 			{
 				value: selectedFunder,
-				placeholder: selections[3],
+				placeholder: selections[4],
 				onChange: (selectedFunder) => this.handleChange({ selectedFunder }),
 				options: this.state.funders,
 			},
 			{
 				value: selectedLevel,
-				placeholder: selections[4],
+				placeholder: selections[5],
 				onChange: (selectedLevel) => this.handleChange({ selectedLevel }),
 				options: this.state.levels,
 			},
 			{
 				value: selectedDomain,
-				placeholder: selections[5],
+				placeholder: selections[6],
 				onChange: (selectedDomain) => this.handleChange({ selectedDomain }),
 				options: this.state.domains,
 			},
 			{
 				value: selectedYear,
-				placeholder: selections[6],
+				placeholder: selections[7],
 				onChange: (selectedYear) => this.handleChange({ selectedYear }),
 				options: this.state.years,
 			},

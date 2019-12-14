@@ -48,11 +48,11 @@ export class SubmenuRE extends Component {
               ...itemStyle
             }}
           >
-            <a href='#' onClick={e => { }}>
+            <Link to='/activitati-retea'>
               <div onClick={this.closeMenu}>
                 Activit&#259;&#355;i Re&#355;ea
               </div>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
