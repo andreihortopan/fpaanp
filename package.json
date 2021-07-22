@@ -42,7 +42,7 @@
     "topojson-client": "^3.0.0",
     "universal-cookie": "^3.0.7",
     "webfontloader": "^1.6.28",
-    "xlsx": "^0.14.1",
+    "xlsx": "^0.17.0",
     "xlsx-style": "^0.8.13"
   },
   "scripts": {
